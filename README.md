@@ -1,0 +1,2 @@
+# 2025-1B-T18-IN02-G02
+Repositório do grupo 2025-1B-T18-IN02-G02
