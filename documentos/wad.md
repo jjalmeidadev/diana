@@ -66,15 +66,31 @@ St Paul's School boasts a strong academic reputation and a comprehensive interna
   <sup>Source: authors (image) and partner's website (data)</sup>
 </div>
 
-### 2.1.3. Solução (sprints 1 a 5)
+### 2.1.3. Solution (sprints 1 to 5)
 
-*Explique detalhadamente os seguintes aspectos (até 60 palavras por item):*
-1. Problema a ser resolvido
-2. Dados disponíveis (mencionar fonte e conteúdo; se não houver, indicar “não se aplica”)
-3. Solução proposta
-4. Forma de utilização da solução
-5. Benefícios esperados
-6. Critério de sucesso e como será avaliado
+1. Problem to be solved
+
+The software currently used to access student records at the school is not effectively addressing the problems, especially for parents, who need a well-structured system to better visualize and closely follow their children's daily lives — including grades, assignments, homework, field trips, and more.
+
+2. Available data (mention source and content; if none, indicate "not applicable")
+
+Student Age Range (Source: St. Paul's) / Number of Students (Source: St. Paul's).
+
+3. Proposed solution
+
+A new software solution that serves as a student history consultant, but in a simpler, more communicative, and direct way — truly making life easier for the parents and students who will use it.
+
+4. How the solution will be used
+
+A simple and easy-to-access website that would use an API system to retrieve school data. With a login, you would be able to access all the student's information.
+
+5. Expected benefits
+
+The expected benefits are greater pedagogical monitoring by parents, improved reputation of the school, less congestion in service, and the renewal of the school's infrastructure for its centennial, which will take place next year.
+
+6. Success criteria and how it will be evaluated
+
+The success criterion is the full functionality of the software, which will be evaluated through the approval of the general public of testers in this first restricted version of the software.
 
 ### 2.1.4. Value Proposition Canvas (sprint 1): 
 *Sem limite de palavras – usar template do curso*
