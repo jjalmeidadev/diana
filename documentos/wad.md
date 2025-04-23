@@ -53,9 +53,18 @@ In this way, with more efficient access to information, parents will be able to 
 
 ### 2.1.2. Análise SWOT da Instituição Parceira (sprint 1)
 
-*Preencha com até 100 palavras – sem necessidade de fonte*
+<!-- *Preencha com até 100 palavras – sem necessidade de fonte*
 
-*Apresente uma visão geral da situação do parceiro com base na matriz SWOT (forças, fraquezas, oportunidades e ameaças). Foque na relação com os concorrentes e o posicionamento da instituição.*
+*Apresente uma visão geral da situação do parceiro com base na matriz SWOT (forças, fraquezas, oportunidades e ameaças). Foque na relação com os concorrentes e o posicionamento da instituição.* -->
+
+St Paul's School boasts a strong academic reputation and a comprehensive international curriculum, propelling its students to prestigious universities globally. Its holistic education and diverse community are strengths. However, the high cost of tuition limits accessibility and can generate perceptions of elitism. The school also faces challenges with its current infrastructure, which prevents significant expansion. Despite this, there are opportunities to strengthen partnerships, adopt innovative educational trends and increase engagement with the local community. Competition from other international schools and economic instability pose constant threats. This concludes the definition of the institution's SWOT analysis.
+
+<div align="center">
+  <sub>SWOT Analysis Chart</sub><br>
+  <img src="../assets/wad/Visual_Chart_SWOT_Analysis.png" width="100%" 
+  alt="SWOT Analysis"><br>
+  <sup>Source: authors (image) and partner's website (data)</sup>
+</div>
 
 ### 2.1.3. Solução (sprints 1 a 5)
 
