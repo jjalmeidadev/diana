@@ -61,7 +61,7 @@ St Paul's School boasts a strong academic reputation and a comprehensive interna
 
 <div align="center">
   <sub>SWOT Analysis Chart</sub><br>
-  <img src="../assets/wad/Visual_Chart_SWOT_Analysis.jpg" width="100%" 
+  <img src="../assets/wad/Visual_Chart_SWOT_Analysis.png" width="100%" 
   alt="SWOT Analysis"><br>
   <sup>Source: authors (image) and partner's website (data)</sup>
 </div>
