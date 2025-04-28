@@ -97,19 +97,6 @@ The success criterion is the full functionality of the software, which will be e
 
 *Elaborar o Value Proposition Canvas com base na proposta de solução definida.*
 
-### 2.1.5. Matriz de Riscos do Projeto (sprint 1)
-
-
-
-According to Tomaz, Gagliasso, and Malavota (2020), the risk matrix is a management tool that assists a project team in identifying the risks and threats that may negatively affect its execution. It is constructed by combining the likelihood of each event occurring with the impact it would have if it materializes. Furthermore, these authors emphasize that developing a risk matrix is an iterative process: it is revisited at each work cycle to ensure that the mapping remains aligned with project changes. In this work, we have chosen to review and update our matrix at the beginning of each sprint.
-
-
-<div align="center">
-  <sub></sub><br>
-  <img src="../assets/wad/matrizderisco.jpeg" width="100%" 
-  alt="SWOT Analysis"><br>
-
-</div>
 
 
 ### 2.1.5. Project Risk Matrix (Sprint 1)
