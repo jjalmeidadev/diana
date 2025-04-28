@@ -105,7 +105,7 @@ According to Tomaz, Gagliasso, and Malavota (2020), the risk matrix is a managem
 
 
 <div align="center">
-  <sub>SWOT Analysis Chart</sub><br>
+  <sub></sub><br>
   <img src="../assets/wad/matrizderisco.jpeg" width="100%" 
   alt="SWOT Analysis"><br>
 
