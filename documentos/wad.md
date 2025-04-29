@@ -5,17 +5,24 @@
 
 **_Os trechos em itálico servem apenas como guia para o preenchimento da seção. Por esse motivo, não devem fazer parte da documentação final_**
 
-## Nome do Grupo
+## Group name: PaulMates
+## Project name: Diana
 
-#### Nomes dos integrantes do grupo
+#### Group members' names:
 
+- <a href="https://www.linkedin.com/in/anneestherlf/">Anne Esther Lins Figueirôa</a>
+- <a href="https://www.linkedin.com/in/giacomo-zema-matizonkas-7ab9072b2/">Giacomo Zema Matizonkas</a>
+- <a href="https://www.linkedin.com/in/jaime-andrade-de-almeida-0777ba2a5/">Jaime Andrade de Almeida</a> 
+- <a href="https://www.linkedin.com/in/karolbarbosarocha/">Karol Rocha Barbosa</a> 
+- <a href="https://www.linkedin.com/in/let%C3%ADcia-saravia-619b73345/">Leticia Fernandes do Espírito Santo Saravia</a>
+- <a href="https://github.com/nicholasmillani">Nicholas Anantha Krishnan Millani</a> 
+- <a href="https://www.linkedin.com/in/victor-garcia-dos-santos/">Víctor Garcia dos Santos</a>
 
+## Summary
 
-## Sumário
+[1. Introduction](#c1)
 
-[1. Introdução](#c1)
-
-[2. Visão Geral da Aplicação Web](#c2)
+[2. Overview of the Web Application](#c2)
 
 [3. Projeto Técnico da Aplicação Web](#c3)
 

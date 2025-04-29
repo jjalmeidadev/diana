@@ -4,38 +4,38 @@
 <a href= "https://www.inteli.edu.br/"><img src="/assets/inteli.png" alt="Inteli - Instituto de Tecnologia e Liderança" border="0"></a>
 </p>
 
-# Nome do projeto
+# Project name: Diana
 
-## Nome do grupo
+## Group name: PaulMates
 
-## :student: Integrantes: 
-- <a href="https://www.linkedin.com/">Nome do integrante 1</a>
-- <a href="https://www.linkedin.com/">Nome do integrante 2</a>
-- <a href="https://www.linkedin.com/">Nome do integrante 3</a> 
-- <a href="https://www.linkedin.com/">Nome do integrante 4</a> 
-- <a href="https://www.linkedin.com/">Nome do integrante 5</a>
-- <a href="https://www.linkedin.com/">Nome do integrante 6</a> 
-- <a href="https://www.linkedin.com/">Nome do integrante 7</a>
+## :student: Members: 
+- <a href="https://www.linkedin.com/in/anneestherlf/">Anne Esther Lins Figueirôa</a>
+- <a href="https://www.linkedin.com/in/giacomo-zema-matizonkas-7ab9072b2/">Giacomo Zema Matizonkas</a>
+- <a href="https://www.linkedin.com/in/jaime-andrade-de-almeida-0777ba2a5/">Jaime Andrade de Almeida</a> 
+- <a href="https://www.linkedin.com/in/karolbarbosarocha/">Karol Rocha Barbosa</a> 
+- <a href="https://www.linkedin.com/in/let%C3%ADcia-saravia-619b73345/">Leticia Fernandes do Espírito Santo Saravia</a>
+- <a href="https://github.com/nicholasmillani">Nicholas Anantha Krishnan Millani</a> 
+- <a href="https://www.linkedin.com/in/victor-garcia-dos-santos/">Víctor Garcia dos Santos</a>
 
-## :teacher: Professores:
-### Orientador(a) 
-- <a href="https://www.linkedin.com/">Nome do professor 1</a>
-### Instrutores
+## :teacher: Teachers:
+### Adviser:  
+- <a href="https://www.linkedin.com/in/juliastateri?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAADnlREBtYFoy6IaHNqgUK5db4IxdirHnlk&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BHuIMT8c6R7WBUYq8V4cR4w%3D%3D">Julia Stateri</a>
+###  Instructors:
 - <a href="https://www.linkedin.com/">Nome do professor 2</a>
 - <a href="https://www.linkedin.com/">Nome do professor 3</a> 
 - <a href="https://www.linkedin.com/">Nome do professor 4</a> 
 - <a href="https://www.linkedin.com/">Nome do professor 5</a>
 - <a href="https://www.linkedin.com/">Nome do professor 6</a>
 
-## 📝 Descrição
+## 📝 Description:
 
 _Descreva seu projeto (até 600 palavras)_
 
-## 📝 Link de demonstração
+## 📝 Demo link:
 
 _Coloque aqui o link para seu projeto publicado e link para vídeo de demonstração_
 
-## 📁 Estrutura de pastas
+## 📁 Folder structure:
 
 Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
@@ -47,7 +47,7 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 - <b>README.md</b>: arquivo que serve como guia introdutório e explicação geral sobre o projeto e a aplicação (o mesmo arquivo que você está lendo agora).
 
-## 💻 Configuração para desenvolvimento e execução do código
+## 💻 Configuration for code development and execution:
 
 *Acrescentar as informações necessárias sobre pré-requisitos (IDEs, bibliotecas, serviços etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o código e executar a aplicação a partir de sua máquina local.*
 
@@ -71,7 +71,7 @@ npm start
 5. Agora você pode acessar a aplicação através do link http://localhost:1234/
 6. O servidor está online.
 
-## 🗃 Histórico de lançamentos
+## 🗃 Platform release history:
 
 * 0.5.0 - XX/XX/2024
     * 
