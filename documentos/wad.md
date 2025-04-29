@@ -1,11 +1,11 @@
 <img src="../assets/logointeli.png">
 
 
-# WAD - Web Application Document - Módulo 2 - Inteli
+# WAD - Web Application Document - 2nd Module - Inteli
 
-**_Os trechos em itálico servem apenas como guia para o preenchimento da seção. Por esse motivo, não devem fazer parte da documentação final_**
+<!-- **_Os trechos em itálico servem apenas como guia para o preenchimento da seção. Por esse motivo, não devem fazer parte da documentação final_** -->
 
-## Group name: PaulMates
+## Group name: CrownMates
 ## Project name: Diana
 
 #### Group members' names:
@@ -24,19 +24,19 @@
 
 [2. Overview of the Web Application](#c2)
 
-[3. Projeto Técnico da Aplicação Web](#c3)
+[3. Web Application's Technical Project](#c3)
 
-[4. Desenvolvimento da Aplicação Web](#c4)
+[4. Web Application Development](#c4)
 
-[5. Testes da Aplicação Web](#c5)
+[5. Web Application Tests](#c5)
 
-[6. Estudo de Mercado e Plano de Marketing](#c6)
+[6. Market Research and Marketing Plan](#c6)
 
-[7. Conclusões e trabalhos futuros](#c7)
+[7. Conclusions and future work](#c7)
 
-[8. Referências](c#8)
+[8. References](c#8)
 
-[Anexos](#c9)
+[Appendices](#c9)
 
 <br>
 
@@ -45,7 +45,7 @@
 
 St. Paul’s is a British school located in São Paulo, with nearly 100 years of history. The school identified a problem in the experience of its students’ parents: the official mobile app, used as the main communication channel, presents many limitations. Academic information such as homework, class schedules, number of absences, and announcements are not always available or are difficult to access via mobile phone, which causes disorganization in following their children's school life.
 
-With the aim of solving this issue, St. Paul’s proposed a challenge to first-year students at Inteli: to develop a web portal aimed at parents. The proposal is to offer a platform accessible through a web browser, in a clear, organized, and easy-to-use format. The system will feature a simple and intuitive login screen, students’ personal information, class schedules, absence tracking, and a report section for accessing PDF files.
+With the aim of solving this issue, St. Paul’s proposed a challenge to first-year students at Inteli: to develop a web portal aimed at parents. The proposal is to offer a platform accessible through a web browser, in a clear, organized, and easy-to-use format. The system will feature a simple and intuitive login screen, students’ personal information, class schedules, absence tracking, as well as a reports section to access information on child's academic performance in a visual way (dashboard).
 
 The project considers the main concerns reported by parents regarding the structure that the school already has. The solution seeks to add value to the community, promoting more efficient communication and encouraging more active participation from parents in their children’s educational journey.
 
@@ -55,7 +55,7 @@ In this way, with more efficient access to information, parents will be able to 
 
 ## 2.1. Project Scope (sprints 1 & 4)
 
-### 2.1.1. Modelo de 5 Forças de Porter (sprint 1)
+### 2.1.1. 5 forces of Porter's model (sprint 1)
 
 <br>
 
@@ -274,9 +274,9 @@ Critério de aceite 2 | CR2: descrever cenário + testes de aceite
 Critério de aceite ... | CR...
 Critérios INVEST | *(Por que é Independente? Por que é Negociável? Por que é Valorosa? Por que é Estimável? Por que é Pequena? Por que é Testável?)*
 
-# <a name="c3"></a>3. Projeto da Aplicação Web (sprints 1 a 4)
+# <a name="c3"></a>3. Web Application's Technical Project (sprints 1 a 4)
 
-## 3.1. Arquitetura (sprints 3 e 4)
+## 3.1. Architecture (sprints 3 e 4)
 
 *Posicione aqui o diagrama de arquitetura da sua solução de aplicação web. Atualize sempre que necessário*
 
@@ -284,35 +284,35 @@ Critérios INVEST | *(Por que é Independente? Por que é Negociável? Por que �
 
 *Posicione aqui as imagens do wireframe construído para sua solução e, opcionalmente, o link para acesso (mantenha o link sempre público para visualização)*
 
-## 3.3. Guia de estilos (sprint 3)
+## 3.3. Style guide (sprint 3)
 
 *Descreva aqui orientações gerais para o leitor sobre como utilizar os componentes do guia de estilos de sua solução*
 
-### 3.3.1 Cores
+### 3.3.1 Colors
 
 *Apresente aqui a paleta de cores, com seus códigos de aplicação e suas respectivas funções*
 
-### 3.3.2 Tipografia
+### 3.3.2 Typography
 
 *Apresente aqui a tipografia da solução, com famílias de fontes e suas respectivas funções*
 
-### 3.3.3 Iconografia e imagens 
+### 3.3.3 Iconography and images
 
 *(esta subseção é opcional, caso não existam ícones e imagens, apague esta subseção)*
 
 *posicione aqui imagens e textos contendo exemplos padronizados de ícones e imagens, com seus respectivos atributos de aplicação, utilizadas na solução*
 
-## 3.4 Protótipo de alta fidelidade (sprint 3)
+## 3.4 High-fidelity prototype (sprint 3)
 
 *posicione aqui algumas imagens demonstrativas de seu protótipo de alta fidelidade e o link para acesso ao protótipo completo (mantenha o link sempre público para visualização)*
 
-## 3.5. Modelagem do banco de dados (sprints 2 e 4)
+## 3.5. Database modelling (sprints 2 e 4)
 
-### 3.5.1. Modelo relacional (sprints 2 e 4)
+### 3.5.1. Relational model (sprints 2 e 4)
 
 *posicione aqui os diagramas de modelos relacionais do seu banco de dados, apresentando todos os esquemas de tabelas e suas relações. Utilize texto para complementar suas explicações, se necessário* 
 
-### 3.5.2. Consultas SQL e lógica proposicional (sprint 2)
+### 3.5.2. SQL queries and propositional logic (sprint 2)
 
 *posicione aqui uma lista de consultas SQL compostas, realizadas pelo back-end da aplicação web, com sua respectiva lógica proposicional, descrita conforme template abaixo. Lembre-se que para usar LaTeX em markdown, basta você colocar as expressões entre $ ou $$*
 
@@ -326,45 +326,45 @@ Critérios INVEST | *(Por que é Independente? Por que é Negociável? Por que �
 
 *Dica: edite a tabela verdade fora do markdown, para ter melhor controle*
 
-## 3.6. WebAPI e endpoints (sprints 3 e 4)
+## 3.6. WebAPI and endpoints (sprints 3 e 4)
 
 *Utilize um link para outra página de documentação contendo a descrição completa de cada endpoint. Ou descreva aqui cada endpoint criado para seu sistema.* 
 
 *Cada endpoint deve conter endereço, método (GET, POST, PUT, PATCH, DELETE), header, body e formatos de response*
 
-# <a name="c4"></a>4. Desenvolvimento da Aplicação Web
+# <a name="c4"></a>4. Web Application Development
 
-## 4.1. Primeira versão da aplicação web (sprint 3)
+## 4.1. First version of the web application (sprint 3)
 
 *Descreva e ilustre aqui o desenvolvimento da sua primeira versão do sistema web, explicando brevemente o que foi entregue em termos de código e sistema. Utilize prints de tela para ilustrar. Indique as eventuais dificuldades e próximos passos.*
 
-## 4.2. Segunda versão da aplicação web (sprint 4)
+## 4.2. Second version of the web application (sprint 4)
 
 *Descreva e ilustre aqui o desenvolvimento da sua segunda versão do sistema web, explicando brevemente o que foi entregue em termos de código e sistema. Utilize prints de tela para ilustrar. Indique as eventuais dificuldades e próximos passos.*
 
-## 4.3. Versão final da aplicação web (sprint 5)
+## 4.3. Final version of the web application (sprint 5)
 
 *Descreva e ilustre aqui o desenvolvimento da última versão do sistema web, explicando brevemente o que foi entregue em termos de código e sistema. Utilize prints de tela para ilustrar. Indique as eventuais dificuldades e próximos passos.*
 
-# <a name="c5"></a>5. Testes
+# <a name="c5"></a>5. Tests
 
-## 5.1. Relatório de testes de integração de endpoints automatizados (sprint 4)
+## 5.1. Automated endpoint integration test report (sprint 4)
 
 *Liste e descreva os testes unitários dos endpoints criados, automatizados e planejados para sua solução. Posicione aqui também o relatório de cobertura de testes Jest se houver (através de link ou transcrito para estrutura markdown)*
 
-## 5.2. Testes de usabilidade (sprint 5)
+## 5.2. Usability tests (sprint 5)
 
 *Posicione aqui as tabelas com enunciados de tarefas, etapas e resultados de testes de usabilidade. Ou utilize um link para seu relatório de testes (mantenha o link sempre público para visualização)*
 
-# <a name="c6"></a>6. Estudo de Mercado e Plano de Marketing (sprint 4)
+# <a name="c6"></a>6. Market Research and Marketing Plan (sprint 4)
 
-## 6.1 Resumo Executivo
+## 6.1 Executive Summary
 
 *Preencher com até 300 palavras, sem necessidade de fonte*
 
 *Apresente de forma clara e objetiva os principais destaques do projeto: oportunidades de mercado, diferenciais competitivos da aplicação web e os objetivos estratégicos pretendidos.*
 
-## 6.2 Análise de Mercado
+## 6.2 Market Analysis
 
 *a) Visão Geral do Setor (até 250 palavras)*
 *Contextualize o setor no qual a aplicação está inserida, considerando aspectos econômicos, tecnológicos e regulatórios. Utilize fontes confiáveis.*
@@ -375,7 +375,7 @@ Critérios INVEST | *(Por que é Independente? Por que é Negociável? Por que �
 *c) Tendências de Mercado (até 300 palavras)*
 *Identifique e analise tendências relevantes (tecnológicas, comportamentais e mercadológicas) que influenciam o setor. Utilize fontes confiáveis.*
 
-## 6.3 Análise da Concorrência
+## 6.3 Competitor Analysis
 
 *a) Principais Concorrentes (até 250 palavras)*
 *Liste os concorrentes diretos e indiretos, destacando suas principais características e posicionamento no mercado.*
@@ -384,7 +384,7 @@ Critérios INVEST | *(Por que é Independente? Por que é Negociável? Por que �
 *Descreva os diferenciais da sua aplicação em relação aos concorrentes, sem necessidade de citação de fontes.*
 
 
-## 6.4 Público-Alvo
+## 6.4 Target audience
 
 *a) Segmentação de Mercado (até 250 palavras)*
 Descreva os principais segmentos de mercado a serem atendidos pela aplicação. Utilize bases de dados e fontes confiáveis.*
@@ -393,7 +393,7 @@ Descreva os principais segmentos de mercado a serem atendidos pela aplicação. 
 *Caracterize o público-alvo com dados demográficos, psicográficos e comportamentais, incluindo necessidades específicas. Utilize fontes obrigatórias.*
 
 
-## 6.5 Posicionamento
+## 6.5 Positioning
 
 *a) Proposta de Valor Única (até 250 palavras)*
 *Defina de maneira clara o que torna a sua aplicação única e valiosa para o mercado.*
@@ -401,7 +401,7 @@ Descreva os principais segmentos de mercado a serem atendidos pela aplicação. 
 *b) Estratégia de Diferenciação (até 250 palavras)*
 *Explique como sua aplicação se destacará da concorrência, evidenciando a lógica por trás do posicionamento.*
 
-## 6.6 Estratégia de Marketing 
+## 6.6 Marketing Strategy 
 
 *a) Produto/Serviço (até 200 palavras)*
 *Descreva as funcionalidades, benefícios e diferenciais da aplicação*
@@ -415,7 +415,7 @@ Descreva os principais segmentos de mercado a serem atendidos pela aplicação. 
 *6.4 Promoção (até 200 palavras)*
 *Descreva as estratégias digitais planejadas, como SEO, redes sociais, marketing de conteúdo e campanhas pagas.*
 
-# <a name="c7"></a>7. Conclusões e trabalhos futuros (sprint 5)
+# <a name="c7"></a>7. Conclusions and future work (sprint 5)
 
 *Escreva de que formas a solução da aplicação web atingiu os objetivos descritos na seção 2 deste documento. Indique pontos fortes e pontos a melhorar de maneira geral.*
 
@@ -423,7 +423,7 @@ Descreva os principais segmentos de mercado a serem atendidos pela aplicação. 
 
 *Relacione também quaisquer outras ideias que o grupo tenha para melhorias futuras*
 
-# <a name="c8"></a>8. Referências (sprints 1 a 5)
+# <a name="c8"></a>8. References (sprints 1 a 5)
 
 _Incluir as principais referências de seu projeto, para que seu parceiro possa consultar caso ele se interessar em aprofundar. Um exemplo de referência de livro e de site:_<br>
 
@@ -433,6 +433,6 @@ SOBRENOME, Nome. Título do livro: subtítulo do livro. Edição. Cidade de publ
 INTELI. Adalove. Disponível em: https://adalove.inteli.edu.br/feed. Acesso em: 1 out. 2023 <br>
 SOBRENOME, Nome. Título do site. Disponível em: link do site. Acesso em: Dia Mês Ano
 
-# <a name="c9"></a>Anexos
+# <a name="c9"></a>Appendices
 
 *Inclua aqui quaisquer complementos para seu projeto, como diagramas, imagens, tabelas etc. Organize em sub-tópicos utilizando headings menores (use ## ou ### para isso)*

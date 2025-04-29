@@ -6,7 +6,7 @@
 
 # Project name: Diana
 
-## Group name: PaulMates
+## Group name: CrownMates
 
 ## :student: Members: 
 - <a href="https://www.linkedin.com/in/anneestherlf/">Anne Esther Lins Figueirôa</a>
