@@ -178,21 +178,24 @@ St Paul's School boasts a strong academic reputation and a comprehensive interna
 
 The software currently used to access student records at the school is not effectively addressing the problems, especially for parents, who need a well-structured system to better visualize and closely follow their children's daily lives — including grades, assignments, homework, field trips, and more.
 
-**2. Available data (mention source and content; if none, indicate "not applicable")**
+**2. Available data**
+<!-- (mention source and content; if none, indicate "not applicable") -->
 
-Student Age Range (Source: St. Paul's) / Number of Students (Source: St. Paul's).
+Alongside the TAPI (project deliverables document), we received the school’s brandbook for visual identity. For initial development, the partner provided mock data, including: "Pupils Contacts" (spreadsheet with fake details), profile photos, and 3 sample grade reports (PDF). We also obtained real data on student age range and total enrollment (Source: St Paul’s). This ensured privacy while allowing functional testing. 
 
 **3. Proposed solution**
 
-A new software solution that serves as a student history consultant, but in a simpler, more communicative, and direct way — truly making life easier for the parents and students who will use it.
+A new software solution that serves as a student history consultant, but in a simpler, more communicative, and direct way — truly making life easier for the parents who will use it. It will work as s manageable Parent Portal, with the academic information so that parents can access their children's reports, absences, communications, calendars and assigned tasks in a centralised way.
+
 
 **4. How the solution will be used**
 
-A simple and easy-to-access website that would use an API system to retrieve school data. With a login, you would be able to access all the student's information.
+Log in via browser using your registered email and default password (schoolID — change it after first login). View your child’s profile, photo, and academic year, or switch between siblings. Check reports (PDF), attendance, and timetables. Assignments sync from Microsoft Teams. Update personal/medical details securely. Teachers’ contacts are listed for quick communication. A desktop-friendly alternative to the app, designed for clarity and convenience. 
+
 
 **5. Expected benefits**
 
-The expected benefits are greater pedagogical monitoring by parents, improved reputation of the school, less congestion in service, and the renewal of the school's infrastructure for its centennial, which will take place next year.
+The portal enhances parental engagement by providing organized academic tracking, improving the school's reputation and reducing service congestion. Ahead of St. Paul’s 2026 centennial, this infrastructure renewal allows parents to monitor grades, attendance, and assignments efficiently while syncing academic calendars with family schedules. Centralized access empowers informed support for students’ progress. 
 
 **6. Success criteria and how it will be evaluated**
 
