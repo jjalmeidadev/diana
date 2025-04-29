@@ -100,6 +100,13 @@ The success criterion is the full functionality of the software, which will be e
 
 *Elaborar o Value Proposition Canvas com base na proposta de solução definida.*
 
+<div align="center">
+  <sub>Value Proposition Canvas</sub><br>
+  <img src="../assets/wad/valuePropositionGraphic.png" width="100%" 
+  alt="Value Proposition Canvas"><br>
+  <sup>Fonte: Autoral</sup>
+</div>
+
 
 ### 2.1.5. Project Risk Matrix (Sprint 1)
 
