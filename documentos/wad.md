@@ -50,9 +50,84 @@ In this way, with more efficient access to information, parents will be able to 
 
 ### 2.1.1. Modelo de 5 Forças de Porter (sprint 1)
 
-*Preencha com até 400 palavras*
+1. Threat of New Entrants → LOW
+Very high entry barriers: St. Paul’s has held official recognition from the British Crown since 2012, being the first school in South America to receive this endorsement. This grants the school a high level of exclusivity and institutional authority.
 
-*Posicione aqui o modelo de 5 Forças de Porter para sustentar o contexto da indústria.*
+
+Its robust infrastructure and legacy since 1926 make it difficult for new schools to enter the market with the same prestige.
+
+
+An internationally qualified teaching staff, bilingual curriculum, and IB programs require significant expertise and financial resources.
+
+
+High parent and student loyalty: Families who choose St. Paul’s value tradition, bilingual education, and a global outlook — which reduces the likelihood of switching schools.
+
+
+
+2. Threat of Substitutes → MODERATE
+Indirect competition: Other bilingual or international schools without formal Crown recognition (such as Avenues, Chapel, Graded) may seem like alternatives but lack the same level of institutional legitimacy.
+
+
+Online education and homeschooling have seen limited adoption in this premium segment.
+
+
+The symbolic value of an official British diploma as a gateway to top global universities is hard to replace.
+
+
+
+
+3.  Bargaining Power of Suppliers → MODERATE
+Key suppliers: bilingual and internationally trained teachers, educational technology companies, and outsourced services.
+
+
+The school attracts talent through its strong brand name and offers good contractual conditions, reducing dependence on specific suppliers. However, top-tier teachers retain bargaining power as they can move to other elite institutions.
+
+
+In areas such as educational technology (e.g., platforms tailored to the British curriculum), there may be greater dependence. High-end platforms adapted to British or IB curricula have limited providers and thus stronger pricing power.
+
+
+Imported educational materials (like British textbooks and IB-specific resources) may be subject to currency fluctuations and logistical issues, increasing dependency.
+
+
+
+4. Bargaining Power of Customers (Parents and Students) → MODERATE
+Demanding and selective clientele: High-income families focused on international education are vocal about their expectations and standards.
+
+
+However, the prestige and authority of the official British seal make St. Paul’s an aspirational choice, which limits the direct negotiation power of families.
+
+
+Institutional exclusivity:
+ St. Paul’s is one of the few officially British schools in South America, which drastically limits direct substitute options.
+
+
+Recognition by the British Crown provides both symbolic and practical prestige that is not easily replicated.
+
+
+High demand, limited seats:
+ The school keeps small class sizes and a limited number of admissions, which creates demand that exceeds supply.
+
+
+This reverses the bargaining dynamic: the school selects its students — not the other way around.
+
+
+Strong reputation for results:
+ The school’s track record in preparing students for universities in the UK, the US, and elsewhere reinforces parental trust in its educational model.
+
+
+
+
+5. Rivalry Among Existing Competitors → HIGH (but with strong competitive advantage)
+Top competitors such as Graded, Chapel, St. Nicholas, and Avenues São Paulo target a similar internationally oriented student profile.
+
+
+However, none of these schools hold formal British recognition, which places St. Paul’s in a category of its own — as a truly British school.
+
+
+This unique historical and institutional distinction reduces direct comparability and reinforces the school’s brand leadership in the sector.
+
+
+
 
 ### 2.1.2. SWOT Analysis of the Partner Institution (sprint 1)
 
