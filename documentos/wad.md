@@ -87,19 +87,54 @@
 
 ## 2.3. User Stories (sprints 1 a 5)
 
-*Posicione aqui a lista de User Stories levantadas para o projeto. Siga o template de User Stories e utilize a mesma referência USXX no roadmap de seu quadro Kanban. Indique todas as User Stories mapeadas, mesmo aquelas que não forem implementadas ao longo do projeto. Não se esqueça de explicar o INVEST das 5 User Stories prioritárias*
+User stories are short, simple descriptions of a feature or functionality that a software system should have, written from the perspective of the end user. By focusing on their POV, user stories ensure that the software being developed addresses real-world problems.
 
-*ATUALIZE ESTA SEÇÃO SEMPRE QUE ALGUMA DEMANDA MUDAR EM SEU PROJETO*
 
-*Template de User Story*
-Identificação | USXX (troque XX por numeração ordenada das User Stories)
+Identification | US01 
 --- | ---
-Persona | nome da Persona
-User Story | "como (papel/perfil), posso (ação/meta), para (benefício/razão)"
+Persona | Carolina Mendes
+User Story | "As the school’s  Marketing Manager, I need to be able to delete a publication from the website, so I can remove any outdated or incorrect information."
 Critério de aceite 1 | CR1: descrever cenário + testes de aceite
 Critério de aceite 2 | CR2: descrever cenário + testes de aceite
 Critério de aceite ... | CR...
-Critérios INVEST | *(Por que é Independente? Por que é Negociável? Por que é Valorosa? Por que é Estimável? Por que é Pequena? Por que é Testável?)*
+Critérios INVEST | **independent**  delete a publication doesn’t rely on other features. **negotiable**  the process of giving permission can be negotiated. **valuable**  it provides value by maintaining the accuracy of the website, ensuring the information is up-to-date. **estimable**  its a small task its time to be completed can be determined/estimated. **small** its a concise user storie that focus on a single action. **testable** it can be tested, just needs one person to delete a post.
+
+Identification | US02 
+--- | ---
+Persona | Carolina Mendes
+User Story | As the school’s marketing manager, I want a simple interface to publish school news, so that I can easily share updates with the school community.
+Critério de aceite 1 | CR1: descrever cenário + testes de aceite
+Critério de aceite 2 | CR2: descrever cenário + testes de aceite
+Critério de aceite ... | CR...
+Critérios INVEST | **independent**  This task does not rely on other features or systems to work. **negotiable** The details of how the interface looks or functions are not strictly defined. **valuable** It makes it easier for the marketing manager to publish updates, which helps improve communication with the community. **estimable** can be estimated the effort needed to create a simple interface for publishing news. **small** it might need to be broken down into smaller stories **testable** It can be tested by checking if the marketing manager can successfully use the interface to publish school news.
+
+Identification | US03 
+--- | ---
+Persona | Daniel Thompson
+User Story | As a father who is searching for the balance between a new executive position and the proper attention directed to my son's trail, I'd like to access his academic information in a single platform, so that I can stay involved in his school life considering my heavy schedule.
+Critério de aceite 1 | CR1: descrever cenário + testes de aceite
+Critério de aceite 2 | CR2: descrever cenário + testes de aceite
+Critério de aceite ... | CR...
+Critérios INVEST | **independent**  The story describes a standalone feature that doesn’t depend on other fetures. **negotiable** The details ,such as design, data, and delivery, can be negotiated. **valuable** It provides value to the parent by offering a platform to stay involved in their son’s academic life. **estimable** The technical work involved is clear enough for estimation. **small** The scope of this story is clear and achievable within a short time. **testable** It can be tested by checking if the marketing manager can successfully use the interface to publish school news.
+
+Identification | US04 
+--- | ---
+Persona | Daniel Thompson
+User Story | As a parent, I wish there was a simple place where I could easily follow my daughter’s grades, attendance, and school updates without feeling lost in complicated websites.
+Critério de aceite 1 | CR1: descrever cenário + testes de aceite
+Critério de aceite 2 | CR2: descrever cenário + testes de aceite
+Critério de aceite ... | CR...
+Critérios INVEST | **independent**  its standalone, focusing only on a parent’s access to their child’s school data. **negotiable** layout, types of data, and presentation style can be negotiated. **valuable** It delivers significant value by helping parents easily track academic progress and school updates. **estimable** The effort required to build the tracking system can be estimated. **small** The story is focused on one specific need, making it manageable in size. **testable** it can be tested by ensuring parents can view grades, attendance, and updates.
+
+Identification | US05 
+--- | ---
+Persona | Júlio Oliveira
+User Story | As an IT Analyst, I want to be able to manage the parent platform in such a way as to be able to combat any technological failures and promote quality support for the members of the school community who use the platform.
+Critério de aceite 1 | CR1: descrever cenário + testes de aceite
+Critério de aceite 2 | CR2: descrever cenário + testes de aceite
+Critério de aceite ... | CR...
+Critérios INVEST | **independent** describes a distinct requirement for managing the platform, with no dependency on other user stories. **negotiable** methods or tools used for managing failures and providing support can be adjusted, allowing for flexibility in implementation. **valuable** ensures that the platform remains functional and efficient, benefiting the entire school community. **estimable** can be estimated with clarity. **small** it can be broken down into smaller tasks. **testable** It can be tested by measuring the IT system’s reliability and responsiveness to issues.
+
 
 # <a name="c3"></a>3. Projeto da Aplicação Web (sprints 1 a 4)
 
