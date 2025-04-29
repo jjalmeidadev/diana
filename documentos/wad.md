@@ -60,13 +60,19 @@ In this way, with more efficient access to information, parents will be able to 
 <br>
 
 <div align="center">
+  
   <sub>Figure 01 - Canvas MVP</sub>
+
+  
   <br>
   <br>
   <img src="../assets/forças.png" alt="Imagem da Forças de Porter" width="100%">
   <br>
   <br>
+
+  
   <sup>Source: authors and partner's website (2025)</sup>
+  
 </div>
 
 <br>
