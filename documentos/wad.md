@@ -135,6 +135,49 @@ Critério de aceite 2 | CR2: descrever cenário + testes de aceite
 Critério de aceite ... | CR...
 Critérios INVEST | **independent** describes a distinct requirement for managing the platform, with no dependency on other user stories. **negotiable** methods or tools used for managing failures and providing support can be adjusted, allowing for flexibility in implementation. **valuable** ensures that the platform remains functional and efficient, benefiting the entire school community. **estimable** can be estimated with clarity. **small** it can be broken down into smaller tasks. **testable** It can be tested by measuring the IT system’s reliability and responsiveness to issues.
 
+Identification | US06
+--- | ---
+Persona | Carolina Mendes
+User Story | As the school’s marketing manager, I want to offer a comfortable and informative onboarding process for new families, in order for them to feel welcomed and understand our internal community dynamics
+Critério de aceite 1 | CR1: descrever cenário + testes de aceite
+Critério de aceite 2 | CR2: descrever cenário + testes de aceite
+Critério de aceite ... | CR...
+
+Identification | US07
+--- | ---
+Persona | Júlio Oliveira
+User Story | As a moderator, I want every prospective student to feel confident and supported from their first interaction, without delays or confusion caused by missing information or unclear processes.
+Critério de aceite 1 | CR1: descrever cenário + testes de aceite
+Critério de aceite 2 | CR2: descrever cenário + testes de aceite
+Critério de aceite ... | CR...
+
+
+Identification | US08
+--- | ---
+Persona | Júlio Oliveira
+User Story | As a moderator, I need to be able to manage user’s roles and permissions, so each member can only access what they need.
+Critério de aceite 1 | CR1: descrever cenário + testes de aceite
+Critério de aceite 2 | CR2: descrever cenário + testes de aceite
+Critério de aceite ... | CR...
+
+Identification | US09
+--- | ---
+Persona | Daniel Thompson
+User Story | As a parent I want to easily find the school contact, so that I can reach the school when needed.
+Critério de aceite 1 | CR1: descrever cenário + testes de aceite
+Critério de aceite 2 | CR2: descrever cenário + testes de aceite
+Critério de aceite ... | CR...
+
+Identification | US10
+--- | ---
+Persona | Daniel Thompson
+User Story | As a parent, I need to be able to change my contact number, so the school can contact me if needed.
+Critério de aceite 1 | CR1: descrever cenário + testes de aceite
+Critério de aceite 2 | CR2: descrever cenário + testes de aceite
+Critério de aceite ... | CR...
+
+
+
 
 # <a name="c3"></a>3. Projeto da Aplicação Web (sprints 1 a 4)
 
