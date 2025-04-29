@@ -57,6 +57,21 @@ In this way, with more efficient access to information, parents will be able to 
 
 ### 2.1.1. Modelo de 5 Forças de Porter (sprint 1)
 
+<br>
+
+<div align="center">
+  <sub>Figure 01 - Canvas MVP</sub>
+  <br>
+  <br>
+  <img src="../assets/forças.png" alt="Imagem da Forças de Porter" width="100%">
+  <br>
+  <br>
+  <sup>Source: authors and partner's website (2025)</sup>
+</div>
+
+<br>
+
+
 1. Threat of New Entrants → LOW
 Very high entry barriers: St. Paul’s has held official recognition from the British Crown since 2012, being the first school in South America to receive this endorsement. This grants the school a high level of exclusivity and institutional authority.
 
