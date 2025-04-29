@@ -37,8 +37,11 @@
 # <a name="c1"></a>1. Introduction (sprints 1 to 5)
 
 St. Paul’s is a British school located in São Paulo, with nearly 100 years of history. The school identified a problem in the experience of its students’ parents: the official mobile app, used as the main communication channel, presents many limitations. Academic information such as homework, class schedules, number of absences, and announcements are not always available or are difficult to access via mobile phone, which causes disorganization in following their children's school life.
+
 With the aim of solving this issue, St. Paul’s proposed a challenge to first-year students at Inteli: to develop a web portal aimed at parents. The proposal is to offer a platform accessible through a web browser, in a clear, organized, and easy-to-use format. The system will feature a simple and intuitive login screen, students’ personal information, class schedules, absence tracking, and a report section for accessing PDF files.
+
 The project considers the main concerns reported by parents regarding the structure that the school already has. The solution seeks to add value to the community, promoting more efficient communication and encouraging more active participation from parents in their children’s educational journey.
+
 In this way, with more efficient access to information, parents will be able to follow their children’s academic performance more closely and with greater peace of mind.
 
 # <a name="c2"></a>2. Overview of the Web Application (sprint 1)
