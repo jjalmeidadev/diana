@@ -34,16 +34,19 @@
 <br>
 
 
-# <a name="c1"></a>1. Introdução (sprints 1 a 5)
+# <a name="c1"></a>1. Introduction (sprints 1 to 5)
 
 St. Paul’s is a British school located in São Paulo, with nearly 100 years of history. The school identified a problem in the experience of its students’ parents: the official mobile app, used as the main communication channel, presents many limitations. Academic information such as homework, class schedules, number of absences, and announcements are not always available or are difficult to access via mobile phone, which causes disorganization in following their children's school life.
+
 With the aim of solving this issue, St. Paul’s proposed a challenge to first-year students at Inteli: to develop a web portal aimed at parents. The proposal is to offer a platform accessible through a web browser, in a clear, organized, and easy-to-use format. The system will feature a simple and intuitive login screen, students’ personal information, class schedules, absence tracking, and a report section for accessing PDF files.
+
 The project considers the main concerns reported by parents regarding the structure that the school already has. The solution seeks to add value to the community, promoting more efficient communication and encouraging more active participation from parents in their children’s educational journey.
+
 In this way, with more efficient access to information, parents will be able to follow their children’s academic performance more closely and with greater peace of mind.
 
-# <a name="c2"></a>2. Visão Geral da Aplicação Web (sprint 1)
+# <a name="c2"></a>2. Overview of the Web Application (sprint 1)
 
-## 2.1. Escopo do Projeto (sprints 1 e 4)
+## 2.1. Project Scope (sprints 1 & 4)
 
 ### 2.1.1. Modelo de 5 Forças de Porter (sprint 1)
 
@@ -51,7 +54,7 @@ In this way, with more efficient access to information, parents will be able to 
 
 *Posicione aqui o modelo de 5 Forças de Porter para sustentar o contexto da indústria.*
 
-### 2.1.2. Análise SWOT da Instituição Parceira (sprint 1)
+### 2.1.2. SWOT Analysis of the Partner Institution (sprint 1)
 
 <!-- *Preencha com até 100 palavras – sem necessidade de fonte*
 
@@ -104,11 +107,55 @@ The success criterion is the full functionality of the software, which will be e
   <sup>Fonte: Autoral</sup>
 </div>
 
-### 2.1.5. Matriz de Riscos do Projeto (sprint 1)
 
-*Sem limite de palavras – usar template do curso*
+### 2.1.5. Project Risk Matrix (Sprint 1)
 
-*Registre na matriz os riscos identificados no projeto.*
+According to Tomaz, Gagliasso, and Malavota (2020), the risk matrix is a management tool that assists a project team in identifying the risks and threats that may negatively affect its execution. It is constructed by combining the likelihood of each event occurring with the impact it would have if it materializes. Furthermore, these authors emphasize that developing a risk matrix is an iterative process: it is revisited at each work cycle to ensure that the mapping remains aligned with project changes. In this work, we have chosen to review and update our matrix at the beginning of each sprint.
+
+Before presenting the Risk Matrix itself, it is important to explain how the information is structured. In the table below, we categorize the main risks identified for this sprint based on four elements:
+- **Risk Description**: a brief summary of the potential threat.
+- **Probability**: the likelihood of the risk occurring (classified as Low, Medium, High, or Very High).
+- **Impact**: the severity of the consequences if the risk materializes (also classified as Low, Medium, High, or Very High).
+- **Action Plan**: the strategies that will be adopted to mitigate or eliminate the identified risk.
+
+These classifications help the project team prioritize actions and allocate resources effectively throughout the sprint.
+
+<div align="center">
+  <sub>Risk Matrix</sub><br>
+  <img src="../assets/wad/matrizderisco.jpeg" width="100%" 
+  alt="Risk Matrix"><br>
+  <sup> Fonte : Autoral(2025)</sup>
+</div>
+
+## 2.1.5.1. Risk Matrix
+
+| Risk                                                         | Probability | Impact     | Action Plan                                                                                                                                                                                                                                                                                |
+|--------------------------------------------------------------|------------:|-----------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Leakage of sensitive data belonging to parents or students** | High        | Very High  | To mitigate the risk of sensitive data leakage, we will implement end-to-end encryption across all communication channels and storage.                                                                                                                                                     |
+| **Performance issues or report latency**                     | Medium      | Medium     | To prevent performance issues, we will optimize database queries and indexes, adopt a caching layer for static reports, and monitor response-time indicators using APM tools configured with alerts for early detection of bottlenecks.                                                      |
+| **Responsiveness failures on browsers/devices**               | Medium      | High       | To ensure responsiveness across various devices, we will apply responsive design based on a design system, conduct both manual and automated tests on popular browsers, and review the interface at each sprint before releasing new versions.                                               |
+| **Non-compliance with accessibility requirements**           | Low         | Medium     | To ensure compliance with accessibility standards, we will perform testing with users who have special needs.                                                                                                                                                                               |
+| **Low parental adoption and engagement (non-intuitive UX)**  | Low         | Very High  | To increase parental adoption, we will conduct usability sessions with real users, iterate on prototypes based on feedback, and develop onboarding materials along with synchronous training sessions to facilitate platform use.                                                             |
+
+## 2.1.5.2. Opportunity Matrix
+
+Identifying opportunities is just as important as mapping risks, as it can significantly enhance the success and value generated by the project. In the Opportunity Matrix below, we categorize the main opportunities detected for this sprint based on four elements:
+- **Opportunity Description**: a brief summary of the favorable scenario identified.
+- **Probability**: the likelihood that the opportunity will materialize (classified as Low, Medium, High, or Very High).
+- **Impact**: the potential positive effect on the project if the opportunity materializes (also classified as Low, Medium, High, or Very High).
+- **Action Plan**: the steps that will be taken to capitalize on the opportunity and maximize its benefits.
+
+By proactively addressing these opportunities, the project team aims not only to mitigate risks but also to strengthen user satisfaction, system functionality, and project visibility.
+
+| Opportunity                                                  | Probability  | Impact    | Action Plan                                                                                                                                                                                                                                                        |
+|--------------------------------------------------------------|-------------:|----------:|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Increase in parental engagement**                          | Very High    | Very High | To capitalize on this opportunity, we will introduce gamification elements such as badges and achievements, send personalized progress reports at regular intervals, and organize online events to strengthen the connection between school and family.           |
+| **Analytical dashboard with academic performance insights** | High         | High      | To deliver analytical value, we will gather requirements from teachers and coordinators, develop interactive visualizations (charts, heatmaps), and integrate real-time engagement and learning metrics.                                                            |
+| **Embedded video tutorials within the portal**               | High         | Medium    | To facilitate the adoption of advanced features, we will produce targeted scripts and integrate them seamlessly into the user interface.                                                                                                                           |
+| **Future integration with external calendars**               | Medium       | Low       | To extend the system’s utility, we will evaluate the APIs of Google Calendar and Microsoft Outlook for potential integration.                                                                                                                                     |
+| **Implementation of an integrated chat between parents and teachers** | Low | High | To improve communication, we will prototype a chat solution using Socket.io or Firebase Realtime Database, establish clear moderation and privacy policies, and conduct controlled pilot tests prior to full deployment. |
+
+*This matrix will be reviewed at the beginning of each sprint, with probabilities, impacts, and action plans adjusted according to project progress.*
 
 ## 2.2. Personas (sprint 1)
 
