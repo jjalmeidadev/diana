@@ -66,7 +66,7 @@
   
   <br>
   <br>
-  <img src="../assets/forças.png" alt="Imagem da Forças de Porter" width="100%">
+  <img src="../assets/wad/forças.png" alt="Imagem da Forças de Porter" width="100%">
   <br>
   <br>
 
@@ -212,7 +212,13 @@ Top competitors such as Graded, Chapel, St. Nicholas, and Avenues São Paulo tar
 
 **6. Success criteria and how it will be evaluated**
 
-&nbsp;&nbsp;&nbsp;&nbsp;The success criterion is the full functionality of the software, which will be evaluated through the approval of the general public of testers in this first restricted version of the software.
+&nbsp;&nbsp;&nbsp;&nbsp;The criterion for success is the full functionality of the software, which will be assessed by the approval of the general public of testers in this first restricted version of the software. The more specific indicators would be:
+
+- Constant communication with parents;
+- Positive feedback at meetings;
+- Good personal organisation of families;
+- Greater attendance at school events;
+- Students getting closer to their guardians.
 
 ### 2.1.4. Value Proposition Canvas (sprint 1): 
 
