@@ -21,11 +21,11 @@
 ### Adviser:  
 - <a href="https://www.linkedin.com/in/juliastateri?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAADnlREBtYFoy6IaHNqgUK5db4IxdirHnlk&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BHuIMT8c6R7WBUYq8V4cR4w%3D%3D">Julia Stateri</a>
 ###  Instructors:
-- <a href="https://www.linkedin.com/">Nome do professor 2</a>
-- <a href="https://www.linkedin.com/">Nome do professor 3</a> 
-- <a href="https://www.linkedin.com/">Nome do professor 4</a> 
-- <a href="https://www.linkedin.com/">Nome do professor 5</a>
-- <a href="https://www.linkedin.com/">Nome do professor 6</a>
+- <a href="https://www.linkedin.com/in/anacristinadossantos/">Ana Cristina dos Santos</a>
+- <a href="https://www.linkedin.com/in/bruna-mayer/">Bruna Mayer</a> 
+- <a href="https://www.linkedin.com/in/cristiano-benites-ph-d-687647a8/">Cristiano Benites</a> 
+- <a href="https://www.linkedin.com/in/henrique-mohallem-paiva-6854b460/">Henrique Mohallem Paiva</a>
+- <a href="https://www.linkedin.com/in/renato-penha/">Renato Penha</a>
 
 ## 📝 Description:
 
