@@ -237,7 +237,7 @@ Below is an image that shows each of the topics mentioned, presenting the propos
   <sup>Source: authors (2025)</sup>
 </div>
 
-Conclusão:
+Conclusion:
 
 &nbsp;&nbsp;&nbsp;&nbsp;Through the use of the Value Proposition Canvas, it was possible to clearly identify the users’ needs, relieve their pains, and generate concrete benefits. The solution presented stands out for its user-centered approach, promoting more meaningful, engaging experiences that are aligned with the values of the school. In this way, the project contributes not only to individual well-being, but also to strengthening the culture of innovation and collaboration at St. Paul’s.
 
