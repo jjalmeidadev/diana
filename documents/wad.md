@@ -79,27 +79,19 @@
 
 
 1. Threat of New Entrants → LOW
-Very high entry barriers: St. Paul’s has held official recognition from the British Crown since 2012, being the first school in South America to receive this endorsement. This grants the school a high level of exclusivity and institutional authority.
+Very high entry barriers: Paul’s has held official recognition from the British Crown since 2012, being the first school in South America to receive this endorsement. This grants the school a high level of exclusivity and institutional authority, along with a legacy since 1926, robust infrastructure, and prestige. 
 
+The bilingual curriculum, IB programs, and internationally qualified staff require significant expertise and investment. 
 
-Its robust infrastructure and legacy since 1926 make it difficult for new schools to enter the market with the same prestige.
-
-
-An internationally qualified teaching staff, bilingual curriculum, and IB programs require significant expertise and financial resources.
-
-
-High parent and student loyalty: Families who choose St. Paul’s value tradition, bilingual education, and a global outlook — which reduces the likelihood of switching schools.
+High parent loyalty further discourages switching.
 
 
 
 2. Threat of Substitutes → MODERATE
-Indirect competition: Other bilingual or international schools without formal Crown recognition (such as Avenues, Chapel, Graded) may seem like alternatives but lack the same level of institutional legitimacy.
+Indirect competition: Other bilingual/international schools (e.g., Avenues, Chapel, Graded) lack Crown recognition, weakening their legitimacy. 
 
+Online education has limited appeal in this premium segment, and the symbolic value of a British diploma for top universities is hard to replace.
 
-Online education and homeschooling have seen limited adoption in this premium segment.
-
-
-The symbolic value of an official British diploma as a gateway to top global universities is hard to replace.
 
 
 
@@ -137,7 +129,6 @@ Key suppliers: bilingual and internationally trained teachers, educational techn
  The school keeps small class sizes and a limited number of admissions, which creates demand that exceeds supply.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;This reverses the bargaining dynamic: the school selects its students — not the other way around.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;Strong reputation for results:
@@ -146,14 +137,8 @@ Key suppliers: bilingual and internationally trained teachers, educational techn
 
 
 
-5. Rivalry Among Existing Competitors → HIGH (but with strong competitive advantage)
-Top competitors such as Graded, Chapel, St. Nicholas, and Avenues São Paulo target a similar internationally oriented student profile.
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;However, none of these schools hold formal British recognition, which places St. Paul’s in a category of its own — as a truly British school.
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;This unique historical and institutional distinction reduces direct comparability and reinforces the school’s brand leadership in the sector.
+5. Rivalry Among Existing Competitors → HIGH  (but mitigated by advantage)
+Competitors (Graded, Chapel, Avenues) target similar students but lack British recognition. St. Paul’s unique status reduces direct comparability, solidifying its leadership in the elite education market.
 
 
 
