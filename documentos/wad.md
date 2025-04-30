@@ -209,19 +209,19 @@ The success criterion is the full functionality of the software, which will be e
 
 → Customer Profile: investigates the characteristics, needs, and expectations of the people who will use the product or service. This part is subdivided into three key elements:
 
-Customer Jobs: describes what the customer needs to accomplish — their roles, goals, and activities that directly influence their routine and outcomes.
+- Customer Jobs: describes what the customer needs to accomplish — their roles, goals, and activities that directly influence their routine and outcomes.
 
-Pains: points out the obstacles, frustrations, or difficulties that hinder the efficient achievement of those tasks.
+- Pains: points out the obstacles, frustrations, or difficulties that hinder the efficient achievement of those tasks.
 
-Gains: identifies the expected benefits, desired improvements, and the factors that truly create value for the customer.
+- Gains: identifies the expected benefits, desired improvements, and the factors that truly create value for the customer.
 
 → Value Proposition: defines how the developed solution meets the demands of the audience, relieving pains and providing gains. This section is also divided into three components:
 
-Products and Services: describes the offer created to meet the identified needs.
+- Products and Services: describes the offer created to meet the identified needs.
 
-Pain Relievers: explains how the proposal helps solve or ease the challenges faced by the customer.
+- Pain Relievers: explains how the proposal helps solve or ease the challenges faced by the customer.
 
-Gain Creators: presents the differentials and additional advantages offered, making the experience more positive and valuable.
+- Gain Creators: presents the differentials and additional advantages offered, making the experience more positive and valuable.
 
 &nbsp;&nbsp;&nbsp;&nbsp;By applying the Value Proposition Canvas in the context of St. Paul's, we ensure that our group's proposal is centered on the real needs of the user, promoting more relevant, engaging, and transformative solutions. This methodology allows us to align innovation and purpose, as well as to stimulate strategic thinking and the development of projects that generate a positive impact in line with the school's values.
 
