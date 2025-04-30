@@ -202,9 +202,33 @@ The portal enhances parental engagement by providing organized academic tracking
 The success criterion is the full functionality of the software, which will be evaluated through the approval of the general public of testers in this first restricted version of the software.
 
 ### 2.1.4. Value Proposition Canvas (sprint 1): 
-*Sem limite de palavras – usar template do curso*
 
-*Elaborar o Value Proposition Canvas com base na proposta de solução definida.*
+&nbsp;&nbsp;&nbsp;&nbsp;The Value Proposition Canvas is a tool that helps to better understand what customers really need and how a solution can efficiently meet those needs. It is part of the broader model called the Business Model Canvas, used to structure ideas and businesses in a clear way. In the Value Proposition Canvas, the focus is on connecting what is offered (product or service) with the expectations, desires, and difficulties of the people who will use it. This allows for the development of solutions that are more aligned with what the audience truly values, increasing the chances of success in the market.
+
+&nbsp;&nbsp;&nbsp;&nbsp;The structure of the Value Proposition Canvas is made up of two fundamental and complementary areas, which help us deeply understand the target audience and create more effective solutions:
+
+→ Customer Profile: investigates the characteristics, needs, and expectations of the people who will use the product or service. This part is subdivided into three key elements:
+
+Customer Jobs: describes what the customer needs to accomplish — their roles, goals, and activities that directly influence their routine and outcomes.
+
+Pains: points out the obstacles, frustrations, or difficulties that hinder the efficient achievement of those tasks.
+
+Gains: identifies the expected benefits, desired improvements, and the factors that truly create value for the customer.
+
+→ Value Proposition: defines how the developed solution meets the demands of the audience, relieving pains and providing gains. This section is also divided into three components:
+
+Products and Services: describes the offer created to meet the identified needs.
+
+Pain Relievers: explains how the proposal helps solve or ease the challenges faced by the customer.
+
+Gain Creators: presents the differentials and additional advantages offered, making the experience more positive and valuable.
+
+&nbsp;&nbsp;&nbsp;&nbsp;By applying the Value Proposition Canvas in the context of St. Paul's, we ensure that our group's proposal is centered on the real needs of the user, promoting more relevant, engaging, and transformative solutions. This methodology allows us to align innovation and purpose, as well as to stimulate strategic thinking and the development of projects that generate a positive impact in line with the school's values.
+
+Below is an image that shows each of the topics mentioned, presenting the proposal developed by the group:
+
+
+
 
 <div align="center">
   <sub>Value Proposition Canvas</sub><br>
@@ -212,6 +236,10 @@ The success criterion is the full functionality of the software, which will be e
   alt="Value Proposition Canvas"><br>
   <sup>Source: authors (2025)</sup>
 </div>
+
+Conclusão:
+
+&nbsp;&nbsp;&nbsp;&nbsp;Through the use of the Value Proposition Canvas, it was possible to clearly identify the users’ needs, relieve their pains, and generate concrete benefits. The solution presented stands out for its user-centered approach, promoting more meaningful, engaging experiences that are aligned with the values of the school. In this way, the project contributes not only to individual well-being, but also to strengthening the culture of innovation and collaboration at St. Paul’s.
 
 
 ### 2.1.5. Project Risk Matrix (Sprint 1)
