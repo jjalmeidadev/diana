@@ -1,6 +1,3 @@
-<img src="../assets/logointeli.png">
-
-
 # WAD - Web Application Document - 2nd Module - Inteli
 
 <!-- **_Os trechos em itálico servem apenas como guia para o preenchimento da seção. Por esse motivo, não devem fazer parte da documentação final_** -->
@@ -40,7 +37,6 @@
 
 <br>
 
-
 # <a name="c1"></a>1. Introduction (sprints 1 to 5)
 
 &nbsp;&nbsp;&nbsp;&nbsp;St. Paul’s is a British school located in São Paulo, with nearly 100 years of history. The school identified a problem in the experience of its students’ parents: the official mobile app, used as the main communication channel, presents many limitations. Academic information such as homework, class schedules, number of absences, and announcements are not always available or are difficult to access via mobile phone, which causes disorganization in following their children's school life.
@@ -77,80 +73,9 @@
 
 <br>
 
-
-1. Threat of New Entrants → LOW
-Very high entry barriers: Paul’s has held official recognition from the British Crown since 2012, being the first school in South America to receive this endorsement. This grants the school a high level of exclusivity and institutional authority, along with a legacy since 1926, robust infrastructure, and prestige. 
-
-The bilingual curriculum, IB programs, and internationally qualified staff require significant expertise and investment. 
-
-High parent loyalty further discourages switching.
-
-
-
-2. Threat of Substitutes → MODERATE
-Indirect competition: Other bilingual/international schools (e.g., Avenues, Chapel, Graded) lack Crown recognition, weakening their legitimacy. 
-
-Online education has limited appeal in this premium segment, and the symbolic value of a British diploma for top universities is hard to replace.
-
-
-
-
-
-3.  Bargaining Power of Suppliers → MODERATE
-Key suppliers: bilingual and internationally trained teachers, educational technology companies, and outsourced services.
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;The school attracts talent through its strong brand name and offers good contractual conditions, reducing dependence on specific suppliers. However, top-tier teachers retain bargaining power as they can move to other elite institutions.
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;In areas such as educational technology (e.g., platforms tailored to the British curriculum), there may be greater dependence. High-end platforms adapted to British or IB curricula have limited providers and thus stronger pricing power.
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;Imported educational materials (like British textbooks and IB-specific resources) may be subject to currency fluctuations and logistical issues, increasing dependency.
-
-
-
-4. Bargaining Power of Customers (Parents and Students) → MODERATE
-
-&nbsp;&nbsp;&nbsp;&nbsp;Demanding and selective clientele: High-income families focused on international education are vocal about their expectations and standards.
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;However, the prestige and authority of the official British seal make St. Paul’s an aspirational choice, which limits the direct negotiation power of families.
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;Institutional exclusivity:
- St. Paul’s is one of the few officially British schools in South America, which drastically limits direct substitute options.
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;Recognition by the British Crown provides both symbolic and practical prestige that is not easily replicated.
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;High demand, limited seats:
- The school keeps small class sizes and a limited number of admissions, which creates demand that exceeds supply.
-
-
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;Strong reputation for results:
- The school’s track record in preparing students for universities in the UK, the US, and elsewhere reinforces parental trust in its educational model.
-
-
-
-
-5. Rivalry Among Existing Competitors → HIGH  (but mitigated by advantage)
-Competitors (Graded, Chapel, Avenues) target similar students but lack British recognition. St. Paul’s unique status reduces direct comparability, solidifying its leadership in the elite education market.
-
-
-
-
 ### 2.1.2. SWOT Analysis of the Partner Institution (sprint 1)
 
-<!-- *Preencha com até 100 palavras – sem necessidade de fonte*
-
-*Apresente uma visão geral da situação do parceiro com base na matriz SWOT (forças, fraquezas, oportunidades e ameaças). Foque na relação com os concorrentes e o posicionamento da instituição.* -->
-
 &nbsp;&nbsp;&nbsp;&nbsp;St Paul's School boasts a strong academic reputation and a comprehensive international curriculum, propelling its students to prestigious universities globally. Its holistic education and diverse community are strengths. However, the high cost of tuition limits accessibility and can generate perceptions of elitism. The school also faces challenges with its current infrastructure, which prevents significant expansion. Despite this, there are opportunities to strengthen partnerships, adopt innovative educational trends and increase engagement with the local community. Competition from other international schools and economic instability pose constant threats. This concludes the definition of the institution's SWOT analysis.
-
 
 <br>
 
@@ -177,7 +102,6 @@ Competitors (Graded, Chapel, Avenues) target similar students but lack British r
 &nbsp;&nbsp;&nbsp;&nbsp;The software currently used to access student records at the school is not effectively addressing the problems, especially for parents, who need a well-structured system to better visualize and closely follow their children's daily lives — including grades, assignments, homework, field trips, and more.
 
 **2. Available data**
-<!-- (mention source and content; if none, indicate "not applicable") -->
 
 &nbsp;&nbsp;&nbsp;&nbsp;Alongside the TAPI (project deliverables document), we received the school’s brandbook for visual identity. For initial development, the partner provided mock data, including: "Pupils Contacts" (spreadsheet with fake details), profile photos, and 3 sample grade reports (PDF). We also obtained real data on student age range and total enrollment (Source: St Paul’s). This ensured privacy while allowing functional testing. 
 
@@ -185,11 +109,9 @@ Competitors (Graded, Chapel, Avenues) target similar students but lack British r
 
 &nbsp;&nbsp;&nbsp;&nbsp;A new software solution that serves as a student history consultant, but in a simpler, more communicative, and direct way — truly making life easier for the parents who will use it. It will work as s manageable Parent Portal, with the academic information so that parents can access their children's reports, absences, communications, calendars and assigned tasks in a centralised way.
 
-
 **4. How the solution will be used**
 
 &nbsp;&nbsp;&nbsp;&nbsp;Log in via browser using your registered email and default password (schoolID — change it after first login). View your child’s profile, photo, and academic year, or switch between siblings. Check reports (PDF), attendance, and timetables. Assignments sync from Microsoft Teams. Update personal/medical details securely. Teachers’ contacts are listed for quick communication. A desktop-friendly alternative to the app, designed for clarity and convenience. 
-
 
 **5. Expected benefits**
 
@@ -209,31 +131,6 @@ Competitors (Graded, Chapel, Avenues) target similar students but lack British r
 
 &nbsp;&nbsp;&nbsp;&nbsp;The Value Proposition Canvas is a tool that helps to better understand what customers really need and how a solution can efficiently meet those needs. It is part of the broader model called the Business Model Canvas, used to structure ideas and businesses in a clear way. In the Value Proposition Canvas, the focus is on connecting what is offered (product or service) with the expectations, desires, and difficulties of the people who will use it. This allows for the development of solutions that are more aligned with what the audience truly values, increasing the chances of success in the market.
 
-&nbsp;&nbsp;&nbsp;&nbsp;The structure of the Value Proposition Canvas is made up of two fundamental and complementary areas, which help us deeply understand the target audience and create more effective solutions:
-
-→ Customer Profile: investigates the characteristics, needs, and expectations of the people who will use the product or service. This part is subdivided into three key elements:
-
-- Customer Jobs: describes what the customer needs to accomplish — their roles, goals, and activities that directly influence their routine and outcomes.
-
-- Pains: points out the obstacles, frustrations, or difficulties that hinder the efficient achievement of those tasks.
-
-- Gains: identifies the expected benefits, desired improvements, and the factors that truly create value for the customer.
-
-→ Value Proposition: defines how the developed solution meets the demands of the audience, relieving pains and providing gains. This section is also divided into three components:
-
-- Products and Services: describes the offer created to meet the identified needs.
-
-- Pain Relievers: explains how the proposal helps solve or ease the challenges faced by the customer.
-
-- Gain Creators: presents the differentials and additional advantages offered, making the experience more positive and valuable.
-
-&nbsp;&nbsp;&nbsp;&nbsp;By applying the Value Proposition Canvas in the context of St. Paul's, we ensure that our group's proposal is centered on the real needs of the user, promoting more relevant, engaging, and transformative solutions. This methodology allows us to align innovation and purpose, as well as to stimulate strategic thinking and the development of projects that generate a positive impact in line with the school's values.
-
-&nbsp;&nbsp;&nbsp;&nbsp;Below is an image that shows each of the topics mentioned, presenting the proposal developed by the group:
-
-
-
-
 <br>
 
 <div align="center">
@@ -252,21 +149,9 @@ Competitors (Graded, Chapel, Avenues) target similar students but lack British r
 
 <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;Through the use of the Value Proposition Canvas, it was possible to clearly identify the users’ needs, relieve their pains, and generate concrete benefits. The solution presented stands out for its user-centered approach, promoting more meaningful, engaging experiences that are aligned with the values of the school. In this way, the project contributes not only to individual well-being, but also to strengthening the culture of innovation and collaboration at St. Paul’s.
-
-
 ### 2.1.5. Project Risk Matrix (Sprint 1)
 
-&nbsp;&nbsp;&nbsp;&nbsp;According to Tomaz, Gagliasso, and Malavota (2020), the risk matrix is a management tool that assists a project team in identifying the risks and threats that may negatively affect its execution. It is constructed by combining the likelihood of each event occurring with the impact it would have if it materializes. Furthermore, these authors emphasize that developing a risk matrix is an iterative process: it is revisited at each work cycle to ensure that the mapping remains aligned with project changes. In this work, we have chosen to review and update our matrix at the beginning of each sprint.
-
-&nbsp;&nbsp;&nbsp;&nbsp;Before presenting the Risk Matrix itself, it is important to explain how the information is structured. In the table below, we categorize the main risks identified for this sprint based on four elements:
-- **Risk Description**: a brief summary of the potential threat.
-- **Probability**: the likelihood of the risk occurring (classified as Low, Medium, High, or Very High).
-- **Impact**: the severity of the consequences if the risk materializes (also classified as Low, Medium, High, or Very High).
-- **Action Plan**: the strategies that will be adopted to mitigate or eliminate the identified risk.
-
-&nbsp;&nbsp;&nbsp;&nbsp;These classifications help the project team prioritize actions and allocate resources effectively throughout the sprint.
-
+&nbsp;&nbsp;&nbsp;&nbsp;According to Tomaz, Gagliasso, and Malavota (2020), the risk matrix is a management tool that assists a project team in identifying the risks and threats that may negatively affect its execution. It is constructed by combining the likelihood of each event occurring with the impact it would have if it materializes. 
 
 <br>
 
@@ -298,14 +183,6 @@ Competitors (Graded, Chapel, Avenues) target similar students but lack British r
 
 #### 2.1.5.2. Opportunity Matrix
 
-&nbsp;&nbsp;&nbsp;&nbsp;Identifying opportunities is just as important as mapping risks, as it can significantly enhance the success and value generated by the project. In the Opportunity Matrix below, we categorize the main opportunities detected for this sprint based on four elements:
-- **Opportunity Description**: a brief summary of the favorable scenario identified.
-- **Probability**: the likelihood that the opportunity will materialize (classified as Low, Medium, High, or Very High).
-- **Impact**: the potential positive effect on the project if the opportunity materializes (also classified as Low, Medium, High, or Very High).
-- **Action Plan**: the steps that will be taken to capitalize on the opportunity and maximize its benefits.
-
-&nbsp;&nbsp;&nbsp;&nbsp;By proactively addressing these opportunities, the project team aims not only to mitigate risks but also to strengthen user satisfaction, system functionality, and project visibility.
-
 | Opportunity                                                  | Probability  | Impact    | Action Plan                                                                                                                                                                                                                                                        |
 |--------------------------------------------------------------|-------------:|----------:|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Increase in parental engagement**                          | Very High    | Very High | To capitalize on this opportunity, we will introduce gamification elements such as badges and achievements, send personalized progress reports at regular intervals, and organize online events to strengthen the connection between school and family.           |
@@ -322,19 +199,82 @@ Competitors (Graded, Chapel, Avenues) target similar students but lack British r
 
 ## 2.3. User Stories (sprints 1 a 5)
 
-*Posicione aqui a lista de User Stories levantadas para o projeto. Siga o template de User Stories e utilize a mesma referência USXX no roadmap de seu quadro Kanban. Indique todas as User Stories mapeadas, mesmo aquelas que não forem implementadas ao longo do projeto. Não se esqueça de explicar o INVEST das 5 User Stories prioritárias*
+User stories are short, simple descriptions of a feature or functionality that a software system should have, written from the perspective of the end user. By focusing on their POV, user stories ensure that the software being developed addresses real-world problems.
 
-*ATUALIZE ESTA SEÇÃO SEMPRE QUE ALGUMA DEMANDA MUDAR EM SEU PROJETO*
-
-*Template de User Story*
-Identificação | USXX (troque XX por numeração ordenada das User Stories)
+Identification | US01 
 --- | ---
-Persona | nome da Persona
-User Story | "como (papel/perfil), posso (ação/meta), para (benefício/razão)"
-Critério de aceite 1 | CR1: descrever cenário + testes de aceite
-Critério de aceite 2 | CR2: descrever cenário + testes de aceite
-Critério de aceite ... | CR...
-Critérios INVEST | *(Por que é Independente? Por que é Negociável? Por que é Valorosa? Por que é Estimável? Por que é Pequena? Por que é Testável?)*
+Persona | Carolina Mendes
+User Story | "As the school’s  Marketing Manager, I need to be able to delete a publication from the website, so I can remove any outdated or incorrect information."
+Acceptance Criteria 1 | **Scenario:** The marketing manager is logged into the admin panel. **Acceptance Test:** When clicking the "Delete" button on a publication, it should be permanently removed from the website and no longer appear in the list of publications.
+Acceptance Criteria 2 | **Scenario:** The manager tries to delete a publication that doesn’t exist or has already been deleted. **Acceptance Test:** The system should display an error message indicating that the publication was not found.
+Critérios INVEST | **independent**  delete a publication doesn’t rely on other features. **negotiable**  the process of giving permission can be negotiated. **valuable**  it provides value by maintaining the accuracy of the website, ensuring the information is up-to-date. **estimable**  its a small task its time to be completed can be determined/estimated. **small** its a concise user storie that focus on a single action. **testable** it can be tested, just needs one person to delete a post.
+
+Identification | US02 
+--- | ---
+Persona | Carolina Mendes
+User Story | As the school’s marketing manager, I want a simple interface to publish school news, so that I can easily share updates with the school community.
+Acceptance Criteria 1 | **Scenario:** The manager accesses the admin panel and fills out the new post form. **Acceptance Test:** When all required fields are filled and "Publish" is clicked, the news should appear on the website under the news section.
+Acceptance Criteria 2 | **Scenario:** The manager leaves a required field blank. **Acceptance Test:** The system should display a message indicating the missing fields and not allow submission until they are filled.
+Critérios INVEST | **independent**  This task does not rely on other features or systems to work. **negotiable** The details of how the interface looks or functions are not strictly defined. **valuable** It makes it easier for the marketing manager to publish updates, which helps improve communication with the community. **estimable** can be estimated the effort needed to create a simple interface for publishing news. **small** it might need to be broken down into smaller stories **testable** It can be tested by checking if the marketing manager can successfully use the interface to publish school news.
+
+Identification | US03 
+--- | ---
+Persona | Daniel Thompson
+User Story | As a father who is searching for the balance between a new executive position and the proper attention directed to my son's trail, I'd like to access his academic information in a single platform, so that I can stay involved in his school life considering my heavy schedule.
+Acceptance Criteria 1 | **Scenario:** The father logs into the platform with valid credentials. **Acceptance Test:** The platform displays grades, attendance, and recent activities in a clear and organized manner.
+Acceptance Criteria 2 | **Scenario:** The father tries to access the system without being authenticated. **Acceptance Test:** The system redirects to the login screen and blocks access to student information.
+Critérios INVEST | **independent**  The story describes a standalone feature that doesn’t depend on other fetures. **negotiable** The details ,such as design, data, and delivery, can be negotiated. **valuable** It provides value to the parent by offering a platform to stay involved in their son’s academic life. **estimable** The technical work involved is clear enough for estimation. **small** The scope of this story is clear and achievable within a short time. **testable** It can be tested by checking if the marketing manager can successfully use the interface to publish school news.
+
+Identification | US04 
+--- | ---
+Persona | Daniel Thompson
+User Story | As a parent, I wish there was a simple place where I could easily follow my daughter’s grades, attendance, and school updates without feeling lost in complicated websites.
+Acceptance Criteria 1 | **Scenario:** The parent navigates through the dashboard. **Acceptance Test:** Information is organized into clearly defined tabs or sections (Grades, Attendance, Updates).
+Acceptance Criteria 2 | **Scenario:** There is an error retrieving student data. **Acceptance Test:** The system displays a friendly error message and offers a retry option.
+Critérios INVEST | **independent**  its standalone, focusing only on a parent’s access to their child’s school data. **negotiable** layout, types of data, and presentation style can be negotiated. **valuable** It delivers significant value by helping parents easily track academic progress and school updates. **estimable** The effort required to build the tracking system can be estimated. **small** The story is focused on one specific need, making it manageable in size. **testable** it can be tested by ensuring parents can view grades, attendance, and updates.
+
+Identification | US05 
+--- | ---
+Persona | Júlio Oliveira
+User Story | As an IT Analyst, I want to be able to manage the parent platform in such a way as to be able to combat any technological failures and promote quality support for the members of the school community who use the platform.
+Acceptance Criteria 1 | **Scenario:** A technical failure occurs on the parent platform. **Acceptance Test:** The platform logs the incident automatically and notifies the IT Analyst, who can access a dashboard with real-time system status and logs.
+Acceptance Criteria 2 | **Scenario:** A parent reports an issue through the support channel. **Acceptance Test:** The IT Analyst receives the ticket, can view issue details, assign priority, and update the status, ensuring that resolution steps are documented and communicated.
+Critérios INVEST | **independent** describes a distinct requirement for managing the platform, with no dependency on other user stories. **negotiable** methods or tools used for managing failures and providing support can be adjusted, allowing for flexibility in implementation. **valuable** ensures that the platform remains functional and efficient, benefiting the entire school community. **estimable** can be estimated with clarity. **small** it can be broken down into smaller tasks. **testable** It can be tested by measuring the IT system’s reliability and responsiveness to issues.
+
+Identification | US06
+--- | ---
+Persona | Carolina Mendes
+User Story | As the school’s marketing manager, I want to offer a comfortable and informative onboarding process for new families, in order for them to feel welcomed and understand our internal community dynamics
+Acceptance Criteria 1 | **Scenario:** A new family accesses the platform for the first time. **Acceptance Test:** The platform presents an interactive tour or guide with basic school information, contacts, and calendar.
+Acceptance Criteria 2 | **Scenario:** The family wants to review the onboarding information later. **Acceptance Test:** There should be a button/menu to access the welcome content again.
+
+Identification | US07
+--- | ---
+Persona | Júlio Oliveira
+User Story | As a moderator, I want every prospective student to feel confident and supported from their first interaction, without delays or confusion caused by missing information or unclear processes.
+Acceptance Criteria 1 | **Scenario:** A new student registers on the platform. **Acceptance Test:** The system automatically sends an email with clear and complete instructions on the next steps.
+Acceptance Criteria 2 | **Scenario:** The student does not receive the email or has questions. **Acceptance Test:** A visible support channel (chat or email) must be available on the initial interface.
+
+Identification | US08
+--- | ---
+Persona | Júlio Oliveira
+User Story | As a moderator, I need to be able to manage user’s roles and permissions, so each member can only access what they need.
+Acceptance Criteria 1 | **Scenario:** The moderator accesses the user management panel. **Acceptance Test:** The system allows changing a user's role with just a few clicks.
+Acceptance Criteria 2 | **Scenario:** The moderator tries to assign an invalid role. **Acceptance Test:** The system prevents the action and displays a clear message about the invalid permission.
+
+Identification | US09
+--- | ---
+Persona | Daniel Thompson
+User Story | As a parent I want to easily find the school contact, so that I can reach the school when needed.
+Acceptance Criteria 1 | **Scenario:** The parent accesses the school website/platform. **Acceptance Test:** The school’s contact info (phone, email, address) should be visible within two clicks.
+Acceptance Criteria 2 | **Scenario:** The parent clicks or copies the contact info. **Acceptance Test:** The phone number should open the default email app.
+
+Identification | US10
+--- | ---
+Persona | Daniel Thompson
+User Story | As a parent, I need to be able to change my contact number, so the school can contact me if needed.
+Acceptance Criteria 1 |**Scenario:** The parent accesses their profile. **Acceptance Test:** The "phone number" field should be editable, and the new number should be saved upon confirmation.
+Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number format. **Acceptance Test:** The system validates the format and shows an error message, preventing submission.
 
 # <a name="c3"></a>3. Web Application's Technical Project (sprints 1 a 4)
 
@@ -385,8 +325,6 @@ Critérios INVEST | *(Por que é Independente? Por que é Negociável? Por que �
 **Proposições lógicas** | $A$: O estado é 'California' (state = 'California') <br> $B$: O ID do fornecedor não é 900 (supplier_id ≠ 900) <br> $C$: O ID do fornecedor é 100 (supplier_id = 100)
 **Expressão lógica proposicional** | $(A \land B) \lor C$
 **Tabela Verdade** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$C$</th> <th>$(A \land B)$</th> <th>$(A \land B) \lor C$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>F</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>F</td> <td>V</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>V</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>V</td> <td>V</td> <td>F</td> <td>V</td> <td>V</td> </tr> <tr> <td>V</td> <td>V</td> <td>V</td> <td>V</td> <td>V</td> </tr> </tbody> </table>
-
-*Dica: edite a tabela verdade fora do markdown, para ter melhor controle*
 
 ## 3.6. WebAPI and endpoints (sprints 3 e 4)
 
@@ -445,7 +383,6 @@ Critérios INVEST | *(Por que é Independente? Por que é Negociável? Por que �
 *b) Vantagens Competitivas da Aplicação Web (até 250 palavras)*
 *Descreva os diferenciais da sua aplicação em relação aos concorrentes, sem necessidade de citação de fontes.*
 
-
 ## 6.4 Target audience
 
 *a) Segmentação de Mercado (até 250 palavras)*
@@ -453,7 +390,6 @@ Descreva os principais segmentos de mercado a serem atendidos pela aplicação. 
 
 *b) Perfil do Público-Alvo (até 250 palavras)*
 *Caracterize o público-alvo com dados demográficos, psicográficos e comportamentais, incluindo necessidades específicas. Utilize fontes obrigatórias.*
-
 
 ## 6.5 Positioning
 
