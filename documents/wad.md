@@ -188,6 +188,28 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;The Value Proposition Canvas is a tool that helps to better understand what customers really need and how a solution can efficiently meet those needs. It is part of the broader model called the Business Model Canvas, used to structure ideas and businesses in a clear way. In the Value Proposition Canvas, the focus is on connecting what is offered (product or service) with the expectations, desires, and difficulties of the people who will use it. This allows for the development of solutions that are more aligned with what the audience truly values, increasing the chances of success in the market.
 
+&nbsp;&nbsp;&nbsp;&nbsp;The structure of the Value Proposition Canvas is made up of two fundamental and complementary areas, which help us deeply understand the target audience and create more effective solutions:
+
+→ Customer Profile: investigates the characteristics, needs, and expectations of the people who will use the product or service. This part is subdivided into three key elements:
+
+- Customer Jobs: describes what the customer needs to accomplish — their roles, goals, and activities that directly influence their routine and outcomes.
+
+- Pains: points out the obstacles, frustrations, or difficulties that hinder the efficient achievement of those tasks.
+
+- Gains: identifies the expected benefits, desired improvements, and the factors that truly create value for the customer.
+
+→ Value Proposition: defines how the developed solution meets the demands of the audience, relieving pains and providing gains. This section is also divided into three components:
+
+- Products and Services: describes the offer created to meet the identified needs.
+
+- Pain Relievers: explains how the proposal helps solve or ease the challenges faced by the customer.
+
+- Gain Creators: presents the differentials and additional advantages offered, making the experience more positive and valuable.
+
+&nbsp;&nbsp;&nbsp;&nbsp;By applying the Value Proposition Canvas in the context of St. Paul's, we ensure that our group's proposal is centered on the real needs of the user, promoting more relevant, engaging, and transformative solutions. This methodology allows us to align innovation and purpose, as well as to stimulate strategic thinking and the development of projects that generate a positive impact in line with the school's values.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Below is an image that shows each of the topics mentioned, presenting the proposal developed by the group:
+
 <br>
 
 <div align="center">
@@ -206,9 +228,19 @@
 
 <br>
 
+&nbsp;&nbsp;&nbsp;&nbsp;Through the use of the Value Proposition Canvas, it was possible to clearly identify the users’ needs, relieve their pains, and generate concrete benefits. The solution presented stands out for its user-centered approach, promoting more meaningful, engaging experiences that are aligned with the values of the school. In this way, the project contributes not only to individual well-being, but also to strengthening the culture of innovation and collaboration at St. Paul’s.
+
 ### 2.1.5. Project Risk Matrix (Sprint 1)
 
-&nbsp;&nbsp;&nbsp;&nbsp;According to Tomaz, Gagliasso, and Malavota (2020), the risk matrix is a management tool that assists a project team in identifying the risks and threats that may negatively affect its execution. It is constructed by combining the likelihood of each event occurring with the impact it would have if it materializes. 
+&nbsp;&nbsp;&nbsp;&nbsp;According to Tomaz, Gagliasso, and Malavota (2020), the risk matrix is a management tool that assists a project team in identifying the risks and threats that may negatively affect its execution. It is constructed by combining the likelihood of each event occurring with the impact it would have if it materializes. Furthermore, these authors emphasize that developing a risk matrix is an iterative process: it is revisited at each work cycle to ensure that the mapping remains aligned with project changes. In this work, we have chosen to review and update our matrix at the beginning of each sprint.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Before presenting the Risk Matrix itself, it is important to explain how the information is structured. In the table below, we categorize the main risks identified for this sprint based on four elements:
+- **Risk Description**: a brief summary of the potential threat.
+- **Probability**: the likelihood of the risk occurring (classified as Low, Medium, High, or Very High).
+- **Impact**: the severity of the consequences if the risk materializes (also classified as Low, Medium, High, or Very High).
+- **Action Plan**: the strategies that will be adopted to mitigate or eliminate the identified risk.
+
+&nbsp;&nbsp;&nbsp;&nbsp;These classifications help the project team prioritize actions and allocate resources effectively throughout the sprint.
 
 <br>
 
@@ -239,6 +271,14 @@
 | **Low parental adoption and engagement (non-intuitive UX)**  | Low         | Very High  | To increase parental adoption, we will conduct usability sessions with real users, iterate on prototypes based on feedback, and develop onboarding materials along with synchronous training sessions to facilitate platform use.                                                             |
 
 #### 2.1.5.2. Opportunity Matrix
+
+&nbsp;&nbsp;&nbsp;&nbsp;Identifying opportunities is just as important as mapping risks, as it can significantly enhance the success and value generated by the project. In the Opportunity Matrix below, we categorize the main opportunities detected for this sprint based on four elements:
+- **Opportunity Description**: a brief summary of the favorable scenario identified.
+- **Probability**: the likelihood that the opportunity will materialize (classified as Low, Medium, High, or Very High).
+- **Impact**: the potential positive effect on the project if the opportunity materializes (also classified as Low, Medium, High, or Very High).
+- **Action Plan**: the steps that will be taken to capitalize on the opportunity and maximize its benefits.
+
+&nbsp;&nbsp;&nbsp;&nbsp;By proactively addressing these opportunities, the project team aims not only to mitigate risks but also to strengthen user satisfaction, system functionality, and project visibility.
 
 | Opportunity                                                  | Probability  | Impact    | Action Plan                                                                                                                                                                                                                                                        |
 |--------------------------------------------------------------|-------------:|----------:|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
