@@ -39,13 +39,33 @@
 
 # <a name="c1"></a>1. Introduction (sprints 1 to 5)
 
-&nbsp;&nbsp;&nbsp;&nbsp;St. Paul’s is a British school located in São Paulo, with nearly 100 years of history. The school identified a problem in the experience of its students’ parents: the official mobile app, used as the main communication channel, presents many limitations. Academic information such as homework, class schedules, number of absences, and announcements are not always available or are difficult to access via mobile phone, which causes disorganization in following their children's school life.
+&nbsp;&nbsp;&nbsp;&nbsp;St. Paul's is a world-class British school in São Paulo since 1926, offering the Anglo-Brazilian curriculum within a supportive community for ages 3-18. The school identified a problem in the experience of its students’ parents: the official mobile app, used as the main communication channel, presents many limitations. Academic information such as homework, class schedules, number of absences, and announcements are not always available or are difficult to access via mobile phone, which causes disorganization in following their children's school life.
 
 &nbsp;&nbsp;&nbsp;&nbsp;With the aim of solving this issue, St. Paul’s proposed a challenge to first-year students at Inteli: to develop a web portal aimed at parents. The proposal is to offer a platform accessible through a web browser, in a clear, organized, and easy-to-use format. The system will feature a simple and intuitive login screen, students’ personal information, class schedules, absence tracking, as well as a reports section to access information on child's academic performance in a visual way (dashboard).
 
 &nbsp;&nbsp;&nbsp;&nbsp;The project considers the main concerns reported by parents regarding the structure that the school already has. The solution seeks to add value to the community, promoting more efficient communication and encouraging more active participation from parents in their children’s educational journey.
 
 &nbsp;&nbsp;&nbsp;&nbsp;In this way, with more efficient access to information, parents will be able to follow their children’s academic performance more closely and with greater peace of mind.
+
+<br>
+
+<div align="center">
+  
+  <sub>Figure 01 - St. Paul's Student</sub>
+
+  
+  <br>
+  <br>
+  <img src="../assets/wad/stpaulspaulean.png" alt="Imagem da Forças de Porter" width="100%">
+  <br>
+  <br>
+
+  
+  <sup>Source: partner's website (2025)</sup>
+  
+</div>
+
+<br>
 
 # <a name="c2"></a>2. Overview of the Web Application (sprint 1)
 
@@ -57,7 +77,7 @@
 
 <div align="center">
   
-  <sub>Figure 01 - Porter's 5 forces</sub>
+  <sub>Figure 02 - Porter's 5 forces</sub>
 
   
   <br>
@@ -118,7 +138,7 @@
 
 <div align="center">
   
-  <sub>Figure 02 - SWOT Analysis Chart</sub>
+  <sub>Figure 03 - SWOT Analysis Chart</sub>
   <br>
   <br>
   <img src="../assets/wad/Visual_Chart_SWOT_Analysis.png" alt="Imagem da Forças de Porter" width="100%">
@@ -172,7 +192,7 @@
 
 <div align="center">
   
-  <sub>Figure 03 - Value Proposition Canvas</sub>
+  <sub>Figure 04 - Value Proposition Canvas</sub>
   <br>
   <br>
   <img src="../assets/wad/valuePropositionGraphic.png" alt="Imagem da Forças de Porter" width="100%">
@@ -194,7 +214,7 @@
 
 <div align="center">
   
-  <sub>Figure 04 - Risk Matrix</sub>
+  <sub>Figure 05 - Risk Matrix</sub>
   <br>
   <br>
   <img src="../assets/wad/matrizderisco.jpeg" alt="Imagem da Forças de Porter" width="100%">
@@ -228,7 +248,7 @@
 | **Future integration with external calendars**               | Medium       | Low       | To extend the system’s utility, we will evaluate the APIs of Google Calendar and Microsoft Outlook for potential integration.                                                                                                                                     |
 | **Implementation of an integrated chat between parents and teachers** | Low | High | To improve communication, we will prototype a chat solution using Socket.io or Firebase Realtime Database, establish clear moderation and privacy policies, and conduct controlled pilot tests prior to full deployment. |
 
-*This matrix will be reviewed at the beginning of each sprint, with probabilities, impacts, and action plans adjusted according to project progress.*
+&nbsp;&nbsp;&nbsp;&nbsp;This matrix will be reviewed at the beginning of each sprint, with probabilities, impacts, and action plans adjusted according to project progress.
 
 ## 2.2. Personas (sprint 1)
 
@@ -240,7 +260,7 @@
 
 <div align="center">
   
-  <sub>Figure 05 - The Father (persona)</sub>
+  <sub>Figure 06 - The Father (persona)</sub>
   <br>
   <br>
   <img src="../assets/wad/Father 2.png" alt="Parent" width="100%">
@@ -258,7 +278,7 @@
 
 <div align="center">
   
-  <sub>Figure 06 - The IT Analyst (persona)</sub>
+  <sub>Figure 07 - The IT Analyst (persona)</sub>
   <br>
   <br>
   <img src="../assets/wad/IT Analyst .jpg" alt="IT Analyst" width="100%">
@@ -276,7 +296,7 @@
 
 <div align="center">
   
-  <sub>Figure 07 - The Marketing Manager (persona)</sub>
+  <sub>Figure 08 - The Marketing Manager (persona)</sub>
   <br>
   <br>
   <img src="../assets/wad/Marketing Manager.jpg" alt="Marketing Manager" width="100%">
@@ -303,82 +323,89 @@
 
 Identification | US01 
 --- | ---
+Persona | Júlio Oliveira
+User Story | "As an IT Analyst, I want to access comprehensive project documentation, so I can fully understand the system's architecture and functionalities to proceed with development and troubleshooting effectively"
+Acceptance Criteria 1 | **Scenario**: The IT Analyst accesses the project documentation. **Test:** The documentation should be well-structured, covering system architecture, API references, database schemas, and deployment guidelines.
+Critérios INVEST | **Independent::** Can be implemented without dependency on other features. **Negotiable:** Details (format, tools) can be adjusted (e.g., Markdown, Confluence, or Swagger). **Valuable:** Ensures smoother development and maintenance. **Estimable:** Effort to create/improve documentation can be estimated. **Small:** Can be broken into smaller tasks (e.g., "Document API endpoints"). **Testable:** Verifiable by checking if docs exist, are updated, and are useful.
+
+Identification | US02
+--- | ---
 Persona | Carolina Mendes
 User Story | "As the school’s  Marketing Manager, I need to be able to delete a publication from the website, so I can remove any outdated or incorrect information."
 Acceptance Criteria 1 | **Scenario:** The marketing manager is logged into the admin panel. **Acceptance Test:** When clicking the "Delete" button on a publication, it should be permanently removed from the website and no longer appear in the list of publications.
 Acceptance Criteria 2 | **Scenario:** The manager tries to delete a publication that doesn’t exist or has already been deleted. **Acceptance Test:** The system should display an error message indicating that the publication was not found.
-Critérios INVEST | **independent**  delete a publication doesn’t rely on other features. **negotiable**  the process of giving permission can be negotiated. **valuable**  it provides value by maintaining the accuracy of the website, ensuring the information is up-to-date. **estimable**  its a small task its time to be completed can be determined/estimated. **small** its a concise user storie that focus on a single action. **testable** it can be tested, just needs one person to delete a post.
+Critérios INVEST | **Independent::**  delete a publication doesn’t rely on other features. **Negotiable:**  the process of giving permission can be negotiated. **Valuable:**  it provides value by maintaining the accuracy of the website, ensuring the information is up-to-date. **Estimable:**  its a small task its time to be completed can be determined/estimated. **Small:** its a concise user storie that focus on a single action. **testable** it can be tested, just needs one person to delete a post.
 
-Identification | US02 
+Identification | US03
 --- | ---
 Persona | Carolina Mendes
-User Story | As the school’s marketing manager, I want a simple interface to publish school news, so that I can easily share updates with the school community.
+User Story | "As the school’s marketing manager, I want a simple interface to publish school news, so that I can easily share updates with the school community."
 Acceptance Criteria 1 | **Scenario:** The manager accesses the admin panel and fills out the new post form. **Acceptance Test:** When all required fields are filled and "Publish" is clicked, the news should appear on the website under the news section.
 Acceptance Criteria 2 | **Scenario:** The manager leaves a required field blank. **Acceptance Test:** The system should display a message indicating the missing fields and not allow submission until they are filled.
-Critérios INVEST | **independent**  This task does not rely on other features or systems to work. **negotiable** The details of how the interface looks or functions are not strictly defined. **valuable** It makes it easier for the marketing manager to publish updates, which helps improve communication with the community. **estimable** can be estimated the effort needed to create a simple interface for publishing news. **small** it might need to be broken down into smaller stories **testable** It can be tested by checking if the marketing manager can successfully use the interface to publish school news.
+Critérios INVEST | **Independent:**  This task does not rely on other features or systems to work. **Negotiable:** The details of how the interface looks or functions are not strictly defined. **Valuable:** It makes it easier for the marketing manager to publish updates, which helps improve communication with the community. **Estimable:** can be estimated the effort needed to create a simple interface for publishing news. **Small:** it might need to be broken down into sSmall:er stories **testable** It can be tested by checking if the marketing manager can successfully use the interface to publish school news.
 
-Identification | US03 
+Identification | US04
 --- | ---
 Persona | Daniel Thompson
-User Story | As a father who is searching for the balance between a new executive position and the proper attention directed to my son's trail, I'd like to access his academic information in a single platform, so that I can stay involved in his school life considering my heavy schedule.
+User Story | "As a father who is searching for the balance between a new executive position and the proper attention directed to my son's trail, I'd like to access his academic information in a single platform, so that I can stay involved in his school life considering my heavy schedule."
 Acceptance Criteria 1 | **Scenario:** The father logs into the platform with valid credentials. **Acceptance Test:** The platform displays grades, attendance, and recent activities in a clear and organized manner.
 Acceptance Criteria 2 | **Scenario:** The father tries to access the system without being authenticated. **Acceptance Test:** The system redirects to the login screen and blocks access to student information.
-Critérios INVEST | **independent**  The story describes a standalone feature that doesn’t depend on other fetures. **negotiable** The details ,such as design, data, and delivery, can be negotiated. **valuable** It provides value to the parent by offering a platform to stay involved in their son’s academic life. **estimable** The technical work involved is clear enough for estimation. **small** The scope of this story is clear and achievable within a short time. **testable** It can be tested by checking if the marketing manager can successfully use the interface to publish school news.
-
-Identification | US04 
---- | ---
-Persona | Daniel Thompson
-User Story | As a parent, I wish there was a simple place where I could easily follow my daughter’s grades, attendance, and school updates without feeling lost in complicated websites.
-Acceptance Criteria 1 | **Scenario:** The parent navigates through the dashboard. **Acceptance Test:** Information is organized into clearly defined tabs or sections (Grades, Attendance, Updates).
-Acceptance Criteria 2 | **Scenario:** There is an error retrieving student data. **Acceptance Test:** The system displays a friendly error message and offers a retry option.
-Critérios INVEST | **independent**  its standalone, focusing only on a parent’s access to their child’s school data. **negotiable** layout, types of data, and presentation style can be negotiated. **valuable** It delivers significant value by helping parents easily track academic progress and school updates. **estimable** The effort required to build the tracking system can be estimated. **small** The story is focused on one specific need, making it manageable in size. **testable** it can be tested by ensuring parents can view grades, attendance, and updates.
+Critérios INVEST | **Independent:**  The story describes a standalone feature that doesn’t depend on other fetures. **Negotiable:** The details ,such as design, data, and delivery, can be negotiated. **Valuable:** It provides value to the parent by offering a platform to stay involved in their son’s academic life. **Estimable:** The technical work involved is clear enough for estimation. **Small:** The scope of this story is clear and achievable within a short time. **testable** It can be tested by checking if the marketing manager can successfully use the interface to publish school news.
 
 Identification | US05 
 --- | ---
+Persona | Daniel Thompson
+User Story | "As a parent, I wish there was a simple place where I could easily follow my daughter’s grades, attendance, and school updates without feeling lost in complicated websites."
+Acceptance Criteria 1 | **Scenario:** The parent navigates through the dashboard. **Acceptance Test:** Information is organized into clearly defined tabs or sections (Grades, Attendance, Updates).
+Acceptance Criteria 2 | **Scenario:** There is an error retrieving student data. **Acceptance Test:** The system displays a friendly error message and offers a retry option.
+Critérios INVEST | **Independent:**  its standalone, focusing only on a parent’s access to their child’s school data. **Negotiable:** layout, types of data, and presentation style can be negotiated. **Valuable:** It delivers significant value by helping parents easily track academic progress and school updates. **Estimable:** The effort required to build the tracking system can be estimated. **Small:** The story is focused on one specific need, making it manageable in size. **testable** it can be tested by ensuring parents can view grades, attendance, and updates.
+
+Identification | US06 
+--- | ---
 Persona | Júlio Oliveira
-User Story | As an IT Analyst, I want to be able to manage the parent platform in such a way as to be able to combat any technological failures and promote quality support for the members of the school community who use the platform.
+User Story | "As an IT Analyst, I want to be able to manage the parent platform in such a way as to be able to combat any technological failures and promote quality support for the members of the school community who use the platform."
 Acceptance Criteria 1 | **Scenario:** A technical failure occurs on the parent platform. **Acceptance Test:** The platform logs the incident automatically and notifies the IT Analyst, who can access a dashboard with real-time system status and logs.
 Acceptance Criteria 2 | **Scenario:** A parent reports an issue through the support channel. **Acceptance Test:** The IT Analyst receives the ticket, can view issue details, assign priority, and update the status, ensuring that resolution steps are documented and communicated.
-Critérios INVEST | **independent** describes a distinct requirement for managing the platform, with no dependency on other user stories. **negotiable** methods or tools used for managing failures and providing support can be adjusted, allowing for flexibility in implementation. **valuable** ensures that the platform remains functional and efficient, benefiting the entire school community. **estimable** can be estimated with clarity. **small** it can be broken down into smaller tasks. **testable** It can be tested by measuring the IT system’s reliability and responsiveness to issues.
-
-Identification | US06
---- | ---
-Persona | Carolina Mendes
-User Story | As the school’s marketing manager, I want to offer a comfortable and informative onboarding process for new families, in order for them to feel welcomed and understand our internal community dynamics
-Acceptance Criteria 1 | **Scenario:** A new family accesses the platform for the first time. **Acceptance Test:** The platform presents an interactive tour or guide with basic school information, contacts, and calendar.
-Acceptance Criteria 2 | **Scenario:** The family wants to review the onboarding information later. **Acceptance Test:** There should be a button/menu to access the welcome content again.
+Critérios INVEST | **Independent:** describes a distinct requirement for managing the platform, with no dependency on other user stories. **Negotiable:** methods or tools used for managing failures and providing support can be adjusted, allowing for flexibility in implementation. **Valuable:** ensures that the platform remains functional and efficient, benefiting the entire school community. **Estimable:** can be estimated with clarity. **Small:** it can be broken down into smaller tasks. **Testable:** It can be tested by measuring the IT system’s reliability and responsiveness to issues.
 
 Identification | US07
 --- | ---
-Persona | Júlio Oliveira
-User Story | As a moderator, I want every prospective student to feel confident and supported from their first interaction, without delays or confusion caused by missing information or unclear processes.
-Acceptance Criteria 1 | **Scenario:** A new student registers on the platform. **Acceptance Test:** The system automatically sends an email with clear and complete instructions on the next steps.
-Acceptance Criteria 2 | **Scenario:** The student does not receive the email or has questions. **Acceptance Test:** A visible support channel (chat or email) must be available on the initial interface.
+Persona | Carolina Mendes
+User Story | "As the school’s marketing manager, I want to offer a comfortable and informative onboarding process for new families, in order for them to feel welcomed and understand our internal community dynamics."
+Acceptance Criteria 1 | **Scenario:** A new family accesses the platform for the first time. **Acceptance Test:** The platform presents an interactive tour or guide with basic school information, contacts, and calendar.
+Acceptance Criteria 2 | **Scenario:** The family wants to review the onboarding information later. **Acceptance Test:** There should be a button/menu to access the welcome content again.
 
 Identification | US08
 --- | ---
 Persona | Júlio Oliveira
-User Story | As a moderator, I need to be able to manage user’s roles and permissions, so each member can only access what they need.
-Acceptance Criteria 1 | **Scenario:** The moderator accesses the user management panel. **Acceptance Test:** The system allows changing a user's role with just a few clicks.
-Acceptance Criteria 2 | **Scenario:** The moderator tries to assign an invalid role. **Acceptance Test:** The system prevents the action and displays a clear message about the invalid permission.
+User Story | "As a moderator, I want every prospective student to feel confident and supported from their first interaction, without delays or confusion caused by missing information or unclear processes."
+Acceptance Criteria 1 | **Scenario:** A new student registers on the platform. **Acceptance Test:** The system automatically sends an email with clear and complete instructions on the next steps.
+Acceptance Criteria 2 | **Scenario:** The student does not receive the email or has questions. **Acceptance Test:** A visible support channel (chat or email) must be available on the initial interface.
 
 Identification | US09
 --- | ---
-Persona | Daniel Thompson
-User Story | As a parent I want to easily find the school contact, so that I can reach the school when needed.
-Acceptance Criteria 1 | **Scenario:** The parent accesses the school website/platform. **Acceptance Test:** The school’s contact info (phone, email, address) should be visible within two clicks.
-Acceptance Criteria 2 | **Scenario:** The parent clicks or copies the contact info. **Acceptance Test:** The phone number should open the default email app.
+Persona | Júlio Oliveira
+User Story | "As a moderator, I need to be able to manage user’s roles and permissions, so each member can only access what they need."
+Acceptance Criteria 1 | **Scenario:** The moderator accesses the user management panel. **Acceptance Test:** The system allows changing a user's role with just a few clicks.
+Acceptance Criteria 2 | **Scenario:** The moderator tries to assign an invalid role. **Acceptance Test:** The system prevents the action and displays a clear message about the invalid permission.
 
 Identification | US10
 --- | ---
 Persona | Daniel Thompson
-User Story | As a parent, I need to be able to change my contact number, so the school can contact me if needed.
+User Story | "As a parent I want to easily find the school contact, so that I can reach the school when needed."
+Acceptance Criteria 1 | **Scenario:** The parent accesses the school website/platform. **Acceptance Test:** The school’s contact info (phone, email, address) should be visible within two clicks.
+Acceptance Criteria 2 | **Scenario:** The parent clicks or copies the contact info. **Acceptance Test:** The phone number should open the default email app.
+
+Identification | US11
+--- | ---
+Persona | Daniel Thompson
+User Story | "As a parent, I need to be able to change my contact number, so the school can contact me if needed."
 Acceptance Criteria 1 |**Scenario:** The parent accesses their profile. **Acceptance Test:** The "phone number" field should be editable, and the new number should be saved upon confirmation.
 Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number format. **Acceptance Test:** The system validates the format and shows an error message, preventing submission.
 
-This section presented 11 user stories aligned with the previously defined personas, ensuring the system addresses real user needs while maintaining security through role-based access control. Each story follows the INVEST criteria, making them actionable for development in Sprints 1 to 5.
+&nbsp;&nbsp;&nbsp;&nbsp;This section presented 11 user stories aligned with the previously defined personas, ensuring the system addresses real user needs while maintaining security through role-based access control. Each story follows the INVEST criteria, making them actionable for development in Sprints 1 to 5.
 
-We constantly refine these requirements into technical tasks, ensuring a smooth transition from user needs to implemented features. By maintaining this structured approach, we ensure the final product remains user-centric, secure, and efficient.
+&nbsp;&nbsp;&nbsp;&nbsp;We constantly refine these requirements into technical tasks, ensuring a smooth transition from user needs to implemented features. By maintaining this structured approach, we ensure the final product remains user-centric, secure, and efficient.
 
 # <a name="c3"></a>3. Web Application's Technical Project (sprints 1 a 4)
 
