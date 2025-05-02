@@ -197,11 +197,72 @@
 
 <!-- *Posicione aqui suas Personas em forma de texto markdown com imagens, ou como imagem de template preenchido. Atualize esta seção ao longo do módulo se necessário.* -->
 
+&nbsp;&nbsp;&nbsp;&nbsp;In this section, we present 3 proto-personas representing potential users of the system. These personas, though hypothetical, are designed to reflect real user needs, pain points, and behaviors in the context of the problem being addressed. By defining these personas, we aim to align the product development process with user expectations, ensuring that the solution is both relevant and effective. The personas follow a structured template, maintaining clarity and coherence with the project’s objectives.
+
+<br>
+
+<div align="center">
+  
+  <sub>Figure 05 - The Father (persona)</sub>
+  <br>
+  <br>
+  <img src="../assets/wad/Father 2.png" alt="Parent" width="100%">
+  <br>
+  <br>
+
+  
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+<br>
+
+<div align="center">
+  
+  <sub>Figure 06 - The IT Analyst (persona)</sub>
+  <br>
+  <br>
+  <img src="../assets/wad/IT Analyst .jpg" alt="IT Analyst" width="100%">
+  <br>
+  <br>
+
+  
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+<br>
+
+<div align="center">
+  
+  <sub>Figure 07 - The Marketing Manager (persona)</sub>
+  <br>
+  <br>
+  <img src="../assets/wad/Marketing Manager.jpg" alt="Marketing Manager" width="100%">
+  <br>
+  <br>
+
+  
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;The defined personas provide a clear understanding of the target users, their challenges, and their expectations from the system. Each persona represents a distinct access level within the system, reinforcing the importance of access hierarchy — a fundamental concept in information security, particularly in IT network environments. This hierarchy determines which users or groups have permission to access specific resources, ensuring proper control and security.
+
+&nbsp;&nbsp;&nbsp;&nbsp;By aligning these personas with their respective access roles, we establish a structured foundation for defining system permissions. In the next section (User Stories), these access-related functionalities will be further detailed, as the requirements were derived directly from the three personas presented here. This ensures that security constraints, role-based actions, and user needs are cohesively integrated into the system's design.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Future iterations may refine these personas and their access levels based on real user feedback and evolving security requirements, maintaining both usability and compliance.
 
 
 ## 2.3. User Stories (sprints 1 a 5)
 
-User stories are short, simple descriptions of a feature or functionality that a software system should have, written from the perspective of the end user. By focusing on their POV, user stories ensure that the software being developed addresses real-world problems.
+&nbsp;&nbsp;&nbsp;&nbsp;User stories are short, simple descriptions of a feature or functionality that a software system should have, written from the perspective of the end user. By focusing on their POV, user stories ensure that the software being developed addresses real-world problems.
 
 Identification | US01 
 --- | ---
@@ -277,6 +338,10 @@ Persona | Daniel Thompson
 User Story | As a parent, I need to be able to change my contact number, so the school can contact me if needed.
 Acceptance Criteria 1 |**Scenario:** The parent accesses their profile. **Acceptance Test:** The "phone number" field should be editable, and the new number should be saved upon confirmation.
 Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number format. **Acceptance Test:** The system validates the format and shows an error message, preventing submission.
+
+This section presented 11 user stories aligned with the previously defined personas, ensuring the system addresses real user needs while maintaining security through role-based access control. Each story follows the INVEST criteria, making them actionable for development in Sprints 1 to 5.
+
+We constantly refine these requirements into technical tasks, ensuring a smooth transition from user needs to implemented features. By maintaining this structured approach, we ensure the final product remains user-centric, secure, and efficient.
 
 # <a name="c3"></a>3. Web Application's Technical Project (sprints 1 a 4)
 
