@@ -73,6 +73,43 @@
 
 <br>
 
+1. Threat of New Entrants → LOW
+&nbsp;&nbsp;&nbsp;&nbsp;Very high entry barriers: Paul’s has held official recognition from the British Crown since 2012, being the first school in South America to receive this endorsement. This grants the school a high level of exclusivity and institutional authority, along with a legacy since 1926, robust infrastructure, and prestige. 
+&nbsp;&nbsp;&nbsp;&nbsp;The bilingual curriculum, IB programs, and internationally qualified staff require significant expertise and investment. High parent loyalty further discourages switching.
+
+
+
+2. Threat of Substitutes → MODERATE
+&nbsp;&nbsp;&nbsp;&nbsp;Indirect competition: Other bilingual/international schools (e.g., Avenues, Chapel, Graded) lack Crown recognition, weakening their legitimacy. 
+&nbsp;&nbsp;&nbsp;&nbsp;Online education has limited appeal in this premium segment, and the symbolic value of a British diploma for top universities is hard to replace.
+
+
+
+
+
+3.  Bargaining Power of Suppliers → MODERATE
+&nbsp;&nbsp;&nbsp;&nbsp;Key suppliers: bilingual and internationally trained teachers, educational technology companies, and outsourced services.
+&nbsp;&nbsp;&nbsp;&nbsp;The school attracts talent through its strong brand name and offers good contractual conditions, reducing dependence on specific suppliers. However, top-tier teachers retain bargaining power as they can move to other elite institutions.
+&nbsp;&nbsp;&nbsp;&nbsp;In areas such as educational technology (e.g., platforms tailored to the British curriculum), there may be greater dependence. High-end platforms adapted to British or IB curricula have limited providers and thus stronger pricing power.
+&nbsp;&nbsp;&nbsp;&nbsp;Imported educational materials (like British textbooks and IB-specific resources) may be subject to currency fluctuations and logistical issues, increasing dependency.
+
+
+
+4. Bargaining Power of Customers (Parents and Students) → MODERATE
+&nbsp;&nbsp;&nbsp;&nbsp;Demanding and selective clientele: High-income families focused on international education are vocal about their expectations and standards.
+&nbsp;&nbsp;&nbsp;&nbsp;However, the prestige and authority of the official British seal make St. Paul’s an aspirational choice, which limits the direct negotiation power of families.
+&nbsp;&nbsp;&nbsp;&nbsp;Institutional exclusivity: St. Paul’s is one of the few officially British schools in South America, which drastically limits direct substitute options.
+&nbsp;&nbsp;&nbsp;&nbsp;Recognition by the British Crown provides both symbolic and practical prestige that is not easily replicated.
+&nbsp;&nbsp;&nbsp;&nbsp;High demand, limited seats: The school keeps small class sizes and a limited number of admissions, which creates demand that exceeds supply.
+&nbsp;&nbsp;&nbsp;&nbsp;Strong reputation for results: The school’s track record in preparing students for universities in the UK, the US, and elsewhere reinforces parental trust in its educational model.
+
+
+
+
+5. Rivalry Among Existing Competitors → HIGH  (but mitigated by advantage)
+&nbsp;&nbsp;&nbsp;&nbsp;Competitors (Graded, Chapel, Avenues) target similar students but lack British recognition. St. Paul’s unique status reduces direct comparability, solidifying its leadership in the elite education market.
+
+
 ### 2.1.2. SWOT Analysis of the Partner Institution (sprint 1)
 
 &nbsp;&nbsp;&nbsp;&nbsp;St Paul's School boasts a strong academic reputation and a comprehensive international curriculum, propelling its students to prestigious universities globally. Its holistic education and diverse community are strengths. However, the high cost of tuition limits accessibility and can generate perceptions of elitism. The school also faces challenges with its current infrastructure, which prevents significant expansion. Despite this, there are opportunities to strengthen partnerships, adopt innovative educational trends and increase engagement with the local community. Competition from other international schools and economic instability pose constant threats. This concludes the definition of the institution's SWOT analysis.
