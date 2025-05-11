@@ -167,7 +167,7 @@ Competitors (Graded, Chapel, Avenues) target similar students but lack British r
   <sub>Figure 03 - SWOT Analysis Chart</sub>
   <br>
   <br>
-  <img src="../assets/wad/Visual_Chart_SWOT_Analysis.png" alt="Imagem da Forças de Porter" width="100%">
+  <img src="../assets/wad/Visual_Chart_SWOT_Analysis.jpg" alt="Imagem da Forças de Porter" width="100%">
   <br>
   <br>
 
