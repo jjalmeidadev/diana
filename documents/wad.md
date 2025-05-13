@@ -525,8 +525,8 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
 
 #1 | ---
 --- | ---
-**Expressão SQL** | UPDATE Aluno SET endereco = 'Rua Galeno de Almeida, 1200' WHERE (nome_aluno = 'John' AND sobrenome_aluno != 'Smith') AND (id = 24); 
-**Proposições lógicas** | $A$: O endereco é 'Rua Galeno de Almeida, 1200' (endereco = 'Rua Galeno de Almeida, 1200') <br> $B$: O nome do aluno é John (nome_aluno = 'John') <br> $C$: O ID do aluno deve ser 24 (id = 24)
+**Expressão SQL** | UPDATE student SET address = 'Rua Galeno de Almeida, 1200' WHERE (student_name = 'John' AND surname_student != 'Smith') AND (id = 24); 
+**Proposições lógicas** | $A$: The address is 'Rua Galeno de Almeida, 1200' (address = 'Rua Galeno de Almeida, 1200') <br> $B$: The students name is John (student_name = 'John') <br> $C$: The id must be 24 (id = 24)
 **Expressão lógica proposicional** | $(A \land B) \land C$
 **Tabela Verdade** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$C$</th> <th>$(A \land B)$</th> <th>$(A \land B) \land C$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>F</td> <td>V</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>V</td> <td>F</td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>V</td> <td>F</td> <td>F</td> </tr> <tr> <td>V</td> <td>V</td> <td>F</td> <td>V</td> <td>F</td> </tr> <tr> <td>V</td> <td>V</td> <td>V</td> <td>V</td> <td>V</td> </tr> </tbody> </table>
 
