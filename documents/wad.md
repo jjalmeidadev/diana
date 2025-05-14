@@ -245,7 +245,7 @@ Competitors (Graded, Chapel, Avenues) target similar students but lack British r
   <sub>Figure 04 - Value Proposition Canvas</sub>
   <br>
   <br>
-  <img src="../assets/wad/valuePropositionGraphic.png" alt="Imagem da Forças de Porter" width="100%">
+ "![Screenshot 2025-05-14 15 21 48](https://github.com/user-attachments/assets/5debcab3-5928-431f-a7df-7dfc80bfc361)
   <br>
   <br>
 
