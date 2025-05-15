@@ -533,21 +533,23 @@ This expression would be used when the necessity of updating an specific student
 
 This expression would be used in a context in which a subject (Business & Management, Physics and Computer Science for example) is inappropriately assigned for a pre prep student, considering that his grade doesn't approach such a level of complexity yet.
 
-*Template de SQL + lógica proposicional*
-#3 | ---
+#3 | —
 --- | ---
-**Expressão SQL** | SELECT * FROM suppliers WHERE (state = 'California' AND supplier_id <> 900) OR (supplier_id = 100); 
-**Proposições lógicas** | $A$: O estado é 'California' (state = 'California') <br> $B$: O ID do fornecedor não é 900 (supplier_id ≠ 900) <br> $C$: O ID do fornecedor é 100 (supplier_id = 100)
-**Expressão lógica proposicional** | $(A \land B) \lor C$
-**Tabela Verdade** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$C$</th> <th>$(A \land B)$</th> <th>$(A \land B) \lor C$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>F</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>F</td> <td>V</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>V</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>V</td> <td>V</td> <td>F</td> <td>V</td> <td>V</td> </tr> <tr> <td>V</td> <td>V</td> <td>V</td> <td>V</td> <td>V</td> </tr> </tbody> </table>
+**SQL Expression**  | SELECT a.id_aluno, a.nome_aluno, f.faltas_mes, g.media_geral, d.observacao_flag FROM alunos a JOIN faltas f ON f.aluno_id = a.id_aluno JOIN medias g ON g.aluno_id = a.id_aluno LEFT JOIN discip d ON d.aluno_id = a.id_aluno WHERE (f.faltas_mes > 5 AND g.media_geral < 60) OR d.observacao_flag = TRUE;
+**Logical propositions** | $A$: faltas\_mes > 5 <br> $B$: media\_geral < 60 <br> $C$: observacao\_flag = TRUE
+**Propositional logic expression** | $(A \land B) \lor C$
+**Truth Table**  | <table> <thead> <tr><th>$A$</th><th>$B$</th><th>$C$</th><th>$(A \land B)$</th><th>$(A \land B) \lor C$</th></tr></thead><tbody><tr><td>F</td><td>F</td><td>F</td><td>F</td><td>F</td></tr><tr><td>F</td><td>F</td><td>T</td><td>F</td><td>T</td></tr><tr><td>F</td><td>T</td><td>F</td><td>F</td><td>F</td></tr><tr><td>F</td><td>T</td><td>T</td><td>F</td><td>T</td></tr><tr><td>T</td><td>F</td><td>F</td><td>F</td><td>F</td></tr><tr><td>T</td><td>F</td><td>T</td><td>F</td><td>T</td></tr><tr><td>T</td><td>T</td><td>F</td><td>T</td><td>T</td></tr><tr><td>T</td><td>T</td><td>T</td><td>T</td><td>T</td></tr></tbody></table>
 
-*Template de SQL + lógica proposicional*
-#4 | ---
+This SQL query is designed to identify students who are potentially at academic risk by selecting those who either have more than five absences in the month and an overall grade below 60, or who have been flagged for disciplinary observation—useful for educators or academic advisors in a secondary‐school setting to proactively target support and interventions for these students.
+
+#4 | —
 --- | ---
-**Expressão SQL** | SELECT * FROM suppliers WHERE (state = 'California' AND supplier_id <> 900) OR (supplier_id = 100); 
-**Proposições lógicas** | $A$: O estado é 'California' (state = 'California') <br> $B$: O ID do fornecedor não é 900 (supplier_id ≠ 900) <br> $C$: O ID do fornecedor é 100 (supplier_id = 100)
-**Expressão lógica proposicional** | $(A \land B) \lor C$
-**Tabela Verdade** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$C$</th> <th>$(A \land B)$</th> <th>$(A \land B) \lor C$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>F</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>F</td> <td>V</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>V</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>V</td> <td>V</td> <td>F</td> <td>V</td> <td>V</td> </tr> <tr> <td>V</td> <td>V</td> <td>V</td> <td>V</td> <td>V</td> </tr> </tbody> </table>
+**SQL Expression**  | SELECT t.id_tarefa, t.titulo, t.data_entrega, t.concluida, t.prioridade FROM tarefas t JOIN alunos a ON t.aluno_id = a.id_aluno JOIN pais p ON a.pais_id = p.id_pai WHERE p.id_pai = :id_pai AND NOT t.concluida AND ((t.data_entrega BETWEEN CURRENT_DATE AND CURRENT_DATE + INTERVAL '7 days') OR t.prioridade = 'alta');
+**Logical propositions** | $D$: ¬concluida <br> $E$: data\_entrega ∈ [hoje, hoje+7d] <br> $F$: prioridade = ‘alta’
+**Propositional logic expression** | $D \land (E \lor F)$
+**Truth Table**  | <table> <thead> <tr><th>$D$</th><th>$E$</th><th>$F$</th><th>$(E \lor F)$</th><th>$(D \land (E \lor F))$</th></tr></thead><tbody><tr><td>F</td><td>F</td><td>F</td><td>F</td><td>F</td></tr><tr><td>F</td><td>F</td><td>T</td><td>T</td><td>F</td></tr><tr><td>F</td><td>T</td><td>F</td><td>T</td><td>F</td></tr><tr><td>F</td><td>T</td><td>T</td><td>T</td><td>F</td></tr><tr><td>T</td><td>F</td><td>F</td><td>F</td><td>F</td></tr><tr><td>T</td><td>F</td><td>T</td><td>T</td><td>T</td></tr><tr><td>T</td><td>T</td><td>F</td><td>T</td><td>T</td></tr><tr><td>T</td><td>T</td><td>T</td><td>T</td><td>T</td></tr></tbody></table>
+
+This SQL query lets a parent (identified by :id_pai) pull all of their child’s outstanding assignments—selecting only those not yet completed (¬concluída) that either are due within the next seven days or have been flagged as high priority. It’s useful in a student-management or homework-tracking system to give parents an at-a-glance view of imminent or important tasks requiring their child’s attention.
 
 ## 3.6. WebAPI and endpoints (sprints 3 e 4)
 
