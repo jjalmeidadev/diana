@@ -39,13 +39,15 @@
 
 # <a name="c1"></a>1. Introduction (sprints 1 to 5)
 
-&nbsp;&nbsp;&nbsp;&nbsp;St. Paul's is a world-class British school in São Paulo since 1926, offering the Anglo-Brazilian curriculum within a supportive community for ages 3-18. The school identified a problem in the experience of its students’ parents: the official mobile app, used as the main communication channel, presents many limitations. Academic information such as homework, class schedules, number of absences, and announcements are not always available or are difficult to access via mobile phone, which causes disorganization in following their children's school life.
+&nbsp;&nbsp;&nbsp;&nbsp;St. Paul’s is a reference in British education in Brazil, and it is the first school to receive the British School Overseas certification in Latin America. Located in São Paulo since 1926, the institution offers an Anglo-Brazilian curriculum for students from 3 to 18 years old, combining academic excellence with a multicultural and bilingual education. The school aims to innovate and maintain its quality education, and recently identified an opportunity to improve communication with the parents of its students.
 
-&nbsp;&nbsp;&nbsp;&nbsp;With the aim of solving this issue, St. Paul’s proposed a challenge to first-year students at Inteli: to develop a web portal aimed at parents. The proposal is to offer a platform accessible through a web browser, in a clear, organized, and easy-to-use format. The system will feature a simple and intuitive login screen, students’ personal information, class schedules, absence tracking, as well as a reports section to access information on child's academic performance in a visual way (dashboard).
+&nbsp;&nbsp;&nbsp;&nbsp;Currently, if a parent wants to check if their child has submitted a homework assignment or missed a class, they need to access the school's app and navigate through different menus. However, this app has limitations: information such as class schedules, absences, event notices, and homework assignments are not always available or easily accessible, making it difficult to track their child’s school life.
 
-&nbsp;&nbsp;&nbsp;&nbsp;The project considers the main concerns reported by parents regarding the structure that the school already has. The solution seeks to add value to the community, promoting more efficient communication and encouraging more active participation from parents in their children’s educational journey.
+&nbsp;&nbsp;&nbsp;&nbsp;To solve these challenges, St. Paul’s proposed a challenge to first-year students at Inteli: to develop a web portal exclusively for the parents. The proposal is to build a platform with simple navigation, accessible via browser, clear and intuitive. The portal will include login, personal student data, class schedules, absence control, and academic performance reports. With the new solution, this information will be visible on the homepage, with real-time updates, making it easier to monitor with just a few clicks.
 
-&nbsp;&nbsp;&nbsp;&nbsp;In this way, with more efficient access to information, parents will be able to follow their children’s academic performance more closely and with greater peace of mind.
+&nbsp;&nbsp;&nbsp;&nbsp;By simplifying access to information, the portal allows parents to monitor their child’s school routine in just a few clicks, reducing the time spent searching through different communication channels. They will be able to quickly consult important data without relying on confusing channels, saving time and effort in their daily lives. With everything gathered in one practical platform, communication with the school will become more efficient. Thus, the platform not only centralizes data but also adds real value to the parents’ experience, promoting a more transparent and practical relationship between family and school.
+
+&nbsp;&nbsp;&nbsp;&nbsp;The project takes into account the main concerns reported by parents regarding the current structure of the school. The solution seeks to add value to the school community, promoting more efficient communication and encouraging a more active participation of parents in their children’s educational journey.
 
 <br>
 
@@ -167,7 +169,7 @@ Competitors (Graded, Chapel, Avenues) target similar students but lack British r
   <sub>Figure 03 - SWOT Analysis Chart</sub>
   <br>
   <br>
-  <img src="../assets/wad/Visual_Chart_SWOT_Analysis.png" alt="Imagem da Forças de Porter" width="100%">
+  <img src="../assets/wad/Visual_Chart_SWOT_Analysis.jpg" alt="Imagem da Forças de Porter" width="100%">
   <br>
   <br>
 
@@ -243,7 +245,7 @@ Competitors (Graded, Chapel, Avenues) target similar students but lack British r
   <sub>Figure 04 - Value Proposition Canvas</sub>
   <br>
   <br>
-  <img src="../assets/wad/valuePropositionGraphic.png" alt="Imagem da Forças de Porter" width="100%">
+ "![Screenshot 2025-05-14 15 21 48](https://github.com/user-attachments/assets/5debcab3-5928-431f-a7df-7dfc80bfc361)
   <br>
   <br>
 
@@ -591,41 +593,135 @@ Behavioral tracking screen displaying merits and warnings.
 
 ### 3.5.1. Relational model (sprints 2 e 4)
 
-*posicione aqui os diagramas de modelos relacionais do seu banco de dados, apresentando todos os esquemas de tabelas e suas relações. Utilize texto para complementar suas explicações, se necessário* 
+Relational database modeling is the process of designing the structure of a database based on the principles of the relational model. Its purpose is to organize all the information into tables and to clearly represent the relationships among them, ensuring data is structured, consistent, and easy to access.
 
-### 3.5.2. SQL queries and propositional logic (sprint 2)
+![supabase-schema-yexhdilbyibjfvrflcsm (4)](https://github.com/user-attachments/assets/8dd75f2d-5d18-40cf-a6ed-23add51b7ef6)
 
-*posicione aqui uma lista de consultas SQL compostas, realizadas pelo back-end da aplicação web, com sua respectiva lógica proposicional, descrita conforme template abaixo. Lembre-se que para usar LaTeX em markdown, basta você colocar as expressões entre $ ou $$*
+#### Table description:
+### Table users
+**Purpose:** Stores login details for the parent who use the system.
+
+=======
+**Main fields:**
+
+- id: Unique identifier for each user
+- email: Email address (used to log in)
+- password: Password (securely stored)
+- type_of_user: Defines the user's role (e.g. teacher, tutor, admin)
+
+### Table teachers
+**Purpose:** Keeps information about school teachers.
+
+**Main fields:**
+
+- id: Unique ID for the teacher
+- teacher_name: Full name of the teacher
+- teacher_email: Contact email
+
+### Table tutors
+**Purpose:** Stores information about tutors.
+
+**Main fields:**
+
+- id: Unique ID for the tutor
+- name_tutor: Full name
+- email: Contact email
+
+**Related to:** students.
+**Related to:** subjects. 
+
+### Table students
+**purpose:** Stores informaton about the students like grades, name, and gender.
+
+- id: Unique student ID
+- student_name, student_surname: Student’s full name
+- gender, school_age, year_code: Basic school and personal info
+- tutor_id: Links to the student’s tutor
+- school_id: (Optional) School information
+- medical_flags: Any medical notes
+
+**Related to:**
+tutors (via tutor_id)
+student_subject (shows what they study)
+events and reports.
+
+### Table subjects
+**Purpose:** Lists all subjects offered at the school.
+
+**Main fields:**
+
+- id: Subject ID
+- subject_name: Name of the subject (e.g. Math, Science)
+- teacher_id: Who teaches it
+
+### Table student_subject
+**Purpose:** Connects students and subjects they are enrolled in.
+**Main fields:**
+
+- id: Unique ID
+- student_id: Student enrolled
+- subject_id: Subject enrolled in
+- grade: Grade received in that subject
+
+### Table reports
+**Purpose:** Stores written reports about a student.
+**Main fields:**
+
+- id: Report ID
+- student_id: Who the report is about
+- date_report: When the report was created
+- Related to: students
+
+### Table events
+**Purpose:** Logs any special events related to a student.
+
+**Main fields:**
+
+- id: Event ID
+- concept: Description of the event
+- student_id: Who the event is related to
+- Related to: students
+  
+### 3.5.2. SQL queries and propos/itional logic (sprint 2)
 
 #1 | ---
 --- | ---
 **SQL Expression** | UPDATE student SET address = 'Rua Galeno de Almeida, 1200' WHERE (student_name = 'John' AND surname_student != 'Smith') AND (id = 24); 
 **Logical propositions** | $A$: The address is 'Rua Galeno de Almeida, 1200' (address = 'Rua Galeno de Almeida, 1200') <br> $B$: The students name is John (student_name = 'John') <br> $C$: The id must be 24 (id = 24)
 **Propositional logic expression** | $(A \land B) \land C$
+
 **Truth Table** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$C$</th> <th>$(A \land B)$</th> <th>$(A \land B) \land C$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>F</td> <td>V</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>V</td> <td>F</td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>V</td> <td>F</td> <td>F</td> </tr> <tr> <td>V</td> <td>V</td> <td>F</td> <td>V</td> <td>F</td> </tr> <tr> <td>V</td> <td>V</td> <td>V</td> <td>V</td> <td>V</td> </tr> </tbody> </table>
+=======
+**Truth Table** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$C$</th> <th>$(A \land B)$</th> <th>$(A \land B) \land C$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>F</td> <td>T</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>T</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>T</td> <td>T</td> <td>F</td> <td>F</td> </tr> <tr> <td>T</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>T</td> <td>F</td> <td>T</td> <td>F</td> <td>F</td> </tr> <tr> <td>T</td> <td>T</td> <td>F</td> <td>T</td> <td>F</td> </tr> <tr> <td>T</td> <td>T</td> <td>T</td> <td>T</td> <td>T</td> </tr> </tbody> </table>
+
+This expression would be used when the necessity of updating an specific student's adress would appear, being exemplified by the use of "John", who wouldn't have the "Smith" surname (considering there is another student with this full name) and would have the ID 24 allocated for himself.
 
 #2 | ---
 --- | ---
-**Expressão SQL** | SELECT * FROM suppliers WHERE (state = 'California' AND supplier_id <> 900) OR (supplier_id = 100); 
-**Proposições lógicas** | $A$: O estado é 'California' (state = 'California') <br> $B$: O ID do fornecedor não é 900 (supplier_id ≠ 900) <br> $C$: O ID do fornecedor é 100 (supplier_id = 100)
-**Expressão lógica proposicional** | $(A \land B) \lor C$
-**Tabela Verdade** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$C$</th> <th>$(A \land B)$</th> <th>$(A \land B) \lor C$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>F</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>F</td> <td>V</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>V</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>V</td> <td>V</td> <td>F</td> <td>V</td> <td>V</td> </tr> <tr> <td>V</td> <td>V</td> <td>V</td> <td>V</td> <td>V</td> </tr> </tbody> </table>
+**SQL Expression** | DELETE FROM subject WHERE (id LIKE '_1' OR name_subject IN ('Business & Management', 'Physics', 'Computer Science')) AND student_grade = 'Pre Prep' ; 
+**Logical propositions** | $A$: The id must contain as its second algarism "1" <br> $B$: The subject name must be "Business & Management', 'Physics' or 'Computer Science' <br> $C$: The student's grade must be "Pre Prep"
+**Propositional logic expression** | $(A \lor B) \land C$
+**Truth Table** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$C$</th> <th>$(A \lor B)$</th> <th>$(A \lor B) \land C$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>F</td> <td>T</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>T</td> <td>F</td> <td>T</td> <td>F</td> </tr> <tr> <td>F</td> <td>T</td> <td>T</td> <td>T</td> <td>T</td> </tr> <tr> <td>T</td> <td>F</td> <td>F</td> <td>T</td> <td>F</td> </tr> <tr> <td>T</td> <td>F</td> <td>T</td> <td>T</td> <td>T</td> </tr> <tr> <td>T</td> <td>T</td> <td>F</td> <td>T</td> <td>F</td> </tr> <tr> <td>T</td> <td>T</td> <td>T</td> <td>T</td> <td>T</td> </tr> </tbody> </table>
 
-*Template de SQL + lógica proposicional*
-#3 | ---
---- | ---
-**Expressão SQL** | SELECT * FROM suppliers WHERE (state = 'California' AND supplier_id <> 900) OR (supplier_id = 100); 
-**Proposições lógicas** | $A$: O estado é 'California' (state = 'California') <br> $B$: O ID do fornecedor não é 900 (supplier_id ≠ 900) <br> $C$: O ID do fornecedor é 100 (supplier_id = 100)
-**Expressão lógica proposicional** | $(A \land B) \lor C$
-**Tabela Verdade** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$C$</th> <th>$(A \land B)$</th> <th>$(A \land B) \lor C$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>F</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>F</td> <td>V</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>V</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>V</td> <td>V</td> <td>F</td> <td>V</td> <td>V</td> </tr> <tr> <td>V</td> <td>V</td> <td>V</td> <td>V</td> <td>V</td> </tr> </tbody> </table>
+This expression would be used in a context in which a subject (Business & Management, Physics and Computer Science for example) is inappropriately assigned for a pre prep student, considering that his grade doesn't approach such a level of complexity yet.
 
-*Template de SQL + lógica proposicional*
-#4 | ---
+#3 | —
 --- | ---
-**Expressão SQL** | SELECT * FROM suppliers WHERE (state = 'California' AND supplier_id <> 900) OR (supplier_id = 100); 
-**Proposições lógicas** | $A$: O estado é 'California' (state = 'California') <br> $B$: O ID do fornecedor não é 900 (supplier_id ≠ 900) <br> $C$: O ID do fornecedor é 100 (supplier_id = 100)
-**Expressão lógica proposicional** | $(A \land B) \lor C$
-**Tabela Verdade** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$C$</th> <th>$(A \land B)$</th> <th>$(A \land B) \lor C$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>F</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>F</td> <td>V</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>V</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>V</td> <td>V</td> <td>F</td> <td>V</td> <td>V</td> </tr> <tr> <td>V</td> <td>V</td> <td>V</td> <td>V</td> <td>V</td> </tr> </tbody> </table>
+**SQL Expression** | SELECT id, student_name, num_absences, grade, medical_flags FROM students  JOIN student_subject  ON student_id = .id WHERE (num_absences > 5 AND grade < 60) OR medical_flags = 'TRUE';
+**Logical propositions** | $A$: num\_absences > 5 <br> $B$: grade < 60 <br> $C$: medical\_flags = TRUE
+**Propositional logic expression** | $(A \land B) \lor C$
+**Truth Table**  | <table> <thead> <tr><th>$A$</th><th>$B$</th><th>$C$</th><th>$(A \land B)$</th><th>$(A \land B) \lor C$</th></tr></thead><tbody><tr><td>F</td><td>F</td><td>F</td><td>F</td><td>F</td></tr><tr><td>F</td><td>F</td><td>T</td><td>F</td><td>T</td></tr><tr><td>F</td><td>T</td><td>F</td><td>F</td><td>F</td></tr><tr><td>F</td><td>T</td><td>T</td><td>F</td><td>T</td></tr><tr><td>T</td><td>F</td><td>F</td><td>F</td><td>F</td></tr><tr><td>T</td><td>F</td><td>T</td><td>F</td><td>T</td></tr><tr><td>T</td><td>T</td><td>F</td><td>T</td><td>T</td></tr><tr><td>T</td><td>T</td><td>T</td><td>T</td><td>T</td></tr></tbody></table>
+
+This SQL statement highlights students who may need immediate academic attention by returning every learner with either more than five absences and an overall grade below 60, or active medical flag—helping teachers and advisors quickly locate those who require extra monitoring or support.
+
+#4 | —
+--- | ---
+**SQL Expression**| SELECT id, grade, student_id FROM student_subject  JOIN students  ON student_id = id JOIN users u ON parent_id = id WHERE id = :parent_id AND grade IS NULL AND ((grade BETWEEN 0 AND 59) OR academic_house = 'alta');
+**Logical propositions** | $D$: grade IS NULL <br> $E$: grade between 0 and 59 <br> $F$: academic\_house = ‘alta’
+**Propositional logic expression** | $D \land (E \lor F)$
+**Truth Table** | <table> <thead> <tr><th>$D$</th><th>$E$</th><th>$F$</th><th>$(E \lor F)$</th><th>$(D \land (E \lor F))$</th></tr></thead><tbody><tr><td>F</td><td>F</td><td>F</td><td>F</td><td>F</td></tr><tr><td>F</td><td>F</td><td>T</td><td>T</td><td>F</td></tr><tr><td>F</td><td>T</td><td>F</td><td>T</td><td>F</td></tr><tr><td>F</td><td>T</td><td>T</td><td>T</td><td>F</td></tr><tr><td>T</td><td>F</td><td>F</td><td>F</td><td>F</td></tr><tr><td>T</td><td>F</td><td>T</td><td>T</td><td>T</td></tr><tr><td>T</td><td>T</td><td>F</td><td>T</td><td>T</td></tr><tr><td>T</td><td>T</td><td>T</td><td>T</td><td>T</td></tr></tbody></table>
+
+This SQL statement focuses on a parent’s children, selecting each subject in which the recorded grade is still blank and the child either falls in the failing-grade (between 0 and 59) or belongs to the “alta” academic house, enabling parents and school staff to identify missing grades and cases for follow-up before report cards are finalized.
 
 ## 3.6. WebAPI and endpoints (sprints 3 e 4)
 
