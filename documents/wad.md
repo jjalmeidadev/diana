@@ -511,9 +511,95 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
 
 ### 3.5.1. Relational model (sprints 2 e 4)
 
-*posicione aqui os diagramas de modelos relacionais do seu banco de dados, apresentando todos os esquemas de tabelas e suas relações. Utilize texto para complementar suas explicações, se necessário* 
+Relational database modeling is the process of designing the structure of a database based on the principles of the relational model. Its purpose is to organize all the information into tables and to clearly represent the relationships among them, ensuring data is structured, consistent, and easy to access.
 
-### 3.5.2. SQL queries and propositional logic (sprint 2)
+![supabase-schema-yexhdilbyibjfvrflcsm (4)](https://github.com/user-attachments/assets/8dd75f2d-5d18-40cf-a6ed-23add51b7ef6)
+
+#### Table description:
+### Table users
+**Purpose:** Stores login details for the parent who use the system.
+
+**Main fields:**
+
+- id: Unique identifier for each user
+- email: Email address (used to log in)
+- password: Password (securely stored)
+- type_of_user: Defines the user's role (e.g. teacher, tutor, admin)
+
+### Table teachers
+**Purpose:** Keeps information about school teachers.
+
+**Main fields:**
+
+- id: Unique ID for the teacher
+- teacher_name: Full name of the teacher
+- teacher_email: Contact email
+
+### Table tutors
+**Purpose:** Stores information about tutors.
+
+**Main fields:**
+
+- id: Unique ID for the tutor
+- name_tutor: Full name
+- email: Contact email
+
+**Related to:** students.
+**Related to:** subjects. 
+
+### Table students
+**purpose:** Stores informaton about the students like grades, name, and gender.
+
+- id: Unique student ID
+- student_name, student_surname: Student’s full name
+- gender, school_age, year_code: Basic school and personal info
+- tutor_id: Links to the student’s tutor
+- school_id: (Optional) School information
+- medical_flags: Any medical notes
+
+**Related to:**
+tutors (via tutor_id)
+student_subject (shows what they study)
+events and reports.
+
+### Table subjects
+**Purpose:** Lists all subjects offered at the school.
+
+**Main fields:**
+
+- id: Subject ID
+- subject_name: Name of the subject (e.g. Math, Science)
+- teacher_id: Who teaches it
+
+### Table student_subject
+**Purpose:** Connects students and subjects they are enrolled in.
+**Main fields:**
+
+- id: Unique ID
+- student_id: Student enrolled
+- subject_id: Subject enrolled in
+- grade: Grade received in that subject
+
+### Table reports
+**Purpose:** Stores written reports about a student.
+**Main fields:**
+
+- id: Report ID
+- student_id: Who the report is about
+- date_report: When the report was created
+- Related to: students
+
+### Table events
+**Purpose:** Logs any special events related to a student.
+
+**Main fields:**
+
+- id: Event ID
+- concept: Description of the event
+- student_id: Who the event is related to
+- Related to: students
+  
+### 3.5.2. SQL queries and propos/itional logic (sprint 2)
 
 #1 | ---
 --- | ---
