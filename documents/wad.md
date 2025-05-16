@@ -481,7 +481,94 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
 
 ## 3.2. Wireframes (sprint 2)
 
-*Posicione aqui as imagens do wireframe construído para sua solução e, opcionalmente, o link para acesso (mantenha o link sempre público para visualização)*
+<img src= "C:../assets/wad/login.png"
+## 1. Login and About  
+**Description:**  
+Login screen with buttons for authentication, password recovery, and access to institutional information.  
+- **[Login]** sends credentials for secure authentication.  
+  — **US04 & US05**: Ensures protected access to student information.  
+  — **US08**: First point of contact for new users accessing the platform.  
+- **[Forgot your password?]** redirects to the password recovery page.  
+  — **US04**: Ensures continuous access for busy parents.  
+- **[About the school]** displays school mission, values, and contact details.  
+  — **US07**: Supports onboarding for new families.
+
+---
+
+src= "C:../assets/wad/home.png"
+## 2. Profile - Homepage  
+**Description:**  
+User profile page with options to edit, save, or cancel updates to personal information.  
+- **[Edit Profile]** enables editing of phone number, address, and other details.  
+  — **US11**: Allows updating contact information.  
+- **[Save]** confirms and stores changes made to the profile.  
+  — **US11**: Ensures updated data is recorded.  
+- **[Cancel]** discards any modifications made.  
+  — Supports usability by preventing unwanted edits.
+
+---
+
+src= "C:../assets/wad/Assignments.png"
+## 3. Assignments  
+**Description:**  
+Task tracking page with filtering and completion tools.  
+- **[Filter by subject]** displays tasks by selected subject.  
+  — **US04 & US05**: Helps parents follow academic progress.  
+- **[Mark as completed]** (check icon) marks a task as finished.  
+  — **US05**: Allows parents to verify student task completion.
+
+---
+
+src= "C:../assets/wad/reports.png"
+## 4. Reports Page  
+**Description:**  
+Academic performance page with options to view and export report cards.  
+- **[Select Term]** (dropdown) filters academic reports by trimester or semester.  
+  — **US04**: Enables quick review of grades over time.  
+- **[Download PDF]** exports the report for offline access.  
+  — **US04 & US05**: Useful for sharing and personal records.  
+- Additional components: average grade chart per subject, table with subjects, semester, and grades; notification icon, profile button, and search bar.
+
+---
+
+src= "C:../assets/wad/timetable.png"
+## 5. Timetable (Class Schedule)  
+**Description:**  
+Timetable screen showing the student’s schedule.  
+- **[Day / Week]** toggles between daily and weekly views.  
+  — **US04 & US05**: Provides a clear view of the student’s routine.
+
+---
+
+src= "C:../assets/wad/events.png"
+## 6. School Events for Parents  
+**Description:**  
+Event feed for parents with RSVP functionality.  
+- Each event opens a detailed description and lets parents confirm attendance.  
+  — **US05 & US07**: Keeps parents informed and engaged in school activities.
+
+---
+
+src= "C:../assets/wad/csc.png"
+## 7. Customer Service Channels  
+**Description:**  
+Support area with contact options for technical or administrative help.  
+- **[New Support Request]** opens a live chat with the school office.  
+  — **US06**: Provides direct and efficient technical support.  
+- **[Check Ticket Status]** shows the progress of submitted requests.  
+  — **US06 & US08**: Ensures transparency and follow-up ease.  
+- **[Contact via Email/Phone]** launches email or phone apps with teacher contact details.  
+  — **US10**: Allows direct communication between parents and the school.
+
+---
+
+src= "C:../assets/wad/benes.png"
+## 8. Benes and Sanctions  
+**Description:**  
+Behavioral tracking screen displaying merits and warnings.  
+- **[View Full History]** reveals all recorded events for a student.  
+  — **US04 & US05**: Allows parents to monitor their child’s behavior.  
+- Features include: student selection, count of merits and sanctions, comparative chart, and access to related reports.
 
 ## 3.3. Style guide (sprint 3)
 
