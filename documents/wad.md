@@ -535,16 +535,16 @@ This expression would be used in a context in which a subject (Business & Manage
 
 #3 | —
 --- | ---
-**SQL Expression** | SELECT id, student_name, num_absences, grade, medical_flags FROM students  JOIN student_subject  ON ss.student_id = .id WHERE (num_absences > 5 AND grade < 60) OR medical_flags = 'TRUE';
+**SQL Expression** | SELECT id, student_name, num_absences, grade, medical_flags FROM students  JOIN student_subject  ON student_id = .id WHERE (num_absences > 5 AND grade < 60) OR medical_flags = 'TRUE';
 **Logical propositions** | $A$: num\_absences > 5 <br> $B$: grade < 60 <br> $C$: medical\_flags = TRUE
 **Propositional logic expression** | $(A \land B) \lor C$
 **Truth Table**  | <table> <thead> <tr><th>$A$</th><th>$B$</th><th>$C$</th><th>$(A \land B)$</th><th>$(A \land B) \lor C$</th></tr></thead><tbody><tr><td>F</td><td>F</td><td>F</td><td>F</td><td>F</td></tr><tr><td>F</td><td>F</td><td>T</td><td>F</td><td>T</td></tr><tr><td>F</td><td>T</td><td>F</td><td>F</td><td>F</td></tr><tr><td>F</td><td>T</td><td>T</td><td>F</td><td>T</td></tr><tr><td>T</td><td>F</td><td>F</td><td>F</td><td>F</td></tr><tr><td>T</td><td>F</td><td>T</td><td>F</td><td>T</td></tr><tr><td>T</td><td>T</td><td>F</td><td>T</td><td>T</td></tr><tr><td>T</td><td>T</td><td>T</td><td>T</td><td>T</td></tr></tbody></table>
 
-This SQL statement highlights students who may need immediate academic attention by returning every learner with either more than five absences and an overall grade below 60, or an active medical flag—helping teachers and advisors quickly locate those who require extra monitoring or support.
+This SQL statement highlights students who may need immediate academic attention by returning every learner with either more than five absences and an overall grade below 60, or active medical flag—helping teachers and advisors quickly locate those who require extra monitoring or support.
 
 #4 | —
 --- | ---
-**SQL Expression**| SELECT id, grade, student_id FROM student_subject  JOIN students  ON student_id = s.id JOIN users u ON s.parent_id = u.id WHERE u.id = :parent_id AND ss.grade IS NULL AND ((ss.grade BETWEEN 0 AND 59) OR s.academic_house = 'alta');
+**SQL Expression**| SELECT id, grade, student_id FROM student_subject  JOIN students  ON student_id = id JOIN users u ON parent_id = id WHERE id = :parent_id AND grade IS NULL AND ((grade BETWEEN 0 AND 59) OR academic_house = 'alta');
 **Logical propositions** | $D$: grade IS NULL <br> $E$: grade between 0 and 59 <br> $F$: academic\_house = ‘alta’
 **Propositional logic expression** | $D \land (E \lor F)$
 **Truth Table** | <table> <thead> <tr><th>$D$</th><th>$E$</th><th>$F$</th><th>$(E \lor F)$</th><th>$(D \land (E \lor F))$</th></tr></thead><tbody><tr><td>F</td><td>F</td><td>F</td><td>F</td><td>F</td></tr><tr><td>F</td><td>F</td><td>T</td><td>T</td><td>F</td></tr><tr><td>F</td><td>T</td><td>F</td><td>T</td><td>F</td></tr><tr><td>F</td><td>T</td><td>T</td><td>T</td><td>F</td></tr><tr><td>T</td><td>F</td><td>F</td><td>F</td><td>F</td></tr><tr><td>T</td><td>F</td><td>T</td><td>T</td><td>T</td></tr><tr><td>T</td><td>T</td><td>F</td><td>T</td><td>T</td></tr><tr><td>T</td><td>T</td><td>T</td><td>T</td><td>T</td></tr></tbody></table>
