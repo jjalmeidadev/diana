@@ -485,6 +485,88 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
 
 *Posicione aqui as imagens do wireframe construído para sua solução e, opcionalmente, o link para acesso (mantenha o link sempre público para visualização)*
 
+## 1. Login and About  
+**Description:**  
+Login screen with buttons for authentication, password recovery, and access to institutional information.  
+- **[Login]** sends credentials for secure authentication.  
+  — **US04 & US05**: Ensures protected access to student information.  
+  — **US08**: First point of contact for new users accessing the platform.  
+- **[Forgot your password?]** redirects to the password recovery page.  
+  — **US04**: Ensures continuous access for busy parents.  
+- **[About the school]** displays school mission, values, and contact details.  
+  — **US07**: Supports onboarding for new families.
+
+---
+
+## 2. Profile - Homepage  
+**Description:**  
+User profile page with options to edit, save, or cancel updates to personal information.  
+- **[Edit Profile]** enables editing of phone number, address, and other details.  
+  — **US11**: Allows updating contact information.  
+- **[Save]** confirms and stores changes made to the profile.  
+  — **US11**: Ensures updated data is recorded.  
+- **[Cancel]** discards any modifications made.  
+  — Supports usability by preventing unwanted edits.
+
+---
+
+## 3. Assignments  
+**Description:**  
+Task tracking page with filtering and completion tools.  
+- **[Filter by subject]** displays tasks by selected subject.  
+  — **US04 & US05**: Helps parents follow academic progress.  
+- **[Mark as completed]** (check icon) marks a task as finished.  
+  — **US05**: Allows parents to verify student task completion.
+
+---
+
+## 4. Reports Page  
+**Description:**  
+Academic performance page with options to view and export report cards.  
+- **[Select Term]** (dropdown) filters academic reports by trimester or semester.  
+  — **US04**: Enables quick review of grades over time.  
+- **[Download PDF]** exports the report for offline access.  
+  — **US04 & US05**: Useful for sharing and personal records.  
+- Additional components: average grade chart per subject, table with subjects, semester, and grades; notification icon, profile button, and search bar.
+
+---
+
+## 5. Timetable (Class Schedule)  
+**Description:**  
+Timetable screen showing the student’s schedule.  
+- **[Day / Week]** toggles between daily and weekly views.  
+  — **US04 & US05**: Provides a clear view of the student’s routine.
+
+---
+
+## 6. School Events for Parents  
+**Description:**  
+Event feed for parents with RSVP functionality.  
+- Each event opens a detailed description and lets parents confirm attendance.  
+  — **US05 & US07**: Keeps parents informed and engaged in school activities.
+
+---
+
+## 7. Customer Service Channels  
+**Description:**  
+Support area with contact options for technical or administrative help.  
+- **[New Support Request]** opens a live chat with the school office.  
+  — **US06**: Provides direct and efficient technical support.  
+- **[Check Ticket Status]** shows the progress of submitted requests.  
+  — **US06 & US08**: Ensures transparency and follow-up ease.  
+- **[Contact via Email/Phone]** launches email or phone apps with teacher contact details.  
+  — **US10**: Allows direct communication between parents and the school.
+
+---
+
+## 8. Benes and Sanctions  
+**Description:**  
+Behavioral tracking screen displaying merits and warnings.  
+- **[View Full History]** reveals all recorded events for a student.  
+  — **US04 & US05**: Allows parents to monitor their child’s behavior.  
+- Features include: student selection, count of merits and sanctions, comparative chart, and access to related reports.
+
+
 ## 3.3. Style guide (sprint 3)
 
 *Descreva aqui orientações gerais para o leitor sobre como utilizar os componentes do guia de estilos de sua solução*
@@ -519,6 +601,7 @@ Relational database modeling is the process of designing the structure of a data
 ### Table users
 **Purpose:** Stores login details for the parent who use the system.
 
+=======
 **Main fields:**
 
 - id: Unique identifier for each user
@@ -606,6 +689,9 @@ events and reports.
 **SQL Expression** | UPDATE student SET address = 'Rua Galeno de Almeida, 1200' WHERE (student_name = 'John' AND surname_student != 'Smith') AND (id = 24); 
 **Logical propositions** | $A$: The address is 'Rua Galeno de Almeida, 1200' (address = 'Rua Galeno de Almeida, 1200') <br> $B$: The students name is John (student_name = 'John') <br> $C$: The id must be 24 (id = 24)
 **Propositional logic expression** | $(A \land B) \land C$
+
+**Truth Table** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$C$</th> <th>$(A \land B)$</th> <th>$(A \land B) \land C$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>F</td> <td>V</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>V</td> <td>F</td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>V</td> <td>F</td> <td>F</td> </tr> <tr> <td>V</td> <td>V</td> <td>F</td> <td>V</td> <td>F</td> </tr> <tr> <td>V</td> <td>V</td> <td>V</td> <td>V</td> <td>V</td> </tr> </tbody> </table>
+=======
 **Truth Table** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$C$</th> <th>$(A \land B)$</th> <th>$(A \land B) \land C$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>F</td> <td>T</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>T</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>T</td> <td>T</td> <td>F</td> <td>F</td> </tr> <tr> <td>T</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>T</td> <td>F</td> <td>T</td> <td>F</td> <td>F</td> </tr> <tr> <td>T</td> <td>T</td> <td>F</td> <td>T</td> <td>F</td> </tr> <tr> <td>T</td> <td>T</td> <td>T</td> <td>T</td> <td>T</td> </tr> </tbody> </table>
 
 This expression would be used when the necessity of updating an specific student's adress would appear, being exemplified by the use of "John", who wouldn't have the "Smith" surname (considering there is another student with this full name) and would have the ID 24 allocated for himself.
