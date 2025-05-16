@@ -570,6 +570,8 @@ Behavioral tracking screen displaying merits and warnings.
   — **US04 & US05**: Allows parents to monitor their child’s behavior.  
 - Features include: student selection, count of merits and sanctions, comparative chart, and access to related reports.
 
+Link to the wireframes
+https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node-id=0-1&t=hnUIIUZ5UoUYsqvq-1
 ## 3.3. Style guide (sprint 3)
 
 *Descreva aqui orientações gerais para o leitor sobre como utilizar os componentes do guia de estilos de sua solução*
