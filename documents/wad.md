@@ -535,21 +535,21 @@ This expression would be used in a context in which a subject (Business & Manage
 
 #3 | —
 --- | ---
-**SQL Expression**  | SELECT a.id_aluno, a.nome_aluno, f.faltas_mes, g.media_geral, d.observacao_flag FROM alunos a JOIN faltas f ON f.aluno_id = a.id_aluno JOIN medias g ON g.aluno_id = a.id_aluno LEFT JOIN discip d ON d.aluno_id = a.id_aluno WHERE (f.faltas_mes > 5 AND g.media_geral < 60) OR d.observacao_flag = TRUE;
-**Logical propositions** | $A$: faltas\_mes > 5 <br> $B$: media\_geral < 60 <br> $C$: observacao\_flag = TRUE
+**SQL Expression** | SELECT id, student_name, num_absences, grade, medical_flags FROM students  JOIN student_subject  ON ss.student_id = .id WHERE (num_absences > 5 AND grade < 60) OR medical_flags = 'TRUE';
+**Logical propositions** | $A$: num\_absences > 5 <br> $B$: grade < 60 <br> $C$: medical\_flags = TRUE
 **Propositional logic expression** | $(A \land B) \lor C$
 **Truth Table**  | <table> <thead> <tr><th>$A$</th><th>$B$</th><th>$C$</th><th>$(A \land B)$</th><th>$(A \land B) \lor C$</th></tr></thead><tbody><tr><td>F</td><td>F</td><td>F</td><td>F</td><td>F</td></tr><tr><td>F</td><td>F</td><td>T</td><td>F</td><td>T</td></tr><tr><td>F</td><td>T</td><td>F</td><td>F</td><td>F</td></tr><tr><td>F</td><td>T</td><td>T</td><td>F</td><td>T</td></tr><tr><td>T</td><td>F</td><td>F</td><td>F</td><td>F</td></tr><tr><td>T</td><td>F</td><td>T</td><td>F</td><td>T</td></tr><tr><td>T</td><td>T</td><td>F</td><td>T</td><td>T</td></tr><tr><td>T</td><td>T</td><td>T</td><td>T</td><td>T</td></tr></tbody></table>
 
-This SQL query is designed to identify students who are potentially at academic risk by selecting those who either have more than five absences in the month and an overall grade below 60, or who have been flagged for disciplinary observation—useful for educators or academic advisors in a secondary‐school setting to proactively target support and interventions for these students.
+This SQL statement pinpoints students who may need immediate academic attention by returning every learner with either (i) more than five absences and an overall grade below 60, or (ii) an active medical flag—helping teachers and advisors quickly flag those who require extra monitoring, outreach, or tailored support.
 
 #4 | —
 --- | ---
-**SQL Expression**  | SELECT t.id_tarefa, t.titulo, t.data_entrega, t.concluida, t.prioridade FROM tarefas t JOIN alunos a ON t.aluno_id = a.id_aluno JOIN pais p ON a.pais_id = p.id_pai WHERE p.id_pai = :id_pai AND NOT t.concluida AND ((t.data_entrega BETWEEN CURRENT_DATE AND CURRENT_DATE + INTERVAL '7 days') OR t.prioridade = 'alta');
-**Logical propositions** | $D$: ¬concluida <br> $E$: data\_entrega ∈ [hoje, hoje+7d] <br> $F$: prioridade = ‘alta’
+**SQL Expression**| SELECT id, grade, student_id FROM student_subject  JOIN students  ON student_id = s.id JOIN users u ON s.parent_id = u.id WHERE u.id = :parent_id AND ss.grade IS NULL AND ((ss.grade BETWEEN 0 AND 59) OR s.academic_house = 'alta');
+**Logical propositions** | $D$: grade IS NULL <br> $E$: grade ∈ [0,59] <br> $F$: academic\_house = ‘alta’
 **Propositional logic expression** | $D \land (E \lor F)$
-**Truth Table**  | <table> <thead> <tr><th>$D$</th><th>$E$</th><th>$F$</th><th>$(E \lor F)$</th><th>$(D \land (E \lor F))$</th></tr></thead><tbody><tr><td>F</td><td>F</td><td>F</td><td>F</td><td>F</td></tr><tr><td>F</td><td>F</td><td>T</td><td>T</td><td>F</td></tr><tr><td>F</td><td>T</td><td>F</td><td>T</td><td>F</td></tr><tr><td>F</td><td>T</td><td>T</td><td>T</td><td>F</td></tr><tr><td>T</td><td>F</td><td>F</td><td>F</td><td>F</td></tr><tr><td>T</td><td>F</td><td>T</td><td>T</td><td>T</td></tr><tr><td>T</td><td>T</td><td>F</td><td>T</td><td>T</td></tr><tr><td>T</td><td>T</td><td>T</td><td>T</td><td>T</td></tr></tbody></table>
+**Truth Table** | <table> <thead> <tr><th>$D$</th><th>$E$</th><th>$F$</th><th>$(E \lor F)$</th><th>$(D \land (E \lor F))$</th></tr></thead><tbody><tr><td>F</td><td>F</td><td>F</td><td>F</td><td>F</td></tr><tr><td>F</td><td>F</td><td>T</td><td>T</td><td>F</td></tr><tr><td>F</td><td>T</td><td>F</td><td>T</td><td>F</td></tr><tr><td>F</td><td>T</td><td>T</td><td>T</td><td>F</td></tr><tr><td>T</td><td>F</td><td>F</td><td>F</td><td>F</td></tr><tr><td>T</td><td>F</td><td>T</td><td>T</td><td>T</td></tr><tr><td>T</td><td>T</td><td>F</td><td>T</td><td>T</td></tr><tr><td>T</td><td>T</td><td>T</td><td>T</td><td>T</td></tr></tbody></table>
 
-This SQL query lets a parent (identified by :id_pai) pull all of their child’s outstanding assignments—selecting only those not yet completed (¬concluída) that either are due within the next seven days or have been flagged as high priority. It’s useful in a student-management or homework-tracking system to give parents an at-a-glance view of imminent or important tasks requiring their child’s attention.
+This SQL statement focuses on a parent’s children, selecting each subject in which the recorded grade is still blank and the child either falls in the failing-grade band (0-59) or belongs to the “alta” academic track, enabling parents and school staff to identify missing marks and high-priority cases for follow-up before report cards are finalized.
 
 ## 3.6. WebAPI and endpoints (sprints 3 e 4)
 
