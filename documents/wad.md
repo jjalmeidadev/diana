@@ -687,7 +687,7 @@ These sketches were created to give us a clearer view of the site’s structure 
 
 <div align="center">
   
-  <sub>Figure 16 - Benes </sub>
+  <sub>Figure 16 - Benes and sanctions </sub>
   <br>
   <br>
 ![benes](../assets/wad/benes.png)
@@ -734,7 +734,23 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 
 &nbsp;&nbsp;&nbsp;&nbsp;Relational database modeling is the process of designing the structure of a database based on the principles of the relational model. Its purpose is to organize all the information into tables and to clearly represent the relationships among them, ensuring data is structured, consistent, and easy to access.
 
+<br>
+
+<div align="center">
+  
+  <sub>Figure 17 - Database Modelling </sub>
+  <br>
+  <br>
 ![supabase-schema-yexhdilbyibjfvrflcsm (4)](https://github.com/user-attachments/assets/8dd75f2d-5d18-40cf-a6ed-23add51b7ef6)
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
 
 #### 3.5.1.1 Tables description:
 #### a) Users table:
