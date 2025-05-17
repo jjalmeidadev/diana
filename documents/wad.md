@@ -496,7 +496,7 @@ Login screen with buttons for authentication, password recovery, and access to i
 
 ---
 
-![home]('../assets/home.png')
+![home](../assets/home.png)
 
 ## 2. Profile - Homepage  
 **Description:**  
@@ -510,7 +510,7 @@ User profile page with options to edit, save, or cancel updates to personal info
 
 ---
 
-![Assignments]('../assets/Assignments.png')
+![Assignments](../assets/Assignments.png)
 
 ## 3. Assignments  
 **Description:**  
@@ -535,7 +535,7 @@ Academic performance page with options to view and export report cards.
 
 ---
 
-![timetable]('../assets/timetable.png')
+![timetable](../assets/timetable.png)
 
 ## 5. Timetable (Class Schedule)  
 **Description:**  
@@ -545,7 +545,7 @@ Timetable screen showing the student’s schedule.
 
 ---
 
-![events]('../assets/events.png')
+![events](../assets/events.png)
 
 ## 6. School Events for Parents  
 **Description:**  
@@ -555,7 +555,7 @@ Event feed for parents with RSVP functionality.
 
 ---
 
-![csc]('../assets/csc.png')
+![csc](../assets/csc.png)
 
 ## 7. Customer Service Channels  
 **Description:**  
@@ -569,7 +569,7 @@ Support area with contact options for technical or administrative help.
 
 ---
 
-![benes]('../assets/benes.png')
+![benes](../assets/benes.png)
 
 ## 8. Benes and Sanctions  
 **Description:**  
