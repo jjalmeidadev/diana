@@ -481,7 +481,8 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
 
 ## 3.2. Wireframes (sprint 2)
 
-<img src= "C:../assets/wad/login.png"
+![login]('../assets/wad/login.png')
+
 ## 1. Login and About  
 **Description:**  
 Login screen with buttons for authentication, password recovery, and access to institutional information.  
@@ -495,7 +496,8 @@ Login screen with buttons for authentication, password recovery, and access to i
 
 ---
 
-src= "C:../assets/wad/home.png"
+![home]('../assets/wad/home.png')
+
 ## 2. Profile - Homepage  
 **Description:**  
 User profile page with options to edit, save, or cancel updates to personal information.  
@@ -508,7 +510,8 @@ User profile page with options to edit, save, or cancel updates to personal info
 
 ---
 
-src= "C:../assets/wad/Assignments.png"
+![Assignments]('../assets/wad/Assignments.png')
+
 ## 3. Assignments  
 **Description:**  
 Task tracking page with filtering and completion tools.  
@@ -519,7 +522,8 @@ Task tracking page with filtering and completion tools.
 
 ---
 
-src= "C:../assets/wad/reports.png"
+![reports]('../assets/wad/reports.png')
+
 ## 4. Reports Page  
 **Description:**  
 Academic performance page with options to view and export report cards.  
@@ -531,7 +535,8 @@ Academic performance page with options to view and export report cards.
 
 ---
 
-src= "C:../assets/wad/timetable.png"
+![timetable]('../assets/wad/timetable.png')
+
 ## 5. Timetable (Class Schedule)  
 **Description:**  
 Timetable screen showing the student’s schedule.  
@@ -540,7 +545,8 @@ Timetable screen showing the student’s schedule.
 
 ---
 
-src= "C:../assets/wad/events.png"
+![events]('../assets/wad/events.png')
+
 ## 6. School Events for Parents  
 **Description:**  
 Event feed for parents with RSVP functionality.  
@@ -550,6 +556,8 @@ Event feed for parents with RSVP functionality.
 ---
 
 src= "C:../assets/wad/csc.png"
+![csc]('../assets/wad/csc.png')
+
 ## 7. Customer Service Channels  
 **Description:**  
 Support area with contact options for technical or administrative help.  
@@ -562,7 +570,8 @@ Support area with contact options for technical or administrative help.
 
 ---
 
-src= "C:../assets/wad/benes.png"
+![benes]('../assets/wad/benes.png')
+
 ## 8. Benes and Sanctions  
 **Description:**  
 Behavioral tracking screen displaying merits and warnings.  
@@ -572,6 +581,7 @@ Behavioral tracking screen displaying merits and warnings.
 
 Link to the wireframes
 https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node-id=0-1&t=hnUIIUZ5UoUYsqvq-1
+
 ## 3.3. Style guide (sprint 3)
 
 *Descreva aqui orientações gerais para o leitor sobre como utilizar os componentes do guia de estilos de sua solução*
