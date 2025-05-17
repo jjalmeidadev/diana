@@ -483,8 +483,7 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
 
 ## 3.2. Wireframes (sprint 2)
 
-&nbsp;&nbsp;&nbsp;&nbsp;Now we’re going to show the wireframes of our website.
-These sketches were created to give us a clearer view of the site’s structure and navigation. They serve as a visual guide, helping us align ideas, test the user flow, and ensure that all elements are well organized before moving on to the final design.
+&nbsp;&nbsp;&nbsp;&nbsp;Now we’re going to show the wireframes of our website. These sketches were created to give us a clearer view of the platform's structure and navigation. They serve as a visual guide, helping us align ideas, test the user flow, and ensure that all elements are well organized before moving on to the final design.
 
 ## 1. Login and About  
 **Description:**  
@@ -700,10 +699,10 @@ These sketches were created to give us a clearer view of the site’s structure 
 
 <br>
 
-&nbsp;&nbsp;&nbsp;Here is the Figma link to view all the wireframes: 
+&nbsp;&nbsp;&nbsp;Here is the Figma link to view all the wireframes (wireflow) and check more comments about each functionality: 
 https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node-id=0-1&t=hnUIIUZ5UoUYsqvq-1
 
-&nbsp;&nbsp;&nbsp;&nbsp;These wireframes helped us visualize and validate the site structure, ensuring that the navigation and layout align with the project goals. With this foundation in place, we can confidently move on to the next stage of the design process.
+&nbsp;&nbsp;&nbsp;&nbsp;These wireframes helped us visualize and validate the website structure, ensuring that the navigation and layout align with the project goals. With this foundation in place, we can confidently move on to the next stage of the design process.
 
 
 ## 3.3. Style guide (sprint 3)
