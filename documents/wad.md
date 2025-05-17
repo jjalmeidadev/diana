@@ -505,7 +505,7 @@ These sketches were created to give us a clearer view of the site’s structure 
   <sub>Figure 09 - Login screen </sub>
   <br>
   <br>
-  ![login](../assets/login.png)
+  ![login](../assets/wad/login.png)
   <br>
   <br>
 
@@ -534,7 +534,7 @@ These sketches were created to give us a clearer view of the site’s structure 
   <sub>Figure 10 - Profile </sub>
   <br>
   <br>
- ![home](../assets/home.png)
+ ![home](../assets/wad/home.png)
   <br>
   <br>
 
@@ -560,7 +560,7 @@ These sketches were created to give us a clearer view of the site’s structure 
   <sub>Figure 11 - Assignments </sub>
   <br>
   <br>
-![Assignments](../assets/Assignments.png)
+![Assignments](../assets/wad/Assignments.png)
   <br>
   <br>
 
@@ -587,7 +587,7 @@ These sketches were created to give us a clearer view of the site’s structure 
   <sub>Figure 12 - Reports </sub>
   <br>
   <br>
-![reports](../assets/reports.png)
+![reports](../assets/wad/reports.png)
   <br>
   <br>
 
@@ -611,7 +611,7 @@ These sketches were created to give us a clearer view of the site’s structure 
   <sub>Figure 13 - Timetable </sub>
   <br>
   <br>
-![timetable](../assets/timetable.png)
+![timetable](../assets/wad/timetable.png)
   <br>
   <br>
 
@@ -636,7 +636,7 @@ These sketches were created to give us a clearer view of the site’s structure 
   <sub>Figure 14 - Events </sub>
   <br>
   <br>
-![events](../assets/events.png)
+![events](../assets/wad/events.png)
   <br>
   <br>
 
@@ -666,7 +666,7 @@ These sketches were created to give us a clearer view of the site’s structure 
   <sub>Figure 15 - Customer Service Channels </sub>
   <br>
   <br>
-![csc](../assets/csc.png)
+![csc](../assets/wad/csc.png)
   <br>
   <br>
 
@@ -690,7 +690,7 @@ These sketches were created to give us a clearer view of the site’s structure 
   <sub>Figure 16 - Benes </sub>
   <br>
   <br>
-![benes](../assets/benes.png)
+![benes](../assets/wad/benes.png)
   <br>
   <br>
 
