@@ -481,7 +481,7 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
 
 ## 3.2. Wireframes (sprint 2)
 
-![login]('../assets/wad/login.png')
+![login]('../assets/login.png')
 
 ## 1. Login and About  
 **Description:**  
@@ -496,7 +496,7 @@ Login screen with buttons for authentication, password recovery, and access to i
 
 ---
 
-![home]('../assets/wad/home.png')
+![home]('../assets/home.png')
 
 ## 2. Profile - Homepage  
 **Description:**  
@@ -510,7 +510,7 @@ User profile page with options to edit, save, or cancel updates to personal info
 
 ---
 
-![Assignments]('../assets/wad/Assignments.png')
+![Assignments]('../assets/Assignments.png')
 
 ## 3. Assignments  
 **Description:**  
@@ -522,7 +522,7 @@ Task tracking page with filtering and completion tools.
 
 ---
 
-![reports]('../assets/wad/reports.png')
+![reports]('../assets/reports.png')
 
 ## 4. Reports Page  
 **Description:**  
@@ -535,7 +535,7 @@ Academic performance page with options to view and export report cards.
 
 ---
 
-![timetable]('../assets/wad/timetable.png')
+![timetable]('../assets/timetable.png')
 
 ## 5. Timetable (Class Schedule)  
 **Description:**  
@@ -545,7 +545,7 @@ Timetable screen showing the student’s schedule.
 
 ---
 
-![events]('../assets/wad/events.png')
+![events]('../assets/events.png')
 
 ## 6. School Events for Parents  
 **Description:**  
@@ -555,8 +555,7 @@ Event feed for parents with RSVP functionality.
 
 ---
 
-src= "C:../assets/wad/csc.png"
-![csc]('../assets/wad/csc.png')
+![csc]('../assets/csc.png')
 
 ## 7. Customer Service Channels  
 **Description:**  
@@ -570,7 +569,7 @@ Support area with contact options for technical or administrative help.
 
 ---
 
-![benes]('../assets/wad/benes.png')
+![benes]('../assets/benes.png')
 
 ## 8. Benes and Sanctions  
 **Description:**  
