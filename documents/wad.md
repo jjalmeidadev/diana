@@ -484,11 +484,9 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
 &nbsp;&nbsp;&nbsp;&nbsp;Now we’re going to show the wireframes of our website.
 These sketches were created to give us a clearer view of the site’s structure and navigation. They serve as a visual guide, helping us align ideas, test the user flow, and ensure that all elements are well organized before moving on to the final design.
 
-![login](../assets/login.png)
-
 ## 1. Login and About  
 **Description:**  
-Login screen with buttons for authentication, password recovery, and access to institutional information.  
+&nbsp;&nbsp;&nbsp;Login screen with buttons for authentication, password recovery, and access to institutional information.  
 - **[Login]** sends credentials for secure authentication.  
   — **US04 & US05**: Ensures protected access to student information.  
   — **US08**: First point of contact for new users accessing the platform.  
@@ -496,14 +494,29 @@ Login screen with buttons for authentication, password recovery, and access to i
   — **US04**: Ensures continuous access for busy parents.  
 - **[About the school]** displays school mission, values, and contact details.  
   — **US07**: Supports onboarding for new families.
-
 ---
 
-![home](../assets/home.png)
+<br>
+
+<div align="center">
+  
+  <sub>Figure 09 - Login screen </sub>
+  <br>
+  <br>
+  ![login](../assets/login.png)
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
 
 ## 2. Profile - Homepage  
 **Description:**  
-User profile page with options to edit, save, or cancel updates to personal information.  
+&nbsp;&nbsp;&nbsp;User profile page with options to edit, save, or cancel updates to personal information.  
 - **[Edit Profile]** enables editing of phone number, address, and other details.  
   — **US11**: Allows updating contact information.  
 - **[Save]** confirms and stores changes made to the profile.  
@@ -512,24 +525,52 @@ User profile page with options to edit, save, or cancel updates to personal info
   — Supports usability by preventing unwanted edits.
 
 ---
+<br>
 
-![Assignments](../assets/Assignments.png)
+<div align="center">
+  
+  <sub>Figure 10 - Profile </sub>
+  <br>
+  <br>
+ ![home](../assets/home.png)
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
 
 ## 3. Assignments  
 **Description:**  
-Task tracking page with filtering and completion tools.  
+&nbsp;&nbsp;&nbsp;Task tracking page with filtering and completion tools.  
 - **[Filter by subject]** displays tasks by selected subject.  
   — **US04 & US05**: Helps parents follow academic progress.  
 - **[Mark as completed]** (check icon) marks a task as finished.  
   — **US05**: Allows parents to verify student task completion.
 
 ---
+<br>
 
-![reports](../assets/reports.png)
+<div align="center">
+  
+  <sub>Figure 11 - Assignments </sub>
+  <br>
+  <br>
+![Assignments](../assets/Assignments.png)
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
 
 ## 4. Reports Page  
 **Description:**  
-Academic performance page with options to view and export report cards.  
+&nbsp;&nbsp;&nbsp;Academic performance page with options to view and export report cards.  
 - **[Select Term]** (dropdown) filters academic reports by trimester or semester.  
   — **US04**: Enables quick review of grades over time.  
 - **[Download PDF]** exports the report for offline access.  
@@ -537,32 +578,77 @@ Academic performance page with options to view and export report cards.
 - Additional components: average grade chart per subject, table with subjects, semester, and grades; notification icon, profile button, and search bar.
 
 ---
+<br>
 
-![timetable](../assets/timetable.png)
+<div align="center">
+  
+  <sub>Figure 12 - Reports </sub>
+  <br>
+  <br>
+![reports](../assets/reports.png)
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
 
 ## 5. Timetable (Class Schedule)  
 **Description:**  
-Timetable screen showing the student’s schedule.  
+&nbsp;&nbsp;&nbsp;Timetable screen showing the student’s schedule.  
 - **[Day / Week]** toggles between daily and weekly views.  
   — **US04 & US05**: Provides a clear view of the student’s routine.
 
 ---
+<br>
 
-![events](../assets/events.png)
+<div align="center">
+  
+  <sub>Figure 13 - Timetable </sub>
+  <br>
+  <br>
+![timetable](../assets/timetable.png)
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
 
 ## 6. School Events for Parents  
 **Description:**  
-Event feed for parents with RSVP functionality.  
+&nbsp;&nbsp;&nbsp;Event feed for parents with RSVP functionality.  
 - Each event opens a detailed description and lets parents confirm attendance.  
   — **US05 & US07**: Keeps parents informed and engaged in school activities.
 
 ---
+<br>
 
-![csc](../assets/csc.png)
+<div align="center">
+  
+  <sub>Figure 14 - Events </sub>
+  <br>
+  <br>
+![events](../assets/events.png)
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+
 
 ## 7. Customer Service Channels  
 **Description:**  
-Support area with contact options for technical or administrative help.  
+&nbsp;&nbsp;&nbsp;Support area with contact options for technical or administrative help.  
 - **[New Support Request]** opens a live chat with the school office.  
   — **US06**: Provides direct and efficient technical support.  
 - **[Check Ticket Status]** shows the progress of submitted requests.  
@@ -571,17 +657,48 @@ Support area with contact options for technical or administrative help.
   — **US10**: Allows direct communication between parents and the school.
 
 ---
+<br>
 
-![benes](../assets/benes.png)
+<div align="center">
+  
+  <sub>Figure 15 - Customer Service Channels </sub>
+  <br>
+  <br>
+![csc](../assets/csc.png)
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
 
 ## 8. Benes and Sanctions  
 **Description:**  
-Behavioral tracking screen displaying merits and warnings.  
+&nbsp;&nbsp;&nbsp;Behavioral tracking screen displaying merits and warnings.  
 - **[View Full History]** reveals all recorded events for a student.  
   — **US04 & US05**: Allows parents to monitor their child’s behavior.  
 - Features include: student selection, count of merits and sanctions, comparative chart, and access to related reports.
 
-Wireframes: 
+<br>
+
+<div align="center">
+  
+  <sub>Figure 16 - Benes </sub>
+  <br>
+  <br>
+![benes](../assets/benes.png)
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+&nbsp;&nbsp;&nbsp;Here is the Figma link to view all the wireframes: 
 https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node-id=0-1&t=hnUIIUZ5UoUYsqvq-1
 
 &nbsp;&nbsp;&nbsp;&nbsp;These wireframes helped us visualize and validate the site structure, ensuring that the navigation and layout align with the project goals. With this foundation in place, we can confidently move on to the next stage of the design process.
