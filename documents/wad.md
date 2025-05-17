@@ -483,7 +483,227 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
 
 ## 3.2. Wireframes (sprint 2)
 
-*Posicione aqui as imagens do wireframe construído para sua solução e, opcionalmente, o link para acesso (mantenha o link sempre público para visualização)*
+&nbsp;&nbsp;&nbsp;&nbsp;Now we’re going to show the wireframes of our website.
+These sketches were created to give us a clearer view of the site’s structure and navigation. They serve as a visual guide, helping us align ideas, test the user flow, and ensure that all elements are well organized before moving on to the final design.
+
+## 1. Login and About  
+**Description:**  
+&nbsp;&nbsp;&nbsp;Login screen with buttons for authentication, password recovery, and access to institutional information.  
+- **[Login]** sends credentials for secure authentication.  
+  — **US04 & US05**: Ensures protected access to student information.  
+  — **US08**: First point of contact for new users accessing the platform.  
+- **[Forgot your password?]** redirects to the password recovery page.  
+  — **US04**: Ensures continuous access for busy parents.  
+- **[About the school]** displays school mission, values, and contact details.  
+  — **US07**: Supports onboarding for new families.
+---
+
+<br>
+
+<div align="center">
+  
+  <sub>Figure 09 - Login screen </sub>
+  <br>
+  <br>
+  ![login](../assets/login.png)
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+
+## 2. Profile - Homepage  
+**Description:**  
+&nbsp;&nbsp;&nbsp;User profile page with options to edit, save, or cancel updates to personal information.  
+- **[Edit Profile]** enables editing of phone number, address, and other details.  
+  — **US11**: Allows updating contact information.  
+- **[Save]** confirms and stores changes made to the profile.  
+  — **US11**: Ensures updated data is recorded.  
+- **[Cancel]** discards any modifications made.  
+  — Supports usability by preventing unwanted edits.
+
+---
+<br>
+
+<div align="center">
+  
+  <sub>Figure 10 - Profile </sub>
+  <br>
+  <br>
+ ![home](../assets/home.png)
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+## 3. Assignments  
+**Description:**  
+&nbsp;&nbsp;&nbsp;Task tracking page with filtering and completion tools.  
+- **[Filter by subject]** displays tasks by selected subject.  
+  — **US04 & US05**: Helps parents follow academic progress.  
+- **[Mark as completed]** (check icon) marks a task as finished.  
+  — **US05**: Allows parents to verify student task completion.
+
+---
+<br>
+
+<div align="center">
+  
+  <sub>Figure 11 - Assignments </sub>
+  <br>
+  <br>
+![Assignments](../assets/Assignments.png)
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+## 4. Reports Page  
+**Description:**  
+&nbsp;&nbsp;&nbsp;Academic performance page with options to view and export report cards.  
+- **[Select Term]** (dropdown) filters academic reports by trimester or semester.  
+  — **US04**: Enables quick review of grades over time.  
+- **[Download PDF]** exports the report for offline access.  
+  — **US04 & US05**: Useful for sharing and personal records.  
+- Additional components: average grade chart per subject, table with subjects, semester, and grades; notification icon, profile button, and search bar.
+
+---
+<br>
+
+<div align="center">
+  
+  <sub>Figure 12 - Reports </sub>
+  <br>
+  <br>
+![reports](../assets/reports.png)
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+## 5. Timetable (Class Schedule)  
+**Description:**  
+&nbsp;&nbsp;&nbsp;Timetable screen showing the student’s schedule.  
+- **[Day / Week]** toggles between daily and weekly views.  
+  — **US04 & US05**: Provides a clear view of the student’s routine.
+
+---
+<br>
+
+<div align="center">
+  
+  <sub>Figure 13 - Timetable </sub>
+  <br>
+  <br>
+![timetable](../assets/timetable.png)
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+
+## 6. School Events for Parents  
+**Description:**  
+&nbsp;&nbsp;&nbsp;Event feed for parents with RSVP functionality.  
+- Each event opens a detailed description and lets parents confirm attendance.  
+  — **US05 & US07**: Keeps parents informed and engaged in school activities.
+
+---
+<br>
+
+<div align="center">
+  
+  <sub>Figure 14 - Events </sub>
+  <br>
+  <br>
+![events](../assets/events.png)
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+
+
+## 7. Customer Service Channels  
+**Description:**  
+&nbsp;&nbsp;&nbsp;Support area with contact options for technical or administrative help.  
+- **[New Support Request]** opens a live chat with the school office.  
+  — **US06**: Provides direct and efficient technical support.  
+- **[Check Ticket Status]** shows the progress of submitted requests.  
+  — **US06 & US08**: Ensures transparency and follow-up ease.  
+- **[Contact via Email/Phone]** launches email or phone apps with teacher contact details.  
+  — **US10**: Allows direct communication between parents and the school.
+
+---
+<br>
+
+<div align="center">
+  
+  <sub>Figure 15 - Customer Service Channels </sub>
+  <br>
+  <br>
+![csc](../assets/csc.png)
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+## 8. Benes and Sanctions  
+**Description:**  
+&nbsp;&nbsp;&nbsp;Behavioral tracking screen displaying merits and warnings.  
+- **[View Full History]** reveals all recorded events for a student.  
+  — **US04 & US05**: Allows parents to monitor their child’s behavior.  
+- Features include: student selection, count of merits and sanctions, comparative chart, and access to related reports.
+
+<br>
+
+<div align="center">
+  
+  <sub>Figure 16 - Benes </sub>
+  <br>
+  <br>
+![benes](../assets/benes.png)
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+&nbsp;&nbsp;&nbsp;Here is the Figma link to view all the wireframes: 
+https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node-id=0-1&t=hnUIIUZ5UoUYsqvq-1
+
+&nbsp;&nbsp;&nbsp;&nbsp;These wireframes helped us visualize and validate the site structure, ensuring that the navigation and layout align with the project goals. With this foundation in place, we can confidently move on to the next stage of the design process.
 
 ## 1. Login and About  
 **Description:**  
