@@ -593,96 +593,98 @@ Behavioral tracking screen displaying merits and warnings.
 
 ### 3.5.1. Relational model (sprints 2 e 4)
 
-Relational database modeling is the process of designing the structure of a database based on the principles of the relational model. Its purpose is to organize all the information into tables and to clearly represent the relationships among them, ensuring data is structured, consistent, and easy to access.
+&nbsp;&nbsp;&nbsp;&nbsp;Relational database modeling is the process of designing the structure of a database based on the principles of the relational model. Its purpose is to organize all the information into tables and to clearly represent the relationships among them, ensuring data is structured, consistent, and easy to access.
 
 ![supabase-schema-yexhdilbyibjfvrflcsm (4)](https://github.com/user-attachments/assets/8dd75f2d-5d18-40cf-a6ed-23add51b7ef6)
 
-#### Table description:
-### Table users
+#### 3.5.1.1 Tables description:
+#### a) Table users
 **Purpose:** Stores login details for the parent who use the system.
 
-=======
 **Main fields:**
 
-- id: Unique identifier for each user
-- email: Email address (used to log in)
-- password: Password (securely stored)
-- type_of_user: Defines the user's role (e.g. teacher, tutor, admin)
+- id: Unique identifier for each user;
+- email: Email address (used to log in);
+- password: Password (securely stored);
+- type_of_user: Defines the user's role (e.g. teacher, tutor, admin).
 
-### Table teachers
+#### b) Table teachers
 **Purpose:** Keeps information about school teachers.
 
 **Main fields:**
 
-- id: Unique ID for the teacher
-- teacher_name: Full name of the teacher
-- teacher_email: Contact email
+- id: Unique ID for the teacher;
+- teacher_name: Full name of the teacher;
+- teacher_email: Contact email.
 
-### Table tutors
+#### c) Table tutors:
 **Purpose:** Stores information about tutors.
 
 **Main fields:**
 
-- id: Unique ID for the tutor
-- name_tutor: Full name
-- email: Contact email
+- id: Unique ID for the tutor;
+- name_tutor: Full name;
+- email: Contact email.
 
-**Related to:** students.
-**Related to:** subjects. 
+**Related to:** students and subjects. 
 
-### Table students
+#### d) Table students:
 **purpose:** Stores informaton about the students like grades, name, and gender.
 
-- id: Unique student ID
-- student_name, student_surname: Student’s full name
-- gender, school_age, year_code: Basic school and personal info
-- tutor_id: Links to the student’s tutor
-- school_id: (Optional) School information
-- medical_flags: Any medical notes
+- id: Unique student ID;
+- student_name, student_surname: Student’s full name;
+- gender, school_age, year_code: Basic school and personal info;
+- tutor_id: Links to the student’s tutor;
+- school_id: (Optional) School information;
+- medical_flags: Any medical notes.
 
-**Related to:**
-tutors (via tutor_id)
-student_subject (shows what they study)
-events and reports.
+**Related to:** tutors (via tutor_id), student_subject (shows what they study), events and reports.
 
-### Table subjects
+#### e) Table subjects:
 **Purpose:** Lists all subjects offered at the school.
 
 **Main fields:**
 
-- id: Subject ID
-- subject_name: Name of the subject (e.g. Math, Science)
-- teacher_id: Who teaches it
+- id: Subject ID;
+- subject_name: Name of the subject (e.g. Math, Science);
+- teacher_id: Who teaches it.
 
-### Table student_subject
+#### d) Table student_subject:
 **Purpose:** Connects students and subjects they are enrolled in.
+
 **Main fields:**
 
-- id: Unique ID
-- student_id: Student enrolled
-- subject_id: Subject enrolled in
-- grade: Grade received in that subject
+- id: Unique ID;
+- student_id: Student enrolled;
+- subject_id: Subject enrolled in;
+- grade: Grade received in that subject.
 
-### Table reports
+#### e) Table reports:
 **Purpose:** Stores written reports about a student.
+
 **Main fields:**
 
-- id: Report ID
-- student_id: Who the report is about
-- date_report: When the report was created
-- Related to: students
+- id: Report ID;
+- student_id: Who the report is about;
+- date_report: When the report was created;
+- Related to: students.
 
-### Table events
+#### f) Table events:
+
 **Purpose:** Logs any special events related to a student.
 
 **Main fields:**
 
-- id: Event ID
-- concept: Description of the event
-- student_id: Who the event is related to
-- Related to: students
+- id: Event ID;
+- concept: Description of the event;
+- student_id: Who the event is related to;
+- Related to: students;
+
+&nbsp;&nbsp;&nbsp;&nbsp;The relational model designed for the Diana parent portal effectively structures academic, administrative, and user data into an interconnected database system. Through tables like students, subjects, and reports - linked by foreign keys (e.g., tutor_id) - the system enables efficient queries for parents to access grades, attendance records, and other critical information. The clear separation of responsibilities (e.g., the users table for authentication) guarantees security and adaptability for future enhancements, such as integration with external calendars or behavioral metrics. By combining a well-structured data model with real user needs (as represented by personas like Daniel Thompson), the current architecture meets immediate requirements and also establishes a robust foundation for system evolution, fully aligned with St. Paul's mission.
   
-### 3.5.2. SQL queries and propos/itional logic (sprint 2)
+### 3.5.2. SQL queries and propositional logic (sprint 2)
+
+&nbsp;&nbsp;&nbsp;&nbsp;In the development of our web application for St. Paul's School, database interactions are critical to ensure efficient and accurate data retrieval, updates, and management. This section bridges SQL (Structured Query Language)—the standard language for relational database operations—with propositional logic, a foundational framework for expressing and evaluating logical conditions.
 
 #1 | ---
 --- | ---
@@ -690,11 +692,7 @@ events and reports.
 **Logical propositions** | $A$: The address is 'Rua Galeno de Almeida, 1200' (address = 'Rua Galeno de Almeida, 1200') <br> $B$: The students name is John (student_name = 'John') <br> $C$: The id must be 24 (id = 24)
 **Propositional logic expression** | $(A \land B) \land C$
 
-**Truth Table** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$C$</th> <th>$(A \land B)$</th> <th>$(A \land B) \land C$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>F</td> <td>V</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>V</td> <td>F</td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>V</td> <td>F</td> <td>F</td> </tr> <tr> <td>V</td> <td>V</td> <td>F</td> <td>V</td> <td>F</td> </tr> <tr> <td>V</td> <td>V</td> <td>V</td> <td>V</td> <td>V</td> </tr> </tbody> </table>
-=======
-**Truth Table** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$C$</th> <th>$(A \land B)$</th> <th>$(A \land B) \land C$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>F</td> <td>T</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>T</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>T</td> <td>T</td> <td>F</td> <td>F</td> </tr> <tr> <td>T</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>T</td> <td>F</td> <td>T</td> <td>F</td> <td>F</td> </tr> <tr> <td>T</td> <td>T</td> <td>F</td> <td>T</td> <td>F</td> </tr> <tr> <td>T</td> <td>T</td> <td>T</td> <td>T</td> <td>T</td> </tr> </tbody> </table>
-
-This expression would be used when the necessity of updating an specific student's adress would appear, being exemplified by the use of "John", who wouldn't have the "Smith" surname (considering there is another student with this full name) and would have the ID 24 allocated for himself.
+&nbsp;&nbsp;&nbsp;&nbsp;This expression (#1) would be used when the necessity of updating an specific student's adress would appear, being exemplified by the use of "John", who wouldn't have the "Smith" surname (considering there is another student with this full name) and would have the ID 24 allocated for himself.
 
 #2 | ---
 --- | ---
@@ -703,7 +701,7 @@ This expression would be used when the necessity of updating an specific student
 **Propositional logic expression** | $(A \lor B) \land C$
 **Truth Table** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$C$</th> <th>$(A \lor B)$</th> <th>$(A \lor B) \land C$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>F</td> <td>T</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>T</td> <td>F</td> <td>T</td> <td>F</td> </tr> <tr> <td>F</td> <td>T</td> <td>T</td> <td>T</td> <td>T</td> </tr> <tr> <td>T</td> <td>F</td> <td>F</td> <td>T</td> <td>F</td> </tr> <tr> <td>T</td> <td>F</td> <td>T</td> <td>T</td> <td>T</td> </tr> <tr> <td>T</td> <td>T</td> <td>F</td> <td>T</td> <td>F</td> </tr> <tr> <td>T</td> <td>T</td> <td>T</td> <td>T</td> <td>T</td> </tr> </tbody> </table>
 
-This expression would be used in a context in which a subject (Business & Management, Physics and Computer Science for example) is inappropriately assigned for a pre prep student, considering that his grade doesn't approach such a level of complexity yet.
+&nbsp;&nbsp;&nbsp;&nbsp;This expression (#2) would be used in a context in which a subject (Business & Management, Physics and Computer Science for example) is inappropriately assigned for a pre prep student, considering that his grade doesn't approach such a level of complexity yet.
 
 #3 | —
 --- | ---
@@ -712,7 +710,7 @@ This expression would be used in a context in which a subject (Business & Manage
 **Propositional logic expression** | $(A \land B) \lor C$
 **Truth Table**  | <table> <thead> <tr><th>$A$</th><th>$B$</th><th>$C$</th><th>$(A \land B)$</th><th>$(A \land B) \lor C$</th></tr></thead><tbody><tr><td>F</td><td>F</td><td>F</td><td>F</td><td>F</td></tr><tr><td>F</td><td>F</td><td>T</td><td>F</td><td>T</td></tr><tr><td>F</td><td>T</td><td>F</td><td>F</td><td>F</td></tr><tr><td>F</td><td>T</td><td>T</td><td>F</td><td>T</td></tr><tr><td>T</td><td>F</td><td>F</td><td>F</td><td>F</td></tr><tr><td>T</td><td>F</td><td>T</td><td>F</td><td>T</td></tr><tr><td>T</td><td>T</td><td>F</td><td>T</td><td>T</td></tr><tr><td>T</td><td>T</td><td>T</td><td>T</td><td>T</td></tr></tbody></table>
 
-This SQL statement highlights students who may need immediate academic attention by returning every learner with either more than five absences and an overall grade below 60, or active medical flag—helping teachers and advisors quickly locate those who require extra monitoring or support.
+&nbsp;&nbsp;&nbsp;&nbsp;This SQL statement (#3) highlights students who may need immediate academic attention by returning every learner with either more than five absences and an overall grade below 60, or active medical flag—helping teachers and advisors quickly locate those who require extra monitoring or support.
 
 #4 | —
 --- | ---
@@ -721,7 +719,9 @@ This SQL statement highlights students who may need immediate academic attention
 **Propositional logic expression** | $D \land (E \lor F)$
 **Truth Table** | <table> <thead> <tr><th>$D$</th><th>$E$</th><th>$F$</th><th>$(E \lor F)$</th><th>$(D \land (E \lor F))$</th></tr></thead><tbody><tr><td>F</td><td>F</td><td>F</td><td>F</td><td>F</td></tr><tr><td>F</td><td>F</td><td>T</td><td>T</td><td>F</td></tr><tr><td>F</td><td>T</td><td>F</td><td>T</td><td>F</td></tr><tr><td>F</td><td>T</td><td>T</td><td>T</td><td>F</td></tr><tr><td>T</td><td>F</td><td>F</td><td>F</td><td>F</td></tr><tr><td>T</td><td>F</td><td>T</td><td>T</td><td>T</td></tr><tr><td>T</td><td>T</td><td>F</td><td>T</td><td>T</td></tr><tr><td>T</td><td>T</td><td>T</td><td>T</td><td>T</td></tr></tbody></table>
 
-This SQL statement focuses on a parent’s children, selecting each subject in which the recorded grade is still blank and the child either falls in the failing-grade (between 0 and 59) or belongs to the “alta” academic house, enabling parents and school staff to identify missing grades and cases for follow-up before report cards are finalized.
+&nbsp;&nbsp;&nbsp;&nbsp;This SQL statement (#4) focuses on a parent’s children, selecting each subject in which the recorded grade is still blank and the child either falls in the failing-grade (between 0 and 59) or belongs to the “alta” academic house, enabling parents and school staff to identify missing grades and cases for follow-up before report cards are finalized.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Moving forward, this methodology will guide future database enhancements, ensuring scalability and reliability as the platform evolves. 
 
 ## 3.6. WebAPI and endpoints (sprints 3 e 4)
 
