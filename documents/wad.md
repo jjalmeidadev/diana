@@ -481,7 +481,7 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
 
 ## 3.2. Wireframes (sprint 2)
 
-![login]('../assets/login.png')
+![login]('.../assets/login.png')
 
 ## 1. Login and About  
 **Description:**  
