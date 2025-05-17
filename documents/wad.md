@@ -818,7 +818,7 @@ Behavioral tracking screen displaying merits and warnings.
 ![supabase-schema-yexhdilbyibjfvrflcsm (4)](https://github.com/user-attachments/assets/8dd75f2d-5d18-40cf-a6ed-23add51b7ef6)
 
 #### 3.5.1.1 Tables description:
-#### a) Table users
+#### a) Users table:
 **Purpose:** Stores login details for the parent who use the system.
 
 **Main fields:**
@@ -828,7 +828,7 @@ Behavioral tracking screen displaying merits and warnings.
 - password: Password (securely stored);
 - type_of_user: Defines the user's role (e.g. teacher, tutor, admin).
 
-#### b) Table teachers
+#### b) Teachers table:
 **Purpose:** Keeps information about school teachers.
 
 **Main fields:**
@@ -837,7 +837,7 @@ Behavioral tracking screen displaying merits and warnings.
 - teacher_name: Full name of the teacher;
 - teacher_email: Contact email.
 
-#### c) Table tutors:
+#### c) Tutors table:
 **Purpose:** Stores information about tutors.
 
 **Main fields:**
@@ -848,7 +848,7 @@ Behavioral tracking screen displaying merits and warnings.
 
 **Related to:** students and subjects. 
 
-#### d) Table students:
+#### d) Students table:
 **purpose:** Stores informaton about the students like grades, name, and gender.
 
 - id: Unique student ID;
@@ -860,7 +860,7 @@ Behavioral tracking screen displaying merits and warnings.
 
 **Related to:** tutors (via tutor_id), student_subject (shows what they study), events and reports.
 
-#### e) Table subjects:
+#### e) Subjects table:
 **Purpose:** Lists all subjects offered at the school.
 
 **Main fields:**
@@ -869,7 +869,7 @@ Behavioral tracking screen displaying merits and warnings.
 - subject_name: Name of the subject (e.g. Math, Science);
 - teacher_id: Who teaches it.
 
-#### d) Table student_subject:
+#### d) Student_subject table:
 **Purpose:** Connects students and subjects they are enrolled in.
 
 **Main fields:**
@@ -879,7 +879,7 @@ Behavioral tracking screen displaying merits and warnings.
 - subject_id: Subject enrolled in;
 - grade: Grade received in that subject.
 
-#### e) Table reports:
+#### e) Reports table:
 **Purpose:** Stores written reports about a student.
 
 **Main fields:**
@@ -889,7 +889,7 @@ Behavioral tracking screen displaying merits and warnings.
 - date_report: When the report was created;
 - Related to: students.
 
-#### f) Table events:
+#### f) Events table:
 
 **Purpose:** Logs any special events related to a student.
 
@@ -900,7 +900,9 @@ Behavioral tracking screen displaying merits and warnings.
 - student_id: Who the event is related to;
 - Related to: students;
 
-&nbsp;&nbsp;&nbsp;&nbsp;The relational model designed for the Diana parent portal effectively structures academic, administrative, and user data into an interconnected database system. Through tables like students, subjects, and reports - linked by foreign keys (e.g., tutor_id) - the system enables efficient queries for parents to access grades, attendance records, and other critical information. The clear separation of responsibilities (e.g., the users table for authentication) guarantees security and adaptability for future enhancements, such as integration with external calendars or behavioral metrics. By combining a well-structured data model with real user needs (as represented by personas like Daniel Thompson), the current architecture meets immediate requirements and also establishes a robust foundation for system evolution, fully aligned with St. Paul's mission.
+&nbsp;&nbsp;&nbsp;&nbsp;The relational database model for Diana was designed to directly align with and support the project's key user stories. The student_subject and reports tables enable the academic tracking functionality required by US04 and US05, allowing parents to view their child's grades and performance metrics as specified in the acceptance criteria. These tables connect to the students table which maintains tutor relationships, ensuring parents have comprehensive oversight of their child's progress. The users table implements role-based permissions through its type_of_user field, directly addressing US06 by providing IT staff with the access control capabilities needed to manage accounts and troubleshoot issues according to the defined support scenarios. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;The events table supports US07's onboarding requirements by storing school activities and announcements that help new families integrate into the community. Medical information in the students table and contact details in both students and tutors tables fulfill US11's need for parents to update critical contact information. This intentional database design ensures each user story's functional requirements are properly supported through appropriate data relationships and access patterns while maintaining security and performance. The model's flexibility allows for future expansion to accommodate additional features while preserving its alignment with core user needs as defined in the project requirements.
   
 ### 3.5.2. SQL queries and propositional logic (sprint 2)
 
