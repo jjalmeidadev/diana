@@ -63,3 +63,22 @@ CREATE TABLE student_subject (
   subject_id INTEGER REFERENCES subjects(id),
   grade INTEGER
 );
+
+
+CREATE TABLE academic_house(
+  id SERIAL PRIMARY KEY,
+  house VARCHAR
+);
+
+CREATE TABLE year_code(
+  id SERIAL PRIMARY KEY,
+  year_code  INTEGER
+);
+
+
+ALTER TABLE students 
+DROP COLUMN academic_house,
+DROP COLUMN year_code,
+ADD COLUMN academic_house_id,
+ADD COLUMN year_code_id;
+
