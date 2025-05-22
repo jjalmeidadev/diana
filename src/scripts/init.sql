@@ -82,3 +82,8 @@ DROP COLUMN year_code,
 ADD COLUMN academic_house_id,
 ADD COLUMN year_code_id;
 
+ALTER TABLE students 
+ADD CONSTRAINT fk_academic_house FOREIGN KEY (academic_house_id)REFERENCES academic_house(id),
+ADD CONSTRAINT fk_year_code FOREIGN KEY (year_code_id) REFERENCES year_code(id);
+
+
