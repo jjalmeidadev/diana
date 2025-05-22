@@ -1,46 +1,56 @@
 CREATE TABLE users (
   id SERIAL PRIMARY KEY,
-  email VARCHAR,
-  password VARCHAR,
-  type_of_user VARCHAR
+  email VARCHAR(255),
+  password VARCHAR(255),
+  type_of_user VARCHAR(50)
 );
 
 CREATE TABLE tutors (
   id SERIAL PRIMARY KEY,
-  name_tutor VARCHAR,
-  email VARCHAR
+  name_tutor VARCHAR(255),
+  email VARCHAR(255)
 );
 
 CREATE TABLE teachers (
   id SERIAL PRIMARY KEY,
-  teacher_name VARCHAR,
-  teacher_email VARCHAR
+  teacher_name VARCHAR(255),
+  teacher_email VARCHAR(255)
+);
+
+CREATE TABLE academic_house (
+  id SERIAL PRIMARY KEY,
+  house VARCHAR(100)
+);
+
+CREATE TABLE year_code (
+  id SERIAL PRIMARY KEY,
+  year_code INTEGER
 );
 
 CREATE TABLE students (
   id SERIAL PRIMARY KEY,
-  student_name VARCHAR,
+  student_name VARCHAR(255),
   date_birth DATE,
   parent_id INTEGER REFERENCES users(id),
-  address VARCHAR,
+  address VARCHAR(255),
   num_absences INTEGER,
   tutor_id INTEGER REFERENCES tutors(id),
   registration INTEGER,
-  student_surname VARCHAR,
-  student_fullname VARCHAR,
-  gender VARCHAR,
+  student_surname VARCHAR(255),
+  student_fullname VARCHAR(255),
+  gender VARCHAR(20),
   school_age FLOAT,
-  academic_house VARCHAR,
   school_id INTEGER,
-  primary_contact VARCHAR,
-  year_code VARCHAR,
-  post_code VARCHAR,
-  medical_flags VARCHAR
+  primary_contact VARCHAR(255),
+  post_code VARCHAR(20),
+  medical_flags VARCHAR(255),
+  academic_house_id INTEGER REFERENCES academic_house(id),
+  year_code_id INTEGER REFERENCES year_code(id)
 );
 
 CREATE TABLE events (
   id SERIAL PRIMARY KEY,
-  concept VARCHAR,
+  concept VARCHAR(255),
   student_id INTEGER REFERENCES students(id)
 );
 
@@ -52,9 +62,8 @@ CREATE TABLE reports (
 
 CREATE TABLE subjects (
   id SERIAL PRIMARY KEY,
-  name_subject VARCHAR,
-  teacher_id INTEGER REFERENCES teachers(id),
-  student_grade INTEGER
+  name_subject VARCHAR(255),
+  teacher_id INTEGER REFERENCES teachers(id)
 );
 
 CREATE TABLE student_subject (
@@ -63,27 +72,3 @@ CREATE TABLE student_subject (
   subject_id INTEGER REFERENCES subjects(id),
   grade INTEGER
 );
-
-
-CREATE TABLE academic_house(
-  id SERIAL PRIMARY KEY,
-  house VARCHAR
-);
-
-CREATE TABLE year_code(
-  id SERIAL PRIMARY KEY,
-  year_code  INTEGER
-);
-
-
-ALTER TABLE students 
-DROP COLUMN academic_house,
-DROP COLUMN year_code,
-ADD COLUMN academic_house_id,
-ADD COLUMN year_code_id;
-
-ALTER TABLE students 
-ADD CONSTRAINT fk_academic_house FOREIGN KEY (academic_house_id)REFERENCES academic_house(id),
-ADD CONSTRAINT fk_year_code FOREIGN KEY (year_code_id) REFERENCES year_code(id);
-
-
