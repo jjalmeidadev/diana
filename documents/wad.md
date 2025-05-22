@@ -740,7 +740,8 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
   <sub>Figure 17 - Database Modelling </sub>
   <br>
   <br>
-![supabase-schema-yexhdilbyibjfvrflcsm (4)](https://github.com/user-attachments/assets/8dd75f2d-5d18-40cf-a6ed-23add51b7ef6)
+![supabase-schema-yexhdilbyibjfvrflcsm (6)](https://github.com/user-attachments/assets/ecf6aaa8-61c6-4077-ace9-0d6df521268d)
+
   <br>
   <br>
 
@@ -833,6 +834,25 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 - concept: Description of the event;
 - student_id: Who the event is related to;
 - Related to: students;
+
+  #### g) Academic house table
+**Purpose:** Storage all the academic houses from st Pauls(a sistem like Harry Potter)
+
+**Main fields:**
+
+- id: Unique identifier for the academic house;
+- house: Name of the house.
+- Related to: students (via academic_house_id).
+
+  #### h) year code
+
+**Purpose:** Defines the academic year or grade level a student is currently in.
+
+**Main fields:**
+
+- id: Unique identifier for the year/grade;
+- year_code: Label for the year (e.g., “Year 5”, “Grade 10”).
+- Related to: students (via year_code_id).
 
 &nbsp;&nbsp;&nbsp;&nbsp;The relational database model for Diana was designed to directly align with and support the project's key user stories. The student_subject and reports tables enable the academic tracking functionality required by US04 and US05, allowing parents to view their child's grades and performance metrics as specified in the acceptance criteria. These tables connect to the students table which maintains tutor relationships, ensuring parents have comprehensive oversight of their child's progress. The users table implements role-based permissions through its type_of_user field, directly addressing US06 by providing IT staff with the access control capabilities needed to manage accounts and troubleshoot issues according to the defined support scenarios. 
 
