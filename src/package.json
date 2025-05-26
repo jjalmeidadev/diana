@@ -1,23 +1,7 @@
 {
-  "name": "2025-1b-t18-in02-g02",
-  "version": "1.0.0",
-  "description": "<p align=\"center\">\r <a href= \"https://www.inteli.edu.br/\"><img src=\"/assets/inteli.png\" alt=\"Inteli - Instituto de Tecnologia e Liderança\" border=\"0\"></a>\r </p>",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Inteli-College/2025-1B-T18-IN02-G02.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Inteli-College/2025-1B-T18-IN02-G02/issues"
-  },
-  "homepage": "https://github.com/Inteli-College/2025-1B-T18-IN02-G02#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "pg": "^8.16.0"
   }
 }
