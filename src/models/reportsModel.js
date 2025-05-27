@@ -36,5 +36,3 @@ const ReportsModel = {
     return result.rows[0];
   }
 };
-
-module.exports = ReportsModel;
