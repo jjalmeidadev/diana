@@ -1,4 +1,4 @@
-const AcademicHouseModel = require('../models/academic_house.model');
+const AcademicHouseModel = require('../models/academicHouseModel');
 
 async function getAllAcademicHouses(req, res) {
   try {
@@ -28,8 +28,30 @@ async function createAcademicHouse(req, res) {
   }
 }
 
+async function updateAcademicHouseById(req, res) {
+  try {
+    const updatedHouse = await AcademicHouseModel.updateAcademicHouseById(req.params.id, req.body);
+    if (!updatedHouse) return res.status(404).json({ error: 'Casa acadêmica não encontrada' });
+    res.json(updatedHouse);
+  } catch (error) {
+    res.status(500).json({ error: 'Erro ao atualizar casa acadêmica' });
+  }
+}
+
+async function deleteAcademicHouseById(req, res) {
+  try {
+    const deletedHouse = await AcademicHouseModel.deleteAcademicHouseById(req.params.id);
+    if (!deletedHouse) return res.status(404).json({ error: 'Casa acadêmica não encontrada' });
+    res.json({ message: 'Casa acadêmica deletada com sucesso' });
+  } catch (error) {
+    res.status(500).json({ error: 'Erro ao deletar casa acadêmica' });
+  }
+}
+
 module.exports = {
   getAllAcademicHouses,
   getAcademicHouseById,
   createAcademicHouse,
+  updateAcademicHouseById,
+  deleteAcademicHouseById,
 };

@@ -28,8 +28,30 @@ async function createStudentSubject(req, res) {
   }
 }
 
+async function updateStudentSubjectById(req, res) {
+  try {
+    const updatedStudentSubject = await StudentSubjectModel.updateStudentSubjectById(req.params.id, req.body);
+    if (!updatedStudentSubject) return res.status(404).json({ error: 'Relação aluno-matéria não encontrada' });
+    res.json(updatedStudentSubject);
+  } catch (error) {
+    res.status(500).json({ error: 'Erro ao atualizar relação aluno-matéria' });
+  }
+}
+
+async function deleteStudentSubjectById(req, res) {
+  try {
+    const deletedStudentSubject = await StudentSubjectModel.deleteStudentSubjectById(req.params.id);
+    if (!deletedStudentSubject) return res.status(404).json({ error: 'Relação aluno-matéria não encontrada' });
+    res.json({ message: 'Relação aluno-matéria deletada com sucesso' });
+  } catch (error) {
+    res.status(500).json({ error: 'Erro ao deletar relação aluno-matéria' });
+  }
+}
+
 module.exports = {
   getAllStudentSubjects,
   getStudentSubjectById,
   createStudentSubject,
+  updateStudentSubjectById,
+  deleteStudentSubjectById,
 };

@@ -18,8 +18,27 @@ async function createYearCode({ year_code }) {
   return result.rows[0];
 }
 
+async function updateYearCodeById(id, yearCodeData) {
+  const { year_code } = yearCodeData;
+  const result = await pool.query(
+    'UPDATE year_code SET year_code = $1 WHERE id = $2 RETURNING *',
+    [year_code, id]
+  );
+  return result.rows[0];
+}
+
+async function deleteYearCodeById(id) {
+  const result = await pool.query(
+    'DELETE FROM year_code WHERE id = $1 RETURNING *',
+    [id]
+  );
+  return result.rows[0];
+}
+
 module.exports = {
   getAllYearCodes,
   getYearCodeById,
   createYearCode,
+  updateYearCodeById,
+  deleteYearCodeById,
 };

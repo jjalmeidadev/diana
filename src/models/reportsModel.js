@@ -17,6 +17,23 @@ const ReportsModel = {
       [date_report, student_id]
     );
     return result.rows[0];
+  },
+
+  async updateReportById(id, reportData) {
+    const { date_report, student_id } = reportData;
+    const result = await db.query(
+      'UPDATE reports SET date_report = $1, student_id = $2 WHERE id = $3 RETURNING *',
+      [date_report, student_id, id]
+    );
+    return result.rows[0];
+  },
+
+  async deleteReportById(id) {
+    const result = await db.query(
+      'DELETE FROM reports WHERE id = $1 RETURNING *',
+      [id]
+    );
+    return result.rows[0];
   }
 };
 

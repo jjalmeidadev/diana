@@ -28,8 +28,30 @@ async function createReport(req, res) {
   }
 }
 
+async function updateReportById(req, res) {
+  try {
+    const updatedReport = await ReportsModel.updateReportById(req.params.id, req.body);
+    if (!updatedReport) return res.status(404).json({ error: 'Relatório não encontrado' });
+    res.json(updatedReport);
+  } catch (error) {
+    res.status(500).json({ error: 'Erro ao atualizar relatório' });
+  }
+}
+
+async function deleteReportById(req, res) {
+  try {
+    const deletedReport = await ReportsModel.deleteReportById(req.params.id);
+    if (!deletedReport) return res.status(404).json({ error: 'Relatório não encontrado' });
+    res.json({ message: 'Relatório deletado com sucesso' });
+  } catch (error) {
+    res.status(500).json({ error: 'Erro ao deletar relatório' });
+  }
+}
+
 module.exports = {
   getAllReports,
   getReportById,
   createReport,
+  updateReportById,
+  deleteReportById,
 };

@@ -28,8 +28,30 @@ async function createEvent(req, res) {
   }
 }
 
+async function updateEventById(req, res) {
+  try {
+    const updatedEvent = await EventsModel.updateEventById(req.params.id, req.body);
+    if (!updatedEvent) return res.status(404).json({ error: 'Evento não encontrado' });
+    res.json(updatedEvent);
+  } catch (error) {
+    res.status(500).json({ error: 'Erro ao atualizar evento' });
+  }
+}
+
+async function deleteEventById(req, res) {
+  try {
+    const deletedEvent = await EventsModel.deleteEventById(req.params.id);
+    if (!deletedEvent) return res.status(404).json({ error: 'Evento não encontrado' });
+    res.json({ message: 'Evento deletado com sucesso' });
+  } catch (error) {
+    res.status(500).json({ error: 'Erro ao deletar evento' });
+  }
+}
+
 module.exports = {
   getAllEvents,
   getEventById,
   createEvent,
+  updateEventById,
+  deleteEventById,
 };
