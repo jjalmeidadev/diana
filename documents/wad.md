@@ -95,7 +95,7 @@
 
 <br>
 
-1. Threat of New Entrants → LOW
+**1. Threat of New Entrants → LOW**
 Very high entry barriers: Paul’s has held official recognition from the British Crown since 2012, being the first school in South America to receive this endorsement. This grants the school a high level of exclusivity and institutional authority, along with a legacy since 1926, robust infrastructure, and prestige. 
 
 The bilingual curriculum, IB programs, and internationally qualified staff require significant expertise and investment. 
@@ -104,7 +104,7 @@ High parent loyalty further discourages switching.
 
 
 
-2. Threat of Substitutes → MODERATE
+**2. Threat of Substitutes → MODERATE**
 Indirect competition: Other bilingual/international schools (e.g., Avenues, Chapel, Graded) lack Crown recognition, weakening their legitimacy. 
 
 Online education has limited appeal in this premium segment, and the symbolic value of a British diploma for top universities is hard to replace.
@@ -113,7 +113,7 @@ Online education has limited appeal in this premium segment, and the symbolic va
 
 
 
-3.  Bargaining Power of Suppliers → MODERATE
+**3.  Bargaining Power of Suppliers → MODERATE**
 Key suppliers: bilingual and internationally trained teachers, educational technology companies, and outsourced services.
 
 
@@ -127,7 +127,7 @@ Key suppliers: bilingual and internationally trained teachers, educational techn
 
 
 
-4. Bargaining Power of Customers (Parents and Students) → MODERATE
+**4. Bargaining Power of Customers (Parents and Students) → MODERATE**
 
 &nbsp;&nbsp;&nbsp;&nbsp;Demanding and selective clientele: High-income families focused on international education are vocal about their expectations and standards.
 
@@ -154,7 +154,7 @@ Key suppliers: bilingual and internationally trained teachers, educational techn
 
 
 
-5. Rivalry Among Existing Competitors → HIGH  (but mitigated by advantage)
+**5. Rivalry Among Existing Competitors → HIGH  (but mitigated by advantage)**
 Competitors (Graded, Chapel, Avenues) target similar students but lack British recognition. St. Paul’s unique status reduces direct comparability, solidifying its leadership in the elite education market.
 
 
@@ -218,21 +218,21 @@ Competitors (Graded, Chapel, Avenues) target similar students but lack British r
 
 &nbsp;&nbsp;&nbsp;&nbsp;The structure of the Value Proposition Canvas is made up of two fundamental and complementary areas, which help us deeply understand the target audience and create more effective solutions:
 
-→ Customer Profile: investigates the characteristics, needs, and expectations of the people who will use the product or service. This part is subdivided into three key elements:
+**1. Customer Profile:** investigates the characteristics, needs, and expectations of the people who will use the product or service. This part is subdivided into three key elements:
 
-- Customer Jobs: describes what the customer needs to accomplish — their roles, goals, and activities that directly influence their routine and outcomes.
+**2. Customer Jobs:** describes what the customer needs to accomplish — their roles, goals, and activities that directly influence their routine and outcomes.
 
-- Pains: points out the obstacles, frustrations, or difficulties that hinder the efficient achievement of those tasks.
+**3. Pains:** points out the obstacles, frustrations, or difficulties that hinder the efficient achievement of those tasks.
 
-- Gains: identifies the expected benefits, desired improvements, and the factors that truly create value for the customer.
+**4. Gains:** identifies the expected benefits, desired improvements, and the factors that truly create value for the customer.
 
-→ Value Proposition: defines how the developed solution meets the demands of the audience, relieving pains and providing gains. This section is also divided into three components:
+**5. Value Proposition:** defines how the developed solution meets the demands of the audience, relieving pains and providing gains. This section is also divided into three components:
 
-- Products and Services: describes the offer created to meet the identified needs.
+**6. Products and Services:** describes the offer created to meet the identified needs.
 
-- Pain Relievers: explains how the proposal helps solve or ease the challenges faced by the customer.
+**7. Pain Relievers:** explains how the proposal helps solve or ease the challenges faced by the customer.
 
-- Gain Creators: presents the differentials and additional advantages offered, making the experience more positive and valuable.
+**8. Gain Creators:** presents the differentials and additional advantages offered, making the experience more positive and valuable.
 
 &nbsp;&nbsp;&nbsp;&nbsp;By applying the Value Proposition Canvas in the context of St. Paul's, we ensure that our group's proposal is centered on the real needs of the user, promoting more relevant, engaging, and transformative solutions. This methodology allows us to align innovation and purpose, as well as to stimulate strategic thinking and the development of projects that generate a positive impact in line with the school's values.
 
@@ -484,9 +484,13 @@ Acceptance Criteria 2 | **Scenario:** The moderator tries to assign an invalid r
 
 ## 3.2. Wireframes (sprint 2)
 
-&nbsp;&nbsp;&nbsp;&nbsp;Now we’re going to show the wireframes of our website. These sketches were created to give us a clearer view of the platform's structure and navigation. They serve as a visual guide, helping us align ideas, test the user flow, and ensure that all elements are well organized before moving on to the final design.
+&nbsp;&nbsp;&nbsp;&nbsp;Now we will present the wireframes of our website. A wireframe [1] is a simplified, two-dimensional visual representation of a web page’s layout and structure, focusing on the arrangement of elements such as navigation, content areas, headers, and footers, without involving colors, images, or detailed design. Wireframes serve as the foundational blueprint or skeleton of a website, outlining its structure and functionality early in the design process.
 
-## 1. Login and About  
+&nbsp;&nbsp;&nbsp;&nbsp;The importance of wireframes lies in their ability to clarify the platform’s architecture and user flow, allowing designers and stakeholders to align ideas and expectations before investing time in visual design and development. By focusing on usability and content hierarchy, wireframes help identify and solve potential navigation or layout issues early, saving time and resources later in the project. They also facilitate effective communication among team members and clients by providing a clear, visual guide of how the site will function and how users will interact with it.
+
+&nbsp;&nbsp;&nbsp;&nbsp;In summary, these wireframe sketches guide us in organizing all elements coherently, testing the user journey, and ensuring the platform meets both user needs and business goals before moving on to the final design phase.
+
+**1. Login and About**
 **Description:**  
 &nbsp;&nbsp;&nbsp;Login screen with buttons for authentication, password recovery, and access to institutional information.  
 - **[Login]** sends credentials for secure authentication.  
@@ -505,7 +509,7 @@ Acceptance Criteria 2 | **Scenario:** The moderator tries to assign an invalid r
   <sub>Figure 09 - Login screen </sub>
   <br>
   <br>
-  ![login](../assets/wad/login.png)
+  ![login](../assets/wad/Login%20and%20About_reviewed.png)
   <br>
   <br>
 
@@ -516,7 +520,7 @@ Acceptance Criteria 2 | **Scenario:** The moderator tries to assign an invalid r
 <br>
 
 
-## 2. Profile - Homepage  
+**2. Profile - Homepage**
 **Description:**  
 &nbsp;&nbsp;&nbsp;User profile page with options to edit, save, or cancel updates to personal information.  
 - **[Edit Profile]** enables editing of phone number, address, and other details.  
@@ -534,7 +538,7 @@ Acceptance Criteria 2 | **Scenario:** The moderator tries to assign an invalid r
   <sub>Figure 10 - Profile </sub>
   <br>
   <br>
- ![home](../assets/wad/home.png)
+ ![home](../assets/wad/Profile%20-%20Homepage_reviewed.png)
   <br>
   <br>
 
@@ -544,7 +548,7 @@ Acceptance Criteria 2 | **Scenario:** The moderator tries to assign an invalid r
 
 <br>
 
-## 3. Assignments  
+**3. Assignments**
 **Description:**  
 &nbsp;&nbsp;&nbsp;Task tracking page with filtering and completion tools.  
 - **[Filter by subject]** displays tasks by selected subject.  
@@ -560,7 +564,7 @@ Acceptance Criteria 2 | **Scenario:** The moderator tries to assign an invalid r
   <sub>Figure 11 - Assignments </sub>
   <br>
   <br>
-![Assignments](../assets/wad/Assignments.png)
+![Assignments](../assets/wad/Assignments_reviewed.png)
   <br>
   <br>
 
@@ -570,7 +574,7 @@ Acceptance Criteria 2 | **Scenario:** The moderator tries to assign an invalid r
 
 <br>
 
-## 4. Reports Page  
+**4. Reports Page**
 **Description:**  
 &nbsp;&nbsp;&nbsp;Academic performance page with options to view and export report cards.  
 - **[Select Term]** (dropdown) filters academic reports by trimester or semester.  
@@ -587,7 +591,7 @@ Acceptance Criteria 2 | **Scenario:** The moderator tries to assign an invalid r
   <sub>Figure 12 - Reports </sub>
   <br>
   <br>
-![reports](../assets/wad/reports.png)
+![reports](../assets/wad/Reports%20page_reviewed.png)
   <br>
   <br>
 
@@ -597,7 +601,7 @@ Acceptance Criteria 2 | **Scenario:** The moderator tries to assign an invalid r
 
 <br>
 
-## 5. Timetable (Class Schedule)  
+**5. Timetable (Class Schedule)**
 **Description:**  
 &nbsp;&nbsp;&nbsp;Timetable screen showing the student’s schedule.  
 - **[Day / Week]** toggles between daily and weekly views.  
@@ -611,7 +615,7 @@ Acceptance Criteria 2 | **Scenario:** The moderator tries to assign an invalid r
   <sub>Figure 13 - Timetable </sub>
   <br>
   <br>
-![timetable](../assets/wad/timetable.png)
+![timetable](../assets/wad/Timetable%20(class%20schedule)_reviewed.png)
   <br>
   <br>
 
@@ -622,7 +626,7 @@ Acceptance Criteria 2 | **Scenario:** The moderator tries to assign an invalid r
 <br>
 
 
-## 6. School Events for Parents  
+**6. School Events for Parents**
 **Description:**  
 &nbsp;&nbsp;&nbsp;Event feed for parents with RSVP functionality.  
 - Each event opens a detailed description and lets parents confirm attendance.  
@@ -636,7 +640,7 @@ Acceptance Criteria 2 | **Scenario:** The moderator tries to assign an invalid r
   <sub>Figure 14 - Events </sub>
   <br>
   <br>
-![events](../assets/wad/events.png)
+![events](../assets/wad/School%20events%20for%20parents_reviewed.png)
   <br>
   <br>
 
@@ -648,7 +652,7 @@ Acceptance Criteria 2 | **Scenario:** The moderator tries to assign an invalid r
 
 
 
-## 7. Customer Service Channels  
+**7. Customer Service Channels**
 **Description:**  
 &nbsp;&nbsp;&nbsp;Support area with contact options for technical or administrative help.  
 - **[New Support Request]** opens a live chat with the school office.  
@@ -666,7 +670,7 @@ Acceptance Criteria 2 | **Scenario:** The moderator tries to assign an invalid r
   <sub>Figure 15 - Customer Service Channels </sub>
   <br>
   <br>
-![csc](../assets/wad/csc.png)
+![csc](../assets/wad/Customer%20service%20channels_reviewed.png)
   <br>
   <br>
 
@@ -676,7 +680,7 @@ Acceptance Criteria 2 | **Scenario:** The moderator tries to assign an invalid r
 
 <br>
 
-## 8. Benes and Sanctions  
+**8. Benes and Sanctions**
 **Description:**  
 &nbsp;&nbsp;&nbsp;Behavioral tracking screen displaying merits and warnings.  
 - **[View Full History]** reveals all recorded events for a student.  
@@ -690,7 +694,7 @@ Acceptance Criteria 2 | **Scenario:** The moderator tries to assign an invalid r
   <sub>Figure 16 - Benes and sanctions </sub>
   <br>
   <br>
-![benes](../assets/wad/benes.png)
+![benes](../assets/wad/Benes%20and%20Sanctions_reviewed.png)
   <br>
   <br>
 
@@ -754,7 +758,7 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 
 
 #### 3.5.1.1 Tables description:
-#### a) Users table:
+**1.  Users table:**
 **Purpose:** Stores login details for the parent who use the system.
 
 **Main fields:**
@@ -764,7 +768,7 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 - password: Password (securely stored);
 - type_of_user: Defines the user's role (e.g. teacher, tutor, admin).
 
-#### b) Teachers table:
+**2. Teachers table:**
 **Purpose:** Keeps information about school teachers.
 
 **Main fields:**
@@ -773,7 +777,7 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 - teacher_name: Full name of the teacher;
 - teacher_email: Contact email.
 
-#### c) Tutors table:
+**3. Tutors table:**
 **Purpose:** Stores information about tutors.
 
 **Main fields:**
@@ -784,7 +788,7 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 
 **Related to:** students and subjects. 
 
-#### d) Students table:
+**4. Students table:**
 **purpose:** Stores informaton about the students like grades, name, and gender.
 
 - id: Unique student ID;
@@ -796,7 +800,7 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 
 **Related to:** tutors (via tutor_id), student_subject (shows what they study), events and reports.
 
-#### e) Subjects table:
+**5. Subjects table:**
 **Purpose:** Lists all subjects offered at the school.
 
 **Main fields:**
@@ -805,7 +809,7 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 - subject_name: Name of the subject (e.g. Math, Science);
 - teacher_id: Who teaches it.
 
-#### d) Student_subject table:
+**6. Student_subject table:**
 **Purpose:** Connects students and subjects they are enrolled in.
 
 **Main fields:**
@@ -815,7 +819,7 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 - subject_id: Subject enrolled in;
 - grade: Grade received in that subject.
 
-#### e) Reports table:
+**7. Reports table:**
 **Purpose:** Stores written reports about a student.
 
 **Main fields:**
@@ -825,7 +829,7 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 - date_report: When the report was created;
 - Related to: students.
 
-#### f) Events table:
+**8. Events table:**
 
 **Purpose:** Logs any special events related to a student.
 
@@ -836,7 +840,7 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 - student_id: Who the event is related to;
 - Related to: students;
 
-  #### g) Academic house table
+**9. Academic house table:**
 **Purpose:** Storage all the academic houses from st Pauls(a sistem like Harry Potter)
 
 **Main fields:**
@@ -845,7 +849,7 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 - house: Name of the house.
 - Related to: students (via academic_house_id).
 
-  #### h) year code
+**10. Year code:**
 
 **Purpose:** Defines the academic year or grade level a student is currently in.
 
@@ -998,13 +1002,12 @@ Descreva os principais segmentos de mercado a serem atendidos pela aplicação. 
 
 # <a name="c8"></a>8. References (sprints 1 a 5)
 
-_Incluir as principais referências de seu projeto, para que seu parceiro possa consultar caso ele se interessar em aprofundar. Um exemplo de referência de livro e de site:_<br>
+<!-- _Incluir as principais referências de seu projeto, para que seu parceiro possa consultar caso ele se interessar em aprofundar. Um exemplo de referência de livro e de site:_<br> -->
 
-LUCK, Heloisa. Liderança em gestão escolar. 4. ed. Petrópolis: Vozes, 2010. <br>
-SOBRENOME, Nome. Título do livro: subtítulo do livro. Edição. Cidade de publicação: Nome da editora, Ano de publicação. <br>
+[1] Wireframes: o que é, qual a importância, tipos e ferramentas. Disponível em: https://rockcontent.com/br/blog/wireframes/. Acesso em: 28 mai. 2025.
 
-INTELI. Adalove. Disponível em: https://adalove.inteli.edu.br/feed. Acesso em: 1 out. 2023 <br>
-SOBRENOME, Nome. Título do site. Disponível em: link do site. Acesso em: Dia Mês Ano
+. <br>
+
 
 # <a name="c9"></a>Appendices
 
