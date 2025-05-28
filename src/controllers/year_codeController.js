@@ -1,4 +1,4 @@
-const YearCodeModel = require('../models/year_code.model');
+const YearCodeModel = require('../models/yearCodeModel');
 
 async function getAllYearCodes(req, res) {
   try {
@@ -28,8 +28,30 @@ async function createYearCode(req, res) {
   }
 }
 
+async function updateYearCodeById(req, res) {
+  try {
+    const updatedYearCode = await YearCodeModel.updateYearCodeById(req.params.id, req.body);
+    if (!updatedYearCode) return res.status(404).json({ error: 'Código do ano não encontrado' });
+    res.json(updatedYearCode);
+  } catch (error) {
+    res.status(500).json({ error: 'Erro ao atualizar código do ano' });
+  }
+}
+
+async function deleteYearCodeById(req, res) {
+  try {
+    const deletedYearCode = await YearCodeModel.deleteYearCodeById(req.params.id);
+    if (!deletedYearCode) return res.status(404).json({ error: 'Código do ano não encontrado' });
+    res.json({ message: 'Código do ano deletado com sucesso' });
+  } catch (error) {
+    res.status(500).json({ error: 'Erro ao deletar código do ano' });
+  }
+}
+
 module.exports = {
   getAllYearCodes,
   getYearCodeById,
   createYearCode,
+  updateYearCodeById,
+  deleteYearCodeById,
 };

@@ -28,8 +28,30 @@ async function createStudent(req, res) {
   }
 }
 
+async function updateStudentById(req, res) {
+  try {
+    const updatedStudent = await StudentsModel.updateStudentById(req.params.id, req.body);
+    if (!updatedStudent) return res.status(404).json({ error: 'Aluno não encontrado' });
+    res.json(updatedStudent);
+  } catch (error) {
+    res.status(500).json({ error: 'Erro ao atualizar aluno' });
+  }
+}
+
+async function deleteStudentById(req, res) {
+  try {
+    const deletedStudent = await StudentsModel.deleteStudentById(req.params.id);
+    if (!deletedStudent) return res.status(404).json({ error: 'Aluno não encontrado' });
+    res.json({ message: 'Aluno deletado com sucesso' });
+  } catch (error) {
+    res.status(500).json({ error: 'Erro ao deletar aluno' });
+  }
+}
+
 module.exports = {
   getAllStudents,
   getStudentById,
   createStudent,
+  updateStudentById,
+  deleteStudentById,
 };

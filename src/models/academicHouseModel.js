@@ -18,8 +18,27 @@ async function createAcademicHouse({ house }) {
   return result.rows[0];
 }
 
+async function updateAcademicHouseById(id, academicHouseData) {
+  const { house } = academicHouseData;
+  const result = await pool.query(
+    'UPDATE academic_house SET house = $1 WHERE id = $2 RETURNING *',
+    [house, id]
+  );
+  return result.rows[0];
+}
+
+async function deleteAcademicHouseById(id) {
+  const result = await pool.query(
+    'DELETE FROM academic_house WHERE id = $1 RETURNING *',
+    [id]
+  );
+  return result.rows[0];
+}
+
 module.exports = {
   getAllAcademicHouses,
   getAcademicHouseById,
   createAcademicHouse,
+  updateAcademicHouseById,
+  deleteAcademicHouseById,
 };

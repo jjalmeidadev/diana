@@ -17,6 +17,23 @@ const EventsModel = {
       [concept, student_id]
     );
     return result.rows[0];
+  },
+
+  async updateEventById(id, eventData) {
+    const { concept, student_id } = eventData;
+    const result = await db.query(
+      'UPDATE events SET concept = $1, student_id = $2 WHERE id = $3 RETURNING *',
+      [concept, student_id, id]
+    );
+    return result.rows[0];
+  },
+
+  async deleteEventById(id) {
+    const result = await db.query(
+      'DELETE FROM events WHERE id = $1 RETURNING *',
+      [id]
+    );
+    return result.rows[0];
   }
 };
 
