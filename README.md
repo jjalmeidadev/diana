@@ -49,27 +49,43 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 ## 💻 Configuration for code development and execution:
 
-*Acrescentar as informações necessárias sobre pré-requisitos (IDEs, bibliotecas, serviços etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o código e executar a aplicação a partir de sua máquina local.*
+Aqui estão todas as instruções necessárias para configurar e executar o projeto em sua máquina local:
 
-*exemplo de instruções*
+### Pré-requisitos:
+1. Node.js instalado (versão 16.15.1 LTS ou superior)
+   - Baixe em: [https://nodejs.org/pt-br/](https://nodejs.org/pt-br/)
+   - Para verificar se está instalado, abra o terminal e digite: `node --version`
 
-Aqui encontram-se todas as instruções necessárias para a instalação de todos os programas, bibliotecas e ferramentas imprescindíveis para a configuração do ambiente de desenvolvimento.
+### Passo a passo para execução:
 
-1. Baixar e instalar o node.js: [https://nodejs.org/pt-br/](https://nodejs.org/pt-br/) (versão 16.15.1 LTS)
-2. Clone o repositório em questão.
-3. No modo administrador, abra o "prompt de comando" ou o "terminal" e, após, abra a pasta "src/backend" no diretório raiz do repositório clonado e digite o segundo comando:
+1. Clone o repositório:
+```sh
+git clone https://github.com/Inteli-College/2025-1B-T18-IN02-G02.git
+```
 
+2. Navegue até a pasta do projeto:
+```sh
+cd 2025-1B-T18-IN02-G02/src
+```
+
+3. Instale as dependências:
 ```sh
 npm install
 ```
 
-Isso instalará todas as dependências definidas no arquivo <b>package.json</b> que são necessárias para rodar o projeto. Agora o projeto já está pronto para ser modificado. Caso ainda deseje iniciar a aplicação, digite o comando abaixo no terminal:
-
+4. Inicie o servidor:
 ```sh
 npm start
 ```
-5. Agora você pode acessar a aplicação através do link http://localhost:1234/
-6. O servidor está online.
+
+5. Acesse a aplicação:
+- Abra seu navegador
+- Digite o endereço: http://localhost:1234
+
+### Observações importantes:
+- Certifique-se de que a porta 1234 não está sendo usada por outro programa
+- Se encontrar algum erro durante a instalação, verifique se o Node.js está instalado corretamente
+- Para parar o servidor, pressione `Ctrl + C` no terminal
 
 ## 🗃 Platform release history:
 
