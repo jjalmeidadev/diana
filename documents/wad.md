@@ -483,6 +483,8 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
 
 Each database table is represented by its own model, which is responsible for handling the data structure and business logic related to that specific entity. For every model, there is a corresponding controller that acts as an intermediary between the model and the user interface. The controller receives input (usually from HTTP requests), processes this input by interacting with the appropriate model, and prepares the data to be sent to the views. The views are responsible for displaying the information to the user in a structured and user-friendly format.
 
+Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diana?node-id=0-1&p=f&t=LUQpx1ce9GdskM4m-0
+
 ## 3.2. Wireframes (sprint 2)
 
 &nbsp;&nbsp;&nbsp;&nbsp;Now we’re going to show the wireframes of our website. These sketches were created to give us a clearer view of the platform's structure and navigation. They serve as a visual guide, helping us align ideas, test the user flow, and ensure that all elements are well organized before moving on to the final design.
