@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path'); // Import path module
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 1234;
 
 // Middleware para processar JSON
 app.use(express.json());
