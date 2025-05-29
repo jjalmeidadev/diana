@@ -8,19 +8,28 @@ router.get('/', (req, res) => {
 });
 
 router.get('/assignments', (req, res) => {
-  res.render('assignments');
+  res.render('pages/assignments');
 });
-
 router.get('/customerservice', (req, res) => {
-  res.render('customerservice');
+  res.render('pages/customerservice');
 });
-
 router.get('/events', (req, res) => {
-  res.render('events');
+  res.render('pages/events');
 });
-
 router.get('/timetable', (req, res) => {
-  res.render('timetable');
+  res.render('pages/timetable');
+});
+router.get('/benes', (req, res) => {
+  res.render('pages/benes');
+});
+router.get('/login', (req, res) => {
+  res.render('pages/login');
+});
+router.get('/profile', (req, res) => {
+  res.render('pages/profile');
+});
+router.get('/reports', (req, res) => {
+  res.render('pages/reports');
 });
 
 module.exports = router;
