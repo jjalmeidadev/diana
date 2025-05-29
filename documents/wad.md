@@ -730,7 +730,9 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 
 ## 3.4 High-fidelity prototype (sprint 3)
 
-*posicione aqui algumas imagens demonstrativas de seu protótipo de alta fidelidade e o link para acesso ao protótipo completo (mantenha o link sempre público para visualização)*
+A high-fidelity prototype is a detailed representation of a product that closely resembles the final design in both appearance and functionality. It includes realistic visuals, accurate layout and typography.
+
+
 
 ## 3.5. Database modelling (sprints 2 e 4)
 
