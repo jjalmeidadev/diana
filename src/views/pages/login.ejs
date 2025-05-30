@@ -22,14 +22,14 @@
                 <span style="margin-right: 5px;">&#9993;</span>
                 <span>Email</span>
             </div>
-            <input type="text" placeholder="E-mail"
+            <input type="text" id="email" placeholder="E-mail"
                 style="height: 25px; border-radius: 5px; border: none; padding: 0 10px;" />
             <!-- Password -->
             <div style="display: flex; align-items: center; color: white;">
                 <span style="margin-right: 5px;">&#9993;</span>
                 <span>Password</span>
             </div>
-            <input type="password" placeholder="Password"
+            <input id="password" type="password" placeholder="Password"
                 style="height: 25px; border-radius: 5px; border: none; padding: 0 10px;" />
             <!-- Stay connected -->
             <div style="display: flex; align-items: center; color: white;">
@@ -37,7 +37,7 @@
                 <label for="stay-connected">Stay connected?</label>
             </div>
             <!-- Login button -->
-            <button
+            <button id="login-button"
                 style="height: 35px; background-color: lightgray; border: none; border-radius: 5px; cursor: pointer; margin-top: 10px;">
                 Login Button
             </button>
@@ -84,6 +84,29 @@
         </div>
 
     </div>
+<script>
+  document.getElementById('login-button').addEventListener('click', async () => {
+    const email = document.getElementById('email').value;
+    const name = document.getElementById('password').value;
+
+    try {
+      const response = await fetch('http://localhost:3000/users', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ name, email })
+      });
+
+      if (!response.ok) throw new Error('Erro ao criar usuário');
+
+      const data = await response.json();
+      alert(`Usuário criado com sucesso! ID: ${data.id}`);
+    } catch (err) {
+      alert(`Erro: ${err.message}`);
+    }
+  });
+</script>
 
 </body>
 

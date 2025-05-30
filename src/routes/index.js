@@ -1,11 +1,13 @@
 // routes/index.js
 const express = require('express');
 const router = express.Router();
+const userController = require('../controllers/userController');
 
 // Rota raiz
 router.get('/', (req, res) => {
   res.send('API funcionando!');
 });
+
 
 router.get('/assignments', (req, res) => {
   res.render('pages/assignments');
@@ -31,5 +33,11 @@ router.get('/profile', (req, res) => {
 router.get('/reports', (req, res) => {
   res.render('pages/reports');
 });
+
+router.get('/users', userController.getAllUsers);       
+router.get('/users/:id', userController.getUserById);    
+router.post('/users', userController.createUser);      
+router.put('/users/:id', userController.updateUser);     
+router.delete('/users/:id', userController.deleteUser);
 
 module.exports = router;
