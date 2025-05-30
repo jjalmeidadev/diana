@@ -1,14 +1,20 @@
 const express = require('express');
 const router = express.Router();
-const StudentSubjectController = require('../controllers/student_subject.controller');
+const StudentSubjectController = require('../controllers/student_subjectController');
 
 // Rota para listar todas as relações aluno-disciplina
-router.get('/', StudentSubjectController.getAllStudentSubjects);
+router.get('/student_subject', StudentSubjectController.getAllStudentSubjects);
 
-// Rota para buscar uma relação por ID
-router.get('/:id', StudentSubjectController.getStudentSubjectById);
+// Rota para buscar uma relação aluno-disciplina por ID
+router.get('/student_subject/:id', StudentSubjectController.getStudentSubjectById);
 
 // Rota para criar uma nova relação aluno-disciplina
-router.post('/', StudentSubjectController.createStudentSubject);
+router.post('/student_subject', StudentSubjectController.createStudentSubject);
+
+// Rota para atualizar um aluno-disciplina por ID
+router.put('/student_subject/:id', StudentSubjectController.updateStudentSubject);
+
+// Rota para deletar um aluno-disciplina por ID
+router.delete('/student_subject/:id', StudentSubjectController.deleteStudentSubject);
 
 module.exports = router;

@@ -1,14 +1,20 @@
 const express = require('express');
 const router = express.Router();
-const ReportsController = require('../controllers/reports.controller');
+const ReportsController = require('../controllers/reportsController');
 
 // Rota para listar todos os relatórios
-router.get('/', ReportsController.getAllReports);
+router.get('/reports', ReportsController.getAllReports);
 
 // Rota para buscar um relatório por ID
-router.get('/:id', ReportsController.getReportById);
+router.get('/reports/:id', ReportsController.getReportById);
 
 // Rota para criar um novo relatório
-router.post('/', ReportsController.createReport);
+router.post('/reports', ReportsController.createReport);
+
+// Rota para atualizar um relatório por ID
+router.put('/reports/:id', ReportsController.updateReport);
+
+// Rota para deletar um relatório por ID
+router.delete('/reports/:id', ReportsController.deleteReport);
 
 module.exports = router;
