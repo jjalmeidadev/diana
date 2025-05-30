@@ -709,19 +709,93 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 
 *Descreva aqui orientações gerais para o leitor sobre como utilizar os componentes do guia de estilos de sua solução*
 
+This style guide was created to ensure visual and communicative consistency throughout the "Diana" solution. It provides essential visual identity guidelines that should be followed by all team members involved in design, development, and communication. 
+
+<br>
+
+<div align="center">
+  
+  <sub>Figure 17 - Style Guide </sub>
+  <br>
+  <br>
+![benes](../assets/wad/styleguide.jpg)
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+
 ### 3.3.1 Colors
 
-*Apresente aqui a paleta de cores, com seus códigos de aplicação e suas respectivas funções*
+<br>
+
+<div align="center">
+  
+  <sub>Figure 18 - Colors </sub>
+  <br>
+  <br>
+![benes](../assets/wad/colors.jpg)
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+The primary colors should be used strategically to reinforce the brand identity.
+
+Primary ( #B82121 and #0C354C): Use for prominent elements such as buttons, headings, and key sections.
+
+Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contrast with content.
+
+
 
 ### 3.3.2 Typography
 
-*Apresente aqui a tipografia da solução, com famílias de fontes e suas respectivas funções*
+
+<br>
+
+<div align="center">
+  
+  <sub>Figure 18 - Typography </sub>
+  <br>
+  <br>
+![benes](../assets/wad/tipography.jpg)
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+The guide uses two main font families: Darker Grotesque for interface texts and Archer for titles and highlighted texts. Use the specified weights and sizes according to the type of content (e.g., H1 for main titles, H2 for subtitles).
 
 ### 3.3.3 Iconography and images
 
-*(esta subseção é opcional, caso não existam ícones e imagens, apague esta subseção)*
 
-*posicione aqui imagens e textos contendo exemplos padronizados de ícones e imagens, com seus respectivos atributos de aplicação, utilizadas na solução*
+<br>
+
+<div align="center">
+  
+  <sub>Figure 18 - Iconography and images </sub>
+  <br>
+  <br>
+![benes](../assets/wad/icons.jpg)
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
 
 ## 3.4 High-fidelity prototype (sprint 3)
 
