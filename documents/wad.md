@@ -479,7 +479,7 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
 
 ## 3.1. Architecture (sprints 3 e 4)
 
-
+<img src="../assets/wad/Diagrama da solução.png">
 
 Each database table is represented by its own model, which is responsible for handling the data structure and business logic related to that specific entity. For every model, there is a corresponding controller that acts as an intermediary between the model and the user interface. The controller receives input (usually from HTTP requests), processes this input by interacting with the appropriate model, and prepares the data to be sent to the views. The views are responsible for displaying the information to the user in a structured and user-friendly format.
 
