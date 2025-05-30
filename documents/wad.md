@@ -915,8 +915,162 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 
 ## 4.1. First version of the web application (sprint 3)
 
-*Descreva e ilustre aqui o desenvolvimento da sua primeira versão do sistema web, explicando brevemente o que foi entregue em termos de código e sistema. Utilize prints de tela para ilustrar. Indique as eventuais dificuldades e próximos passos.*
+### Implemented Structure:
 
+1.  **MVC Architecture**:
+    -   Use of Express.js as a framework
+    -   Structure organized in controllers, views, and routes
+    -   EJS template system for page rendering
+
+2.  **User Interface**:
+    -   Sidebar with navigation to the main features:
+        -   Events
+        -   Customer Service
+        -   Benes and Sanctions
+        -   Assignments
+        -   Timetable
+        -   Reports
+        -   Initial Screen (Login)
+
+3.  **Main Pages**:
+    -   Login
+    -   Profile
+    -   Assignments
+    -   Customer Service
+    -   Events
+    -   Timetable
+    -   Benes
+    -   Reports
+
+4.  **Reusable Components**:
+    -   Sidebar
+    -   UpperBar
+    -   LowerBar
+
+### Implemented Features:
+
+1.  **Routing System**:
+    -   Routes defined for all main pages
+    -   Basic navigation structure between pages
+
+2.  **Profile Interface**:
+    -   Layout with a profile photo section
+    -   Area for user information
+    -   Quick access buttons for Reports, Assignments, and Timetable
+
+#### Illustrations of the First Version:
+
+**Login Screen:**
+
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/telalogin.jpeg" alt="Login Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Profile Screen:**
+
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/telaprofile.jpeg" alt="Profile Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Assignments Screen:**
+
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/telaassignments.jpeg" alt="Assignments Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Customer Service Screen:**
+
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/telacustomers.jpeg" alt="Customer Service Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Events Screen:**
+
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/telaevents.jpeg" alt="Events Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Timetable Screen:**
+
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/telatimetable.jpeg" alt="Timetable Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Benes and Sanctions Screen:**
+
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/telabenes.jpeg" alt="Benes and Sanctions Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Reports Screen:**
+
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/telareports.jpeg" alt="Reports Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+### Challenges Encountered:
+
+1.  **Styling**:
+    -   Need for refactoring to a more organized CSS system
+
+2.  **Data Structure**:
+    -   Initial implementation of the user system
+    -   Need to develop services and data models
+
+### Next Steps:
+
+1.  **Technical Improvements**:
+    -   Implement a more robust CSS system
+    -   Create a complete authentication system
+    -   Implement form validation
+
+2.  **Features**:
+    -   Implement the event system
+    -   Create the reports system
+
+3.  **UX/UI**:
+    -   Improve system responsiveness
+    -   Implement visual feedback for user actions
+    -   Add smooth animations and transitions
+
+4.  **Security**:
+    -   Implement a robust authentication system
+    -   Add data validation
+    -   Implement role-based access control
+
+    -------
 ## 4.2. Second version of the web application (sprint 4)
 
 *Descreva e ilustre aqui o desenvolvimento da sua segunda versão do sistema web, explicando brevemente o que foi entregue em termos de código e sistema. Utilize prints de tela para ilustrar. Indique as eventuais dificuldades e próximos passos.*
