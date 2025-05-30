@@ -732,6 +732,15 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 
 A high-fidelity prototype is a detailed representation of a product that closely resembles the final design in both appearance and functionality. It includes realistic visuals, accurate layout and typography.
 
+#### Login and about page
+<img src="../assets/wad/Login and About (1).png">
+
+#### Homepage/profile
+<img src="../assets/wad/Group 14.png">
+
+#### benes and sanctions
+<img src="../assets/wad/Benes & Sanctions.png">
+
 
 
 ## 3.5. Database modelling (sprints 2 e 4)
