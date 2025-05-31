@@ -95,7 +95,7 @@
 
 <br>
 
-1. Threat of New Entrants → LOW
+**1. Threat of New Entrants → LOW**
 Very high entry barriers: Paul’s has held official recognition from the British Crown since 2012, being the first school in South America to receive this endorsement. This grants the school a high level of exclusivity and institutional authority, along with a legacy since 1926, robust infrastructure, and prestige. 
 
 The bilingual curriculum, IB programs, and internationally qualified staff require significant expertise and investment. 
@@ -104,7 +104,7 @@ High parent loyalty further discourages switching.
 
 
 
-2. Threat of Substitutes → MODERATE
+**2. Threat of Substitutes → MODERATE**
 Indirect competition: Other bilingual/international schools (e.g., Avenues, Chapel, Graded) lack Crown recognition, weakening their legitimacy. 
 
 Online education has limited appeal in this premium segment, and the symbolic value of a British diploma for top universities is hard to replace.
@@ -113,7 +113,7 @@ Online education has limited appeal in this premium segment, and the symbolic va
 
 
 
-3.  Bargaining Power of Suppliers → MODERATE
+**3.  Bargaining Power of Suppliers → MODERATE**
 Key suppliers: bilingual and internationally trained teachers, educational technology companies, and outsourced services.
 
 
@@ -127,7 +127,7 @@ Key suppliers: bilingual and internationally trained teachers, educational techn
 
 
 
-4. Bargaining Power of Customers (Parents and Students) → MODERATE
+**4. Bargaining Power of Customers (Parents and Students) → MODERATE**
 
 &nbsp;&nbsp;&nbsp;&nbsp;Demanding and selective clientele: High-income families focused on international education are vocal about their expectations and standards.
 
@@ -154,7 +154,7 @@ Key suppliers: bilingual and internationally trained teachers, educational techn
 
 
 
-5. Rivalry Among Existing Competitors → HIGH  (but mitigated by advantage)
+**5. Rivalry Among Existing Competitors → HIGH  (but mitigated by advantage)**
 Competitors (Graded, Chapel, Avenues) target similar students but lack British recognition. St. Paul’s unique status reduces direct comparability, solidifying its leadership in the elite education market.
 
 
@@ -218,21 +218,21 @@ Competitors (Graded, Chapel, Avenues) target similar students but lack British r
 
 &nbsp;&nbsp;&nbsp;&nbsp;The structure of the Value Proposition Canvas is made up of two fundamental and complementary areas, which help us deeply understand the target audience and create more effective solutions:
 
-→ Customer Profile: investigates the characteristics, needs, and expectations of the people who will use the product or service. This part is subdivided into three key elements:
+**1. Customer Profile:** investigates the characteristics, needs, and expectations of the people who will use the product or service. This part is subdivided into three key elements:
 
-- Customer Jobs: describes what the customer needs to accomplish — their roles, goals, and activities that directly influence their routine and outcomes.
+**2. Customer Jobs:** describes what the customer needs to accomplish — their roles, goals, and activities that directly influence their routine and outcomes.
 
-- Pains: points out the obstacles, frustrations, or difficulties that hinder the efficient achievement of those tasks.
+**3. Pains:** points out the obstacles, frustrations, or difficulties that hinder the efficient achievement of those tasks.
 
-- Gains: identifies the expected benefits, desired improvements, and the factors that truly create value for the customer.
+**4. Gains:** identifies the expected benefits, desired improvements, and the factors that truly create value for the customer.
 
-→ Value Proposition: defines how the developed solution meets the demands of the audience, relieving pains and providing gains. This section is also divided into three components:
+**5. Value Proposition:** defines how the developed solution meets the demands of the audience, relieving pains and providing gains. This section is also divided into three components:
 
-- Products and Services: describes the offer created to meet the identified needs.
+**6. Products and Services:** describes the offer created to meet the identified needs.
 
-- Pain Relievers: explains how the proposal helps solve or ease the challenges faced by the customer.
+**7. Pain Relievers:** explains how the proposal helps solve or ease the challenges faced by the customer.
 
-- Gain Creators: presents the differentials and additional advantages offered, making the experience more positive and valuable.
+**8. Gain Creators:** presents the differentials and additional advantages offered, making the experience more positive and valuable.
 
 &nbsp;&nbsp;&nbsp;&nbsp;By applying the Value Proposition Canvas in the context of St. Paul's, we ensure that our group's proposal is centered on the real needs of the user, promoting more relevant, engaging, and transformative solutions. This methodology allows us to align innovation and purpose, as well as to stimulate strategic thinking and the development of projects that generate a positive impact in line with the school's values.
 
@@ -396,15 +396,38 @@ User Story | "As an IT Analyst, I want to access comprehensive project documenta
 Acceptance Criteria 1 | **Scenario**: The IT Analyst accesses the project documentation. **Test:** The documentation should be well-structured, covering system architecture, API references, database schemas, and deployment guidelines.
 Critérios INVEST | **Independent::** Can be implemented without dependency on other features. **Negotiable:** Details (format, tools) can be adjusted (e.g., Markdown, Confluence, or Swagger). **Valuable:** Ensures smoother development and maintenance. **Estimable:** Effort to create/improve documentation can be estimated. **Small:** Can be broken into smaller tasks (e.g., "Document API endpoints"). **Testable:** Verifiable by checking if docs exist, are updated, and are useful.
 
+
 Identification | US02
 --- | ---
 Persona | Carolina Mendes
-User Story | "As the school’s  Marketing Manager, I need to be able to delete a publication from the website, so I can remove any outdated or incorrect information."
-Acceptance Criteria 1 | **Scenario:** The marketing manager is logged into the admin panel. **Acceptance Test:** When clicking the "Delete" button on a publication, it should be permanently removed from the website and no longer appear in the list of publications.
-Acceptance Criteria 2 | **Scenario:** The manager tries to delete a publication that doesn’t exist or has already been deleted. **Acceptance Test:** The system should display an error message indicating that the publication was not found.
-Critérios INVEST | **Independent::**  delete a publication doesn’t rely on other features. **Negotiable:**  the process of giving permission can be negotiated. **Valuable:**  it provides value by maintaining the accuracy of the website, ensuring the information is up-to-date. **Estimable:**  its a small task its time to be completed can be determined/estimated. **Small:** its a concise user storie that focus on a single action. **testable** it can be tested, just needs one person to delete a post.
+User Story | "As the school’s marketing manager, I want to offer an access to clear information about the enrollment process, so that the family can organize themselves from the very beginning."
+Acceptance Criteria 1 | **Scenario:** A new family accesses the platform for the first time. **Acceptance Test:** The platform presents an interactive guide with basic school information, contacts, and calendar.
+Acceptance Criteria 2 | **Scenario:** The family wants to review the onboarding information later. **Acceptance Test:** There should be a button/menu to access the welcome content again.
 
 Identification | US03
+--- | ---
+Persona | Júlio Oliveira
+User Story | "As a moderator, I want to ensure that every student receives all necessary information accurately from their very first interaction, preventing delays or issues caused by communication errors."
+Acceptance Criteria 1 | **Scenario:** A student accesses the platform for the first time. **Acceptance Test:** The system verifies that all required information fields are completed before allowing the student to proceed.
+Acceptance Criteria 2 | **Scenario:** A student needs additional help after initial interaction. **Acceptance Test:** The system logs all support requests and ensures a response is provided within.
+
+Identification | US04
+--- | ---
+Persona | Daniel Thompson
+User Story | "As a father who is searching for the balance between a new executive position and the proper attention directed to my son's trail, I'd like to access his academic information (reports, benes, sanctions, attendance rate, timetable) in a single platform, so that I can stay involved in his school life considering my heavy schedule."
+Acceptance Criteria 1 | **Scenario:** The father logs into the platform with valid credentials. **Acceptance Test:** The platform displays grades, attendance, and recent activities in a clear and organized manner.
+Acceptance Criteria 2 | **Scenario:** The father tries to access the system without being authenticated. **Acceptance Test:** The system redirects to the login screen and blocks access to student information.
+Critérios INVEST | **Independent:**  The story describes a standalone feature that doesn’t depend on other fetures. **Negotiable:** The details ,such as design, data, and delivery, can be negotiated. **Valuable:** It provides value to the parent by offering a platform to stay involved in their son’s academic life. **Estimable:** The technical work involved is clear enough for estimation. **Small:** The scope of this story is clear and achievable within a short time. **testable** It can be tested by checking if the marketing manager can successfully use the interface to publish school news.
+
+Identification | US05
+--- | ---
+Persona | Daniel Thompson
+User Story | "As a parent, I wish there was a simple place where I could easily follow my daughter’s grades, attendance, and school updates without feeling lost in complicated websites (poor UI/UX)."
+Acceptance Criteria 1 | **Scenario:** The parent navigates through the dashboard. **Acceptance Test:** Information is organized into clearly defined tabs or sections (Grades, Attendance...).
+Acceptance Criteria 2 | **Scenario:** There is an error retrieving student data. **Acceptance Test:** The system displays a friendly error message and offers a retry option.
+Critérios INVEST | **Independent:**  its standalone, focusing only on a parent’s access to their child’s school data. **Negotiable:** layout, types of data, and presentation style can be negotiated. **Valuable:** It delivers significant value by helping parents easily track academic progress and school updates. **Estimable:** The effort required to build the tracking system can be estimated. **Small:** The story is focused on one specific need, making it manageable in size. **testable** it can be tested by ensuring parents can view grades, attendance, and updates.
+
+Identification | US06
 --- | ---
 Persona | Carolina Mendes
 User Story | "As the school’s marketing manager, I want a simple interface to publish school news, so that I can easily share updates with the school community."
@@ -412,64 +435,42 @@ Acceptance Criteria 1 | **Scenario:** The manager accesses the admin panel and f
 Acceptance Criteria 2 | **Scenario:** The manager leaves a required field blank. **Acceptance Test:** The system should display a message indicating the missing fields and not allow submission until they are filled.
 Critérios INVEST | **Independent:**  This task does not rely on other features or systems to work. **Negotiable:** The details of how the interface looks or functions are not strictly defined. **Valuable:** It makes it easier for the marketing manager to publish updates, which helps improve communication with the community. **Estimable:** can be estimated the effort needed to create a simple interface for publishing news. **Small:** it might need to be broken down into sSmall:er stories **testable** It can be tested by checking if the marketing manager can successfully use the interface to publish school news.
 
-Identification | US04
---- | ---
-Persona | Daniel Thompson
-User Story | "As a father who is searching for the balance between a new executive position and the proper attention directed to my son's trail, I'd like to access his academic information in a single platform, so that I can stay involved in his school life considering my heavy schedule."
-Acceptance Criteria 1 | **Scenario:** The father logs into the platform with valid credentials. **Acceptance Test:** The platform displays grades, attendance, and recent activities in a clear and organized manner.
-Acceptance Criteria 2 | **Scenario:** The father tries to access the system without being authenticated. **Acceptance Test:** The system redirects to the login screen and blocks access to student information.
-Critérios INVEST | **Independent:**  The story describes a standalone feature that doesn’t depend on other fetures. **Negotiable:** The details ,such as design, data, and delivery, can be negotiated. **Valuable:** It provides value to the parent by offering a platform to stay involved in their son’s academic life. **Estimable:** The technical work involved is clear enough for estimation. **Small:** The scope of this story is clear and achievable within a short time. **testable** It can be tested by checking if the marketing manager can successfully use the interface to publish school news.
-
-Identification | US05 
---- | ---
-Persona | Daniel Thompson
-User Story | "As a parent, I wish there was a simple place where I could easily follow my daughter’s grades, attendance, and school updates without feeling lost in complicated websites."
-Acceptance Criteria 1 | **Scenario:** The parent navigates through the dashboard. **Acceptance Test:** Information is organized into clearly defined tabs or sections (Grades, Attendance, Updates).
-Acceptance Criteria 2 | **Scenario:** There is an error retrieving student data. **Acceptance Test:** The system displays a friendly error message and offers a retry option.
-Critérios INVEST | **Independent:**  its standalone, focusing only on a parent’s access to their child’s school data. **Negotiable:** layout, types of data, and presentation style can be negotiated. **Valuable:** It delivers significant value by helping parents easily track academic progress and school updates. **Estimable:** The effort required to build the tracking system can be estimated. **Small:** The story is focused on one specific need, making it manageable in size. **testable** it can be tested by ensuring parents can view grades, attendance, and updates.
-
-Identification | US06 
---- | ---
-Persona | Júlio Oliveira
-User Story | "As an IT Analyst, I want to be able to manage the parent platform in such a way as to be able to combat any technological failures and promote quality support for the members of the school community who use the platform."
-Acceptance Criteria 1 | **Scenario:** A technical failure occurs on the parent platform. **Acceptance Test:** The platform logs the incident automatically and notifies the IT Analyst, who can access a dashboard with real-time system status and logs.
-Acceptance Criteria 2 | **Scenario:** A parent reports an issue through the support channel. **Acceptance Test:** The IT Analyst receives the ticket, can view issue details, assign priority, and update the status, ensuring that resolution steps are documented and communicated.
-Critérios INVEST | **Independent:** describes a distinct requirement for managing the platform, with no dependency on other user stories. **Negotiable:** methods or tools used for managing failures and providing support can be adjusted, allowing for flexibility in implementation. **Valuable:** ensures that the platform remains functional and efficient, benefiting the entire school community. **Estimable:** can be estimated with clarity. **Small:** it can be broken down into smaller tasks. **Testable:** It can be tested by measuring the IT system’s reliability and responsiveness to issues.
-
 Identification | US07
 --- | ---
 Persona | Carolina Mendes
-User Story | "As the school’s marketing manager, I want to offer a comfortable and informative onboarding process for new families, in order for them to feel welcomed and understand our internal community dynamics."
-Acceptance Criteria 1 | **Scenario:** A new family accesses the platform for the first time. **Acceptance Test:** The platform presents an interactive tour or guide with basic school information, contacts, and calendar.
-Acceptance Criteria 2 | **Scenario:** The family wants to review the onboarding information later. **Acceptance Test:** There should be a button/menu to access the welcome content again.
+User Story | "As the school’s Marketing Manager, I need to be able to delete or edit a publication from the website, so I can remove any outdated or incorrect information."
+Acceptance Criteria 1 | **Scenario:** The marketing manager is logged into the admin panel. **Acceptance Test:** When clicking the "Delete" button on a publication, it should be permanently removed from the website and no longer appear in the list of publications.
+Acceptance Criteria 2 | **Scenario:** The manager tries to delete a publication that doesn’t exist or has already been deleted. **Acceptance Test:** The system should display an error message indicating that the publication was not found.
+Critérios INVEST | **Independent::**  delete a publication doesn’t rely on other features. **Negotiable:**  the process of giving permission can be negotiated. **Valuable:**  it provides value by maintaining the accuracy of the website, ensuring the information is up-to-date. **Estimable:**  its a small task its time to be completed can be determined/estimated. **Small:** its a concise user storie that focus on a single action. **testable** it can be tested, just needs one person to delete a post.
 
 Identification | US08
 --- | ---
-Persona | Júlio Oliveira
-User Story | "As a moderator, I want every prospective student to feel confident and supported from their first interaction, without delays or confusion caused by missing information or unclear processes."
-Acceptance Criteria 1 | **Scenario:** A new student registers on the platform. **Acceptance Test:** The system automatically sends an email with clear and complete instructions on the next steps.
-Acceptance Criteria 2 | **Scenario:** The student does not receive the email or has questions. **Acceptance Test:** A visible support channel (chat or email) must be available on the initial interface.
+Persona | Daniel Thompson
+User Story | "As a parent I want to easily find the school contact (and teachers' contacts), so that I can reach the school when needed."
+Acceptance Criteria 1 | **Scenario:** The parent accesses the school website/platform. **Acceptance Test:** The school’s contact info (phone, email, address) should be visible within two clicks. Then, the school’s teachers info (phone, email, address) should be visible within one click.
+Acceptance Criteria 2 | **Scenario:** The parent clicks or copies the contacts info. **Acceptance Test:** The phone number should open the default email app.
 
 Identification | US09
---- | ---
-Persona | Júlio Oliveira
-User Story | "As a moderator, I need to be able to manage user’s roles and permissions, so each member can only access what they need."
-Acceptance Criteria 1 | **Scenario:** The moderator accesses the user management panel. **Acceptance Test:** The system allows changing a user's role with just a few clicks.
-Acceptance Criteria 2 | **Scenario:** The moderator tries to assign an invalid role. **Acceptance Test:** The system prevents the action and displays a clear message about the invalid permission.
-
-Identification | US10
---- | ---
-Persona | Daniel Thompson
-User Story | "As a parent I want to easily find the school contact, so that I can reach the school when needed."
-Acceptance Criteria 1 | **Scenario:** The parent accesses the school website/platform. **Acceptance Test:** The school’s contact info (phone, email, address) should be visible within two clicks.
-Acceptance Criteria 2 | **Scenario:** The parent clicks or copies the contact info. **Acceptance Test:** The phone number should open the default email app.
-
-Identification | US11
 --- | ---
 Persona | Daniel Thompson
 User Story | "As a parent, I need to be able to change my contact number, so the school can contact me if needed."
 Acceptance Criteria 1 |**Scenario:** The parent accesses their profile. **Acceptance Test:** The "phone number" field should be editable, and the new number should be saved upon confirmation.
 Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number format. **Acceptance Test:** The system validates the format and shows an error message, preventing submission.
+
+Identification | US10
+--- | ---
+Persona | Júlio Oliveira
+User Story | "As an IT Analyst, I want to be able to manage the parent platform in such a way as to be able to combat any technological failures and promote quality support for the members of the school community who use the platform."
+Acceptance Criteria 1 | **Scenario:** A technical failure occurs on the parent platform. **Acceptance Test:** The platform logs the incident automatically and notifies the IT Analyst.
+Acceptance Criteria 2 | **Scenario:** A parent reports an issue through the support channel. **Acceptance Test:** The IT Analyst receives the ticket, can view issue details, assign priority, and update the status, ensuring that resolution steps are documented and communicated.
+Critérios INVEST | **Independent:** describes a distinct requirement for managing the platform, with no dependency on other user stories. **Negotiable:** methods or tools used for managing failures and providing support can be adjusted, allowing for flexibility in implementation. **Valuable:** ensures that the platform remains functional and efficient, benefiting the entire school community. **Estimable:** can be estimated with clarity. **Small:** it can be broken down into smaller tasks. **Testable:** It can be tested by measuring the IT system’s reliability and responsiveness to issues.
+
+Identification | US11
+--- | ---
+Persona | Júlio Oliveira
+User Story | "As a moderator, I need to be able to manage user’s roles and permissions, so each member can only access what they need."
+Acceptance Criteria 1 | **Scenario:** The moderator accesses the user management panel. **Acceptance Test:** The system allows changing a user's role with just a few clicks.
+Acceptance Criteria 2 | **Scenario:** The moderator tries to assign an invalid role. **Acceptance Test:** The system prevents the action and displays a clear message about the invalid permission.
 
 &nbsp;&nbsp;&nbsp;&nbsp;This section presented 11 user stories aligned with the previously defined personas, ensuring the system addresses real user needs while maintaining security through role-based access control. Each story follows the INVEST criteria, making them actionable for development in Sprints 1 to 5.
 
@@ -479,13 +480,21 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
 
 ## 3.1. Architecture (sprints 3 e 4)
 
-*Posicione aqui o diagrama de arquitetura da sua solução de aplicação web. Atualize sempre que necessário*
+<img src="../assets/wad/Diagrama da solução.png">
+
+Each database table is represented by its own model, which is responsible for handling the data structure and business logic related to that specific entity. For every model, there is a corresponding controller that acts as an intermediary between the model and the user interface. The controller receives input (usually from HTTP requests), processes this input by interacting with the appropriate model, and prepares the data to be sent to the views. The views are responsible for displaying the information to the user in a structured and user-friendly format.
+
+Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diana?node-id=0-1&p=f&t=LUQpx1ce9GdskM4m-0
 
 ## 3.2. Wireframes (sprint 2)
 
-&nbsp;&nbsp;&nbsp;&nbsp;Now we’re going to show the wireframes of our website. These sketches were created to give us a clearer view of the platform's structure and navigation. They serve as a visual guide, helping us align ideas, test the user flow, and ensure that all elements are well organized before moving on to the final design.
+&nbsp;&nbsp;&nbsp;&nbsp;Now we will present the wireframes of our website. A wireframe [1] is a simplified, two-dimensional visual representation of a web page’s layout and structure, focusing on the arrangement of elements such as navigation, content areas, headers, and footers, without involving colors, images, or detailed design. Wireframes serve as the foundational blueprint or skeleton of a website, outlining its structure and functionality early in the design process.
 
-## 1. Login and About  
+&nbsp;&nbsp;&nbsp;&nbsp;The importance of wireframes lies in their ability to clarify the platform’s architecture and user flow, allowing designers and stakeholders to align ideas and expectations before investing time in visual design and development. By focusing on usability and content hierarchy, wireframes help identify and solve potential navigation or layout issues early, saving time and resources later in the project. They also facilitate effective communication among team members and clients by providing a clear, visual guide of how the site will function and how users will interact with it.
+
+&nbsp;&nbsp;&nbsp;&nbsp;In summary, these wireframe sketches guide us in organizing all elements coherently, testing the user journey, and ensuring the platform meets both user needs and business goals before moving on to the final design phase.
+
+**1. Login and About**
 **Description:**  
 &nbsp;&nbsp;&nbsp;Login screen with buttons for authentication, password recovery, and access to institutional information.  
 - **[Login]** sends credentials for secure authentication.  
@@ -504,7 +513,7 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
   <sub>Figure 09 - Login screen </sub>
   <br>
   <br>
-  ![login](../assets/wad/login.png)
+  ![login](../assets/wad/Login%20and%20About_reviewed.png)
   <br>
   <br>
 
@@ -515,7 +524,7 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
 <br>
 
 
-## 2. Profile - Homepage  
+**2. Profile - Homepage**
 **Description:**  
 &nbsp;&nbsp;&nbsp;User profile page with options to edit, save, or cancel updates to personal information.  
 - **[Edit Profile]** enables editing of phone number, address, and other details.  
@@ -533,7 +542,7 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
   <sub>Figure 10 - Profile </sub>
   <br>
   <br>
- ![home](../assets/wad/home.png)
+ ![home](../assets/wad/Profile%20-%20Homepage_reviewed.png)
   <br>
   <br>
 
@@ -543,7 +552,7 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
 
 <br>
 
-## 3. Assignments  
+**3. Assignments**
 **Description:**  
 &nbsp;&nbsp;&nbsp;Task tracking page with filtering and completion tools.  
 - **[Filter by subject]** displays tasks by selected subject.  
@@ -559,7 +568,7 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
   <sub>Figure 11 - Assignments </sub>
   <br>
   <br>
-![Assignments](../assets/wad/Assignments.png)
+![Assignments](../assets/wad/Assignments_reviewed.png)
   <br>
   <br>
 
@@ -569,7 +578,7 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
 
 <br>
 
-## 4. Reports Page  
+**4. Reports Page**
 **Description:**  
 &nbsp;&nbsp;&nbsp;Academic performance page with options to view and export report cards.  
 - **[Select Term]** (dropdown) filters academic reports by trimester or semester.  
@@ -586,7 +595,7 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
   <sub>Figure 12 - Reports </sub>
   <br>
   <br>
-![reports](../assets/wad/reports.png)
+![reports](../assets/wad/Reports%20page_reviewed.png)
   <br>
   <br>
 
@@ -596,7 +605,7 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
 
 <br>
 
-## 5. Timetable (Class Schedule)  
+**5. Timetable (Class Schedule)**
 **Description:**  
 &nbsp;&nbsp;&nbsp;Timetable screen showing the student’s schedule.  
 - **[Day / Week]** toggles between daily and weekly views.  
@@ -610,7 +619,7 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
   <sub>Figure 13 - Timetable </sub>
   <br>
   <br>
-![timetable](../assets/wad/timetable.png)
+![timetable](../assets/wad/Timetable%20(class%20schedule)_reviewed.png)
   <br>
   <br>
 
@@ -621,7 +630,7 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
 <br>
 
 
-## 6. School Events for Parents  
+**6. School Events for Parents**
 **Description:**  
 &nbsp;&nbsp;&nbsp;Event feed for parents with RSVP functionality.  
 - Each event opens a detailed description and lets parents confirm attendance.  
@@ -635,7 +644,7 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
   <sub>Figure 14 - Events </sub>
   <br>
   <br>
-![events](../assets/wad/events.png)
+![events](../assets/wad/School%20events%20for%20parents_reviewed.png)
   <br>
   <br>
 
@@ -647,7 +656,7 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
 
 
 
-## 7. Customer Service Channels  
+**7. Customer Service Channels**
 **Description:**  
 &nbsp;&nbsp;&nbsp;Support area with contact options for technical or administrative help.  
 - **[New Support Request]** opens a live chat with the school office.  
@@ -665,7 +674,7 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
   <sub>Figure 15 - Customer Service Channels </sub>
   <br>
   <br>
-![csc](../assets/wad/csc.png)
+![csc](../assets/wad/Customer%20service%20channels_reviewed.png)
   <br>
   <br>
 
@@ -675,7 +684,7 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
 
 <br>
 
-## 8. Benes and Sanctions  
+**8. Benes and Sanctions**
 **Description:**  
 &nbsp;&nbsp;&nbsp;Behavioral tracking screen displaying merits and warnings.  
 - **[View Full History]** reveals all recorded events for a student.  
@@ -689,7 +698,7 @@ Acceptance Criteria 2 | **Scenario:** The parent enters an invalid phone number 
   <sub>Figure 16 - Benes and sanctions </sub>
   <br>
   <br>
-![benes](../assets/wad/benes.png)
+![benes](../assets/wad/Benes%20and%20Sanctions_reviewed.png)
   <br>
   <br>
 
@@ -799,7 +808,18 @@ The guide uses two main font families: Darker Grotesque for interface texts and 
 
 ## 3.4 High-fidelity prototype (sprint 3)
 
-*posicione aqui algumas imagens demonstrativas de seu protótipo de alta fidelidade e o link para acesso ao protótipo completo (mantenha o link sempre público para visualização)*
+A high-fidelity prototype is a detailed representation of a product that closely resembles the final design in both appearance and functionality. It includes realistic visuals, accurate layout and typography.
+
+#### Login and about page
+<img src="../assets/wad/Login and About (1).png">
+
+#### Homepage/profile
+<img src="../assets/wad/Group 14.png">
+
+#### benes and sanctions
+<img src="../assets/wad/Benes & Sanctions.png">
+
+
 
 ## 3.5. Database modelling (sprints 2 e 4)
 
@@ -827,7 +847,7 @@ The guide uses two main font families: Darker Grotesque for interface texts and 
 
 
 #### 3.5.1.1 Tables description:
-#### a) Users table:
+**1.  Users table:**
 **Purpose:** Stores login details for the parent who use the system.
 
 **Main fields:**
@@ -837,7 +857,7 @@ The guide uses two main font families: Darker Grotesque for interface texts and 
 - password: Password (securely stored);
 - type_of_user: Defines the user's role (e.g. teacher, tutor, admin).
 
-#### b) Teachers table:
+**2. Teachers table:**
 **Purpose:** Keeps information about school teachers.
 
 **Main fields:**
@@ -846,7 +866,7 @@ The guide uses two main font families: Darker Grotesque for interface texts and 
 - teacher_name: Full name of the teacher;
 - teacher_email: Contact email.
 
-#### c) Tutors table:
+**3. Tutors table:**
 **Purpose:** Stores information about tutors.
 
 **Main fields:**
@@ -857,7 +877,7 @@ The guide uses two main font families: Darker Grotesque for interface texts and 
 
 **Related to:** students and subjects. 
 
-#### d) Students table:
+**4. Students table:**
 **purpose:** Stores informaton about the students like grades, name, and gender.
 
 - id: Unique student ID;
@@ -869,7 +889,7 @@ The guide uses two main font families: Darker Grotesque for interface texts and 
 
 **Related to:** tutors (via tutor_id), student_subject (shows what they study), events and reports.
 
-#### e) Subjects table:
+**5. Subjects table:**
 **Purpose:** Lists all subjects offered at the school.
 
 **Main fields:**
@@ -878,7 +898,7 @@ The guide uses two main font families: Darker Grotesque for interface texts and 
 - subject_name: Name of the subject (e.g. Math, Science);
 - teacher_id: Who teaches it.
 
-#### d) Student_subject table:
+**6. Student_subject table:**
 **Purpose:** Connects students and subjects they are enrolled in.
 
 **Main fields:**
@@ -888,7 +908,7 @@ The guide uses two main font families: Darker Grotesque for interface texts and 
 - subject_id: Subject enrolled in;
 - grade: Grade received in that subject.
 
-#### e) Reports table:
+**7. Reports table:**
 **Purpose:** Stores written reports about a student.
 
 **Main fields:**
@@ -898,7 +918,7 @@ The guide uses two main font families: Darker Grotesque for interface texts and 
 - date_report: When the report was created;
 - Related to: students.
 
-#### f) Events table:
+**8. Events table:**
 
 **Purpose:** Logs any special events related to a student.
 
@@ -909,7 +929,11 @@ The guide uses two main font families: Darker Grotesque for interface texts and 
 - student_id: Who the event is related to;
 - Related to: students;
 
+
   #### g) Academic house table
+=======
+**9. Academic house table:**
+
 **Purpose:** Storage all the academic houses from st Pauls(a sistem like Harry Potter)
 
 **Main fields:**
@@ -919,6 +943,8 @@ The guide uses two main font families: Darker Grotesque for interface texts and 
 - Related to: students (via academic_house_id).
 
   #### h) year code
+  
+**10. Year code:**
 
 **Purpose:** Defines the academic year or grade level a student is currently in.
 
@@ -941,6 +967,7 @@ The guide uses two main font families: Darker Grotesque for interface texts and 
 **SQL Expression** | UPDATE student SET address = 'Rua Galeno de Almeida, 1200' WHERE (student_name = 'John' AND surname_student != 'Smith') AND (id = 24); 
 **Logical propositions** | $A$: The address is 'Rua Galeno de Almeida, 1200' (address = 'Rua Galeno de Almeida, 1200') <br> $B$: The students name is John (student_name = 'John') <br> $C$: The id must be 24 (id = 24)
 **Propositional logic expression** | $(A \land B) \land C$
+**Truth Table** |   <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$C$</th> <th>$(A \land B)$</th> <th>$(A \land B) \land C$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>F</td> <td>T</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>T</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>T</td> <td>T</td> <td>F</td> <td>F</td> </tr> <tr> <td>T</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>T</td> <td>F</td> <td>T</td> <td>F</td> <td>F</td> </tr> <tr> <td>T</td> <td>T</td> <td>F</td> <td>T</td> <td>F</td> </tr> <tr> <td>T</td> <td>T</td> <td>T</td> <td>T</td> <td>T</td> </tr> </tbody> </table>
 
 &nbsp;&nbsp;&nbsp;&nbsp;This expression (#1) would be used when the necessity of updating an specific student's adress would appear, being exemplified by the use of "John", who wouldn't have the "Smith" surname (considering there is another student with this full name) and would have the ID 24 allocated for himself.
 
@@ -983,8 +1010,162 @@ The guide uses two main font families: Darker Grotesque for interface texts and 
 
 ## 4.1. First version of the web application (sprint 3)
 
-*Descreva e ilustre aqui o desenvolvimento da sua primeira versão do sistema web, explicando brevemente o que foi entregue em termos de código e sistema. Utilize prints de tela para ilustrar. Indique as eventuais dificuldades e próximos passos.*
+### Implemented Structure:
 
+1.  **MVC Architecture**:
+    -   Use of Express.js as a framework
+    -   Structure organized in controllers, views, and routes
+    -   EJS template system for page rendering
+
+2.  **User Interface**:
+    -   Sidebar with navigation to the main features:
+        -   Events
+        -   Customer Service
+        -   Benes and Sanctions
+        -   Assignments
+        -   Timetable
+        -   Reports
+        -   Initial Screen (Login)
+
+3.  **Main Pages**:
+    -   Login
+    -   Profile
+    -   Assignments
+    -   Customer Service
+    -   Events
+    -   Timetable
+    -   Benes
+    -   Reports
+
+4.  **Reusable Components**:
+    -   Sidebar
+    -   UpperBar
+    -   LowerBar
+
+### Implemented Features:
+
+1.  **Routing System**:
+    -   Routes defined for all main pages
+    -   Basic navigation structure between pages
+
+2.  **Profile Interface**:
+    -   Layout with a profile photo section
+    -   Area for user information
+    -   Quick access buttons for Reports, Assignments, and Timetable
+
+#### Illustrations of the First Version:
+
+**Login Screen:**
+
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/telalogin.jpeg" alt="Login Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Profile Screen:**
+
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/telaprofile.jpeg" alt="Profile Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Assignments Screen:**
+
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/telaassignments.jpeg" alt="Assignments Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Customer Service Screen:**
+
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/telacustomers.jpeg" alt="Customer Service Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Events Screen:**
+
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/telaevents.jpeg" alt="Events Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Timetable Screen:**
+
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/telatimetable.jpeg" alt="Timetable Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Benes and Sanctions Screen:**
+
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/telabenes.jpeg" alt="Benes and Sanctions Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Reports Screen:**
+
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/telareports.jpeg" alt="Reports Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+### Challenges Encountered:
+
+1.  **Styling**:
+    -   Need for refactoring to a more organized CSS system
+
+2.  **Data Structure**:
+    -   Initial implementation of the user system
+    -   Need to develop services and data models
+
+### Next Steps:
+
+1.  **Technical Improvements**:
+    -   Implement a more robust CSS system
+    -   Create a complete authentication system
+    -   Implement form validation
+
+2.  **Features**:
+    -   Implement the event system
+    -   Create the reports system
+
+3.  **UX/UI**:
+    -   Improve system responsiveness
+    -   Implement visual feedback for user actions
+    -   Add smooth animations and transitions
+
+4.  **Security**:
+    -   Implement a robust authentication system
+    -   Add data validation
+    -   Implement role-based access control
+
+    -------
 ## 4.2. Second version of the web application (sprint 4)
 
 *Descreva e ilustre aqui o desenvolvimento da sua segunda versão do sistema web, explicando brevemente o que foi entregue em termos de código e sistema. Utilize prints de tela para ilustrar. Indique as eventuais dificuldades e próximos passos.*
@@ -1070,13 +1251,12 @@ Descreva os principais segmentos de mercado a serem atendidos pela aplicação. 
 
 # <a name="c8"></a>8. References (sprints 1 a 5)
 
-_Incluir as principais referências de seu projeto, para que seu parceiro possa consultar caso ele se interessar em aprofundar. Um exemplo de referência de livro e de site:_<br>
+<!-- _Incluir as principais referências de seu projeto, para que seu parceiro possa consultar caso ele se interessar em aprofundar. Um exemplo de referência de livro e de site:_<br> -->
 
-LUCK, Heloisa. Liderança em gestão escolar. 4. ed. Petrópolis: Vozes, 2010. <br>
-SOBRENOME, Nome. Título do livro: subtítulo do livro. Edição. Cidade de publicação: Nome da editora, Ano de publicação. <br>
+[1] Wireframes: o que é, qual a importância, tipos e ferramentas. Disponível em: https://rockcontent.com/br/blog/wireframes/. Acesso em: 28 mai. 2025.
 
-INTELI. Adalove. Disponível em: https://adalove.inteli.edu.br/feed. Acesso em: 1 out. 2023 <br>
-SOBRENOME, Nome. Título do site. Disponível em: link do site. Acesso em: Dia Mês Ano
+. <br>
+
 
 # <a name="c9"></a>Appendices
 

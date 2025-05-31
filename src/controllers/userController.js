@@ -1,70 +1,57 @@
-// controllers/userController.js
+const UserModel = require('../models/userModel');
 
-const userService = require('../services/userService');
-
-const getAllUsers = async (req, res) => {
+async function getAllUsers(req, res) {
   try {
-    const users = await userService.getAllUsers();
-    res.status(200).json(users);
+    const users = await UserModel.getAllUsers();
+    res.json(users);
   } catch (error) {
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: 'Erro ao buscar usuários' });
   }
-};
+}
 
-const getUserById = async (req, res) => {
+async function getUserById(req, res) {
   try {
-    const user = await userService.getUserById(req.params.id);
-    if (user) {
-      res.status(200).json(user);
-    } else {
-      res.status(404).json({ error: 'Usuário não encontrado' });
-    }
+    const user = await UserModel.getUserById(req.params.id);
+    if (!user) return res.status(404).json({ error: 'Usuário não encontrado' });
+    res.json(user);
   } catch (error) {
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: 'Erro ao buscar usuário' });
   }
-};
+}
 
-const createUser = async (req, res) => {
+async function createUser(req, res) {
   try {
-    const { name, email } = req.body;
-    const newUser = await userService.createUser(name, email);
+    const newUser = await UserModel.createUser(req.body);
     res.status(201).json(newUser);
   } catch (error) {
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: 'Erro ao criar usuário' });
   }
-};
+}
 
-const updateUser = async (req, res) => {
+async function updateUserById(req, res) {
   try {
-    const { name, email } = req.body;
-    const updatedUser = await userService.updateUser(req.params.id, name, email);
-    if (updatedUser) {
-      res.status(200).json(updatedUser);
-    } else {
-      res.status(404).json({ error: 'Usuário não encontrado' });
-    }
+    const updatedUser = await UserModel.updateUserById(req.params.id, req.body);
+    if (!updatedUser) return res.status(404).json({ error: 'Usuário não encontrado' });
+    res.json(updatedUser);
   } catch (error) {
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: 'Erro ao atualizar usuário' });
   }
-};
+}
 
-const deleteUser = async (req, res) => {
+async function deleteUserById(req, res) {
   try {
-    const deletedUser = await userService.deleteUser(req.params.id);
-    if (deletedUser) {
-      res.status(200).json(deletedUser);
-    } else {
-      res.status(404).json({ error: 'Usuário não encontrado' });
-    }
+    const deletedUser = await UserModel.deleteUserById(req.params.id);
+    if (!deletedUser) return res.status(404).json({ error: 'Usuário não encontrado' });
+    res.json({ message: 'Usuário deletado com sucesso' });
   } catch (error) {
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: 'Erro ao deletar usuário' });
   }
-};
+}
 
 module.exports = {
   getAllUsers,
   getUserById,
   createUser,
-  updateUser,
-  deleteUser
+  updateUserById,
+  deleteUserById,
 };
