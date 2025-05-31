@@ -1119,7 +1119,7 @@ API RESTful para gestão acadêmica com endpoints para:
 
 ---
 
-[Documentação de Endpoints](./documents/others/routersDocumentation.pdf)
+[Documentação de Endpoints](./others/routersDocumentation.pdf)
 
 
 # <a name="c4"></a>4. Web Application Development
