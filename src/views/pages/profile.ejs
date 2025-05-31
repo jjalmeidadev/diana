@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Profile</title>
+</head>
+
+<body style="margin: 0; padding: 0;">
+    <!-- Top bar -->
+    <%- include('../components/upperBar.ejs') %>
+        <!-- Sidebar -->
+        <%- include('../components/sideBar.ejs') %>
+
+            <!-- Main content area -->
+            <div style="margin-top: 70px; margin-left: 200px; padding: 20px; display: flex;">
+                <!-- Left section: Profile pic placeholder and text placeholders -->
+                <div style="flex: 2; padding-right: 20px;">
+                    <div style="width: 150px; height: 150px; background-color: #ccc; border-radius: 50%; margin-bottom: 20px;">
+                    </div>
+                    <div style="width: 80%; height: 20px; background-color: #ccc; margin-bottom: 10px;"></div>
+                    <div style="width: 70%; height: 20px; background-color: #ccc; margin-bottom: 10px;"></div>
+                    <div style="width: 75%; height: 20px; background-color: #ccc; margin-bottom: 10px;"></div>
+                    <div style="width: 60%; height: 20px; background-color: #ccc;"></div>
+                </div>
+            
+                <!-- Right section: Reports, Assignments, Timetable buttons -->
+                <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
+                    <div
+                        style="width: 150px; height: 40px; background-color: #ccc; margin-bottom: 15px; display: flex; align-items: center; justify-content: center;">
+                        Reports</div>
+                    <div
+                        style="width: 150px; height: 40px; background-color: #ccc; margin-bottom: 15px; display: flex; align-items: center; justify-content: center;">
+                        Assignments</div>
+                    <div
+                        style="width: 150px; height: 40px; background-color: #ccc; display: flex; align-items: center; justify-content: center;">
+                        Timetable</div>
+                </div>
+            </div>
+
+
+            <!-- Footer -->
+            <%- include('../components/lowerBar.ejs') %>
+</body>
+
+</html>

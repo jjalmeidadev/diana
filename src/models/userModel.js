@@ -1,36 +1,44 @@
-const db = require('../config/db');
+const pool = require('../config/db');
 
-class User {
-  static async getAll() {
-    const result = await db.query('SELECT * FROM users');
-    return result.rows;
-  }
-
-  static async getById(id) {
-    const result = await db.query('SELECT * FROM users WHERE id = $1', [id]);
-    return result.rows[0];
-  }
-
-  static async create(data) {
-    const result = await db.query(
-      'INSERT INTO users (name, email) VALUES ($1, $2) RETURNING *',
-      [data.name, data.email]
-    );
-    return result.rows[0];
-  }
-
-  static async update(id, data) {
-    const result = await db.query(
-      'UPDATE users SET name = $1, email = $2 WHERE id = $3 RETURNING *',
-      [data.name, data.email, id]
-    );
-    return result.rows[0];
-  }
-
-  static async delete(id) {
-    const result = await db.query('DELETE FROM users WHERE id = $1 RETURNING *', [id]);
-    return result.rowCount > 0;
-  }
+async function getAllUsers() {
+  const result = await pool.query('SELECT * FROM users');
+  return result.rows;
 }
 
-module.exports = User;
+async function getUserById(id) {
+  const result = await pool.query('SELECT * FROM users WHERE id = $1', [id]);
+  return result.rows[0];
+}
+
+async function createUser({ email, password, type_of_user }) {
+  const result = await pool.query(
+    'INSERT INTO users (email, password, type_of_user) VALUES ($1, $2, $3) RETURNING *',
+    [email, password, type_of_user]
+  );
+  return result.rows[0];
+}
+
+async function updateUserById(id, userData) {
+  const { email, password, type_of_user } = userData;
+  const result = await pool.query(
+    'UPDATE users SET email = $1, password = $2, type_of_user = $3 WHERE id = $4 RETURNING *',
+    [email, password, type_of_user, id]
+  );
+  return result.rows[0];
+}
+
+async function deleteUserById(id) {
+  const result = await pool.query(
+    'DELETE FROM users WHERE id = $1 RETURNING *',
+    [id]
+  );
+  return result.rows[0];
+}
+
+module.exports = {
+  getAllUsers,
+  getUserById,
+  createUser,
+  updateUserById,
+  deleteUserById,
+};
