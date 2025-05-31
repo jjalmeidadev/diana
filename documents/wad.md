@@ -855,7 +855,11 @@ A high-fidelity prototype is a detailed representation of a product that closely
 - student_id: Who the event is related to;
 - Related to: students;
 
+
+  #### g) Academic house table
+=======
 **9. Academic house table:**
+
 **Purpose:** Storage all the academic houses from st Pauls(a sistem like Harry Potter)
 
 **Main fields:**
@@ -864,6 +868,8 @@ A high-fidelity prototype is a detailed representation of a product that closely
 - house: Name of the house.
 - Related to: students (via academic_house_id).
 
+  #### h) year code
+  
 **10. Year code:**
 
 **Purpose:** Defines the academic year or grade level a student is currently in.

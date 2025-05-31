@@ -85,7 +85,29 @@
         </div>
 
     </div>
+<script>
+  document.getElementById('login-button').addEventListener('click', async () => {
+    const email = document.getElementById('email').value;
+    const name = document.getElementById('password').value;
 
+    try {
+      const response = await fetch('http://localhost:3000/users', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ name, email })
+      });
+
+      if (!response.ok) throw new Error('Erro ao criar usuário');
+
+      const data = await response.json();
+      alert(`Usuário criado com sucesso! ID: ${data.id}`);
+    } catch (err) {
+      alert(`Erro: ${err.message}`);
+    }
+  });
+</script>
 </body>
 
 </html>
