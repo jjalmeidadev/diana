@@ -60,15 +60,17 @@ Aqui encontram-se todas as instruções necessárias para a instalação de todo
 3. No modo administrador, abra o "prompt de comando" ou o "terminal" e, após, abra a pasta "src/backend" no diretório raiz do repositório clonado e digite o segundo comando:
 
 ```sh
-npm install
+npm install i
 ```
 
 Isso instalará todas as dependências definidas no arquivo <b>package.json</b> que são necessárias para rodar o projeto. Agora o projeto já está pronto para ser modificado. Caso ainda deseje iniciar a aplicação, digite o comando abaixo no terminal:
 
 ```sh
-npm start
+npm install express (caso erro no terminal)
+cd /src
+npm server.js
 ```
-5. Agora você pode acessar a aplicação através do link http://localhost:1234/
+5. Agora você pode acessar a aplicação através do link http://localhost:3000/
 6. O servidor está online.
 
 ## 🗃 Platform release history:
