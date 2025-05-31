@@ -716,7 +716,7 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 
 ## 3.3. Style guide (sprint 3)
 
-*Descreva aqui orientações gerais para o leitor sobre como utilizar os componentes do guia de estilos de sua solução*
+<!-- *Descreva aqui orientações gerais para o leitor sobre como utilizar os componentes do guia de estilos de sua solução* -->
 
 This style guide was created to ensure visual and communicative consistency throughout the "Diana" solution. It provides essential visual identity guidelines that should be followed by all team members involved in design, development, and communication. 
 
@@ -810,13 +810,13 @@ The guide uses two main font families: Darker Grotesque for interface texts and 
 
 A high-fidelity prototype is a detailed representation of a product that closely resembles the final design in both appearance and functionality. It includes realistic visuals, accurate layout and typography.
 
-#### Login and about page
+**Login and about page**
 <img src="../assets/wad/Login and About (1).png">
 
-#### Homepage/profile
+**Homepage/profile**
 <img src="../assets/wad/Group 14.png">
 
-#### benes and sanctions
+**Benes and sanctions**
 <img src="../assets/wad/Benes & Sanctions.png">
 
 
@@ -1001,10 +1001,14 @@ A high-fidelity prototype is a detailed representation of a product that closely
 &nbsp;&nbsp;&nbsp;&nbsp;Moving forward, this methodology will guide future database enhancements, ensuring scalability and reliability as the platform evolves. 
 
 ## 3.6. WebAPI and endpoints (sprints 3 e 4)
-
+<!-- 
 *Utilize um link para outra página de documentação contendo a descrição completa de cada endpoint. Ou descreva aqui cada endpoint criado para seu sistema.* 
 
-*Cada endpoint deve conter endereço, método (GET, POST, PUT, PATCH, DELETE), header, body e formatos de response*
+*Cada endpoint deve conter endereço, método (GET, POST, PUT, PATCH, DELETE), header, body e formatos de response* -->
+
+Para a descrição completa de cada endpoint criado para o sistema, incluindo endereço, método (GET, POST, PUT, PATCH, DELETE), header, body e formatos de response, consulte o documento detalhado disponível no repositório:
+
+[Documentação de Endpoints](./documents/others/routersDocumentation.pdf)
 
 # <a name="c4"></a>4. Web Application Development
 
