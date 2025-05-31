@@ -1000,15 +1000,127 @@ A high-fidelity prototype is a detailed representation of a product that closely
 
 &nbsp;&nbsp;&nbsp;&nbsp;Moving forward, this methodology will guide future database enhancements, ensuring scalability and reliability as the platform evolves. 
 
-## 3.6. WebAPI and endpoints (sprints 3 e 4)
-<!-- 
-*Utilize um link para outra página de documentação contendo a descrição completa de cada endpoint. Ou descreva aqui cada endpoint criado para seu sistema.* 
+## 3.6. WebAPI and endpoints (sprints 3 e 4):
 
-*Cada endpoint deve conter endereço, método (GET, POST, PUT, PATCH, DELETE), header, body e formatos de response* -->
+# Visão Geral
+API RESTful para gestão acadêmica com endpoints para:
+- **Entidades principais:** Usuários, Alunos, Professores, Tutores
+- **Recursos acadêmicos:** Disciplinas, Relações Aluno-Disciplina, Casas Acadêmicas
+- **Operacionais:** Eventos, Relatórios, Year Codes
 
-Para a descrição completa de cada endpoint criado para o sistema, incluindo endereço, método (GET, POST, PUT, PATCH, DELETE), header, body e formatos de response, consulte o documento detalhado disponível no repositório:
+---
+
+## **USUÁRIOS** `/users`
+| Método | Endpoint          | Descrição               |
+|--------|-------------------|-------------------------|
+| GET    | `/users`          | Lista todos os usuários |
+| GET    | `/users/:id`      | Busca usuário por ID    |
+| POST   | `/users`          | Cria novo usuário       |
+| PUT    | `/users/:id`      | Atualiza usuário        |
+| DELETE | `/users/:id`      | Remove usuário          |
+
+---
+
+## **ALUNOS** `/students`
+| Método | Endpoint            | Descrição              |
+|--------|---------------------|------------------------|
+| GET    | `/students`         | Lista todos os alunos  |
+| GET    | `/students/:id`     | Busca aluno por ID     |
+| POST   | `/students`         | Cria novo aluno        |
+| PUT    | `/students/:id`     | Atualiza aluno         |
+| DELETE | `/students/:id`     | Remove aluno           |
+
+---
+
+## **PROFESSORES** `/teachers`
+| Método | Endpoint            | Descrição                |
+|--------|---------------------|--------------------------|
+| GET    | `/teachers`         | Lista todos professores  |
+| GET    | `/teachers/:id`     | Busca professor por ID   |
+| POST   | `/teachers`         | Cria novo professor      |
+| PUT    | `/teachers/:id`     | Atualiza professor       |
+| DELETE | `/teachers/:id`     | Remove professor         |
+
+---
+
+## **DISCIPLINAS** `/subjects`
+| Método | Endpoint            | Descrição                |
+|--------|---------------------|--------------------------|
+| GET    | `/subjects`         | Lista todas disciplinas  |
+| GET    | `/subjects/:id`     | Busca disciplina por ID  |
+| POST   | `/subjects`         | Cria nova disciplina     |
+| PUT    | `/subjects/:id`     | Atualiza disciplina      |
+| DELETE | `/subjects/:id`     | Remove disciplina        |
+
+---
+
+## **RELAÇÕES ALUNO-DISCIPLINA** `/student_subject`
+| Método | Endpoint                  | Descrição                          |
+|--------|---------------------------|------------------------------------|
+| GET    | `/student_subject`        | Lista todas relações              |
+| GET    | `/student_subject/:id`    | Busca relação por ID               |
+| POST   | `/student_subject`        | Cria nova relação                  |
+| PUT    | `/student_subject/:id`    | Atualiza relação                   |
+| DELETE | `/student_subject/:id`    | Remove relação                     |
+
+---
+
+## **CASAS ACADÊMICAS** `/academic-house`
+| Método | Endpoint                | Descrição                     |
+|--------|-------------------------|-------------------------------|
+| GET    | `/academic-house`       | Lista todas casas            |
+| GET    | `/academic-house/:id`   | Busca casa por ID            |
+| POST   | `/academic-house`       | Cria nova casa               |
+| PUT    | `/academic-house/:id`   | Atualiza casa                |
+| DELETE | `/academic-house/:id`   | Remove casa                  |
+
+---
+
+## **EVENTOS** `/events`
+| Método | Endpoint          | Descrição             |
+|--------|-------------------|-----------------------|
+| GET    | `/events`         | Lista todos eventos  |
+| GET    | `/events/:id`     | Busca evento por ID  |
+| POST   | `/events`         | Cria novo evento     |
+| PUT    | `/events/:id`     | Atualiza evento      |
+| DELETE | `/events/:id`     | Remove evento        |
+
+---
+
+## **RELATÓRIOS** `/reports`
+| Método | Endpoint          | Descrição               |
+|--------|-------------------|-------------------------|
+| GET    | `/reports`        | Lista todos relatórios  |
+| GET    | `/reports/:id`    | Busca relatório por ID  |
+| POST   | `/reports`        | Cria novo relatório     |
+| PUT    | `/reports/:id`    | Atualiza relatório      |
+| DELETE | `/reports/:id`    | Remove relatório        |
+
+---
+
+## **YEAR CODES** `/year_Code`
+| Método | Endpoint          | Descrição               |
+|--------|-------------------|-------------------------|
+| GET    | `/year_Code`      | Lista todos year codes  |
+| GET    | `/year_Code/:id`  | Busca year code por ID  |
+| POST   | `/year_Code`      | Cria novo year code     |
+| PUT    | `/year_Code/:id`  | Atualiza year code      |
+| DELETE | `/year_Code/:id`  | Remove year code        |
+
+## **TUTORES** `/tutors`
+
+| Método | Endpoint          | Descrição                     |
+|--------|-------------------|-------------------------------|
+| GET    | `/tutors`         | Lista todos os tutores        |
+| GET    | `/tutors/:id`     | Busca tutor por ID            |
+| POST   | `/tutors`         | Cadastra novo tutor           |
+| PUT    | `/tutors/:id`     | Atualiza tutor existente      |
+| DELETE | `/tutors/:id`     | Remove tutor                  |
+
+---
 
 [Documentação de Endpoints](./documents/others/routersDocumentation.pdf)
+
 
 # <a name="c4"></a>4. Web Application Development
 
