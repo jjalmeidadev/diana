@@ -66,10 +66,11 @@ This will install all dependencies defined in the package.json file that are req
 npm install express (if terminal shows error)
 cd /src
 npm server.js
+```
 
 5. You can now access the application via the link: http://localhost:3000/
 6. The server is now online.
-```
+
 
 
 ## 🗃 Platform release history:
