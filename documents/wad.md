@@ -1305,9 +1305,13 @@ RESTful API for academic management with endpoints for:
 
 ## 6.1 Executive Summary
 
-*Preencher com até 300 palavras, sem necessidade de fonte*
+Diana is an innovative web portal developed for St. Paul’s School, one of the leading British educational institutions in Brazil. The platform aims to transform communication between the school and families by providing a centralized, intuitive, and efficient digital environment for monitoring students’ academic life.
 
-*Apresente de forma clara e objetiva os principais destaques do projeto: oportunidades de mercado, diferenciais competitivos da aplicação web e os objetivos estratégicos pretendidos.*
+The high-end private education market in Brazil presents a significant opportunity for digital innovations that foster closer relationships between parents and schools. With the growing demand for bilingual and international institutions, there is also an increasing need for tools that make the educational experience more transparent and accessible.
+
+Diana’s key differentiators include its user-friendly interface, simplified navigation, and a comprehensive set of features: grade viewing, attendance tracking, academic calendar, and a direct communication channel with teachers. The goal is to deliver a personalized and practical experience, surpassing the limitations of currently available solutions.
+
+The project’s strategic objectives include increasing family engagement, reducing time spent on administrative tasks, and strengthening the bond between the school and the community. Additionally, Diana was designed to be scalable and flexible, allowing for future integrations and adaptations according to the institution’s specific needs.
 
 ## 6.2 Market Analysis
 
