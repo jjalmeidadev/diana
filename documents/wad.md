@@ -461,8 +461,8 @@ Identification | US10
 --- | ---
 Persona | Júlio Oliveira
 User Story | "As an IT Analyst, I want to be able to manage the parent platform in such a way as to be able to combat any technological failures and promote quality support for the members of the school community who use the platform."
-Acceptance Criteria 1 | **Scenario:** A technical failure occurs on the parent platform. **Acceptance Test:** The platform logs the incident automatically and notifies the IT Analyst.
-Acceptance Criteria 2 | **Scenario:** A parent reports an issue through the support channel. **Acceptance Test:** The IT Analyst receives the ticket, can view issue details, assign priority, and update the status, ensuring that resolution steps are documented and communicated.
+Acceptance Criteria 1 | **Scenario:** A technical failure occurs on the parent platform. **Acceptance Test:** The parent notices it and accesses the support contact through the communication page.
+Acceptance Criteria 2 | **Scenario:** A parent reports an issue through the support contact. **Acceptance Test:** The IT Analyst receives the message and can view issue details.
 Critérios INVEST | **Independent:** describes a distinct requirement for managing the platform, with no dependency on other user stories. **Negotiable:** methods or tools used for managing failures and providing support can be adjusted, allowing for flexibility in implementation. **Valuable:** ensures that the platform remains functional and efficient, benefiting the entire school community. **Estimable:** can be estimated with clarity. **Small:** it can be broken down into smaller tasks. **Testable:** It can be tested by measuring the IT system’s reliability and responsiveness to issues.
 
 Identification | US11
