@@ -407,9 +407,9 @@ Acceptance Criteria 2 | **Scenario:** The family wants to review the onboarding 
 Identification | US03
 --- | ---
 Persona | Júlio Oliveira
-User Story | "As a moderator, I want to ensure that every student receives all necessary information accurately from their very first interaction, preventing delays or issues caused by communication errors."
-Acceptance Criteria 1 | **Scenario:** A student accesses the platform for the first time. **Acceptance Test:** The system verifies that all required information fields are completed before allowing the student to proceed.
-Acceptance Criteria 2 | **Scenario:** A student needs additional help after initial interaction. **Acceptance Test:** The system logs all support requests and ensures a response is provided within.
+User Story | "As a moderator, I want to ensure that every parent receives all necessary information accurately from their very first interaction, preventing delays or issues caused by communication errors."
+Acceptance Criteria 1 | **Scenario:** A parent accesses the platform for the first time. **Acceptance Test:** The system verifies that all required information fields are completed before allowing the parent to proceed.
+Acceptance Criteria 2 | **Scenario:** A parent needs additional help after initial interaction. **Acceptance Test:** The system logs all support requests and ensures a response is provided within.
 
 Identification | US04
 --- | ---
@@ -422,7 +422,7 @@ Critérios INVEST | **Independent:**  The story describes a standalone feature t
 Identification | US05
 --- | ---
 Persona | Daniel Thompson
-User Story | "As a parent, I wish there was a simple place where I could easily follow my daughter’s grades, attendance, and school updates without feeling lost in complicated websites (poor UI/UX)."
+User Story | "As a father, I wish there was a simple place where I could easily follow my daughter’s grades, attendance, and school updates without feeling lost in complicated websites (poor UI/UX)."
 Acceptance Criteria 1 | **Scenario:** The parent navigates through the dashboard. **Acceptance Test:** Information is organized into clearly defined tabs or sections (Grades, Attendance...).
 Acceptance Criteria 2 | **Scenario:** There is an error retrieving student data. **Acceptance Test:** The system displays a friendly error message and offers a retry option.
 Critérios INVEST | **Independent:**  its standalone, focusing only on a parent’s access to their child’s school data. **Negotiable:** layout, types of data, and presentation style can be negotiated. **Valuable:** It delivers significant value by helping parents easily track academic progress and school updates. **Estimable:** The effort required to build the tracking system can be estimated. **Small:** The story is focused on one specific need, making it manageable in size. **testable** it can be tested by ensuring parents can view grades, attendance, and updates.
@@ -430,18 +430,18 @@ Critérios INVEST | **Independent:**  its standalone, focusing only on a parent�
 Identification | US06
 --- | ---
 Persona | Carolina Mendes
-User Story | "As the school’s marketing manager, I want a simple interface to publish school news, so that I can easily share updates with the school community."
-Acceptance Criteria 1 | **Scenario:** The manager accesses the admin panel and fills out the new post form. **Acceptance Test:** When all required fields are filled and "Publish" is clicked, the news should appear on the website under the news section.
+User Story | "As the school’s marketing manager, I want a simple interface to publish school events, so that I can easily share updates with the school community."
+Acceptance Criteria 1 | **Scenario:** The manager accesses the admin panel and fills out the new event form. **Acceptance Test:** When all required fields are filled and "Publish" is clicked, the event should appear on the website under the events section.
 Acceptance Criteria 2 | **Scenario:** The manager leaves a required field blank. **Acceptance Test:** The system should display a message indicating the missing fields and not allow submission until they are filled.
-Critérios INVEST | **Independent:**  This task does not rely on other features or systems to work. **Negotiable:** The details of how the interface looks or functions are not strictly defined. **Valuable:** It makes it easier for the marketing manager to publish updates, which helps improve communication with the community. **Estimable:** can be estimated the effort needed to create a simple interface for publishing news. **Small:** it might need to be broken down into sSmall:er stories **testable** It can be tested by checking if the marketing manager can successfully use the interface to publish school news.
+Critérios INVEST | **Independent:**  This task does not rely on other features or systems to work. **Negotiable:** The details of how the interface looks or functions are not strictly defined. **Valuable:** It makes it easier for the marketing manager to publish updates, which helps improve communication with the community. **Estimable:** can be estimated the effort needed to create a simple interface for publishing news. **Small:** it might need to be broken down into smaller stories **testable** It can be tested by checking if the marketing manager can successfully use the interface to publish school events.
 
 Identification | US07
 --- | ---
 Persona | Carolina Mendes
-User Story | "As the school’s Marketing Manager, I need to be able to delete or edit a publication from the website, so I can remove any outdated or incorrect information."
-Acceptance Criteria 1 | **Scenario:** The marketing manager is logged into the admin panel. **Acceptance Test:** When clicking the "Delete" button on a publication, it should be permanently removed from the website and no longer appear in the list of publications.
-Acceptance Criteria 2 | **Scenario:** The manager tries to delete a publication that doesn’t exist or has already been deleted. **Acceptance Test:** The system should display an error message indicating that the publication was not found.
-Critérios INVEST | **Independent::**  delete a publication doesn’t rely on other features. **Negotiable:**  the process of giving permission can be negotiated. **Valuable:**  it provides value by maintaining the accuracy of the website, ensuring the information is up-to-date. **Estimable:**  its a small task its time to be completed can be determined/estimated. **Small:** its a concise user storie that focus on a single action. **testable** it can be tested, just needs one person to delete a post.
+User Story | "As the school’s Marketing Manager, I need to be able to delete or edit a event from the website, so I can remove any outdated or incorrect information."
+Acceptance Criteria 1 | **Scenario:** The marketing manager is logged into the admin panel. **Acceptance Test:** When clicking the "Delete" button on an event, it should be permanently removed from the website and no longer appear in the list of publications.
+Acceptance Criteria 2 | **Scenario:** The manager tries to delete a event that doesn’t exist or has already been deleted. **Acceptance Test:** The system should display an error message indicating that the publication was not found.
+Critérios INVEST | **Independent::**  delete an event doesn’t rely on other features. **Negotiable:**  the process of giving permission can be negotiated. **Valuable:**  it provides value by maintaining the accuracy of the website, ensuring the information is up-to-date. **Estimable:**  its a small task its time to be completed can be determined/estimated. **Small:** its a concise user storie that focus on a single action. **testable** it can be tested, just needs one person to delete a post.
 
 Identification | US08
 --- | ---
@@ -469,8 +469,8 @@ Identification | US11
 --- | ---
 Persona | Júlio Oliveira
 User Story | "As a moderator, I need to be able to manage user’s roles and permissions, so each member can only access what they need."
-Acceptance Criteria 1 | **Scenario:** The moderator accesses the user management panel. **Acceptance Test:** The system allows changing a user's role with just a few clicks.
-Acceptance Criteria 2 | **Scenario:** The moderator tries to assign an invalid role. **Acceptance Test:** The system prevents the action and displays a clear message about the invalid permission.
+Acceptance Criteria 1 | **Scenario:** The moderator accesses the user management panel. **Acceptance Test:** The system displays user's roles with just a few clicks.
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;This section presented 11 user stories aligned with the previously defined personas, ensuring the system addresses real user needs while maintaining security through role-based access control. Each story follows the INVEST criteria, making them actionable for development in Sprints 1 to 5.
 
