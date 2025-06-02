@@ -29,47 +29,49 @@
 
 ## 📝 Description:
 
-_Descreva seu projeto (até 600 palavras)_
 
 ## 📝 Demo link:
 
-_Coloque aqui o link para seu projeto publicado e link para vídeo de demonstração_
 
 ## 📁 Folder structure:
 
-Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
+All the root files and folders of the project are defined by:
 
-- <b>assets</b>: aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens.
+- <b>assets</b>: here are the files related to non-structured elements in this repository, such as images.
 
-- <b>document</b>: aqui estão todos os documentos do projeto, como o Web Application  Document (WAD) bem como documentos complementares, na pasta "other".
+- <b>document</b>: here are all the documents of the project, such as the Web Application  Document (WAD), as well as complementary documents, in the folder "other".
 
-- <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto de aplicação web.
+- <b>src</b>: all the source code created for the development of the web application.
 
-- <b>README.md</b>: arquivo que serve como guia introdutório e explicação geral sobre o projeto e a aplicação (o mesmo arquivo que você está lendo agora).
+- <b>README.md</b>: file that serves as a introductory guide and general explication about the project and aplication (same file you are reading at the moment). 
 
 ## 💻 Configuration for code development and execution:
 
-*Acrescentar as informações necessárias sobre pré-requisitos (IDEs, bibliotecas, serviços etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o código e executar a aplicação a partir de sua máquina local.*
+Here you will find all the necessary instructions for installing all essential programs, libraries, and tools required to set up the development environment.
 
-*exemplo de instruções*
+1. Download and install Node.js: [https://nodejs.org/](https://nodejs.org/) (version 16.15.1 LTS)
+2. Clone the repository in question.
+3. In administrator mode, open the "Command Prompt" or "Terminal" and navigate to the "src/backend" folder in the root directory of the cloned repository. Then run the following command:
 
-Aqui encontram-se todas as instruções necessárias para a instalação de todos os programas, bibliotecas e ferramentas imprescindíveis para a configuração do ambiente de desenvolvimento.
+```sh  
 
-1. Baixar e instalar o node.js: [https://nodejs.org/pt-br/](https://nodejs.org/pt-br/) (versão 16.15.1 LTS)
-2. Clone o repositório em questão.
-3. No modo administrador, abra o "prompt de comando" ou o "terminal" e, após, abra a pasta "src/backend" no diretório raiz do repositório clonado e digite o segundo comando:
-
-```sh
-npm install
+npm install i
 ```
 
-Isso instalará todas as dependências definidas no arquivo <b>package.json</b> que são necessárias para rodar o projeto. Agora o projeto já está pronto para ser modificado. Caso ainda deseje iniciar a aplicação, digite o comando abaixo no terminal:
+This will install all dependencies defined in the package.json file that are required to run the project. Now the project is ready for modifications. If you still wish to start the application, enter the following command in the terminal:
 
-```sh
-npm start
+
+```sh  
+
+npm install express (if terminal shows error)
+cd /src
+npm server.js
 ```
-5. Agora você pode acessar a aplicação através do link http://localhost:1234/
-6. O servidor está online.
+
+5. You can now access the application via the link: http://localhost:3000/
+6. The server is now online.
+
+
 
 ## 🗃 Platform release history:
 

@@ -480,7 +480,11 @@ Acceptance Criteria 1 | **Scenario:** The moderator accesses the user management
 
 ## 3.1. Architecture (sprints 3 e 4)
 
-*Posicione aqui o diagrama de arquitetura da sua solução de aplicação web. Atualize sempre que necessário*
+<img src="../assets/wad/Diagrama da solução.png">
+
+Each database table is represented by its own model, which is responsible for handling the data structure and business logic related to that specific entity. For every model, there is a corresponding controller that acts as an intermediary between the model and the user interface. The controller receives input (usually from HTTP requests), processes this input by interacting with the appropriate model, and prepares the data to be sent to the views. The views are responsible for displaying the information to the user in a structured and user-friendly format.
+
+Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diana?node-id=0-1&p=f&t=LUQpx1ce9GdskM4m-0
 
 ## 3.2. Wireframes (sprint 2)
 
@@ -712,25 +716,110 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 
 ## 3.3. Style guide (sprint 3)
 
-*Descreva aqui orientações gerais para o leitor sobre como utilizar os componentes do guia de estilos de sua solução*
+<!-- *Descreva aqui orientações gerais para o leitor sobre como utilizar os componentes do guia de estilos de sua solução* -->
+
+This style guide was created to ensure visual and communicative consistency throughout the "Diana" solution. It provides essential visual identity guidelines that should be followed by all team members involved in design, development, and communication. 
+
+<br>
+
+<div align="center">
+  
+  <sub>Figure 17 - Style Guide </sub>
+  <br>
+  <br>
+![benes](../assets/wad/styleguide.jpg)
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
 
 ### 3.3.1 Colors
 
-*Apresente aqui a paleta de cores, com seus códigos de aplicação e suas respectivas funções*
+<br>
+
+<div align="center">
+  
+  <sub>Figure 18 - Colors </sub>
+  <br>
+  <br>
+![benes](../assets/wad/colors.jpg)
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+The primary colors should be used strategically to reinforce the brand identity.
+
+Primary ( #B82121 and #0C354C): Use for prominent elements such as buttons, headings, and key sections.
+
+Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contrast with content.
+
+
 
 ### 3.3.2 Typography
 
-*Apresente aqui a tipografia da solução, com famílias de fontes e suas respectivas funções*
+
+<br>
+
+<div align="center">
+  
+  <sub>Figure 18 - Typography </sub>
+  <br>
+  <br>
+![benes](../assets/wad/tipography.jpg)
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+The guide uses two main font families: Darker Grotesque for interface texts and Archer for titles and highlighted texts. Use the specified weights and sizes according to the type of content (e.g., H1 for main titles, H2 for subtitles).
 
 ### 3.3.3 Iconography and images
 
-*(esta subseção é opcional, caso não existam ícones e imagens, apague esta subseção)*
 
-*posicione aqui imagens e textos contendo exemplos padronizados de ícones e imagens, com seus respectivos atributos de aplicação, utilizadas na solução*
+<br>
+
+<div align="center">
+  
+  <sub>Figure 18 - Iconography and images </sub>
+  <br>
+  <br>
+![benes](../assets/wad/icons.jpg)
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
 
 ## 3.4 High-fidelity prototype (sprint 3)
 
-*posicione aqui algumas imagens demonstrativas de seu protótipo de alta fidelidade e o link para acesso ao protótipo completo (mantenha o link sempre público para visualização)*
+A high-fidelity prototype is a detailed representation of a product that closely resembles the final design in both appearance and functionality. It includes realistic visuals, accurate layout and typography.
+
+**Login and about page**
+<img src="../assets/wad/Login and About (1).png">
+
+**Homepage/profile**
+<img src="../assets/wad/Group 14.png">
+
+**Benes and sanctions**
+<img src="../assets/wad/Benes & Sanctions.png">
+
+
 
 ## 3.5. Database modelling (sprints 2 e 4)
 
@@ -840,7 +929,11 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 - student_id: Who the event is related to;
 - Related to: students;
 
+
+  #### g) Academic house table
+=======
 **9. Academic house table:**
+
 **Purpose:** Storage all the academic houses from st Pauls(a sistem like Harry Potter)
 
 **Main fields:**
@@ -849,6 +942,8 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 - house: Name of the house.
 - Related to: students (via academic_house_id).
 
+  #### h) year code
+  
 **10. Year code:**
 
 **Purpose:** Defines the academic year or grade level a student is currently in.
@@ -905,19 +1000,289 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 
 &nbsp;&nbsp;&nbsp;&nbsp;Moving forward, this methodology will guide future database enhancements, ensuring scalability and reliability as the platform evolves. 
 
-## 3.6. WebAPI and endpoints (sprints 3 e 4)
+## 3.6. WebAPI and endpoints (sprints 3 e 4):
 
+# Visão Geral
+RESTful API for academic management with endpoints for:
 
-*Utilize um link para outra página de documentação contendo a descrição completa de cada endpoint. Ou descreva aqui cada endpoint criado para seu sistema.* 
+- **Main entities:** Users, Students, Teachers, Tutors
+- **Academic resources:** Subjects, Student-Subject Relations, Academic Houses
+- **Operational entities:** Events, Reports, Year Codes
 
-*Cada endpoint deve conter endereço, método (GET, POST, PUT, PATCH, DELETE), header, body e formatos de response*
+---
+
+## **USERS** `/users`
+| method | Endpoint          | description               |
+|--------|-------------------|-------------------------|
+| GET    | `/users`          | List all users          |
+| GET    | `/users/:id`      | Get user by ID          |
+| POST   | `/users`          | create new user         |
+| PUT    | `/users/:id`      | Atualiza usuário        |
+| DELETE | `/users/:id`      | Remove usuário          |
+
+---
+
+## **STUDENTS** `/students`
+| method | Endpoint            | description              |
+|--------|---------------------|------------------------|
+| GET    | `/students`         | List all students  |
+| GET    | `/students/:id`     | get student by id     |
+| POST   | `/students`         | create new student        |
+| PUT    | `/students/:id`     | uptade student         |
+| DELETE | `/students/:id`     | delete student           |
+
+---
+
+## **TEACHERS** `/teachers`
+| method | Endpoint            | description                |
+|--------|---------------------|--------------------------|
+| GET    | `/teachers`         | list all teachers  |
+| GET    | `/teachers/:id`     | get teacher by id   |
+| POST   | `/teachers`         | create teacher      |
+| PUT    | `/teachers/:id`     | update teacher       |
+| DELETE | `/teachers/:id`     | delete teacher         |
+
+---
+
+## **DICIPLINES** `/subjects`
+| method | Endpoint            | description                |
+|--------|---------------------|--------------------------|
+| GET    | `/subjects`         | list all diciplines  |
+| GET    | `/subjects/:id`     | get dicipline by id  |
+| POST   | `/subjects`         | create dicipline     |
+| PUT    | `/subjects/:id`     | update dicipline      |
+| DELETE | `/subjects/:id`     | delete dicipline        |
+
+---
+
+## **RELATION STUDENT_SUBJECT** `/student_subject`
+| method | Endpoint                  | description                          |
+|--------|---------------------------|------------------------------------|
+| GET    | `/student_subject`        | list all relations              |
+| GET    | `/student_subject/:id`    | get relation by id               |
+| POST   | `/student_subject`        | create new relation                  |
+| PUT    | `/student_subject/:id`    | update relation                   |
+| DELETE | `/student_subject/:id`    | delete relation                    |
+
+---
+
+## **ACADEMIC HOUSE** `/academic-house`
+| method | Endpoint                | description                     |
+|--------|-------------------------|-------------------------------|
+| GET    | `/academic-house`       list all academic houses           |
+| GET    | `/academic-house/:id`   | get academic house by id            |
+| POST   | `/academic-house`       | create new house               |
+| PUT    | `/academic-house/:id`   | update house                |
+| DELETE | `/academic-house/:id`   | delete house                  |
+
+---
+
+## **EVENTS** `/events`
+| method | Endpoint          | description             |
+|--------|-------------------|-----------------------|
+| GET    | `/events`         | Lista todos eventos  |
+| GET    | `/events/:id`     | Busca evento por ID  |
+| POST   | `/events`         | Cria novo evento     |
+| PUT    | `/events/:id`     | Atualiza evento      |
+| DELETE | `/events/:id`     | Remove evento        |
+
+---
+
+## **REPORTS** `/reports`
+| method | Endpoint          | description               |
+|--------|-------------------|-------------------------|
+| GET    | `/reports`        | Lists all reports  |
+| GET    | `/reports/:id`    | get report by id  |
+| POST   | `/reports`        | create new report     |
+| PUT    | `/reports/:id`    | update report      |
+| DELETE | `/reports/:id`    | delete report        |
+
+---
+
+## **YEAR CODES** `/year_Code`
+| method | Endpoint          | description               |
+|--------|-------------------|-------------------------|
+| GET    | `/year_Code`      | list all year codes  |
+| GET    | `/year_Code/:id`  | get year by id  |
+| POST   | `/year_Code`      | create new year     |
+| PUT    | `/year_Code/:id`  | update year      |
+| DELETE | `/year_Code/:id`  | delete year         |
+
+## **TUTORS** `/tutors`
+
+| method | Endpoint          | description                     |
+|--------|-------------------|-------------------------------|
+| GET    | `/tutors`         | list all tutors        |
+| GET    | `/tutors/:id`     | get tutor by id            |
+| POST   | `/tutors`         | Create new tutor           |
+| PUT    | `/tutors/:id`     | update tutor      |
+| DELETE | `/tutors/:id`     | delete tutor                  |
+
+---
+
+[Documentação de Endpoints](./others/routersDocumentation.pdf)
+
 
 # <a name="c4"></a>4. Web Application Development
 
 ## 4.1. First version of the web application (sprint 3)
 
-*Descreva e ilustre aqui o desenvolvimento da sua primeira versão do sistema web, explicando brevemente o que foi entregue em termos de código e sistema. Utilize prints de tela para ilustrar. Indique as eventuais dificuldades e próximos passos.*
+### Implemented Structure:
 
+1.  **MVC Architecture**:
+    -   Use of Express.js as a framework
+    -   Structure organized in controllers, views, and routes
+    -   EJS template system for page rendering
+
+2.  **User Interface**:
+    -   Sidebar with navigation to the main features:
+        -   Events
+        -   Customer Service
+        -   Benes and Sanctions
+        -   Assignments
+        -   Timetable
+        -   Reports
+        -   Initial Screen (Login)
+
+3.  **Main Pages**:
+    -   Login
+    -   Profile
+    -   Assignments
+    -   Customer Service
+    -   Events
+    -   Timetable
+    -   Benes
+    -   Reports
+
+4.  **Reusable Components**:
+    -   Sidebar
+    -   UpperBar
+    -   LowerBar
+
+### Implemented Features:
+
+1.  **Routing System**:
+    -   Routes defined for all main pages
+    -   Basic navigation structure between pages
+
+2.  **Profile Interface**:
+    -   Layout with a profile photo section
+    -   Area for user information
+    -   Quick access buttons for Reports, Assignments, and Timetable
+
+#### Illustrations of the First Version:
+
+**Login Screen:**
+
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/telalogin.jpeg" alt="Login Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Profile Screen:**
+
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/telaprofile.jpeg" alt="Profile Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Assignments Screen:**
+
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/telaassignments.jpeg" alt="Assignments Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Customer Service Screen:**
+
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/telacustomers.jpeg" alt="Customer Service Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Events Screen:**
+
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/telaevents.jpeg" alt="Events Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Timetable Screen:**
+
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/telatimetable.jpeg" alt="Timetable Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Benes and Sanctions Screen:**
+
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/telabenes.jpeg" alt="Benes and Sanctions Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Reports Screen:**
+
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/telareports.jpeg" alt="Reports Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+### Challenges Encountered:
+
+1.  **Styling**:
+    -   Need for refactoring to a more organized CSS system
+
+2.  **Data Structure**:
+    -   Initial implementation of the user system
+    -   Need to develop services and data models
+
+### Next Steps:
+
+1.  **Technical Improvements**:
+    -   Implement a more robust CSS system
+    -   Create a complete authentication system
+    -   Implement form validation
+
+2.  **Features**:
+    -   Implement the event system
+    -   Create the reports system
+
+3.  **UX/UI**:
+    -   Improve system responsiveness
+    -   Implement visual feedback for user actions
+    -   Add smooth animations and transitions
+
+4.  **Security**:
+    -   Implement a robust authentication system
+    -   Add data validation
+    -   Implement role-based access control
+
+    -------
 ## 4.2. Second version of the web application (sprint 4)
 
 *Descreva e ilustre aqui o desenvolvimento da sua segunda versão do sistema web, explicando brevemente o que foi entregue em termos de código e sistema. Utilize prints de tela para ilustrar. Indique as eventuais dificuldades e próximos passos.*

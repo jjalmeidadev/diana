@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Reports</title>
+</head>
+
+<body style="margin: 0; padding: 0;">
+    <!-- Top bar -->
+    <%- include('../components/upperBar.ejs') %>
+        <!-- Sidebar -->
+        <%- include('../components/sideBar.ejs') %>
+
+            <!-- Main content area -->
+            <div style="margin-top: 70px; margin-left: 200px; padding: 20px; margin-bottom: 50px;">
+                <h2>Paulean's</h2>
+            
+                <div style="margin-top: 20px;">
+                    <label for="report-select">Select the Report [Dropdown]</label>
+                    <select id="report-select" style="margin-left: 10px;">
+                        <option value="">--Select a report--</option>
+                        <!-- Add report options here -->
+                    </select>
+                </div>
+            
+                <div style="margin-top: 10px;">
+                    <label for="student-select">Select the Student's Name [Dropdown]</label>
+                    <select id="student-select" style="margin-left: 10px;">
+                        <option value="">--Select a student--</option>
+                        <!-- Add student options here -->
+                    </select>
+                </div>
+            
+                <button style="margin-top: 20px; padding: 10px;">Download the Report [Button]</button>
+            
+                <h3 style="margin-top: 40px;">Total Average per subject</h3>
+            
+                <!-- Simple representation of a bar chart -->
+                <div style="display: flex; align-items: flex-end; height: 200px; border-bottom: 1px solid black; width: 80%;">
+                    <div style="width: 30px; height: 150px; background-color: grey; margin-right: 10px;"></div>
+                    <div style="width: 30px; height: 180px; background-color: grey; margin-right: 10px;"></div>
+                    <div style="width: 30px; height: 120px; background-color: grey; margin-right: 10px;"></div>
+                    <div style="width: 30px; height: 160px; background-color: grey; margin-right: 10px;"></div>
+                    <div style="width: 30px; height: 100px; background-color: grey; margin-right: 10px;"></div>
+                    <div style="width: 30px; height: 190px; background-color: grey; margin-right: 10px;"></div>
+                    <div style="width: 30px; height: 140px; background-color: grey; margin-right: 10px;"></div>
+                    <div style="width: 30px; height: 170px; background-color: grey; margin-right: 10px;"></div>
+                </div>
+            
+                <table style="margin-top: 40px; border-collapse: collapse; width: 80%;">
+                    <thead>
+                        <tr>
+                            <th style="border: 1px solid black; padding: 8px; text-align: left;">Subject</th>
+                            <th style="border: 1px solid black; padding: 8px; text-align: left;">Semester</th>
+                            <th style="border: 1px solid black; padding: 8px; text-align: left;">Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="border: 1px solid black; padding: 8px;">Subject 1</td>
+                            <td style="border: 1px solid black; padding: 8px;">Semester</td>
+                            <td style="border: 1px solid black; padding: 8px;">Grade</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid black; padding: 8px;">Subject 2</td>
+                            <td style="border: 1px solid black; padding: 8px;">Semester</td>
+                            <td style="border: 1px solid black; padding: 8px;">Grade</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid black; padding: 8px;">Subject 3</td>
+                            <td style="border: 1px solid black; padding: 8px;">Semester</td>
+                            <td style="border: 1px solid black; padding: 8px;">Grade</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid black; padding: 8px;">Subject 4</td>
+                            <td style="border: 1px solid black; padding: 8px;">Semester</td>
+                            <td style="border: 1px solid black; padding: 8px;">Grade</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid black; padding: 8px;">Subject 5</td>
+                            <td style="border: 1px solid black; padding: 8px;">Semester</td>
+                            <td style="border: 1px solid black; padding: 8px;">Grade</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid black; padding: 8px;">Subject 6</td>
+                            <td style="border: 1px solid black; padding: 8px;">Semester</td>
+                            <td style="border: 1px solid black; padding: 8px;">Grade</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid black; padding: 8px;">Subject 7</td>
+                            <td style="border: 1px solid black; padding: 8px;">Semester</td>
+                            <td style="border: 1px solid black; padding: 8px;">Grade</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid black; padding: 8px;">Subject 8</td>
+                            <td style="border: 1px solid black; padding: 8px;">Semester</td>
+                            <td style="border: 1px solid black; padding: 8px;">Grade</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid black; padding: 8px;">Subject 9</td>
+                            <td style="border: 1px solid black; padding: 8px;">Semester</td>
+                            <td style="border: 1px solid black; padding: 8px;">Grade</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid black; padding: 8px;">Subject 10</td>
+                            <td style="border: 1px solid black; padding: 8px;">Semester</td>
+                            <td style="border: 1px solid black; padding: 8px;">Grade</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid black; padding: 8px;">Subject 11</td>
+                            <td style="border: 1px solid black; padding: 8px;">Semester</td>
+                            <td style="border: 1px solid black; padding: 8px;">Grade</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid black; padding: 8px;">Subject 12</td>
+                            <td style="border: 1px solid black; padding: 8px;">Semester</td>
+                            <td style="border: 1px solid black; padding: 8px;">Grade</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid black; padding: 8px;">Subject 13</td>
+                            <td style="border: 1px solid black; padding: 8px;">Semester</td>
+                            <td style="border: 1px solid black; padding: 8px;">Grade</td>
+                        </tr>
+            
+                    </tbody>
+                </table>
+            
+            </div>
+
+            <!-- Footer -->
+            <%- include('../components/lowerBar.ejs') %>
+</body>
+
+</html>

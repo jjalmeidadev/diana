@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timetable</title>
+</head>
+
+<body style="margin: 0; padding: 0;">
+    <!-- Top bar -->
+    <%- include('../components/upperBar.ejs') %>
+    <!-- Sidebar -->
+    <%- include('../components/sideBar.ejs') %>
+
+    
+
+    <!-- Timetable content -->
+    <div style="margin: 100px 170px 0 220px;">
+        <!-- Curriculum -->
+        <div style="
+            width: 200px; height: 50px; background-color: #f4f4f4; color: black;
+            text-align: center; line-height: 50px; border: 1px solid black;
+            margin-bottom: 40px; margin-left: 450px;
+        ">
+            Curriculum
+        </div>
+        <!-- Timetable table -->
+        <table border="1" align="center" width="80%" height="70%"
+            style="margin-right: 30px; margin-bottom: 40px">
+            <caption style="text-align: center; margin-bottom: 5px; margin-top: -25px;">
+                <strong>Weekly Timetable</strong>
+            </caption>
+            <thead>
+                <!-- Table headers -->
+                <tr>
+                    <th rowspan="2">Time</th>
+                    <th colspan="7">Days</th>
+                </tr>
+                <tr>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Table rows -->
+                <tr>
+                    <th>08:10 AM</th>
+                    <td>IB English</td>
+                    <td>IB Portuguese</td>
+                    <td>IB Maths</td>
+                    <td>IB English</td>
+                    <td>IB Maths</td>
+                </tr>
+                <tr>
+                    <th>09:05 AM</th>
+                    <td>IB Maths</td>
+                    <td>IB Portuguese</td>
+                    <td>IB Maths</td>
+                    <td>IB English</td>
+                    <td>IB Maths</td>
+                </tr>
+                <tr>
+                    <th>10:00 AM</th>
+                    <td>Tutorial</td>
+                    <td>Tutorial</td>
+                    <td>Tutorial</td>
+                    <td>Tutorial</td>
+                    <td>Tutorial</td>
+                </tr>
+                <tr>
+                    <th>10:20 AM</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>10:45 AM</th>
+                    <td>IB Film</td>
+                    <td>IB Film</td>
+                    <td>IB Biology</td>
+                    <td>IB Global Politics</td>
+                    <td>IB English</td>
+                </tr>
+                <tr>
+                    <th>11:40 AM</th>
+                    <td>University Prep</td>
+                    <td>IB ToK</td>
+                    <td>IB Portuguese</td>
+                    <td>IB Private Study</td>
+                    <td>IB Film</td>
+                </tr>
+                <tr>
+                    <th>12:30 AM</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>13:30 AM</th>
+                    <td>IB Global Politics</td>
+                    <td>IB Private Study</td>
+                    <td>IB Global Politics</td>
+                    <td>IB Film</td>
+                    <td>IB ToK</td>
+                </tr>
+                <tr>
+                    <th>14:25 AM</th>
+                    <td>IB Biology</td>
+                    <td>IB Maths</td>
+                    <td>IB English</td>
+                    <td>Physical Education</td>
+                    <td>IB Portuguese</td>
+                </tr>
+                <tr>
+                    <th>15:15 AM</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <%- include('../components/lowerBar.ejs') %>
+</body>
+
+</html>
