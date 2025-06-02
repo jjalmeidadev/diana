@@ -1330,11 +1330,19 @@ RESTful API for academic management with endpoints for:
 
 ## 6.4 Target audience
 
-*a) Segmentação de Mercado (até 250 palavras)*
-Descreva os principais segmentos de mercado a serem atendidos pela aplicação. Utilize bases de dados e fontes confiáveis.*
+# Market Segment
 
-*b) Perfil do Público-Alvo (até 250 palavras)*
-*Caracterize o público-alvo com dados demográficos, psicográficos e comportamentais, incluindo necessidades específicas. Utilize fontes obrigatórias.*
+ The main market segments we will be targeting with the development of our website are the educational and international communications sectors. St. Paul’s School in São Paulo would be our main customer, which illustrates the necessity our website solves in this context.
+ St. Paul’s School centers its brand around offering international students, mainly from the United Kingdom, the opportunity to continue their British curriculum while residing in Brazil. The school features a diverse curriculum that brings Brazilian and British education systems together, together with several extracurricular activities such as theater and language learning. This  educational approach requires a digital platform that is not only multilingual and accessible but also adaptable to different academic models.
+ In addition, the school has a significant focus on internationalism. According to their own website, the school community is composed of students from over 28 different nationalities, including the UK, USA, Japan, and various Latin American countries. This highlights the demand for communication tools that reaches across borders and facilitates global interaction.
+ In this sense, our production would be directed to a culturally adaptable, interactive and informative platform for parents, which has it's impact justified by the ISC Research (2023), that shows there are over 13,000 international schools worldwide, serving more than 6 million students, illustrating a high-potential and growing market for our application, considering it's personal approach to the families and how the schools could exercise clear and direct communication with them.
+
+# Profile Segment
+
+ The target audience for our project would consist in parents and responsibles of students in international schools, specifically those in St. Paul’s School in São Paulo. Demographically, this group includes adults aged 30 to 50, bilingual or multilingual, with high levels of education and economic status. Many are diplomats, or professionals working for multinational corporations, with families living within long distances.
+ Psychographically, these individuals highly value academic performance, cultural diversity, and global citizenship. They are proactive in their children’s education and prioritize communication, transparency, and accessibility when engaging with schools. Behaviorally, they are close with digital devices, familiar to using mobile apps and digital platforms for managing school information, and wish for real-time updates and user-friendly interfaces.
+ A relevant need for this audience is a digital solution that brings culture and languages together, offering intuitive access to school activities, academic updates, and secretary communication. This demand is growing rapidly with the international education sector.
+ According to The PIE News (2023), the number of students enrolled in international schools worldwide has surpassed 6.5 million, and is expected to continue rising, as families will be consistently seeking high-quality education. This research highlights the urgency for schools to adopt platforms that take these constant changes into account, enhancing the parents engagement and experience in a global perspective.
 
 ## 6.5 Positioning
 
