@@ -1342,11 +1342,27 @@ Descreva os principais segmentos de mercado a serem atendidos pela aplicação. 
 
 ## 6.5 Positioning
 
-*a) Proposta de Valor Única (até 250 palavras)*
-*Defina de maneira clara o que torna a sua aplicação única e valiosa para o mercado.*
+### a) Unique Value Proposition
 
-*b) Estratégia de Diferenciação (até 250 palavras)*
-*Explique como sua aplicação se destacará da concorrência, evidenciando a lógica por trás do posicionamento.*
+Diana stands out in the market by offering a complete and integrated solution for managing communication between school and family, with a special focus on user experience. Our unique value proposition lies in the combination of three fundamental elements:
+
+- **Centralization of Information:** By bringing together all academic information, events, and communications on a single platform, we eliminate the fragmentation that characterizes current solutions.  
+- **Intuitive Interface:** We developed an interface that prioritizes usability, allowing parents with different levels of technological familiarity to easily navigate the platform.  
+- **Personalization:** The platform adapts to the specific needs of each family, offering a unique experience based on the student’s profile and the parents’ preferences.
+
+This combination makes Diana a valuable tool for institutions seeking to modernize their communication and strengthen their connection with families.
+
+### b) Differentiation Strategy
+
+Our differentiation strategy is built on three main pillars:
+
+- **Focus on the End User:** Unlike other solutions that prioritize administrative management, Diana was developed with the parent experience in mind first, ensuring that all features are accessible within a few clicks.
+
+- **Responsive and Multiplatform Design:** The platform was designed to offer a smooth experience across different devices — computers, tablets, and smartphones — ensuring fast and functional access anywhere, anytime.
+
+- **Foundation Ready for Evolution:** Although the project is not scheduled for ongoing development after this delivery, the platform was architected with a scalable and modular structure, allowing for future enhancements and customizations by the school or developers who may adopt it.
+
+This approach positions us uniquely in the market, especially among high-end international schools like St. Paul’s, which value innovation without compromising excellence in service.
 
 ## 6.6 Marketing Strategy 
 
