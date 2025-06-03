@@ -12,9 +12,9 @@ router.get('/student_subject/:id', StudentSubjectController.getStudentSubjectByI
 router.post('/student_subject', StudentSubjectController.createStudentSubject);
 
 // Rota para atualizar um aluno-disciplina por ID
-router.put('/student_subject/:id', StudentSubjectController.updateStudentSubject);
+router.put('/student_subject/:id', StudentSubjectController.updateStudentSubjectById);
 
 // Rota para deletar um aluno-disciplina por ID
-router.delete('/student_subject/:id', StudentSubjectController.deleteStudentSubject);
+router.delete('/student_subject/:id', StudentSubjectController.deleteStudentSubjectById);
 
 module.exports = router;
