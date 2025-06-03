@@ -12,9 +12,9 @@ router.get('/tutors/:id', TutorsController.getTutorById);
 router.post('/tutors', TutorsController.createTutor);
 
 // Rota para atualizar um tutor por ID
-router.put('/tutors/:id', TutorsController.updateTutor);
+router.put('/tutors/:id', TutorsController.updateTutorById);
 
 // Rota para deletar um tutor por ID
-router.delete('/tutors/:id', TutorsController.deleteTutor);
+router.delete('/tutors/:id', TutorsController.deleteTutorById);
 
 module.exports = router;
