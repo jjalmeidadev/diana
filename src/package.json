@@ -1,4 +1,15 @@
 {
+  "name": "diana",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test":  "jest"
+  },
+  "keywords": [],
+  "author": "CrownMates",
+  "license": "Inteli",
+  "description": "Diana is a dedicated platform created for St. Paul’s School in São Paulo to enhance the partnership between parents and the school. Reflecting the values of a British education, Diana offers real-time access to each student’s academic progress, attendance, assignments, and teacher feedback. With its intuitive design, the platform empowers families to stay actively involved in their child’s learning journey, ensuring consistent support both in and beyond the classroom.",
   "dependencies": {
     "dotenv": "^16.5.0",
     "ejs": "^3.1.10",
