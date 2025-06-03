@@ -401,8 +401,8 @@ Identification | US02
 --- | ---
 Persona | Carolina Mendes
 User Story | "As the school’s marketing manager, I want to offer an access to clear information about the enrollment process, so that the family can organize themselves from the very beginning."
-Acceptance Criteria 1 | **Scenario:** A new family accesses the platform for the first time. **Acceptance Test:** The platform presents an interactive guide with basic school information, contacts, and calendar.
-Acceptance Criteria 2 | **Scenario:** The family wants to review the onboarding information later. **Acceptance Test:** There should be a button/menu to access the welcome content again.
+Acceptance Criteria 1 | **Scenario:** A new family accesses the platform for the first time. **Acceptance Test:** The platform presents a page with basic school information, contacts, and calendar.
+Acceptance Criteria 2 | **Scenario:** The family wants to review the enrollment information later. **Acceptance Test:** There should be a button/menu to access the enrollment information page again.
 
 Identification | US03
 --- | ---
@@ -414,7 +414,7 @@ Acceptance Criteria 2 | **Scenario:** A parent needs additional help after initi
 Identification | US04
 --- | ---
 Persona | Daniel Thompson
-User Story | "As a father who is searching for the balance between a new executive position and the proper attention directed to my son's trail, I'd like to access his academic information (reports, benes, sanctions, attendance rate, timetable) in a single platform, so that I can stay involved in his school life considering my heavy schedule."
+User Story | "As a father who is searching for the balance between a new executive position and the proper attention directed to his son's trail, he'd like to access his son's academic information (reports, benes, sanctions, attendance rate, timetable) in a single platform, so that he can stay involved in his school life considering my heavy schedule."
 Acceptance Criteria 1 | **Scenario:** The father logs into the platform with valid credentials. **Acceptance Test:** The platform displays grades, attendance, and recent activities in a clear and organized manner.
 Acceptance Criteria 2 | **Scenario:** The father tries to access the system without being authenticated. **Acceptance Test:** The system redirects to the login screen and blocks access to student information.
 Critérios INVEST | **Independent:**  The story describes a standalone feature that doesn’t depend on other fetures. **Negotiable:** The details ,such as design, data, and delivery, can be negotiated. **Valuable:** It provides value to the parent by offering a platform to stay involved in their son’s academic life. **Estimable:** The technical work involved is clear enough for estimation. **Small:** The scope of this story is clear and achievable within a short time. **testable** It can be tested by checking if the marketing manager can successfully use the interface to publish school news.
@@ -440,7 +440,7 @@ Identification | US07
 Persona | Carolina Mendes
 User Story | "As the school’s Marketing Manager, I need to be able to delete or edit a event from the website, so I can remove any outdated or incorrect information."
 Acceptance Criteria 1 | **Scenario:** The marketing manager is logged into the admin panel. **Acceptance Test:** When clicking the "Delete" button on an event, it should be permanently removed from the website and no longer appear in the list of publications.
-Acceptance Criteria 2 | **Scenario:** The manager tries to delete a event that doesn’t exist or has already been deleted. **Acceptance Test:** The system should display an error message indicating that the publication was not found.
+Acceptance Criteria 2 | **Scenario:** The manager tries to delete an event that doesn’t exist or has already been deleted. **Acceptance Test:** The system should display an error message indicating that the publication was not found.
 Critérios INVEST | **Independent::**  delete an event doesn’t rely on other features. **Negotiable:**  the process of giving permission can be negotiated. **Valuable:**  it provides value by maintaining the accuracy of the website, ensuring the information is up-to-date. **Estimable:**  its a small task its time to be completed can be determined/estimated. **Small:** its a concise user storie that focus on a single action. **testable** it can be tested, just needs one person to delete a post.
 
 Identification | US08
