@@ -1002,11 +1002,11 @@ Descreva os principais segmentos de mercado a serem atendidos pela aplicação. 
 
 ---
 
-## Context of St. Paul’s School
+## Context of St. Paul’s School and the project
 
 St. Paul’s School, an elite British school in São Paulo, identified communication challenges with parents due to a confusing and inefficient app. To address this, a dedicated web portal was proposed for parents, offering quick and centralized access to school information such as homework, absences, and announcements — improving the overall experience and strengthening the school-family relationship.
 
-The project consists of a dedicated web portal for parents, developed to simplify the monitoring of students’ school routines at St. Paul’s School. The platform provides direct access to essential information such as school events, attendance tracking, class schedules, important announcements, and academic performance. All of this is available through a single interface, accessible via any web browser — with no downloads required.
+The project, in this context, consists of a dedicated web portal for parents, developed to simplify the monitoring of students’ school routines at St. Paul’s School. The platform provides direct access to essential information such as school events, attendance tracking, class schedules, important announcements, and academic performance. All of this is available through a single interface, accessible via any web browser — with no downloads required.
 
 ---
 
@@ -1018,13 +1018,14 @@ The project developed is a dedicated web portal for the parents of St. Paul’s 
 - Attendance tracking  
 - Class schedules  
 - Important announcements  
-- Academic performance  
+- Academic performance
+- Communication  
 
 Access is available via any web browser, with no need to install additional applications.
 
 **Main benefits:**
 
-- Saves time and improves clarity in communication between school and parents  
+- Saves time and improves clarity in the dialogue between school and parents  
 - Concentrates relevant information in one place, reducing confusion and encouraging active involvement  
 - Provides real-time updates to ensure parents always have the latest information  
 
@@ -1067,7 +1068,7 @@ This approach ensures broad reach, effectively reaching all parents at a low ope
 The digital promotion strategy includes a combination of **SEO (Search Engine Optimization)**, social media, and content marketing, aimed at expanding reach and engagement among parents.
 
 - **SEO:** Optimizes the school’s official website and portal to appear easily in searches related to bilingual education, school communication, and student monitoring, facilitating spontaneous access.  
-- **Social media:** Creates relevant, dynamic content such as tutorial videos, testimonials from parents and teachers, and explanatory posts highlighting platform benefits. Active engagement strengthens trust and interest.  
+- **Social media:** Creates relevant, dynamic content such as tutorial videos, testimonials from parents and teachers, and explanatory posts highlighting platform benefits. Active engagement strengthens trust and interest. Key examples would be the use of instagram or linkedin, both accessible from the site itself. 
 - **Content marketing:** Conducted via email and social media, sharing tips for parents to monitor their children’s school routines using the portal as the main tool.
 
 ---
