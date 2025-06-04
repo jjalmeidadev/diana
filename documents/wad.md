@@ -542,7 +542,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
   <sub>Figure 10 - Profile </sub>
   <br>
   <br>
- ![home](../assets/wad/Profile%20-%20Homepage_reviewed.png)
+ <img src="../assets/wad\Profile - Homepage (2).png">
   <br>
   <br>
 
@@ -557,7 +557,6 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 &nbsp;&nbsp;&nbsp;Task tracking page with filtering and completion tools.  
 - **[Filter by subject]** displays tasks by selected subject.  
   — **US04 & US05**: Helps parents follow academic progress.  
-- **[Mark as completed]** (check icon) marks a task as finished.  
   — **US05**: Allows parents to verify student task completion.
 
 ---
@@ -568,7 +567,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
   <sub>Figure 11 - Assignments </sub>
   <br>
   <br>
-![Assignments](../assets/wad/Assignments_reviewed.png)
+<img src="../assets/wad/Assignments_reviewed (1).png">
   <br>
   <br>
 
@@ -595,7 +594,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
   <sub>Figure 12 - Reports </sub>
   <br>
   <br>
-![reports](../assets/wad/Reports%20page_reviewed.png)
+<img src="../assets/wad/Reports page_reviewed (1).png">
   <br>
   <br>
 
@@ -619,7 +618,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
   <sub>Figure 13 - Timetable </sub>
   <br>
   <br>
-![timetable](../assets/wad/Timetable%20(class%20schedule)_reviewed.png)
+<img src="../assets/wad/Timetable (class schedule)_reviewed (1).png">
   <br>
   <br>
 
@@ -644,7 +643,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
   <sub>Figure 14 - Events </sub>
   <br>
   <br>
-![events](../assets/wad/School%20events%20for%20parents_reviewed.png)
+<img src="../assets/wad/School events for parents_reviewed (1).png">
   <br>
   <br>
 
@@ -659,9 +658,8 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 **7. Customer Service Channels**
 **Description:**  
 &nbsp;&nbsp;&nbsp;Support area with contact options for technical or administrative help.  
-- **[New Support Request]** opens a live chat with the school office.  
+- **[New Support Request]** opens a chat with the school office (school contact - social media).
   — **US06**: Provides direct and efficient technical support.  
-- **[Check Ticket Status]** shows the progress of submitted requests.  
   — **US06 & US08**: Ensures transparency and follow-up ease.  
 - **[Contact via Email/Phone]** launches email or phone apps with teacher contact details.  
   — **US10**: Allows direct communication between parents and the school.
@@ -674,7 +672,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
   <sub>Figure 15 - Customer Service Channels </sub>
   <br>
   <br>
-![csc](../assets/wad/Customer%20service%20channels_reviewed.png)
+<img src="../assets/wad/Customer service channels_reviewed (1).png">
   <br>
   <br>
 
@@ -698,7 +696,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
   <sub>Figure 16 - Benes and sanctions </sub>
   <br>
   <br>
-![benes](../assets/wad/Benes%20and%20Sanctions_reviewed.png)
+<img src="../assets/wad/Benes and Sanctions_reviewed (1).png">
   <br>
   <br>
 
