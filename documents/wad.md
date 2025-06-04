@@ -1305,13 +1305,15 @@ RESTful API for academic management with endpoints for:
 
 ## 6.1 Executive Summary
 
-Diana is an innovative web portal developed for St. Paul’s School, one of the leading British educational institutions in Brazil. The platform aims to transform communication between the school and families by providing a centralized, intuitive, and efficient digital environment for monitoring students’ academic life.
+Diana is an innovative web portal developed for St. Paul’s School, one of the centenary British educational institutions leading development within Brazil. The platform aims to transform communication between the school and families by providing a centralized, intuitive, and efficient digital environment for monitoring students’ academic life, in contrast with their mobile solution, which left the school's communication sector stagnant with it's limited tools, and several identified pain points by consequence (regarding accessibility and information), which negatively impact families during their schedule organization.
 
-The high-end private education market in Brazil presents a significant opportunity for digital innovations that foster closer relationships between parents and schools. With the growing demand for bilingual and international institutions, there is also an increasing need for tools that make the educational experience more transparent and accessible.
+The high-end private education market in Brazil, on the other hand, presents opportunities for digital innovations that incentive closer relationships between parents and schools. With the growing demand for international institutions, there is also an increasing need for features that make the educational experience more transparent, guiding families towards the process of adaptation during the change of routines between countries.
 
-Diana’s key differentiators include its user-friendly interface, simplified navigation, and a comprehensive set of features: grade viewing, attendance tracking, academic calendar, and a direct communication channel with teachers. The goal is to deliver a personalized and practical experience, surpassing the limitations of currently available solutions.
+St. Paul’s School has clearly defined academic and administrative departments. There is a significant support to the integration of  technologies by enabling collaboration. The involvement of the IT department and the support from school leadership were essential to ensure strategic alignment of Diana with the institution’s goals.
 
-The project’s strategic objectives include increasing family engagement, reducing time spent on administrative tasks, and strengthening the bond between the school and the community. Additionally, Diana was designed to be scalable and flexible, allowing for future integrations and adaptations according to the institution’s specific needs.
+Diana’s key differentiators include its user-friendly interface, simplified navigation, and a comprehensive set of features: grade viewing, attendance tracking, academic calendar, and a communication channel. The goal is to deliver a personalized and practical experience, surpassing the limitations of currently available solutions.
+
+The project’s strategic objectives and values include preservation of tradition (present directly in it's design), resilience, aspiration, increasing family engagement, reducing time spent on tasks, and strengthening the bond between the school and the community. Additionally, Diana was developed to be scalable and flexible, allowing for future integrations according to the institution’s specific needs.
 
 ## 6.2 Market Analysis
 
@@ -1358,7 +1360,7 @@ Our differentiation strategy is built on three main pillars:
 
 - **Focus on the End User:** Unlike other solutions that prioritize administrative management, Diana was developed with the parent experience in mind first, ensuring that all features are accessible within a few clicks.
 
-- **Responsive and Multiplatform Design:** The platform was designed to offer a smooth experience across different devices — computers, tablets, and smartphones — ensuring fast and functional access anywhere, anytime.
+- **Responsive and Multiplatform Design:** The platform was designed to offer a smooth experience across different devices: computers, tablets, and smartphones, ensuring fast and functional access anywhere, anytime.
 
 - **Foundation Ready for Evolution:** Although the project is not scheduled for ongoing development after this delivery, the platform was architected with a scalable and modular structure, allowing for future enhancements and customizations by the school or developers who may adopt it.
 
