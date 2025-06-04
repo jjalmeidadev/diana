@@ -12,9 +12,9 @@ router.get('/year_Code/:id', YearCodeController.getYearCodeById);
 router.post('/year_Code', YearCodeController.createYearCode);
 
 // Rota para atualizar um year_Code por ID
-router.put('/year_Code/:id', YearCodeController.updateYearCode);
+router.put('/year_Code/:id', YearCodeController.updateYearCodeById);
 
 // Rota para deletar um year_Code por ID
-router.delete('/year_Code/:id', YearCodeController.deleteYearCode);
+router.delete('/year_Code/:id', YearCodeController.deleteYearCodeById);
 
 module.exports = router;

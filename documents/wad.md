@@ -1322,19 +1322,38 @@ RESTful API for academic management with endpoints for:
 
 ## 6.3 Competitor Analysis
 
-*a) Principais Concorrentes (até 250 palavras)*
-*Liste os concorrentes diretos e indiretos, destacando suas principais características e posicionamento no mercado.*
+### Main Competitors
 
-*b) Vantagens Competitivas da Aplicação Web (até 250 palavras)*
-*Descreva os diferenciais da sua aplicação em relação aos concorrentes, sem necessidade de citação de fontes.*
+There are numerous tools used by schools to support communication and learning. Some of the most known ones would be Google Classroom, Moodle, and Microsoft Teams for Education. These platforms are mainly used for schoolwork and class activities. Google Classroom is easy to use and integrates well with other Google apps, but it does not prioritize keeping parents informed. Moodle is a strong platform that many schools use, but it can be hard to manage and is not very user friendly. considering it's non practical design, and Microsoft Teams helps with online classes and communication between teachers and students, but it doesn’t offer many features specialized for families.
+ Other tools that schools often use to talk to parents are messaging apps like WhatsApp or email. These are easy and familiar to use, but they are not made for school environments and do not offer features such as calendars or constant updates about student progress.
+ Some schools have their own portals, but these systems are often not updated,  hard to use on phones, and do not support multiple languages well.
+ In general, current tools are useful for teachers and students, but they are not made with the intention of approaching international parents directly. They do not always support different languages, and they can be confusing or hard to use for families who are new to the school or country.
+
+### Competitive Advantages
+
+ Our web application is specially designed to help international schools communicate better with parents from different countries. Unlike most school platforms, our tool is made especially for families, not just for teachers and students.
+ One of the most important features is the language support. Parents can read messages, updates, and school events in english or portuguese. This helps avoid confusion and makes everyone feel welcomed and informed, no matter where they are from.
+Our platform is not focused on managing classroom tasks like Google Classroom or Moodle. Instead, it gives parents an intuitive way to see their child’s progress in real time by checking school events, receiving important updates, and talking directly with the school office by our communications tab, all in a centralized manner.
+ The design is conceptualized to be simple and easy to use. Parents won't need any previous orientation to comprehend it's functionalities. They can access it from a phone or computer and get alerts when needed.
+ The app also helps families to establish a direct dialogue with the school. For parents who are new to the country or culture, this tool encourages active involvement and helps build trust and engagement with the school community, this tool helps them stay involved and build trust with the school and it's culture, or in other words, to build a strong bridge between the school and its international community.
+ In short, our platform helps schools, specially St Paul's share clear and inclusive communication with all families, in a modern and practical way.
 
 ## 6.4 Target audience
 
-*a) Segmentação de Mercado (até 250 palavras)*
-Descreva os principais segmentos de mercado a serem atendidos pela aplicação. Utilize bases de dados e fontes confiáveis.*
+### Market Segment
 
-*b) Perfil do Público-Alvo (até 250 palavras)*
-*Caracterize o público-alvo com dados demográficos, psicográficos e comportamentais, incluindo necessidades específicas. Utilize fontes obrigatórias.*
+We will target the educational and international communication sectors with our website.. St. Paul’s School in São Paulo would be our main customer. which illustrates the necessity our website solves in this context.
+ St. Paul’s School centers its brand around offering international students, mainly from the United Kingdom, the opportunity to continue their British curriculum while residing in Brazil. The school features a diverse curriculum that brings Brazilian and British education systems together, together with several extracurricular activities such as theater and language learning. This  educational approach requires a digital platform that is not only multilingual and accessible but also adaptable to different academic models.
+ In addition, the school has a significant focus on internationalism. According to their own website, the school community is composed of students from over 28 different nationalities, including the UK, USA, Japan, and various Latin American countries. This highlights the demand for communication tools that reach across borders and facilitate global interaction.
+
+ In this sense, our production would be directed to a culturally adaptable, interactive and informative platform for parents, which has it's impact justified by the ISC Research (2023), that shows there are over 13,000 international schools worldwide, serving more than 6 million students, illustrating a high-potential and growing market for our application, considering its personalized approach to families and how the schools could exercise clear and direct communication with them.
+
+### Profile Segment
+
+ The target audience for our project would consist in parents and responsibles of students in international schools, specifically those in St. Paul’s School in São Paulo. Demographically, this group includes adults aged 30 to 50, bilingual or multilingual, with high levels of education and economic status. Many are diplomats, or professionals working for multinational corporations, with families often living far apart or in different countries.
+ Psychographically, these individuals highly value academic performance, cultural diversity, and global citizenship. They are proactive in their children’s education and prioritize communication, transparency, and accessibility when engaging with schools. Behaviorally, they are close with digital devices, familiar to using mobile apps and digital platforms for managing school information, and wish for real-time updates and user-friendly interfaces.
+ A relevant need for this audience is a digital solution that brings culture and languages together, offering intuitive access to school activities, academic updates, and secretary communication. This demand is growing rapidly with the international education sector.
+ According to The PIE News (2023), the number of students enrolled in international schools worldwide has surpassed 6.5 million, and is expected to continue rising, as families will be consistently seeking high-quality education. This research highlights the urgency for schools to adopt platforms that take these constant changes into account, enhancing the parents engagement and experience in a global perspective.
 
 ## 6.5 Positioning
 

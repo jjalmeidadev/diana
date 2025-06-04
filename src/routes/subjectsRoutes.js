@@ -12,9 +12,9 @@ router.get('/subjects/:id', SubjectsController.getSubjectById);
 router.post('/subjects', SubjectsController.createSubject);
 
 // Rota para atualizar uma disciplina por ID
-router.put('/subjects/:id', SubjectsController.updateSubject);
+router.put('/subjects/:id', SubjectsController.updateSubjectById);
 
 // Rota para deletar uma disciplina por ID
-router.delete('/subjects/:id', SubjectsController.deleteSubject);
+router.delete('/subjects/:id', SubjectsController.deleteSubjectById);
 
 module.exports = router;

@@ -12,9 +12,9 @@ router.get('/reports/:id', ReportsController.getReportById);
 router.post('/reports', ReportsController.createReport);
 
 // Rota para atualizar um relatório por ID
-router.put('/reports/:id', ReportsController.updateReport);
+router.put('/reports/:id', ReportsController.updateReportById);
 
 // Rota para deletar um relatório por ID
-router.delete('/reports/:id', ReportsController.deleteReport);
+router.delete('/reports/:id', ReportsController.deleteReportById);
 
 module.exports = router;
