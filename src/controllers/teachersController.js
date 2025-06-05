@@ -5,6 +5,7 @@ async function getAllTeachers(req, res) {
     const teachers = await TeachersModel.getAllTeachers();
     res.json(teachers);
   } catch (error) {
+    console.error(error)
     res.status(500).json({ error: 'Erro ao buscar professores' });
   }
 }
@@ -15,6 +16,7 @@ async function getTeacherById(req, res) {
     if (!teacher) return res.status(404).json({ error: 'Professor não encontrado' });
     res.json(teacher);
   } catch (error) {
+    console.error(error)
     res.status(500).json({ error: 'Erro ao buscar professor' });
   }
 }
@@ -24,6 +26,7 @@ async function createTeacher(req, res) {
     const newTeacher = await TeachersModel.createTeacher(req.body);
     res.status(201).json(newTeacher);
   } catch (error) {
+    console.error(error)
     res.status(500).json({ error: 'Erro ao criar professor' });
   }
 }
@@ -34,6 +37,7 @@ async function updateTeacherById(req, res) {
     if (!updatedTeacher) return res.status(404).json({ error: 'Professor não encontrado' });
     res.json(updatedTeacher);
   } catch (error) {
+    console.error(error)
     res.status(500).json({ error: 'Erro ao atualizar professor' });
   }
 }
@@ -44,6 +48,7 @@ async function deleteTeacherById(req, res) {
     if (!deletedTeacher) return res.status(404).json({ error: 'Professor não encontrado' });
     res.json({ message: 'Professor deletado com sucesso' });
   } catch (error) {
+    console.error(error)
     res.status(500).json({ error: 'Erro ao deletar professor' });
   }
 }

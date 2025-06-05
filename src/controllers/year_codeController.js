@@ -5,6 +5,7 @@ async function getAllYearCodes(req, res) {
     const codes = await YearCodeModel.getAllYearCodes();
     res.json(codes);
   } catch (error) {
+    console.error(error)
     res.status(500).json({ error: 'Erro ao buscar códigos' });
   }
 }
@@ -15,6 +16,7 @@ async function getYearCodeById(req, res) {
     if (!code) return res.status(404).json({ error: 'Código não encontrado' });
     res.json(code);
   } catch (error) {
+    console.error(error)
     res.status(500).json({ error: 'Erro ao buscar código' });
   }
 }
@@ -24,6 +26,7 @@ async function createYearCode(req, res) {
     const newCode = await YearCodeModel.createYearCode(req.body);
     res.status(201).json(newCode);
   } catch (error) {
+    console.error(error)
     res.status(500).json({ error: 'Erro ao criar código' });
   }
 }
@@ -34,6 +37,7 @@ async function updateYearCodeById(req, res) {
     if (!updatedYearCode) return res.status(404).json({ error: 'Código do ano não encontrado' });
     res.json(updatedYearCode);
   } catch (error) {
+    console.error(error)
     res.status(500).json({ error: 'Erro ao atualizar código do ano' });
   }
 }
@@ -44,6 +48,7 @@ async function deleteYearCodeById(req, res) {
     if (!deletedYearCode) return res.status(404).json({ error: 'Código do ano não encontrado' });
     res.json({ message: 'Código do ano deletado com sucesso' });
   } catch (error) {
+    console.error(error)
     res.status(500).json({ error: 'Erro ao deletar código do ano' });
   }
 }

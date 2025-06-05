@@ -5,6 +5,7 @@ async function getAllStudents(req, res) {
     const students = await StudentsModel.getAllStudents();
     res.json(students);
   } catch (error) {
+    console.error(error)
     res.status(500).json({ error: 'Erro ao buscar estudantes' });
   }
 }
@@ -15,6 +16,7 @@ async function getStudentById(req, res) {
     if (!student) return res.status(404).json({ error: 'Estudante não encontrado' });
     res.json(student);
   } catch (error) {
+    console.error(error)
     res.status(500).json({ error: 'Erro ao buscar estudante' });
   }
 }
@@ -24,6 +26,7 @@ async function createStudent(req, res) {
     const newStudent = await StudentsModel.createStudent(req.body);
     res.status(201).json(newStudent);
   } catch (error) {
+    console.error(error)
     res.status(500).json({ error: 'Erro ao criar estudante' });
   }
 }
@@ -34,6 +37,7 @@ async function updateStudentById(req, res) {
     if (!updatedStudent) return res.status(404).json({ error: 'Aluno não encontrado' });
     res.json(updatedStudent);
   } catch (error) {
+    console.error(error)
     res.status(500).json({ error: 'Erro ao atualizar aluno' });
   }
 }
@@ -44,6 +48,7 @@ async function deleteStudentById(req, res) {
     if (!deletedStudent) return res.status(404).json({ error: 'Aluno não encontrado' });
     res.json({ message: 'Aluno deletado com sucesso' });
   } catch (error) {
+    console.error(error)
     res.status(500).json({ error: 'Erro ao deletar aluno' });
   }
 }
