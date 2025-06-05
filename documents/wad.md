@@ -1305,9 +1305,15 @@ RESTful API for academic management with endpoints for:
 
 ## 6.1 Executive Summary
 
-*Preencher com até 300 palavras, sem necessidade de fonte*
+Diana is an innovative web portal developed for St. Paul’s School, one of the centenary British educational institutions leading development within Brazil. The platform aims to transform communication between the school and families by providing a centralized, intuitive, and efficient digital environment for monitoring students’ academic life, in contrast with their mobile solution, which left the school's communication sector stagnant with it's limited tools, and several identified pain points by consequence (regarding accessibility and information), which negatively impact families during their schedule organization.
 
-*Apresente de forma clara e objetiva os principais destaques do projeto: oportunidades de mercado, diferenciais competitivos da aplicação web e os objetivos estratégicos pretendidos.*
+The high-end private education market in Brazil, on the other hand, presents opportunities for digital innovations that incentive closer relationships between parents and schools. With the growing demand for international institutions, there is also an increasing need for features that make the educational experience more transparent, guiding families towards the process of adaptation during the change of routines between countries.
+
+St. Paul’s School has clearly defined academic and administrative departments. There is a significant support to the integration of  technologies by enabling collaboration. The involvement of the IT department and the support from school leadership were essential to ensure strategic alignment of Diana with the institution’s goals.
+
+Diana’s key differentiators include its user-friendly interface, simplified navigation, and a comprehensive set of features: grade viewing, attendance tracking, academic calendar, and a communication channel. The goal is to deliver a personalized and practical experience, surpassing the limitations of currently available solutions.
+
+The project’s strategic objectives and values include preservation of tradition (present directly in it's design), resilience, aspiration, increasing family engagement, reducing time spent on tasks, and strengthening the bond between the school and the community. Additionally, Diana was developed to be scalable and flexible, allowing for future integrations according to the institution’s specific needs.
 
 ## 6.2 Market Analysis
 
@@ -1357,11 +1363,27 @@ We will target the educational and international communication sectors with our 
 
 ## 6.5 Positioning
 
-*a) Proposta de Valor Única (até 250 palavras)*
-*Defina de maneira clara o que torna a sua aplicação única e valiosa para o mercado.*
+### a) Unique Value Proposition
 
-*b) Estratégia de Diferenciação (até 250 palavras)*
-*Explique como sua aplicação se destacará da concorrência, evidenciando a lógica por trás do posicionamento.*
+Diana stands out in the market by offering a complete and integrated solution for managing communication between school and family, with a special focus on user experience. Our unique value proposition lies in the combination of three fundamental elements:
+
+- **Centralization of Information:** By bringing together all academic information, events, and communications on a single platform, we eliminate the fragmentation that characterizes current solutions.  
+- **Intuitive Interface:** We developed an interface that prioritizes usability, allowing parents with different levels of technological familiarity to easily navigate the platform.  
+- **Personalization:** The platform adapts to the specific needs of each family, offering a unique experience based on the student’s profile and the parents’ preferences.
+
+This combination makes Diana a valuable tool for institutions seeking to modernize their communication and strengthen their connection with families.
+
+### b) Differentiation Strategy
+
+Our differentiation strategy is built on three main pillars:
+
+- **Focus on the End User:** Unlike other solutions that prioritize administrative management, Diana was developed with the parent experience in mind first, ensuring that all features are accessible within a few clicks.
+
+- **Responsive and Multiplatform Design:** The platform was designed to offer a smooth experience across different devices: computers, tablets, and smartphones, ensuring fast and functional access anywhere, anytime.
+
+- **Foundation Ready for Evolution:** Although the project is not scheduled for ongoing development after this delivery, the platform was architected with a scalable and modular structure, allowing for future enhancements and customizations by the school or developers who may adopt it.
+
+This approach positions us uniquely in the market, especially among high-end international schools like St. Paul’s, which value innovation without compromising excellence in service.
 
 ## 6.6 Marketing Strategy 
 
