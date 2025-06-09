@@ -1010,113 +1010,145 @@ RESTful API for academic management with endpoints for:
 - **Operational entities:** Events, Reports, Year Codes
 
 ---
-
 ## **USERS** `/users`
-| method | Endpoint          | description               |
-|--------|-------------------|-------------------------|
-| GET    | `/users`          | List all users          |
-| GET    | `/users/:id`      | Get user by ID          |
-| POST   | `/users`          | create new user         |
-| PUT    | `/users/:id`      | Atualiza usuário        |
-| DELETE | `/users/:id`      | Remove usuário          |
+Related to US11 – Role and permission management for platform users.
+
+| Method | Endpoint        | Description                         |
+|--------|-----------------|-------------------------------------|
+| GET    | `/users`        | List all users                      |
+| GET    | `/users/:id`    | Get user by ID                      |
+| POST   | `/users`        | Create new user                     |
+| PUT    | `/users/:id`    | Update user                         |
+| PATCH  | `/users/:id`    | Partially update user               |
+| DELETE | `/users/:id`    | Remove user                         |
 
 ---
 
 ## **STUDENTS** `/students`
-| method | Endpoint            | description              |
-|--------|---------------------|------------------------|
-| GET    | `/students`         | List all students  |
-| GET    | `/students/:id`     | get student by id     |
-| POST   | `/students`         | create new student        |
-| PUT    | `/students/:id`     | uptade student         |
-| DELETE | `/students/:id`     | delete student           |
+Related to US03, US04, US05 – Access and management of student data.
+
+| Method | Endpoint            | Description                         |
+|--------|---------------------|-------------------------------------|
+| GET    | `/students`         | List all students                   |
+| GET    | `/students/:id`     | Get student by ID                   |
+| POST   | `/students`         | Create new student                  |
+| PUT    | `/students/:id`     | Update student data                 |
+| PATCH  | `/students/:id`     | Partially update student data       |
+| DELETE | `/students/:id`     | Delete student                      |
 
 ---
 
 ## **TEACHERS** `/teachers`
-| method | Endpoint            | description                |
-|--------|---------------------|--------------------------|
-| GET    | `/teachers`         | list all teachers  |
-| GET    | `/teachers/:id`     | get teacher by id   |
-| POST   | `/teachers`         | create teacher      |
-| PUT    | `/teachers/:id`     | update teacher       |
-| DELETE | `/teachers/:id`     | delete teacher         |
+Related to US08 – Allow parents to access teacher contact information.
+
+| Method | Endpoint            | Description                         |
+|--------|---------------------|-------------------------------------|
+| GET    | `/teachers`         | List all teachers                   |
+| GET    | `/teachers/:id`     | Get teacher by ID                   |
+| POST   | `/teachers`         | Create teacher                      |
+| PUT    | `/teachers/:id`     | Update teacher                      |
+| PATCH  | `/teachers/:id`     | Partially update teacher            |
+| DELETE | `/teachers/:id`     | Delete teacher                      |
 
 ---
 
 ## **DICIPLINES** `/subjects`
-| method | Endpoint            | description                |
-|--------|---------------------|--------------------------|
-| GET    | `/subjects`         | list all diciplines  |
-| GET    | `/subjects/:id`     | get dicipline by id  |
-| POST   | `/subjects`         | create dicipline     |
-| PUT    | `/subjects/:id`     | update dicipline      |
-| DELETE | `/subjects/:id`     | delete dicipline        |
+Related to US04, US05 – View disciplines associated with students.
+
+| Method | Endpoint            | Description                         |
+|--------|---------------------|-------------------------------------|
+| GET    | `/subjects`         | List all disciplines                |
+| GET    | `/subjects/:id`     | Get discipline by ID                |
+| POST   | `/subjects`         | Create discipline                   |
+| PUT    | `/subjects/:id`     | Update discipline                   |
+| PATCH  | `/subjects/:id`     | Partially update discipline         |
+| DELETE | `/subjects/:id`     | Delete discipline                   |
 
 ---
 
 ## **RELATION STUDENT_SUBJECT** `/student_subject`
-| method | Endpoint                  | description                          |
-|--------|---------------------------|------------------------------------|
-| GET    | `/student_subject`        | list all relations              |
-| GET    | `/student_subject/:id`    | get relation by id               |
-| POST   | `/student_subject`        | create new relation                  |
-| PUT    | `/student_subject/:id`    | update relation                   |
-| DELETE | `/student_subject/:id`    | delete relation                    |
+Related to US04, US05 – Manage student-subject links.
+
+| Method | Endpoint                  | Description                              |
+|--------|---------------------------|------------------------------------------|
+| GET    | `/student_subject`        | List all student-subject links           |
+| GET    | `/student_subject/:id`    | Get link by ID                           |
+| POST   | `/student_subject`        | Create new student-subject link          |
+| PUT    | `/student_subject/:id`    | Update link                              |
+| PATCH  | `/student_subject/:id`    | Partially update link                    |
+| DELETE | `/student_subject/:id`    | Delete link                              |
 
 ---
 
 ## **ACADEMIC HOUSE** `/academic-house`
-| method | Endpoint                | description                     |
-|--------|-------------------------|-------------------------------|
-| GET    | `/academic-house`       list all academic houses           |
-| GET    | `/academic-house/:id`   | get academic house by id            |
-| POST   | `/academic-house`       | create new house               |
-| PUT    | `/academic-house/:id`   | update house                |
-| DELETE | `/academic-house/:id`   | delete house                  |
+Related to US02, US04 – School structure and onboarding information.
+
+| Method | Endpoint                | Description                         |
+|--------|-------------------------|-------------------------------------|
+| GET    | `/academic-house`       | List all academic houses            |
+| GET    | `/academic-house/:id`   | Get academic house by ID            |
+| POST   | `/academic-house`       | Create new house                    |
+| PUT    | `/academic-house/:id`   | Update house                        |
+| PATCH  | `/academic-house/:id`   | Partially update house              |
+| DELETE | `/academic-house/:id`   | Delete house                        |
 
 ---
 
 ## **EVENTS** `/events`
-| method | Endpoint          | description             |
-|--------|-------------------|-----------------------|
-| GET    | `/events`         | Lista todos eventos  |
-| GET    | `/events/:id`     | Busca evento por ID  |
-| POST   | `/events`         | Cria novo evento     |
-| PUT    | `/events/:id`     | Atualiza evento      |
-| DELETE | `/events/:id`     | Remove evento        |
+Related to US06 and US07 – School news and events publishing and management.
+
+| Method | Endpoint          | Description                         |
+|--------|-------------------|-------------------------------------|
+| GET    | `/events`         | List all events                     |
+| GET    | `/events/:id`     | Get event by ID                     |
+| POST   | `/events`         | Create new event                    |
+| PUT    | `/events/:id`     | Update event                        |
+| PATCH  | `/events/:id`     | Partially update event              |
+| DELETE | `/events/:id`     | Delete event                        |
 
 ---
 
 ## **REPORTS** `/reports`
-| method | Endpoint          | description               |
-|--------|-------------------|-------------------------|
-| GET    | `/reports`        | Lists all reports  |
-| GET    | `/reports/:id`    | get report by id  |
-| POST   | `/reports`        | create new report     |
-| PUT    | `/reports/:id`    | update report      |
-| DELETE | `/reports/:id`    | delete report        |
+Related to US04 – School performance tracking for parents.
+
+| Method | Endpoint          | Description                         |
+|--------|-------------------|-------------------------------------|
+| GET    | `/reports`        | List all reports                    |
+| GET    | `/reports/:id`    | Get report by ID                    |
+| POST   | `/reports`        | Create new report                   |
+| PUT    | `/reports/:id`    | Update report                       |
+| PATCH  | `/reports/:id`    | Partially update report             |
+| DELETE | `/reports/:id`    | Delete report                       |
 
 ---
 
 ## **YEAR CODES** `/year_Code`
-| method | Endpoint          | description               |
-|--------|-------------------|-------------------------|
-| GET    | `/year_Code`      | list all year codes  |
-| GET    | `/year_Code/:id`  | get year by id  |
-| POST   | `/year_Code`      | create new year     |
-| PUT    | `/year_Code/:id`  | update year      |
-| DELETE | `/year_Code/:id`  | delete year         |
+Related to US02 – School calendar structure and year stages.
+
+| Method | Endpoint          | Description                         |
+|--------|-------------------|-------------------------------------|
+| GET    | `/year_Code`      | List all year codes                 |
+| GET    | `/year_Code/:id`  | Get year code by ID                 |
+| POST   | `/year_Code`      | Create new year code                |
+| PUT    | `/year_Code/:id`  | Update year code                    |
+| PATCH  | `/year_Code/:id`  | Partially update year code          |
+| DELETE | `/year_Code/:id`  | Delete year code                    |
+
+---
 
 ## **TUTORS** `/tutors`
+Related to US08 and US09 – Responsible contact information and updates.
 
-| method | Endpoint          | description                     |
-|--------|-------------------|-------------------------------|
-| GET    | `/tutors`         | list all tutors        |
-| GET    | `/tutors/:id`     | get tutor by id            |
-| POST   | `/tutors`         | Create new tutor           |
-| PUT    | `/tutors/:id`     | update tutor      |
-| DELETE | `/tutors/:id`     | delete tutor                  |
+| Method | Endpoint          | Description                         |
+|--------|-------------------|-------------------------------------|
+| GET    | `/tutors`         | List all tutors                     |
+| GET    | `/tutors/:id`     | Get tutor by ID                     |
+| POST   | `/tutors`         | Create new tutor                    |
+| PUT    | `/tutors/:id`     | Update tutor                        |
+| PATCH  | `/tutors/:id`     | Partially update tutor              |
+| DELETE | `/tutors/:id`     | Delete tutor                        |
+
+
 
 ---
 
