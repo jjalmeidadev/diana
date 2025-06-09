@@ -114,6 +114,14 @@ const StudentsModel = {
     return result.rows[0];
   },
 
+  async patchStudent(id, partialData) {
+    const updatedStudent = await db.query(
+      'UPDATE students SET field1 = $1, field2 = $2 WHERE id = $3 RETURNING *',
+      [partialData.field1, partialData.field2, id]
+    );
+    return updatedStudent.rows[0];
+  },
+
   async deleteStudentById(id) {
     const result = await db.query(
       'DELETE FROM students WHERE id = $1 RETURNING *',

@@ -17,4 +17,7 @@ router.put('/subjects/:id', SubjectsController.updateSubjectById);
 // Rota para deletar uma disciplina por ID
 router.delete('/subjects/:id', SubjectsController.deleteSubjectById);
 
+// Rota para atualização parcial de uma disciplina por ID
+router.patch('/subjects/:id', SubjectsController.patchSubject);
+
 module.exports = router;

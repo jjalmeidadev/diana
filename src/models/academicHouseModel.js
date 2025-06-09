@@ -35,10 +35,19 @@ async function deleteAcademicHouseById(id) {
   return result.rows[0];
 }
 
+async function patchAcademicHouse(id, partialData) {
+  const updatedAcademicHouse = await pool.query(
+    'UPDATE academic_house SET field1 = $1, field2 = $2 WHERE id = $3 RETURNING *',
+    [partialData.field1, partialData.field2, id]
+  );
+  return updatedAcademicHouse.rows[0];
+}
+
 module.exports = {
   getAllAcademicHouses,
   getAcademicHouseById,
   createAcademicHouse,
   updateAcademicHouseById,
   deleteAcademicHouseById,
+  patchAcademicHouse,
 };

@@ -17,4 +17,7 @@ router.put('/teachers/:id', TeachersController.updateTeacherById);
 // Rota para deletar um professor por ID
 router.delete('/teachers/:id', TeachersController.deleteTeacherById);
 
+// Rota para atualização parcial de um professor por ID
+router.patch('/teachers/:id', TeachersController.patchTeacher);
+
 module.exports = router;

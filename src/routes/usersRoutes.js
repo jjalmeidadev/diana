@@ -39,5 +39,6 @@ router.get('/users/:id', userController.getUserById);
 router.post('/users', userController.createUser);      
 router.put('/users/:id', userController.updateUserById);     
 router.delete('/users/:id', userController.deleteUserById);
+router.patch('/users/:id', userController.patchUser); 
 
 module.exports = router;

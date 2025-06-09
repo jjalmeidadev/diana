@@ -34,6 +34,14 @@ const SubjectsModel = {
       [id]
     );
     return result.rows[0];
+  },
+
+  async patchSubject(id, partialData) {
+    const updatedSubject = await db.query(
+      'UPDATE subjects SET field1 = $1, field2 = $2 WHERE id = $3 RETURNING *',
+      [partialData.field1, partialData.field2, id]
+    );
+    return updatedSubject.rows[0];
   }
 };
 

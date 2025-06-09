@@ -17,4 +17,7 @@ router.put('/students/:id', StudentsController.updateStudentById);
 // Rota para deletar um aluno por ID
 router.delete('/students/:id', StudentsController.deleteStudentById);
 
+// Rota para atualização parcial de um aluno por ID
+router.patch('/students/:id', StudentsController.patchStudent);
+
 module.exports = router;

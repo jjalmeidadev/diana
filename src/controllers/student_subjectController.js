@@ -42,6 +42,16 @@ async function updateStudentSubjectById(req, res) {
   }
 }
 
+async function patchStudentSubject(req, res) {
+  try {
+    const patchedStudentSubject = await StudentSubjectModel.patchStudentSubject(req.params.id, req.body);
+    if (!patchedStudentSubject) return res.status(404).json({ error: 'Relação aluno-disciplina não encontrada' });
+    res.json(patchedStudentSubject);
+  } catch (error) {
+    res.status(500).json({ error: 'Erro ao atualizar parcialmente a relação aluno-disciplina' });
+  }
+}
+
 async function deleteStudentSubjectById(req, res) {
   try {
     const deletedStudentSubject = await StudentSubjectModel.deleteStudentSubjectById(req.params.id);
@@ -58,5 +68,6 @@ module.exports = {
   getStudentSubjectById,
   createStudentSubject,
   updateStudentSubjectById,
+  patchStudentSubject,
   deleteStudentSubjectById,
 };

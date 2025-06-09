@@ -53,10 +53,21 @@ async function deleteSubjectById(req, res) {
   }
 }
 
+async function patchSubject(req, res) {
+  try {
+    const patchedSubject = await SubjectsModel.patchSubject(req.params.id, req.body);
+    if (!patchedSubject) return res.status(404).json({ error: 'Disciplina não encontrada' });
+    res.json(patchedSubject);
+  } catch (error) {
+    res.status(500).json({ error: 'Erro ao atualizar parcialmente a disciplina' });
+  }
+}
+
 module.exports = {
   getAllSubjects,
   getSubjectById,
   createSubject,
   updateSubjectById,
   deleteSubjectById,
+  patchSubject,
 };

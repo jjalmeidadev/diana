@@ -53,10 +53,21 @@ async function deleteUserById(req, res) {
   }
 }
 
+async function patchUser(req, res) {
+  try {
+    const patchedUser = await UserModel.patchUser(req.params.id, req.body);
+    if (!patchedUser) return res.status(404).json({ error: 'Usuário não encontrado' });
+    res.json(patchedUser);
+  } catch (error) {
+    res.status(500).json({ error: 'Erro ao atualizar parcialmente o usuário' });
+  }
+}
+
 module.exports = {
   getAllUsers,
   getUserById,
   createUser,
   updateUserById,
   deleteUserById,
+  patchUser,
 };

@@ -27,6 +27,14 @@ async function updateUserById(id, userData) {
   return result.rows[0];
 }
 
+async function patchUser(id, partialData) {
+  const updatedUser = await pool.query(
+    'UPDATE users SET field1 = $1, field2 = $2 WHERE id = $3 RETURNING *',
+    [partialData.field1, partialData.field2, id]
+  );
+  return updatedUser.rows[0];
+}
+
 async function deleteUserById(id) {
   const result = await pool.query(
     'DELETE FROM users WHERE id = $1 RETURNING *',
@@ -40,5 +48,6 @@ module.exports = {
   getUserById,
   createUser,
   updateUserById,
+  patchUser,
   deleteUserById,
 };

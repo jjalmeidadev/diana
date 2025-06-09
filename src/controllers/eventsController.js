@@ -42,6 +42,16 @@ async function updateEventById(req, res) {
   }
 }
 
+async function patchEvent(req, res) {
+  try {
+    const patchedEvent = await EventsModel.patchEvent(req.params.id, req.body);
+    if (!patchedEvent) return res.status(404).json({ error: 'Evento não encontrado' });
+    res.json(patchedEvent);
+  } catch (error) {
+    res.status(500).json({ error: 'Erro ao atualizar parcialmente o evento' });
+  }
+}
+
 async function deleteEventById(req, res) {
   try {
     const deletedEvent = await EventsModel.deleteEventById(req.params.id);
@@ -58,5 +68,6 @@ module.exports = {
   getEventById,
   createEvent,
   updateEventById,
+  patchEvent,
   deleteEventById,
 };

@@ -27,6 +27,14 @@ async function updateTeacherById(id, teacherData) {
   return result.rows[0];
 }
 
+async function patchTeacher(id, partialData) {
+  const updatedTeacher = await pool.query(
+    'UPDATE teachers SET field1 = $1, field2 = $2 WHERE id = $3 RETURNING *',
+    [partialData.field1, partialData.field2, id]
+  );
+  return updatedTeacher.rows[0];
+}
+
 async function deleteTeacherById(id) {
   const result = await pool.query(
     'DELETE FROM teachers WHERE id = $1 RETURNING *',
@@ -40,5 +48,6 @@ module.exports = {
   getTeacherById,
   createTeacher,
   updateTeacherById,
+  patchTeacher,
   deleteTeacherById,
 };

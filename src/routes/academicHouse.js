@@ -17,4 +17,7 @@ router.put('/academic-house/:id', AcademicHouseController.updateAcademicHouseByI
 // Rota para deletar uma casa acadêmica por ID
 router.delete('/academic-house/:id', AcademicHouseController.deleteAcademicHouseById);
 
+// Rota para atualização parcial de uma casa acadêmica por ID
+router.patch('/academic-house/:id', AcademicHouseController.patchAcademicHouse);
+
 module.exports = router;

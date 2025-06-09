@@ -34,5 +34,15 @@ const ReportsModel = {
       [id]
     );
     return result.rows[0];
+  },
+
+  async patchReport(id, partialData) {
+    const updatedReport = await db.query(
+      'UPDATE reports SET field1 = $1, field2 = $2 WHERE id = $3 RETURNING *',
+      [partialData.field1, partialData.field2, id]
+    );
+    return updatedReport.rows[0];
   }
 };
+
+module.exports = ReportsModel;

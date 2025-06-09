@@ -53,10 +53,21 @@ async function deleteAcademicHouseById(req, res) {
   }
 }
 
+async function patchAcademicHouse(req, res) {
+  try {
+    const patchedHouse = await AcademicHouseModel.patchAcademicHouse(req.params.id, req.body);
+    if (!patchedHouse) return res.status(404).json({ error: 'Casa acadêmica não encontrada' });
+    res.json(patchedHouse);
+  } catch (error) {
+    res.status(500).json({ error: 'Erro ao atualizar parcialmente a casa acadêmica' });
+  }
+}
+
 module.exports = {
   getAllAcademicHouses,
   getAcademicHouseById,
   createAcademicHouse,
   updateAcademicHouseById,
   deleteAcademicHouseById,
+  patchAcademicHouse,
 };

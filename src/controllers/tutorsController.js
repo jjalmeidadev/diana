@@ -53,10 +53,21 @@ async function deleteTutorById(req, res) {
   }
 }
 
+async function patchTutor(req, res) {
+  try {
+    const patchedTutor = await TutorsModel.patchTutor(req.params.id, req.body);
+    if (!patchedTutor) return res.status(404).json({ error: 'Tutor não encontrado' });
+    res.json(patchedTutor);
+  } catch (error) {
+    res.status(500).json({ error: 'Erro ao atualizar parcialmente o tutor' });
+  }
+}
+
 module.exports = {
   getAllTutors,
   getTutorById,
   createTutor,
   updateTutorById,
   deleteTutorById,
+  patchTutor,
 };

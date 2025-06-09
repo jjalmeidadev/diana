@@ -53,10 +53,21 @@ async function deleteTeacherById(req, res) {
   }
 }
 
+async function patchTeacher(req, res) {
+  try {
+    const patchedTeacher = await TeachersModel.patchTeacher(req.params.id, req.body);
+    if (!patchedTeacher) return res.status(404).json({ error: 'Professor não encontrado' });
+    res.json(patchedTeacher);
+  } catch (error) {
+    res.status(500).json({ error: 'Erro ao atualizar parcialmente o professor' });
+  }
+}
+
 module.exports = {
   getAllTeachers,
   getTeacherById,
   createTeacher,
   updateTeacherById,
   deleteTeacherById,
+  patchTeacher,
 };

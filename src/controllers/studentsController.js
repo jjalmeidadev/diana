@@ -53,10 +53,21 @@ async function deleteStudentById(req, res) {
   }
 }
 
+async function patchStudent(req, res) {
+  try {
+    const patchedStudent = await StudentsModel.patchStudent(req.params.id, req.body);
+    if (!patchedStudent) return res.status(404).json({ error: 'Aluno não encontrado' });
+    res.json(patchedStudent);
+  } catch (error) {
+    res.status(500).json({ error: 'Erro ao atualizar parcialmente o aluno' });
+  }
+}
+
 module.exports = {
   getAllStudents,
   getStudentById,
   createStudent,
   updateStudentById,
   deleteStudentById,
+  patchStudent,
 };

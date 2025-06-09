@@ -17,4 +17,7 @@ router.put('/reports/:id', ReportsController.updateReportById);
 // Rota para deletar um relatório por ID
 router.delete('/reports/:id', ReportsController.deleteReportById);
 
+// Rota para atualização parcial de um relatório por ID
+router.patch('/reports/:id', ReportsController.patchReport);
+
 module.exports = router;

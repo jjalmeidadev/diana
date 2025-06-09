@@ -42,6 +42,16 @@ async function updateYearCodeById(req, res) {
   }
 }
 
+async function patchYearCode(req, res) {
+  try {
+    const patchedYearCode = await YearCodeModel.patchYearCode(req.params.id, req.body);
+    if (!patchedYearCode) return res.status(404).json({ error: 'Código do ano não encontrado' });
+    res.json(patchedYearCode);
+  } catch (error) {
+    res.status(500).json({ error: 'Erro ao atualizar parcialmente o código do ano' });
+  }
+}
+
 async function deleteYearCodeById(req, res) {
   try {
     const deletedYearCode = await YearCodeModel.deleteYearCodeById(req.params.id);
@@ -58,5 +68,6 @@ module.exports = {
   getYearCodeById,
   createYearCode,
   updateYearCodeById,
+  patchYearCode,
   deleteYearCodeById,
 };

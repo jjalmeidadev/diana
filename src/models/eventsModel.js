@@ -34,6 +34,14 @@ const EventsModel = {
       [id]
     );
     return result.rows[0];
+  },
+
+  async patchEvent(id, partialData) {
+    const updatedEvent = await db.query(
+      'UPDATE events SET field1 = $1, field2 = $2 WHERE id = $3 RETURNING *',
+      [partialData.field1, partialData.field2, id]
+    );
+    return updatedEvent.rows[0];
   }
 };
 

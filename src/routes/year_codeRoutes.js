@@ -17,4 +17,7 @@ router.put('/year_Code/:id', YearCodeController.updateYearCodeById);
 // Rota para deletar um year_Code por ID
 router.delete('/year_Code/:id', YearCodeController.deleteYearCodeById);
 
+// Rota para atualizar parcialmente um year_Code por ID
+router.patch('/year_Code/:id', YearCodeController.patchYearCode); 
+
 module.exports = router;

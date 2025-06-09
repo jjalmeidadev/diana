@@ -17,4 +17,7 @@ router.put('/events/:id', EventsController.updateEventById);
 // Rota para deletar um evento por ID
 router.delete('/events/:id', EventsController.deleteEventById);
 
+// Rota para atualização parcial de um evento por ID
+router.patch('/events/:id', EventsController.patchEvent);
+
 module.exports = router;
