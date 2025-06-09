@@ -1339,6 +1339,11 @@ The education sector is undergoing significant transformations driven by three m
 
 3. **Market-driven**: The market is moving towards more integrated and personalized solutions. Schools are investing in platforms that deliver a comprehensive experience, from academic management to effective parent communication. The educational software market is expected to grow 20% annually until 2026 (EdTech Report, 2024).
 
+### d) Business Model Canvas 
+
+![Business Model Canvas  (1)](https://github.com/user-attachments/assets/d8261f85-ce61-4c31-9637-01efe40a92ea)
+
+
 ## 6.3 Competitor Analysis
 
 ### Main Competitors
