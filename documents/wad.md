@@ -808,17 +808,125 @@ The guide uses two main font families: Darker Grotesque for interface texts and 
 
 ## 3.4 High-fidelity prototype (sprint 3)
 
-A high-fidelity prototype is a detailed representation of a product that closely resembles the final design in both appearance and functionality. It includes realistic visuals, accurate layout and typography.
+&nbsp;&nbsp;&nbsp;&nbsp;A high-fidelity prototype is a detailed representation of a product that closely resembles the final design in both appearance and functionality. It includes realistic visuals, accurate layout and typography, serving as a near-final representation of the user interface before development implementation.
 
-**Login and about page**
+&nbsp;&nbsp;&nbsp;&nbsp;High-fidelity prototypes are essential in the design process as they bridge the gap between conceptual wireframes and the final product. Unlike low-fidelity prototypes that focus on structure and basic functionality, high-fidelity prototypes incorporate detailed visual elements including:
+
+- **Visual Design Elements**: Real color schemes, actual typography, authentic imagery, and precise spacing that reflect the final product's aesthetic
+- **Interactive Components**: Functional buttons, form fields, navigation elements, and micro-interactions that simulate the actual user experience
+- **Content Strategy**: Realistic content including actual text, images, and data representations rather than placeholder elements
+- **Responsive Design**: Layouts that demonstrate how the interface adapts across different screen sizes and devices
+
+### 3.4.1 Prototyping Methodology
+
+&nbsp;&nbsp;&nbsp;&nbsp;Our high-fidelity prototype development followed a systematic approach based on design thinking principles and user-centered design methodologies. The process involved:
+
+**1. Design System Integration**: All prototype screens were built using our established style guide (Section 3.3), ensuring consistency in colors (#B82121, #0C354C, #F1F1F1), typography (Darker Grotesque and Archer font families), and iconography throughout the interface.
+
+**2. User Journey Mapping**: Each prototype screen was designed to support specific user stories and acceptance criteria defined in Section 2.3, creating a seamless flow that addresses real user needs and business objectives.
+
+**3. Visual Validation**: The prototype underwent multiple iterations with stakeholders to validate visual hierarchy, information architecture, and overall user experience before finalizing the designs (sprint reviews).
+
+**4. Accessibility Considerations**: Color contrast ratios, font sizes, and interactive element spacing were designed to meet standards, ensuring the platform is accessible to users with diverse abilities.
+
+### 3.4.2 Key Interface Screens
+
+&nbsp;&nbsp;&nbsp;&nbsp;The following screens represent the core functionality of the Diana parent portal system, each designed to address specific user needs identified during the research phase:
+
+
+<br>
+
+<div align="center">
+  
+  <sub>Figure - Login and About Page </sub>
+  <br>
+  <br>
 <img src="../assets/wad/Login and About (1).png">
+  <br>
+  <br>
 
-**Homepage/profile**
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+<br>
+
+<div align="center">
+  
+  <sub>Figure - Student Selection </sub>
+  <br>
+  <br>
+<img src="../assets/wad/Student Selection.png">
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;The login interface serves as the primary entry point to the system, featuring a clean, professional design that reflects St. Paul's School's brand identity. The layout prioritizes security and ease of access, with clear call-to-action buttons for authentication, password recovery, and institutional information access. The design incorporates the school's color palette and maintains visual consistency with the overall platform aesthetic.
+
+<br>
+
+<div align="center">
+  
+  <sub>Figure - Homepage/Profile Management </sub>
+  <br>
+  <br>
 <img src="../assets/wad/Group 14.png">
+  <br>
+  <br>
 
-**Benes and sanctions**
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;The homepage serves as the central dashboard where parents can access all platform features and manage their profile information. The interface features a card-based layout that provides quick access to key functionalities including academic reports, upcoming events, and contact management. The design emphasizes information hierarchy through strategic use of whitespace, typography scaling, and color-coded sections.
+
+<br>
+
+<div align="center">
+  
+  <sub>Figure - Reports </sub>
+  <br>
+  <br>
+<img src="../assets/wad/Reports-prototype.png">
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+<br>
+
+<div align="center">
+  
+  <sub>Figure - Behavioral Tracking - Benes and Sanctions </sub>
+  <br>
+  <br>
 <img src="../assets/wad/Benes & Sanctions.png">
+  <br>
+  <br>
 
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;This specialized interface allows parents to monitor their child's behavioral progress through St. Paul's unique merit and sanction system. The design incorporates data visualization elements including charts and progress indicators that make behavioral trends easily interpretable. The interface balances the need for detailed information with emotional sensitivity, using neutral colors and supportive messaging.
+
+<a href="https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diana-Wireframes-and-Prototypes?node-id=0-1&t=3Uex8mdeUkJstifO-1">Click here </a> to access the complete Figma file (with all the platform's pages) and <a href="https://www.figma.com/proto/Qrb4vjSeXfNiWN9iirHvdN/Diana-Wireframes-and-Prototypes?node-id=350-3&t=3Uex8mdeUkJstifO-0&scaling=contain&content-scaling=fixed&page-id=0%3A1">here</a> to check the clickable prototype.
 
 
 ## 3.5. Database modelling (sprints 2 e 4)
