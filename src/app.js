@@ -1,8 +1,9 @@
 const path = require("path");
 const express = require("express");
 require('dotenv').config()
-
 const app = express();
+app.use(express.json());
+
 const academicHouseRoutes = require('./routes/academicHouse');
 const eventsRoutes = require('./routes/eventsRoutes');
 const reportsRoutes = require('./routes/reportsRoutes');
