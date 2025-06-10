@@ -1,57 +1,89 @@
-<!-- UpperBar Reformulada -->
- <div style="
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
- ">
-    
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    .upperbar {
+      width: 100%;
+      height: 70px;
+      background-color: #B82121;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 40px;
+      font-family: 'Darker Grotesque', sans-serif;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+      box-sizing: border-box;
+    }
 
-    
- 
-<div style="
-    width: 100%;
-    height: 70px;
-    background-color: #1e1e1e;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 40px;
-    font-family: 'Inter', sans-serif;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    border-bottom: 1px solid #444;
-">
-    <!-- Left section: Logo and Menu -->
-    <div style="display: flex; align-items: center; gap: 30px;">
-        <img src="../../../assets/PNG_images/dianaplaceholder.png" alt="Diana" style="height: 42px;" />
-        <img src="../../../assets/PNG_images/menuhamb.png" alt="Menu" style="height: 28px; cursor: pointer;" />
-    </div>
+    .upperbar-left {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
 
-    <!-- Center: Search -->
-    <div style="flex-grow: 5; margin-left: 2%; z-index: 1000;">
-        <input type="text" placeholder="Search..." style="
-            width: 100%;
-            max-width: 1200px;
-            height: 36px;
-            padding: 0 14px;
-            border: none;
-            border-radius: 6px;
-            font-size: 14px;
-            font-family: 'Inter', sans-serif;
-        ">
-    </div>
-    
-    <!-- Right section: Notifications and Profile -->
-    <div style="display: flex; align-items: center;">
-        <img src="../../../assets/PNG_images/notifications.png" alt="Notifications"
-            style="height: 28px; cursor: pointer;" />
-        <a href="/profile">
-            <img src="../../assets/PNG_images/profileplaceholder.png" alt="Assignment" style="width: 5%"/>
-        </a>
-    </div>
-</div>
+    .upperbar-left img,
+    .upperbar-right img {
+      cursor: pointer;
+      transition: opacity 0.3s ease;
+    }
+
+    .upperbar-left img:hover,
+    .upperbar-right img:hover {
+      opacity: 0.7;
+    }
+
+    .search-input {
+      flex-grow: 5;
+      margin-left: 2%;
+      max-width: 1200px;
+      z-index: 1000;
+    }
+
+    .search-input input {
+      width: 100%;
+      height: 36px;
+      padding: 0 14px;
+      border: none;
+      border-radius: 6px;
+      font-size: 14px;
+      font-family: 'Darker Grotesque', sans-serif;
+      box-sizing: border-box;
+    }
+
+    .upperbar-right {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .upperbar-right a img {
+      width: 32px; /* ajuste para tamanho fixo */
+      height: 32px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<div class="upperbar">
+  <!-- Left section: Logo and Menu -->
+  <div class="upperbar-left">
+    <img src="../../../assets/PNG_images/dianaplaceholder.png" alt="Diana" style="height: 42px;" />
+    <img src="../../../assets/PNG_images/menuhamb.png" alt="Menu" style="height: 28px;" />
+  </div>
+
+  <!-- Center: Search -->
+  <div class="search-input">
+    <input type="text" placeholder="Search..." />
+  </div>
+
+  <!-- Right section: Notifications and Profile -->
+  <div class="upperbar-right">
+    <img src="../../../assets/PNG_images/notifications.png" alt="Notifications" style="height: 28px;" />
+    <a href="/profile">
+      <img src="../../assets/PNG_images/profileplaceholder.png" alt="Profile" />
+    </a>
+  </div>
 </div>
