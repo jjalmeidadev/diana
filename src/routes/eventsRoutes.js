@@ -2,6 +2,8 @@ const express = require('express');
 const router = express.Router();
 const EventsController = require('../controllers/eventsController');
 
+
+
 // Rota para listar todos os eventos
 router.get('/events', EventsController.getAllEvents);
 

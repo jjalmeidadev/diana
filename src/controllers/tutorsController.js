@@ -23,7 +23,9 @@ async function getTutorById(req, res) {
 
 async function createTutor(req, res) {
   try {
-    const newTutor = await TutorsModel.createTutor(req.body);
+    const {id} = req.params
+    const {email, name_tutor} = req.body;
+    const newTutor = await TutorsModel.createTutor(id, email, name_tutor);
     res.status(201).json(newTutor);
   } catch (error) {
     console.error(error)
@@ -33,7 +35,9 @@ async function createTutor(req, res) {
 
 async function updateTutorById(req, res) {
   try {
-    const updatedTutor = await TutorsModel.updateTutorById(req.params.id, req.body);
+    const {id} = req.params;
+    const {email} = req.body;
+    const updatedTutor = await TutorsModel.updateTutorById(id, email);
     if (!updatedTutor) return res.status(404).json({ error: 'Tutor não encontrado' });
     res.json(updatedTutor);
   } catch (error) {
@@ -44,7 +48,8 @@ async function updateTutorById(req, res) {
 
 async function deleteTutorById(req, res) {
   try {
-    const deletedTutor = await TutorsModel.deleteTutorById(req.params.id);
+    const deletedTutor = await TutorsModel.deleteTutorById(id);
+    const {id} = req.params;
     if (!deletedTutor) return res.status(404).json({ error: 'Tutor não encontrado' });
     res.json({ message: 'Tutor deletado com sucesso' });
   } catch (error) {
