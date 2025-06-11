@@ -5,119 +5,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Benes and Sanctions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/benes.css">
+
 </head>
 
-<body style="margin: 0; padding: 0;">
-    <!-- Top bar and sidebar -->
+<body>
+    <!-- Top bar -->
     <%- include('../components/upperBar.ejs') %>
+
+    <div class="container">
+        <!-- Sidebar -->
         <%- include('../components/sideBar.ejs') %>
 
-            <!-- Main section for Benes and Sanctions -->
-            <div style="
-        position: absolute;
-        left: 200px; top: 70px; right: 0; bottom: 50px;
-        background: #fff;
-    ">
-                <h2>Benes and Sanctions</h2>
-                <!-- Student selection -->
-                <div style="margin-top: 70px; margin-left: 200px; padding: 20px;">
-                    <h2>Paulean's</h2>
-                    <select style="margin-top: 10px; padding: 5px;">
-                        <option value="">Select the Student's Name [Dropdown]</option>
-                    </select>
-                    <!-- Counters -->
-                    <div style="display: flex; margin-top: 20px;">
-                        <div style="border: 1px solid black; padding: 20px; margin-right: 20px; text-align: center;">
-                            <h3>Benes</h3>
-                            <p style="font-size: 2em;">8</p>
-                        </div>
-                        <div style="border: 1px solid black; padding: 20px; text-align: center;">
-                            <h3>Sanctions</h3>
-                            <p style="font-size: 2em;">2</p>
-                        </div>
+        <!-- Main content -->
+        <div class="main">
+            <h1 class="title">
+                Benes & Sanctions
+            </h1>
+            <div class="part1">
+                <div class="card-1">
+                    <div class="card-title">
+                        Benes
                     </div>
-                    <!-- Chart and table -->
-                    <div style="display: flex; margin-top: 20px;">
-                        <div style="border: 1px solid black; width: 200px; height: 200px; margin-right: 20px;">
-                            <!-- Placeholder for Pie Chart -->
-                        </div>
-                        <div
-                            style="border: 1px solid black; flex-grow: 1; padding: 10px; height: 300px; overflow-y: scroll;">
-                            <h4>Benes and sanctions</h4>
-                            <table style="width: 100%; border-collapse: collapse;">
-                                <thead>
-                                    <tr>
-                                        <th style="text-align: left; padding: 8px;">Description</th>
-                                        <th style="text-align: left; padding: 8px;">Type</th>
-                                        <th style="text-align: left; padding: 8px;">Hour</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td style="padding: 8px; border-top: 1px solid #ddd;">Description Description
-                                            Description
-                                            Description Description Description</td>
-                                        <td style="padding: 8px; border-top: 1px solid #ddd;">Type</td>
-                                        <td style="padding: 8px; border-top: 1px solid #ddd;">Hour</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding: 8px; border-top: 1px solid #ddd;">Description Description
-                                            Description
-                                            Description Description Description</td>
-                                        <td style="padding: 8px; border-top: 1px solid #ddd;">Type</td>
-                                        <td style="padding: 8px; border-top: 1px solid #ddd;">Hour</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding: 8px; border-top: 1px solid #ddd;">Description Description
-                                            Description
-                                            Description Description Description</td>
-                                        <td style="padding: 8px; border-top: 1px solid #ddd;">Type</td>
-                                        <td style="padding: 8px; border-top: 1px solid #ddd;">Hour</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding: 8px; border-top: 1px solid #ddd;">Description Description
-                                            Description
-                                            Description Description Description</td>
-                                        <td style="padding: 8px; border-top: 1px solid #ddd;">Type</td>
-                                        <td style="padding: 8px; border-top: 1px solid #ddd;">Hour</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding: 8px; border-top: 1px solid #ddd;">Description Description
-                                            Description
-                                            Description Description Description</td>
-                                        <td style="padding: 8px; border-top: 1px solid #ddd;">Type</td>
-                                        <td style="padding: 8px; border-top: 1px solid #ddd;">Hour</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding: 8px; border-top: 1px solid #ddd;">Description Description
-                                            Description
-                                            Description Description Description</td>
-                                        <td style="padding: 8px; border-top: 1px solid #ddd;">Type</td>
-                                        <td style="padding: 8px; border-top: 1px solid #ddd;">Hour</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding: 8px; border-top: 1px solid #ddd;">Description Description
-                                            Description
-                                            Description Description Description</td>
-                                        <td style="padding: 8px; border-top: 1px solid #ddd;">Type</td>
-                                        <td style="padding: 8px; border-top: 1px solid #ddd;">Hour</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding: 8px; border-top: 1px solid #ddd;">Description Description
-                                            Description
-                                            Description Description Description</td>
-                                        <td style="padding: 8px; border-top: 1px solid #ddd;">Type</td>
-                                        <td style="padding: 8px; border-top: 19px solid #ddd;">Hour</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                    <div class="card-data">8</div>
+                </div>
+                <div class="card-2">
+                    <div class="card-title">
+                        Sanctions
                     </div>
+                    <div class="card-data">2</div>
                 </div>
             </div>
+            <div class="part2">
+                <div class="graph">
+                    <canvas id="benesChart" width="400" height="200"></canvas>
+                </div>
+                <div class="table">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>Academic House:</th>
+                                <td>Stuart</td>
+                            </tr>
+                            <tr>
+                                <th>Form:</th>
+                                <td>U6 S (N)</td>
+                            </tr>
+                            <tr>
+                                <th>Year:</th>
+                                <td>13</td>
+                            </tr>
+                            <tr>
+                                <th>Positive[PTS]:</th>
+                                <td>6[3]</td>
+                            </tr>
+                            <tr>
+                                <th>Negative[PTS]:</th>
+                                <td>5[-5]</td>
+                            </tr>
+                            <tr>
+                                <th>Total[PTS]:</th>
+                                <td>11[-2]</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
 
-            <!-- Footer -->
-            <%- include('../components/lowerBar.ejs') %>
+    <!-- Footer -->
+    <%- include('../components/lowerBar.ejs') %>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Dados dos cards
+        const sanctionsValue = Number(document.querySelector('.card-1 .card-data').innerText);
+        const benesValue = Number(document.querySelector('.card-2 .card-data').innerText);
+
+        // Gráfico de pizza para Benes e Sanctions
+        const ctx = document.getElementById('benesChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: ['Sanctions', 'Benes'],
+                datasets: [{
+                    data: [sanctionsValue, benesValue],
+                    backgroundColor: [
+                        '#B82121', // cor para Benes
+                        '#0B364C'  // cor para Sanctions
+                    ]
+                }]
+            },
+            options: {
+                responsive: true
+            }
+        });
+    </script>
 </body>
 
 </html>
