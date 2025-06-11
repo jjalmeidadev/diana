@@ -11,19 +11,18 @@ const SubjectsModel = {
     return result.rows[0];
   },
 
-  async createSubject({ name_subject, teacher_id, student_grade }) {
+  async createSubject( name_subject, teacher_id) {
     const result = await db.query(
-      'INSERT INTO subjects (name_subject, teacher_id, student_grade) VALUES ($1, $2, $3) RETURNING *',
-      [name_subject, teacher_id, student_grade]
+      'INSERT INTO subjects (name_subject, teacher_id) VALUES ($1, $2) RETURNING *',
+      [name_subject, teacher_id]
     );
     return result.rows[0];
   },
 
-  async updateSubjectById(id, subjectData) {
-    const { name_subject, teacher_id, student_grade } = subjectData;
+  async updateSubjectById(name_subject, teacher_id, id) {
     const result = await db.query(
-      'UPDATE subjects SET name_subject = $1, teacher_id = $2, student_grade = $3 WHERE id = $4 RETURNING *',
-      [name_subject, teacher_id, student_grade, id]
+      'UPDATE subjects SET name_subject = $1, teacher_id = $2 WHERE id = $3 RETURNING *',
+      [name_subject, teacher_id, id]
     );
     return result.rows[0];
   },

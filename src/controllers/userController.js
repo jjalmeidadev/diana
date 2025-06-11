@@ -12,7 +12,8 @@ async function getAllUsers(req, res) {
 
 async function getUserById(req, res) {
   try {
-    const user = await UserModel.getUserById(req.params.id);
+    const {id} = req.params
+    const user = await UserModel.getUserById(id);
     if (!user) return res.status(404).json({ error: 'Usuário não encontrado' });
     res.json(user);
   } catch (error) {
@@ -48,7 +49,8 @@ async function updateUserById(req, res) {
 
 async function deleteUserById(req, res) {
   try {
-    const deletedUser = await UserModel.deleteUserById(req.params.id);
+    const {id} = req.params;
+    const deletedUser = await UserModel.deleteUserById(id);
     if (!deletedUser) return res.status(404).json({ error: 'Usuário não encontrado' });
     res.json({ message: 'Usuário deletado com sucesso' });
   } catch (error) {

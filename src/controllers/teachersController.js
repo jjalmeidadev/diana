@@ -12,7 +12,8 @@ async function getAllTeachers(req, res) {
 
 async function getTeacherById(req, res) {
   try {
-    const teacher = await TeachersModel.getTeacherById(req.params.id);
+    const {id} = req.params;
+    const teacher = await TeachersModel.getTeacherById(id);
     if (!teacher) return res.status(404).json({ error: 'Professor não encontrado' });
     res.json(teacher);
   } catch (error) {

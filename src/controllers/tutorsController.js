@@ -12,7 +12,8 @@ async function getAllTutors(req, res) {
 
 async function getTutorById(req, res) {
   try {
-    const tutor = await TutorsModel.getTutorById(req.params.id);
+    const {id} = req.params;
+    const tutor = await TutorsModel.getTutorById(id);
     if (!tutor) return res.status(404).json({ error: 'Tutor não encontrado' });
     res.json(tutor);
   } catch (error) {
@@ -48,8 +49,8 @@ async function updateTutorById(req, res) {
 
 async function deleteTutorById(req, res) {
   try {
-    const deletedTutor = await TutorsModel.deleteTutorById(id);
     const {id} = req.params;
+    const deletedTutor = await TutorsModel.deleteTutorById(id);
     if (!deletedTutor) return res.status(404).json({ error: 'Tutor não encontrado' });
     res.json({ message: 'Tutor deletado com sucesso' });
   } catch (error) {
