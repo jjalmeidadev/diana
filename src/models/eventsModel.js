@@ -11,7 +11,7 @@ const EventsModel = {
     return result.rows[0];
   },
 
-  async createEvent({ concept, student_id }) {
+  async createEvent( concept, student_id ) {
     const result = await db.query(
       'INSERT INTO events (concept, student_id) VALUES ($1, $2) RETURNING *',
       [concept, student_id]
@@ -19,8 +19,7 @@ const EventsModel = {
     return result.rows[0];
   },
 
-  async updateEventById(id, eventData) {
-    const { concept, student_id } = eventData;
+  async updateEventById(concept, student_id, id) {
     const result = await db.query(
       'UPDATE events SET concept = $1, student_id = $2 WHERE id = $3 RETURNING *',
       [concept, student_id, id]

@@ -12,7 +12,8 @@ async function getAllStudents(req, res) {
 
 async function getStudentById(req, res) {
   try {
-    const student = await StudentsModel.getStudentById(req.params.id);
+    const {id} = req.params
+    const student = await StudentsModel.getStudentById(id);
     if (!student) return res.status(404).json({ error: 'Estudante não encontrado' });
     res.json(student);
   } catch (error) {
@@ -23,8 +24,46 @@ async function getStudentById(req, res) {
 
 async function createStudent(req, res) {
   try {
-    const newStudent = await StudentsModel.createStudent(req.body);
-    res.status(201).json(newStudent);
+    const {
+    student_name,
+    date_birth,
+    parent_id,
+    address,
+    num_absences,
+    tutor_id,
+    registration,
+    student_surname,
+    student_fullname,
+    gender,
+    school_age,
+    school_id,
+    primary_contact,
+    post_code,
+    medical_flags,
+    academic_house_id,
+    year_code_id
+    } = req.body;
+
+    const newStudent = await StudentsModel.createStudent(
+    student_name,
+    date_birth,
+    parent_id,
+    address,
+    num_absences,
+    tutor_id,
+    registration,
+    student_surname,
+    student_fullname,
+    gender,
+    school_age,
+    school_id,
+    primary_contact,
+    post_code,
+    medical_flags,
+    academic_house_id,
+    year_code_id
+    );
+    return res.status(201).json(newStudent);
   } catch (error) {
     console.error(error)
     res.status(500).json({ error: 'Erro ao criar estudante' });
@@ -33,7 +72,45 @@ async function createStudent(req, res) {
 
 async function updateStudentById(req, res) {
   try {
-    const updatedStudent = await StudentsModel.updateStudentById(req.params.id, req.body);
+    const {id} = req.params
+    const {
+    student_name,
+    date_birth,
+    parent_id,
+    address,
+    num_absences,
+    tutor_id,
+    registration,
+    student_surname,
+    student_fullname,
+    gender,
+    school_age,
+    school_id,
+    primary_contact,
+    post_code,
+    medical_flags,
+    academic_house_id,
+    year_code_id}= req.body
+
+    const updatedStudent = await StudentsModel.updateStudentById(
+    id,
+    student_name,
+    date_birth,
+    parent_id,
+    address,
+    num_absences,
+    tutor_id,
+    registration,
+    student_surname,
+    student_fullname,
+    gender,
+    school_age,
+    school_id,
+    primary_contact,
+    post_code,
+    medical_flags,
+    academic_house_id,
+    year_code_id);
     if (!updatedStudent) return res.status(404).json({ error: 'Aluno não encontrado' });
     res.json(updatedStudent);
   } catch (error) {
@@ -44,7 +121,8 @@ async function updateStudentById(req, res) {
 
 async function deleteStudentById(req, res) {
   try {
-    const deletedStudent = await StudentsModel.deleteStudentById(req.params.id);
+    const {id} = req.params;
+    const deletedStudent = await StudentsModel.deleteStudentById(id);
     if (!deletedStudent) return res.status(404).json({ error: 'Aluno não encontrado' });
     res.json({ message: 'Aluno deletado com sucesso' });
   } catch (error) {
