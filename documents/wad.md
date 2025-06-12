@@ -1298,6 +1298,11 @@ RESTful API for academic management with endpoints for:
 
 ## 5.1. Automated endpoint integration test report (sprint 4)
 
+
+### example test:
+<img src="../assets/PNG_images/test-example.png">
+<p>These tests are meant to verify if our routes are working properly. Each route has its own requests, but generally they include requests for creating, reading, updating, and deleting.</p>
+
 ###  academic_house
 
 - **GET getAll**  
