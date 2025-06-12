@@ -1301,6 +1301,13 @@ RESTful API for academic management with endpoints for:
 
 ### example test:
 <img src="../assets/PNG_images/test-example.png">
+
+### All our posman tests
+<img src="../assets/PNG_images/test1.png">
+<img src="../assets/PNG_images/test2.png">
+<img src="../assets/PNG_images/test3.png">
+
+### success example
 <p>These tests are meant to verify if our routes are working properly. Each route has its own requests, but generally they include requests for creating, reading, updating, and deleting.</p>
 
 ###  academic_house
