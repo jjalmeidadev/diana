@@ -1412,6 +1412,7 @@ RESTful API for academic management with endpoints for:
     - Benes
     - Reports
     - Events
+    - Profile
 
 **Code Structure:**
 
@@ -1451,9 +1452,18 @@ RESTful API for academic management with endpoints for:
   <br>
 </div>
 
+**Profile**
+<div align="center">
+
+![Screenshot 2025-06-13 14 09 26](https://github.com/user-attachments/assets/4dc438c3-f75c-4a2f-85bc-4bba43936c20)
+ 
+
+</div>
+
 ## Challenges Encountered:
 
 **Database Integration**:
+
 
 - Ensuring stable connection between PostgreSQL and the three main pages.
 - Adjusting queries to efficiently display real and relevant data.
