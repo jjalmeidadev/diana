@@ -10,7 +10,7 @@ async function getUserById(id) {
   return result.rows[0];
 }
 
-async function createUser({ email, password, type_of_user }) {
+async function createUser( email, password, type_of_user ) {
   const result = await pool.query(
     'INSERT INTO users (email, password, type_of_user) VALUES ($1, $2, $3) RETURNING *',
     [email, password, type_of_user]
@@ -18,8 +18,7 @@ async function createUser({ email, password, type_of_user }) {
   return result.rows[0];
 }
 
-async function updateUserById(id, userData) {
-  const { email, password, type_of_user } = userData;
+async function updateUserById(id, email, password, type_of_user) {
   const result = await pool.query(
     'UPDATE users SET email = $1, password = $2, type_of_user = $3 WHERE id = $4 RETURNING *',
     [email, password, type_of_user, id]

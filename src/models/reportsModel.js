@@ -11,7 +11,7 @@ const ReportsModel = {
     return result.rows[0];
   },
 
-  async createReport({ date_report, student_id }) {
+  async createReport(date_report, student_id) {
     const result = await db.query(
       'INSERT INTO reports (date_report, student_id) VALUES ($1, $2) RETURNING *',
       [date_report, student_id]
@@ -19,8 +19,7 @@ const ReportsModel = {
     return result.rows[0];
   },
 
-  async updateReportById(id, reportData) {
-    const { date_report, student_id } = reportData;
+  async updateReportById(date_report, student_id, id) {
     const result = await db.query(
       'UPDATE reports SET date_report = $1, student_id = $2 WHERE id = $3 RETURNING *',
       [date_report, student_id, id]
@@ -36,3 +35,5 @@ const ReportsModel = {
     return result.rows[0];
   }
 };
+
+module.exports = ReportsModel;

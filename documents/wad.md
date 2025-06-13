@@ -1296,7 +1296,142 @@ RESTful API for academic management with endpoints for:
 
 ## 5.1. Automated endpoint integration test report (sprint 4)
 
-*Liste e descreva os testes unitários dos endpoints criados, automatizados e planejados para sua solução. Posicione aqui também o relatório de cobertura de testes Jest se houver (através de link ou transcrito para estrutura markdown)*
+
+### example test:
+<img src="../assets/PNG_images/test-example.png">
+
+### All our posman tests
+<img src="../assets/PNG_images/test1.png">
+<img src="../assets/PNG_images/test2.png">
+<img src="../assets/PNG_images/test3.png">
+
+<p>These tests are meant to verify if our routes are working properly. Each route has its own requests, but generally they include requests for creating, reading, updating, and deleting.</p>
+
+###  academic_house
+
+- **GET getAll**  
+  Tests whether the API returns all registered academic houses or school units.
+
+
+###  events
+
+- **GET getAll**  
+  Checks if all events are being listed correctly.
+
+- **POST newEvent**  
+  Tests if a new event is being successfully created.
+
+- **DEL deleteEvent**  
+  Verifies whether a specific event is being properly deleted.
+
+
+###  reports
+
+- **GET getAll**  
+  Checks if all reports are being retrieved.
+
+- **POST createReport**  
+  Tests the successful creation of a new report.
+
+- **PUT updateReport**  
+  Checks if a report is being updated correctly.
+
+- **DEL deleteReport**  
+  Verifies the deletion of a report.
+
+
+###  student_subject
+
+- **GET getAll**  
+  Tests whether all student–subject associations are being returned.
+
+- **POST createSt-Sb**  
+  Tests the creation of a new student–subject association.
+
+- **PUT UpdateSt-Sb**  
+  Checks whether the association is being updated correctly.
+
+- **DEL deleteSt-Sb**  
+  Verifies whether the association is being deleted.
+
+
+### students
+
+- **GET getAll**  
+  Verifies whether the list of students is being retrieved.
+
+- **POST createStudent**  
+  Tests the creation of a new student.
+
+- **PUT UpdateStudents**  
+  Checks whether a student's data is being updated.
+
+
+### subjects
+
+- **GET getAll**  
+  Lists all registered subjects.
+
+- **POST createSubject**  
+  Tests the creation of a new subject.
+
+- **DEL deleteSubject**  
+  Verifies whether a subject is being deleted.
+
+- **PUT updateSubject** 
+  Tests the updating of subject data.
+
+###  teachers
+
+- **GET getAll**  
+  Tests the listing of all teachers.
+
+- **POST createTeachers**  
+  Tests the creation of a new teacher.
+
+- **DEL deleteTeacher**  
+  Verifies whether a teacher is being properly removed.
+
+- **PUT updateTeacher**  
+  Tests the updating of teacher data.
+
+
+### tutors
+
+- **GET getAll**  
+  Tests the listing of all tutors.
+
+- **POST createTutor**  
+  Tests the creation of a new tutor.
+
+- **DEL deleteTutor**  
+  Verifies whether the tutor was deleted.
+
+- **PUT updateTutor**  
+  Tests the updating of tutor data.
+
+### users
+
+- **GET getAll**  
+  Verifies whether all system users are being listed.
+
+- **POST createUser**  
+  Tests the creation of a new user.
+
+- **DEL deleteUser**  
+  Verifies whether the user was deleted.
+
+- **PUT updateUser**  
+  Tests the updating of user data.
+
+### year code
+
+- **GET getAll**  
+  Tests whether all academic years are being listed.
+
+- **POST createYear**  
+  Tests the creation of a new academic year.
+
 
 ## 5.2. Usability tests (sprint 5)
 

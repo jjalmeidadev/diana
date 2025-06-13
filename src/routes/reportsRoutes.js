@@ -2,6 +2,8 @@ const express = require('express');
 const router = express.Router();
 const ReportsController = require('../controllers/reportsController');
 
+
+
 // Rota para listar todos os relatórios
 router.get('/reports', ReportsController.getAllReports);
 

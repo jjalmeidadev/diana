@@ -2,6 +2,8 @@ const express = require('express');
 const router = express.Router();
 const TeachersController = require('../controllers/teachersController');
 
+
+
 // Rota para listar todos os professores
 router.get('/teachers', TeachersController.getAllTeachers);
 

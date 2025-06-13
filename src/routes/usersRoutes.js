@@ -2,6 +2,8 @@
 const express = require('express');
 const router = express.Router();
 const userController = require('../controllers/userController');
+const app = express();
+app.use(express.json());
 
 // Rota raiz
 router.get('/', (req, res) => {

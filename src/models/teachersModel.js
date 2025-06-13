@@ -10,19 +10,18 @@ async function getTeacherById(id) {
   return result.rows[0];
 }
 
-async function createTeacher({ teachers_name, teachers_email }) {
+async function createTeacher( teacher_name, teacher_email ) {
   const result = await pool.query(
-    'INSERT INTO teachers (teachers_name, teachers_email) VALUES ($1, $2) RETURNING *',
-    [teachers_name, teachers_email]
+    'INSERT INTO teachers (teacher_name, teacher_email) VALUES ($1, $2) RETURNING *',
+    [teacher_name, teacher_email]
   );
   return result.rows[0];
 }
 
-async function updateTeacherById(id, teacherData) {
-  const { teachers_name, teachers_email } = teacherData;
+async function updateTeacherById(id, teacher_name, teacher_email) {
   const result = await pool.query(
-    'UPDATE teachers SET teachers_name = $1, teachers_email = $2 WHERE id = $3 RETURNING *',
-    [teachers_name, teachers_email, id]
+    'UPDATE teachers SET teacher_name = $1, teacher_email = $2 WHERE id = $3 RETURNING *',
+    [teacher_name, teacher_email, id]
   );
   return result.rows[0];
 }

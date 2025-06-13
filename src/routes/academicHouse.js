@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const AcademicHouseController = require('../controllers/academic_houseController');
 
+
 // Rota para listar todas as casas acadêmicas
 router.get('/academic-house', AcademicHouseController.getAllAcademicHouses);
 

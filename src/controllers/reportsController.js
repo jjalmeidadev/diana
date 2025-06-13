@@ -23,7 +23,8 @@ async function getReportById(req, res) {
 
 async function createReport(req, res) {
   try {
-    const newReport = await ReportsModel.createReport(req.body);
+    const {date_report, student_id} = req.body;
+    const newReport = await ReportsModel.createReport(date_report, student_id);
     res.status(201).json(newReport);
   } catch (error) {
     console.error(error)
@@ -33,7 +34,9 @@ async function createReport(req, res) {
 
 async function updateReportById(req, res) {
   try {
-    const updatedReport = await ReportsModel.updateReportById(req.params.id, req.body);
+    const {date_report, student_id} = req.body;
+    const {id} = req.params;
+    const updatedReport = await ReportsModel.updateReportById(date_report, student_id, id);
     if (!updatedReport) return res.status(404).json({ error: 'Relatório não encontrado' });
     res.json(updatedReport);
   } catch (error) {
@@ -44,7 +47,8 @@ async function updateReportById(req, res) {
 
 async function deleteReportById(req, res) {
   try {
-    const deletedReport = await ReportsModel.deleteReportById(req.params.id);
+    const {id} = req.params;
+    const deletedReport = await ReportsModel.deleteReportById(id);
     if (!deletedReport) return res.status(404).json({ error: 'Relatório não encontrado' });
     res.json({ message: 'Relatório deletado com sucesso' });
   } catch (error) {

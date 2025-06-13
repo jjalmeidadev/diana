@@ -12,7 +12,8 @@ async function getAllSubjects(req, res) {
 
 async function getSubjectById(req, res) {
   try {
-    const subject = await SubjectsModel.getSubjectById(req.params.id);
+    const {id} = req.params
+    const subject = await SubjectsModel.getSubjectById(id);
     if (!subject) return res.status(404).json({ error: 'Disciplina não encontrada' });
     res.json(subject);
   } catch (error) {
@@ -23,7 +24,8 @@ async function getSubjectById(req, res) {
 
 async function createSubject(req, res) {
   try {
-    const newSubject = await SubjectsModel.createSubject(req.body);
+    const { name_subject, teacher_id} = req.body;
+    const newSubject = await SubjectsModel.createSubject(name_subject, teacher_id);
     res.status(201).json(newSubject);
   } catch (error) {
     console.error(error)
@@ -33,7 +35,9 @@ async function createSubject(req, res) {
 
 async function updateSubjectById(req, res) {
   try {
-    const updatedSubject = await SubjectsModel.updateSubjectById(req.params.id, req.body);
+    const { name_subject, teacher_id} = req.body;
+    const {id} = req.params;
+    const updatedSubject = await SubjectsModel.updateSubjectById(name_subject, teacher_id, id);
     if (!updatedSubject) return res.status(404).json({ error: 'Matéria não encontrada' });
     res.json(updatedSubject);
   } catch (error) {
@@ -44,7 +48,8 @@ async function updateSubjectById(req, res) {
 
 async function deleteSubjectById(req, res) {
   try {
-    const deletedSubject = await SubjectsModel.deleteSubjectById(req.params.id);
+    const{id} = req.params;
+    const deletedSubject = await SubjectsModel.deleteSubjectById(id);
     if (!deletedSubject) return res.status(404).json({ error: 'Matéria não encontrada' });
     res.json({ message: 'Matéria deletada com sucesso' });
   } catch (error) {

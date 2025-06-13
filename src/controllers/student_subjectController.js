@@ -23,7 +23,8 @@ async function getStudentSubjectById(req, res) {
 
 async function createStudentSubject(req, res) {
   try {
-    const newStudentSubject = await StudentSubjectModel.createStudentSubject(req.body);
+    const{student_id, subject_id, grade} = req.body;
+    const newStudentSubject = await StudentSubjectModel.createStudentSubject(student_id, subject_id, grade);
     res.status(201).json(newStudentSubject);
   } catch (error) {
     console.error(error)
@@ -33,7 +34,9 @@ async function createStudentSubject(req, res) {
 
 async function updateStudentSubjectById(req, res) {
   try {
-    const updatedStudentSubject = await StudentSubjectModel.updateStudentSubjectById(req.params.id, req.body);
+    const {id} = req.params
+    const {student_id, subject_id, grade} = req.body;
+    const updatedStudentSubject = await StudentSubjectModel.updateStudentSubjectById(student_id, subject_id, grade,id);
     if (!updatedStudentSubject) return res.status(404).json({ error: 'Relação aluno-matéria não encontrada' });
     res.json(updatedStudentSubject);
   } catch (error) {
