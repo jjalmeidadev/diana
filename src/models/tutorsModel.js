@@ -10,10 +10,10 @@ async function getTutorById(id) {
   return result.rows[0];
 }
 
-async function createTutor({ nome_tutor, email }) {
+async function createTutor({ name_tutor, email }) {
   const result = await pool.query(
-    'INSERT INTO tutors (nome_tutor, email) VALUES ($1, $2) RETURNING *',
-    [nome_tutor, email]
+    'INSERT INTO tutors (name_tutor, email) VALUES ($1, $2) RETURNING *',
+    [name_tutor, email]
   );
   return result.rows[0];
 }

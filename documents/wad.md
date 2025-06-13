@@ -834,7 +834,7 @@ A high-fidelity prototype is a detailed representation of a product that closely
   <sub>Figure 17 - Database Modelling </sub>
   <br>
   <br>
-![supabase-schema-yexhdilbyibjfvrflcsm (6)](https://github.com/user-attachments/assets/ecf6aaa8-61c6-4077-ace9-0d6df521268d)
+![Screenshot 2025-06-10 14 53 34](https://github.com/user-attachments/assets/51102844-d4e5-4ec5-89c6-4d6c02b0a85a)
 
   <br>
   <br>
@@ -873,7 +873,10 @@ A high-fidelity prototype is a detailed representation of a product that closely
 
 - id: Unique ID for the tutor;
 - name_tutor: Full name;
-- email: Contact email.
+- email: Contact email;
+- given_assignment: Written details of the assignment (description and deadlines); 
+- profileimage_url: Tutor image; 
+- speciality: specific role as a teacher 
 
 **Related to:** students and subjects. 
 
