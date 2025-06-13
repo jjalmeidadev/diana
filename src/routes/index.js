@@ -4,7 +4,7 @@ const router = express.Router();
 
 // Rota raiz
 router.get('/', (req, res) => {
-  res.send('API funcionando!');
+  res.render('pages/login');
 });
 
 const usersRoutes = require('./usersRoutes');
