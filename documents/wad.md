@@ -400,9 +400,11 @@ Critérios INVEST | **Independent::** Can be implemented without dependency on o
 Identification | US02
 --- | ---
 Persona | Carolina Mendes
+
 User Story | "As the school’s marketing manager, I want to offer an access to clear information about the enrollment process, so that the family can organize themselves from the very beginning."
 Acceptance Criteria 1 | **Scenario:** A new family accesses the platform for the first time. **Acceptance Test:** The platform presents a page with basic school information, contacts, and calendar.
 Acceptance Criteria 2 | **Scenario:** The family wants to review the enrollment information later. **Acceptance Test:** There should be a button/menu to access the enrollment information page again.
+
 
 Identification | US03
 --- | ---
@@ -1756,17 +1758,102 @@ This approach positions us uniquely in the market, especially among high-end int
 
 ## 6.6 Marketing Strategy 
 
-*a) Produto/Serviço (até 200 palavras)*
-*Descreva as funcionalidades, benefícios e diferenciais da aplicação*
 
-*6.2 Preço (até 200 palavras)*
-*Explique o modelo de precificação adotado e justifique com base nas análises anteriores.*
+## What are the 4 Ps of Marketing?
+<br>
 
-*6.3 Praça (Distribuição) (até 200 palavras)*
-*Apresente os canais digitais utilizados para distribuir e entregar a aplicação ao público.*
+<div align="center">
+  
+  <sub>Figure 18 - The 4 Ps of Marketing </sub>
+  <br>
+  <br>
+![benes](../assets/wad/4ps.png)
+  <br>
+  <br>
 
-*6.4 Promoção (até 200 palavras)*
-*Descreva as estratégias digitais planejadas, como SEO, redes sociais, marketing de conteúdo e campanhas pagas.*
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+---
+
+## Context of St. Paul’s School and the project
+
+St. Paul’s School, an elite British school in São Paulo, identified communication challenges with parents due to a confusing and inefficient app. To address this, a dedicated web portal was proposed for parents, offering quick and centralized access to school information such as homework, absences, and announcements — improving the overall experience and strengthening the school-family relationship.
+
+The project, in this context, consists of a dedicated web portal for parents, developed to simplify the monitoring of students’ school routines at St. Paul’s School. The platform provides direct access to essential information such as school events, attendance tracking, class schedules, important announcements, and academic performance. All of this is available through a single interface, accessible via any web browser — with no downloads required.
+
+---
+
+## 1. Product / Service
+
+The project developed is a dedicated web portal for the parents of St. Paul’s School students, designed to simplify the monitoring of their children’s school routines. It centralizes all school-related information in a clear and intuitive interface. Key features include:
+
+- School events  
+- Attendance tracking  
+- Class schedules  
+- Important announcements  
+- Academic performance
+- Communication  
+
+Access is available via any web browser, with no need to install additional applications.
+
+**Main benefits:**
+
+- Saves time and improves clarity in the dialogue between school and parents  
+- Concentrates relevant information in one place, reducing confusion and encouraging active involvement  
+- Provides real-time updates to ensure parents always have the latest information  
+
+By offering this experience, the solution reinforces St. Paul’s image as an institution attuned to the needs of its community and committed to educational innovation.
+
+---
+
+## 2. Price
+
+The proposed pricing model is institutional licensing with customized annual plans, adjusted according to the number of active students or guardians. This **B2B (business-to-business)** approach is ideal for institutions like St. Paul’s, which operate in a premium segment and prioritize quality and exclusivity.
+
+**Pricing rationale:**
+
+- Based on the perceived value of the solution  
+- Benefits include simplified communication, greater transparency, and reduced administrative burden  
+- Adds real value to families and the school, justifying the investment  
+
+An analysis of the competitive environment shows St. Paul’s has a high level of exclusivity and significant barriers to new entrants. Pricing reflects this differentiated positioning, aligning with the school’s strategy to maintain its elite British education status in Brazil.
+
+Thus, the pricing model reinforces St. Paul’s brand proposition: delivering excellence, innovation, and closeness without directly burdening end users.
+
+---
+
+## 3. Distribution
+
+The application distribution will be entirely digital, ensuring convenience and easy access for the target audience. The portal will be accessible directly through web browsers with **no need to install additional apps or software**. This enables parents to access the system anytime, on any device (computer, tablet, or smartphone), optimizing the user experience.
+
+**Delivery channels include:**
+
+- Official school website  
+- Emails to guardians  
+- Social media  
+
+This approach ensures broad reach, effectively reaching all parents at a low operational cost, promoting fast and intuitive access.
+
+---
+
+## 4. Promotion
+
+The digital promotion strategy includes a combination of **SEO (Search Engine Optimization)**, social media, and content marketing, aimed at expanding reach and engagement among parents.
+
+- **SEO:** Optimizes the school’s official website and portal to appear easily in searches related to bilingual education, school communication, and student monitoring, facilitating spontaneous access.  
+- **Social media:** Creates relevant, dynamic content such as tutorial videos, testimonials from parents and teachers, and explanatory posts highlighting platform benefits. Active engagement strengthens trust and interest. Key examples would be the use of instagram or linkedin, both accessible from the site itself. 
+- **Content marketing:** Conducted via email and social media, sharing tips for parents to monitor their children’s school routines using the portal as the main tool.
+
+---
+
+Conclusion
+The platform strengthens communication between St. Paul’s School and families by offering an intuitive, efficient solution aligned with the school’s values. By combining a functional product, value-based pricing, digital distribution, and promotional strategies focused on engagement, we deliver a solution that modernizes the parent experience and reinforces the school’s position as a leader in innovation and educational excellence.
+
+---
 
 # <a name="c7"></a>7. Conclusions and future work (sprint 5)
 
