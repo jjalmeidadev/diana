@@ -1394,7 +1394,104 @@ RESTful API for academic management with endpoints for:
     -------
 ## 4.2. Second version of the web application (sprint 4)
 
-*Descreva e ilustre aqui o desenvolvimento da sua segunda versão do sistema web, explicando brevemente o que foi entregue em termos de código e sistema. Utilize prints de tela para ilustrar. Indique as eventuais dificuldades e próximos passos.*
+## Implemented Structure:
+
+
+1.  **Database Integration**:
+
+    -   all three pages are connected to a PostgreSQL database and display real data through Node.js controllers.
+
+2. **Routing Structure**:
+      - Routing Structure: each feature has a defined route that maps to the appropriate controller and renders the correct view.
+
+3. **Consistent and user-friendly UI**:
+     - all pages follow the same visual style, ensuring a smooth and coherent user experience.
+ 
+**Main Pages Delivered**:
+
+    - Benes
+    - Reports
+    - Events
+
+**Code Structure:**
+
+- The code is fully organized according to the MVC pattern, with clear separation of controllers, routes, views, and models.
+
+- All routes are properly documented and functional.
+
+- The back-end functionality is fully integrated with the front-end, fulfilling the defined User Stories.
+
+## Screenshots:
+
+
+**Benes**:
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/Beness.png" alt="Reports Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Reports**:
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/Reportss.png" alt="Reports Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Events**
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/Eventss.png" alt="Reports Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+## Challenges Encountered:
+
+**Database Integration**:
+
+- Ensuring stable connection between PostgreSQL and the three main pages.
+- Adjusting queries to efficiently display real and relevant data.
+
+**Routing Structure**:
+
+- Defining clear and functional routes for each feature, ensuring the correct views are rendered.
+- Resolving conflicts and maintaining consistent navigation throughout the system.
+
+**Consistent and User-friendly UI:**
+
+- Maintaining visual coherence across all pages for a unified user experience.
+- Adjusting styles for compatibility across various devices and browsers.
+
+## Next Steps:
+
+**Technical Improvements:**
+
+- Complete usability testing with real users.
+- Review and enhance the overall design and responsiveness of the system.
+- Finalize and refine the WebAPI documentation, ensuring all endpoints include method, headers, body, and response formats.
+- Update the system architecture and database modeling as needed to reflect current features and structure.
+
+**Features**
+
+- Expand the event system with additional functionalities.
+- Develop more detailed and customizable reporting features.
+
+**UX/UI**:
+
+- Improve visual feedback for user actions
+- Implement smooth animations and transitions to enhance the navigation experience.
+- Ensure full mobile responsiveness across all interfaces.
+
+**Security**:
+
+-  Implement a robust authentication system with role-based access control.
+- Add thorough data validation to ensure system reliability and user safety.
 
 ## 4.3. Final version of the web application (sprint 5)
 
