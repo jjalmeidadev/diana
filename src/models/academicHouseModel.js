@@ -10,7 +10,7 @@ async function getAcademicHouseById(id) {
   return result.rows[0];
 }
 
-async function createAcademicHouse({ house }) {
+async function createAcademicHouse( house ) {
   const result = await pool.query(
     'INSERT INTO academic_house (house) VALUES ($1) RETURNING *',
     [house]
@@ -18,8 +18,7 @@ async function createAcademicHouse({ house }) {
   return result.rows[0];
 }
 
-async function updateAcademicHouseById(id, academicHouseData) {
-  const { house } = academicHouseData;
+async function updateAcademicHouseById(house, id) {
   const result = await pool.query(
     'UPDATE academic_house SET house = $1 WHERE id = $2 RETURNING *',
     [house, id]

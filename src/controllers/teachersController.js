@@ -12,7 +12,8 @@ async function getAllTeachers(req, res) {
 
 async function getTeacherById(req, res) {
   try {
-    const teacher = await TeachersModel.getTeacherById(req.params.id);
+    const {id} = req.params;
+    const teacher = await TeachersModel.getTeacherById(id);
     if (!teacher) return res.status(404).json({ error: 'Professor não encontrado' });
     res.json(teacher);
   } catch (error) {
@@ -23,7 +24,8 @@ async function getTeacherById(req, res) {
 
 async function createTeacher(req, res) {
   try {
-    const newTeacher = await TeachersModel.createTeacher(req.body);
+    const {teacher_name, teacher_email} = req.body
+    const newTeacher = await TeachersModel.createTeacher(teacher_name, teacher_email);
     res.status(201).json(newTeacher);
   } catch (error) {
     console.error(error)
@@ -33,7 +35,9 @@ async function createTeacher(req, res) {
 
 async function updateTeacherById(req, res) {
   try {
-    const updatedTeacher = await TeachersModel.updateTeacherById(req.params.id, req.body);
+    const {id} = req.params
+    const {teacher_name, teacher_email} = req.body
+    const updatedTeacher = await TeachersModel.updateTeacherById( id, teacher_name, teacher_email);
     if (!updatedTeacher) return res.status(404).json({ error: 'Professor não encontrado' });
     res.json(updatedTeacher);
   } catch (error) {

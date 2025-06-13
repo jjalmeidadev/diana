@@ -2,6 +2,8 @@
 const express = require('express');
 const router = express.Router();
 const userController = require('../controllers/userController');
+const app = express();
+app.use(express.json());
 
 // Rota raiz
 router.get('/', (req, res) => {
@@ -32,6 +34,9 @@ router.get('/profile', (req, res) => {
 });
 router.get('/reports', (req, res) => {
   res.render('pages/reports');
+});
+router.get('/communication', (req, res) => {
+  res.render('pages/communication');
 });
 
 router.get('/users', userController.getAllUsers);       

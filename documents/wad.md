@@ -400,9 +400,11 @@ Critérios INVEST | **Independent::** Can be implemented without dependency on o
 Identification | US02
 --- | ---
 Persona | Carolina Mendes
+
 User Story | "As the school’s marketing manager, I want to offer an access to clear information about the enrollment process, so that the family can organize themselves from the very beginning."
 Acceptance Criteria 1 | **Scenario:** A new family accesses the platform for the first time. **Acceptance Test:** The platform presents a page with basic school information, contacts, and calendar.
 Acceptance Criteria 2 | **Scenario:** The family wants to review the enrollment information later. **Acceptance Test:** There should be a button/menu to access the enrollment information page again.
+
 
 Identification | US03
 --- | ---
@@ -542,7 +544,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
   <sub>Figure 10 - Profile </sub>
   <br>
   <br>
- ![home](../assets/wad/Profile%20-%20Homepage_reviewed.png)
+ <img src="../assets/wad\Profile - Homepage (2).png">
   <br>
   <br>
 
@@ -557,7 +559,6 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 &nbsp;&nbsp;&nbsp;Task tracking page with filtering and completion tools.  
 - **[Filter by subject]** displays tasks by selected subject.  
   — **US04 & US05**: Helps parents follow academic progress.  
-- **[Mark as completed]** (check icon) marks a task as finished.  
   — **US05**: Allows parents to verify student task completion.
 
 ---
@@ -568,7 +569,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
   <sub>Figure 11 - Assignments </sub>
   <br>
   <br>
-![Assignments](../assets/wad/Assignments_reviewed.png)
+<img src="../assets/wad/Assignments_reviewed (1).png">
   <br>
   <br>
 
@@ -595,7 +596,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
   <sub>Figure 12 - Reports </sub>
   <br>
   <br>
-![reports](../assets/wad/Reports%20page_reviewed.png)
+<img src="../assets/wad/Reports page_reviewed (1).png">
   <br>
   <br>
 
@@ -619,7 +620,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
   <sub>Figure 13 - Timetable </sub>
   <br>
   <br>
-![timetable](../assets/wad/Timetable%20(class%20schedule)_reviewed.png)
+<img src="../assets/wad/Timetable (class schedule)_reviewed (1).png">
   <br>
   <br>
 
@@ -644,7 +645,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
   <sub>Figure 14 - Events </sub>
   <br>
   <br>
-![events](../assets/wad/School%20events%20for%20parents_reviewed.png)
+<img src="../assets/wad/School events for parents_reviewed (1).png">
   <br>
   <br>
 
@@ -659,9 +660,8 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 **7. Customer Service Channels**
 **Description:**  
 &nbsp;&nbsp;&nbsp;Support area with contact options for technical or administrative help.  
-- **[New Support Request]** opens a live chat with the school office.  
+- **[New Support Request]** opens a chat with the school office (school contact - social media).
   — **US06**: Provides direct and efficient technical support.  
-- **[Check Ticket Status]** shows the progress of submitted requests.  
   — **US06 & US08**: Ensures transparency and follow-up ease.  
 - **[Contact via Email/Phone]** launches email or phone apps with teacher contact details.  
   — **US10**: Allows direct communication between parents and the school.
@@ -674,7 +674,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
   <sub>Figure 15 - Customer Service Channels </sub>
   <br>
   <br>
-![csc](../assets/wad/Customer%20service%20channels_reviewed.png)
+<img src="../assets/wad/Customer service channels_reviewed (1).png">
   <br>
   <br>
 
@@ -698,7 +698,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
   <sub>Figure 16 - Benes and sanctions </sub>
   <br>
   <br>
-![benes](../assets/wad/Benes%20and%20Sanctions_reviewed.png)
+<img src="../assets/wad/Benes and Sanctions_reviewed (1).png">
   <br>
   <br>
 
@@ -808,17 +808,125 @@ The guide uses two main font families: Darker Grotesque for interface texts and 
 
 ## 3.4 High-fidelity prototype (sprint 3)
 
-A high-fidelity prototype is a detailed representation of a product that closely resembles the final design in both appearance and functionality. It includes realistic visuals, accurate layout and typography.
+&nbsp;&nbsp;&nbsp;&nbsp;A high-fidelity prototype is a detailed representation of a product that closely resembles the final design in both appearance and functionality. It includes realistic visuals, accurate layout and typography, serving as a near-final representation of the user interface before development implementation.
 
-**Login and about page**
+&nbsp;&nbsp;&nbsp;&nbsp;High-fidelity prototypes are essential in the design process as they bridge the gap between conceptual wireframes and the final product. Unlike low-fidelity prototypes that focus on structure and basic functionality, high-fidelity prototypes incorporate detailed visual elements including:
+
+- **Visual Design Elements**: Real color schemes, actual typography, authentic imagery, and precise spacing that reflect the final product's aesthetic
+- **Interactive Components**: Functional buttons, form fields, navigation elements, and micro-interactions that simulate the actual user experience
+- **Content Strategy**: Realistic content including actual text, images, and data representations rather than placeholder elements
+- **Responsive Design**: Layouts that demonstrate how the interface adapts across different screen sizes and devices
+
+### 3.4.1 Prototyping Methodology
+
+&nbsp;&nbsp;&nbsp;&nbsp;Our high-fidelity prototype development followed a systematic approach based on design thinking principles and user-centered design methodologies. The process involved:
+
+**1. Design System Integration**: All prototype screens were built using our established style guide (Section 3.3), ensuring consistency in colors (#B82121, #0C354C, #F1F1F1), typography (Darker Grotesque and Archer font families), and iconography throughout the interface.
+
+**2. User Journey Mapping**: Each prototype screen was designed to support specific user stories and acceptance criteria defined in Section 2.3, creating a seamless flow that addresses real user needs and business objectives.
+
+**3. Visual Validation**: The prototype underwent multiple iterations with stakeholders to validate visual hierarchy, information architecture, and overall user experience before finalizing the designs (sprint reviews).
+
+**4. Accessibility Considerations**: Color contrast ratios, font sizes, and interactive element spacing were designed to meet standards, ensuring the platform is accessible to users with diverse abilities.
+
+### 3.4.2 Key Interface Screens
+
+&nbsp;&nbsp;&nbsp;&nbsp;The following screens represent the core functionality of the Diana parent portal system, each designed to address specific user needs identified during the research phase:
+
+
+<br>
+
+<div align="center">
+  
+  <sub>Figure - Login and About Page </sub>
+  <br>
+  <br>
 <img src="../assets/wad/Login and About (1).png">
+  <br>
+  <br>
 
-**Homepage/profile**
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+<br>
+
+<div align="center">
+  
+  <sub>Figure - Student Selection </sub>
+  <br>
+  <br>
+<img src="../assets/wad/Student Selection.png">
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;The login interface serves as the primary entry point to the system, featuring a clean, professional design that reflects St. Paul's School's brand identity. The layout prioritizes security and ease of access, with clear call-to-action buttons for authentication, password recovery, and institutional information access. The design incorporates the school's color palette and maintains visual consistency with the overall platform aesthetic.
+
+<br>
+
+<div align="center">
+  
+  <sub>Figure - Homepage/Profile Management </sub>
+  <br>
+  <br>
 <img src="../assets/wad/Group 14.png">
+  <br>
+  <br>
 
-**Benes and sanctions**
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;The homepage serves as the central dashboard where parents can access all platform features and manage their profile information. The interface features a card-based layout that provides quick access to key functionalities including academic reports, upcoming events, and contact management. The design emphasizes information hierarchy through strategic use of whitespace, typography scaling, and color-coded sections.
+
+<br>
+
+<div align="center">
+  
+  <sub>Figure - Reports </sub>
+  <br>
+  <br>
+<img src="../assets/wad/Reports-prototype.png">
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+<br>
+
+<div align="center">
+  
+  <sub>Figure - Behavioral Tracking - Benes and Sanctions </sub>
+  <br>
+  <br>
 <img src="../assets/wad/Benes & Sanctions.png">
+  <br>
+  <br>
 
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;This specialized interface allows parents to monitor their child's behavioral progress through St. Paul's unique merit and sanction system. The design incorporates data visualization elements including charts and progress indicators that make behavioral trends easily interpretable. The interface balances the need for detailed information with emotional sensitivity, using neutral colors and supportive messaging.
+
+<a href="https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diana-Wireframes-and-Prototypes?node-id=0-1&t=3Uex8mdeUkJstifO-1">Click here </a> to access the complete Figma file (with all the platform's pages) and <a href="https://www.figma.com/proto/Qrb4vjSeXfNiWN9iirHvdN/Diana-Wireframes-and-Prototypes?node-id=350-3&t=3Uex8mdeUkJstifO-0&scaling=contain&content-scaling=fixed&page-id=0%3A1">here</a> to check the clickable prototype.
 
 
 ## 3.5. Database modelling (sprints 2 e 4)
@@ -1288,7 +1396,114 @@ RESTful API for academic management with endpoints for:
     -------
 ## 4.2. Second version of the web application (sprint 4)
 
-*Descreva e ilustre aqui o desenvolvimento da sua segunda versão do sistema web, explicando brevemente o que foi entregue em termos de código e sistema. Utilize prints de tela para ilustrar. Indique as eventuais dificuldades e próximos passos.*
+## Implemented Structure:
+
+
+1.  **Database Integration**:
+
+    -   all three pages are connected to a PostgreSQL database and display real data through Node.js controllers.
+
+2. **Routing Structure**:
+      - Routing Structure: each feature has a defined route that maps to the appropriate controller and renders the correct view.
+
+3. **Consistent and user-friendly UI**:
+     - all pages follow the same visual style, ensuring a smooth and coherent user experience.
+ 
+**Main Pages Delivered**:
+
+    - Benes
+    - Reports
+    - Events
+    - Profile
+
+**Code Structure:**
+
+- The code is fully organized according to the MVC pattern, with clear separation of controllers, routes, views, and models.
+
+- All routes are properly documented and functional.
+
+- The back-end functionality is fully integrated with the front-end, fulfilling the defined User Stories.
+
+## Screenshots:
+
+
+**Benes**:
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/Beness.png" alt="Reports Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Reports**:
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/Reportss.png" alt="Reports Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Events**
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/Eventss.png" alt="Reports Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Profile**
+<div align="center">
+
+![Screenshot 2025-06-13 14 09 26](https://github.com/user-attachments/assets/4dc438c3-f75c-4a2f-85bc-4bba43936c20)
+ 
+
+</div>
+
+## Challenges Encountered:
+
+**Database Integration**:
+
+
+- Ensuring stable connection between PostgreSQL and the three main pages.
+- Adjusting queries to efficiently display real and relevant data.
+
+**Routing Structure**:
+
+- Defining clear and functional routes for each feature, ensuring the correct views are rendered.
+- Resolving conflicts and maintaining consistent navigation throughout the system.
+
+**Consistent and User-friendly UI:**
+
+- Maintaining visual coherence across all pages for a unified user experience.
+- Adjusting styles for compatibility across various devices and browsers.
+
+## Next Steps:
+
+**Technical Improvements:**
+
+- Complete usability testing with real users.
+- Review and enhance the overall design and responsiveness of the system.
+- Finalize and refine the WebAPI documentation, ensuring all endpoints include method, headers, body, and response formats.
+- Update the system architecture and database modeling as needed to reflect current features and structure.
+
+**Features**
+
+- Expand the event system with additional functionalities.
+- Develop more detailed and customizable reporting features.
+
+**UX/UI**:
+
+- Improve visual feedback for user actions
+- Implement smooth animations and transitions to enhance the navigation experience.
+- Ensure full mobile responsiveness across all interfaces.
+
+**Security**:
+
+-  Implement a robust authentication system with role-based access control.
+- Add thorough data validation to ensure system reliability and user safety.
 
 ## 4.3. Final version of the web application (sprint 5)
 
@@ -1298,7 +1513,142 @@ RESTful API for academic management with endpoints for:
 
 ## 5.1. Automated endpoint integration test report (sprint 4)
 
-*Liste e descreva os testes unitários dos endpoints criados, automatizados e planejados para sua solução. Posicione aqui também o relatório de cobertura de testes Jest se houver (através de link ou transcrito para estrutura markdown)*
+
+### example test:
+<img src="../assets/PNG_images/test-example.png">
+
+### All our posman tests
+<img src="../assets/PNG_images/test1.png">
+<img src="../assets/PNG_images/test2.png">
+<img src="../assets/PNG_images/test3.png">
+
+<p>These tests are meant to verify if our routes are working properly. Each route has its own requests, but generally they include requests for creating, reading, updating, and deleting.</p>
+
+###  academic_house
+
+- **GET getAll**  
+  Tests whether the API returns all registered academic houses or school units.
+
+
+###  events
+
+- **GET getAll**  
+  Checks if all events are being listed correctly.
+
+- **POST newEvent**  
+  Tests if a new event is being successfully created.
+
+- **DEL deleteEvent**  
+  Verifies whether a specific event is being properly deleted.
+
+
+###  reports
+
+- **GET getAll**  
+  Checks if all reports are being retrieved.
+
+- **POST createReport**  
+  Tests the successful creation of a new report.
+
+- **PUT updateReport**  
+  Checks if a report is being updated correctly.
+
+- **DEL deleteReport**  
+  Verifies the deletion of a report.
+
+
+###  student_subject
+
+- **GET getAll**  
+  Tests whether all student–subject associations are being returned.
+
+- **POST createSt-Sb**  
+  Tests the creation of a new student–subject association.
+
+- **PUT UpdateSt-Sb**  
+  Checks whether the association is being updated correctly.
+
+- **DEL deleteSt-Sb**  
+  Verifies whether the association is being deleted.
+
+
+### students
+
+- **GET getAll**  
+  Verifies whether the list of students is being retrieved.
+
+- **POST createStudent**  
+  Tests the creation of a new student.
+
+- **PUT UpdateStudents**  
+  Checks whether a student's data is being updated.
+
+
+### subjects
+
+- **GET getAll**  
+  Lists all registered subjects.
+
+- **POST createSubject**  
+  Tests the creation of a new subject.
+
+- **DEL deleteSubject**  
+  Verifies whether a subject is being deleted.
+
+- **PUT updateSubject** 
+  Tests the updating of subject data.
+
+###  teachers
+
+- **GET getAll**  
+  Tests the listing of all teachers.
+
+- **POST createTeachers**  
+  Tests the creation of a new teacher.
+
+- **DEL deleteTeacher**  
+  Verifies whether a teacher is being properly removed.
+
+- **PUT updateTeacher**  
+  Tests the updating of teacher data.
+
+
+### tutors
+
+- **GET getAll**  
+  Tests the listing of all tutors.
+
+- **POST createTutor**  
+  Tests the creation of a new tutor.
+
+- **DEL deleteTutor**  
+  Verifies whether the tutor was deleted.
+
+- **PUT updateTutor**  
+  Tests the updating of tutor data.
+
+### users
+
+- **GET getAll**  
+  Verifies whether all system users are being listed.
+
+- **POST createUser**  
+  Tests the creation of a new user.
+
+- **DEL deleteUser**  
+  Verifies whether the user was deleted.
+
+- **PUT updateUser**  
+  Tests the updating of user data.
+
+### year code
+
+- **GET getAll**  
+  Tests whether all academic years are being listed.
+
+- **POST createYear**  
+  Tests the creation of a new academic year.
+
 
 ## 5.2. Usability tests (sprint 5)
 
@@ -1408,17 +1758,102 @@ This approach positions us uniquely in the market, especially among high-end int
 
 ## 6.6 Marketing Strategy 
 
-*a) Produto/Serviço (até 200 palavras)*
-*Descreva as funcionalidades, benefícios e diferenciais da aplicação*
 
-*6.2 Preço (até 200 palavras)*
-*Explique o modelo de precificação adotado e justifique com base nas análises anteriores.*
+## What are the 4 Ps of Marketing?
+<br>
 
-*6.3 Praça (Distribuição) (até 200 palavras)*
-*Apresente os canais digitais utilizados para distribuir e entregar a aplicação ao público.*
+<div align="center">
+  
+  <sub>Figure 18 - The 4 Ps of Marketing </sub>
+  <br>
+  <br>
+![benes](../assets/wad/4ps.png)
+  <br>
+  <br>
 
-*6.4 Promoção (até 200 palavras)*
-*Descreva as estratégias digitais planejadas, como SEO, redes sociais, marketing de conteúdo e campanhas pagas.*
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+---
+
+## Context of St. Paul’s School and the project
+
+St. Paul’s School, an elite British school in São Paulo, identified communication challenges with parents due to a confusing and inefficient app. To address this, a dedicated web portal was proposed for parents, offering quick and centralized access to school information such as homework, absences, and announcements — improving the overall experience and strengthening the school-family relationship.
+
+The project, in this context, consists of a dedicated web portal for parents, developed to simplify the monitoring of students’ school routines at St. Paul’s School. The platform provides direct access to essential information such as school events, attendance tracking, class schedules, important announcements, and academic performance. All of this is available through a single interface, accessible via any web browser — with no downloads required.
+
+---
+
+## 1. Product / Service
+
+The project developed is a dedicated web portal for the parents of St. Paul’s School students, designed to simplify the monitoring of their children’s school routines. It centralizes all school-related information in a clear and intuitive interface. Key features include:
+
+- School events  
+- Attendance tracking  
+- Class schedules  
+- Important announcements  
+- Academic performance
+- Communication  
+
+Access is available via any web browser, with no need to install additional applications.
+
+**Main benefits:**
+
+- Saves time and improves clarity in the dialogue between school and parents  
+- Concentrates relevant information in one place, reducing confusion and encouraging active involvement  
+- Provides real-time updates to ensure parents always have the latest information  
+
+By offering this experience, the solution reinforces St. Paul’s image as an institution attuned to the needs of its community and committed to educational innovation.
+
+---
+
+## 2. Price
+
+The proposed pricing model is institutional licensing with customized annual plans, adjusted according to the number of active students or guardians. This **B2B (business-to-business)** approach is ideal for institutions like St. Paul’s, which operate in a premium segment and prioritize quality and exclusivity.
+
+**Pricing rationale:**
+
+- Based on the perceived value of the solution  
+- Benefits include simplified communication, greater transparency, and reduced administrative burden  
+- Adds real value to families and the school, justifying the investment  
+
+An analysis of the competitive environment shows St. Paul’s has a high level of exclusivity and significant barriers to new entrants. Pricing reflects this differentiated positioning, aligning with the school’s strategy to maintain its elite British education status in Brazil.
+
+Thus, the pricing model reinforces St. Paul’s brand proposition: delivering excellence, innovation, and closeness without directly burdening end users.
+
+---
+
+## 3. Distribution
+
+The application distribution will be entirely digital, ensuring convenience and easy access for the target audience. The portal will be accessible directly through web browsers with **no need to install additional apps or software**. This enables parents to access the system anytime, on any device (computer, tablet, or smartphone), optimizing the user experience.
+
+**Delivery channels include:**
+
+- Official school website  
+- Emails to guardians  
+- Social media  
+
+This approach ensures broad reach, effectively reaching all parents at a low operational cost, promoting fast and intuitive access.
+
+---
+
+## 4. Promotion
+
+The digital promotion strategy includes a combination of **SEO (Search Engine Optimization)**, social media, and content marketing, aimed at expanding reach and engagement among parents.
+
+- **SEO:** Optimizes the school’s official website and portal to appear easily in searches related to bilingual education, school communication, and student monitoring, facilitating spontaneous access.  
+- **Social media:** Creates relevant, dynamic content such as tutorial videos, testimonials from parents and teachers, and explanatory posts highlighting platform benefits. Active engagement strengthens trust and interest. Key examples would be the use of instagram or linkedin, both accessible from the site itself. 
+- **Content marketing:** Conducted via email and social media, sharing tips for parents to monitor their children’s school routines using the portal as the main tool.
+
+---
+
+Conclusion
+The platform strengthens communication between St. Paul’s School and families by offering an intuitive, efficient solution aligned with the school’s values. By combining a functional product, value-based pricing, digital distribution, and promotional strategies focused on engagement, we deliver a solution that modernizes the parent experience and reinforces the school’s position as a leader in innovation and educational excellence.
+
+---
 
 # <a name="c7"></a>7. Conclusions and future work (sprint 5)
 

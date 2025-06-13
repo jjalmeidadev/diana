@@ -2,6 +2,8 @@ const express = require('express');
 const router = express.Router();
 const TutorsController = require('../controllers/tutorsController');
 
+
+
 // Rota para listar todos os tutores
 router.get('/tutors', TutorsController.getAllTutors);
 

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+</head>
+
+<body style="margin: 0; padding: 0;">
+    <!-- Top bar -->
+    <%- include('../components/upperBar.ejs') %>
+    <!-- Sidebar -->
+    <%- include('../components/sideBar.ejs') %>
+
+    <!-- Event boxes area -->
+    <div style="
+        position: absolute;
+        left: 200px; top: 70px; right: 0; bottom: 50px;
+        overflow-y: auto;
+        display: flex; flex-direction: column; align-items: center;
+        background: #fff;
+        z-index: 1;
+    ">
+        <!-- Customer Service Channels Title -->
+        <h1 style="font-family: Arial, sans-serif; color: #333; margin-top: 40px; margin-bottom: 30px;">Customer Service Channels</h1>
+
+        <div style="display: flex; flex-direction: column; gap: 20px; width: 60%;">
+            <!-- Contact Box 1 -->
+            <div style="
+                display: flex; align-items: center; padding: 15px 20px; background: #fff; border: 1px solid #ddd;
+                border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); cursor: pointer;
+            ">
+                <img src="../../assets/PNG_images/avatar.png" alt="Support Icon" style="border-radius: 50%; margin-right: 15px;">
+                <span style="font-family: Arial, sans-serif; font-size: 1.1em; color: #333;">Contact the support team </span>
+            </div>
+
+            <!-- Contact Box 2 -->
+            <div style="
+                display: flex; align-items: center; padding: 15px 20px; background: #fff; border: 1px solid #ddd;
+                border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); cursor: pointer;
+            ">
+                <img src="../../assets/PNG_images/avatar.png" alt="Tutor Icon" style="border-radius: 50%; margin-right: 15px;">
+                <span style="font-family: Arial, sans-serif; font-size: 1.1em; color: #333;">Contact a tutor</span>
+            </div>
+
+            <!-- Contact Box 3 -->
+            <div style="
+                display: flex; align-items: center; padding: 15px 20px; background: #fff; border: 1px solid #ddd;
+                border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); cursor: pointer;
+            ">
+                <img src="../../assets/PNG_images/avatar.png" alt="Teacher Icon" style="border-radius: 50%; margin-right: 15px;">
+                <span style="font-family: Arial, sans-serif; font-size: 1.1em; color: #333;">Contact a teacher</span>
+            </div>
+
+            <!-- Contact Box 4 -->
+            <div style="
+                display: flex; align-items: center; padding: 15px 20px; background: #fff; border: 1px solid #ddd;
+                border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); cursor: pointer;
+            ">
+                <img src="../../assets/PNG_images/avatar.png" alt="Secretary Icon" style="border-radius: 50%; margin-right: 15px;">
+                <span style="font-family: Arial, sans-serif; font-size: 1.1em; color: #333;">Contact the secretary</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <%- include('../components/lowerBar.ejs') %>
+</body>
+
+</html>

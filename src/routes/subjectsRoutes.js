@@ -2,6 +2,8 @@ const express = require('express');
 const router = express.Router();
 const SubjectsController = require('../controllers/subjectsController');
 
+
+
 // Rota para listar todas as disciplinas
 router.get('/subjects', SubjectsController.getAllSubjects);
 
