@@ -1,5 +1,5 @@
 const express = require('express');
-const path = require('path'); // Import path module
+const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -14,6 +14,8 @@ app.set('views', __dirname + '/views');
 app.use('/assets', express.static(path.join(__dirname, '../assets')));
 // Also serve from the src level for relative paths
 app.use(express.static(path.join(__dirname)));
+// Corrija para servir arquivos estáticos da pasta 'public'
+app.use(express.static(path.join(__dirname, '../public')));
 
 // Rotas
 const routes = require('./routes/index');
