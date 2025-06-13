@@ -33,6 +33,9 @@ router.get('/profile', (req, res) => {
 router.get('/reports', (req, res) => {
   res.render('pages/reports');
 });
+router.get('/choose', (req, res) => {
+  res.render('pages/choose');
+});
 
 router.get('/users', userController.getAllUsers);       
 router.get('/users/:id', userController.getUserById);    
