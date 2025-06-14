@@ -5,6 +5,7 @@ async function getAllAcademicHouses(req, res) {
     const houses = await AcademicHouseModel.getAllAcademicHouses();
     res.json(houses);
   } catch (error) {
+    console.error(error)
     res.status(500).json({ error: 'Erro ao buscar casas acadêmicas' });
   }
 }
@@ -15,6 +16,7 @@ async function getAcademicHouseById(req, res) {
     if (!house) return res.status(404).json({ error: 'Casa acadêmica não encontrada' });
     res.json(house);
   } catch (error) {
+    console.error(error)
     res.status(500).json({ error: 'Erro ao buscar casa acadêmica' });
   }
 }
@@ -24,6 +26,7 @@ async function createAcademicHouse(req, res) {
     const newHouse = await AcademicHouseModel.createAcademicHouse(req.body);
     res.status(201).json(newHouse);
   } catch (error) {
+    console.error(error)
     res.status(500).json({ error: 'Erro ao criar casa acadêmica' });
   }
 }
@@ -34,6 +37,7 @@ async function updateAcademicHouseById(req, res) {
     if (!updatedHouse) return res.status(404).json({ error: 'Casa acadêmica não encontrada' });
     res.json(updatedHouse);
   } catch (error) {
+    console.error(error)
     res.status(500).json({ error: 'Erro ao atualizar casa acadêmica' });
   }
 }
@@ -44,6 +48,7 @@ async function deleteAcademicHouseById(req, res) {
     if (!deletedHouse) return res.status(404).json({ error: 'Casa acadêmica não encontrada' });
     res.json({ message: 'Casa acadêmica deletada com sucesso' });
   } catch (error) {
+    console.error(error)
     res.status(500).json({ error: 'Erro ao deletar casa acadêmica' });
   }
 }

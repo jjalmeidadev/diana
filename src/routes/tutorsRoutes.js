@@ -2,6 +2,8 @@ const express = require('express');
 const router = express.Router();
 const TutorsController = require('../controllers/tutorsController');
 
+
+
 // Rota para listar todos os tutores
 router.get('/tutors', TutorsController.getAllTutors);
 
@@ -12,9 +14,9 @@ router.get('/tutors/:id', TutorsController.getTutorById);
 router.post('/tutors', TutorsController.createTutor);
 
 // Rota para atualizar um tutor por ID
-router.put('/tutors/:id', TutorsController.updateTutor);
+router.put('/tutors/:id', TutorsController.updateTutorById);
 
 // Rota para deletar um tutor por ID
-router.delete('/tutors/:id', TutorsController.deleteTutor);
+router.delete('/tutors/:id', TutorsController.deleteTutorById);
 
 module.exports = router;

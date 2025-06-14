@@ -2,6 +2,8 @@ const express = require('express');
 const router = express.Router();
 const TeachersController = require('../controllers/teachersController');
 
+
+
 // Rota para listar todos os professores
 router.get('/teachers', TeachersController.getAllTeachers);
 
@@ -12,9 +14,9 @@ router.get('/teachers/:id', TeachersController.getTeacherById);
 router.post('/teachers', TeachersController.createTeacher);
 
 // Rota para atualizar um professor por ID
-router.put('/teachers/:id', TeachersController.updateTeacher);
+router.put('/teachers/:id', TeachersController.updateTeacherById);
 
 // Rota para deletar um professor por ID
-router.delete('/teachers/:id', TeachersController.deleteTeacher);
+router.delete('/teachers/:id', TeachersController.deleteTeacherById);
 
 module.exports = router;

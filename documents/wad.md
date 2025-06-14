@@ -400,21 +400,23 @@ Critérios INVEST | **Independent::** Can be implemented without dependency on o
 Identification | US02
 --- | ---
 Persona | Carolina Mendes
+
 User Story | "As the school’s marketing manager, I want to offer an access to clear information about the enrollment process, so that the family can organize themselves from the very beginning."
-Acceptance Criteria 1 | **Scenario:** A new family accesses the platform for the first time. **Acceptance Test:** The platform presents an interactive guide with basic school information, contacts, and calendar.
-Acceptance Criteria 2 | **Scenario:** The family wants to review the onboarding information later. **Acceptance Test:** There should be a button/menu to access the welcome content again.
+Acceptance Criteria 1 | **Scenario:** A new family accesses the platform for the first time. **Acceptance Test:** The platform presents a page with basic school information, contacts, and calendar.
+Acceptance Criteria 2 | **Scenario:** The family wants to review the enrollment information later. **Acceptance Test:** There should be a button/menu to access the enrollment information page again.
+
 
 Identification | US03
 --- | ---
 Persona | Júlio Oliveira
-User Story | "As a moderator, I want to ensure that every student receives all necessary information accurately from their very first interaction, preventing delays or issues caused by communication errors."
-Acceptance Criteria 1 | **Scenario:** A student accesses the platform for the first time. **Acceptance Test:** The system verifies that all required information fields are completed before allowing the student to proceed.
-Acceptance Criteria 2 | **Scenario:** A student needs additional help after initial interaction. **Acceptance Test:** The system logs all support requests and ensures a response is provided within.
+User Story | "As a moderator, I want to ensure that every parent receives all necessary information accurately from their very first interaction, preventing delays or issues caused by communication errors."
+Acceptance Criteria 1 | **Scenario:** A parent accesses the platform for the first time. **Acceptance Test:** The system verifies that all required information fields are completed before allowing the parent to proceed.
+Acceptance Criteria 2 | **Scenario:** A parent needs additional help after initial interaction. **Acceptance Test:** The system logs all support requests and ensures a response is provided within.
 
 Identification | US04
 --- | ---
 Persona | Daniel Thompson
-User Story | "As a father who is searching for the balance between a new executive position and the proper attention directed to my son's trail, I'd like to access his academic information (reports, benes, sanctions, attendance rate, timetable) in a single platform, so that I can stay involved in his school life considering my heavy schedule."
+User Story | "As a father who is searching for the balance between a new executive position and the proper attention directed to his son's trail, he'd like to access his son's academic information (reports, benes, sanctions, attendance rate, timetable) in a single platform, so that he can stay involved in his school life considering my heavy schedule."
 Acceptance Criteria 1 | **Scenario:** The father logs into the platform with valid credentials. **Acceptance Test:** The platform displays grades, attendance, and recent activities in a clear and organized manner.
 Acceptance Criteria 2 | **Scenario:** The father tries to access the system without being authenticated. **Acceptance Test:** The system redirects to the login screen and blocks access to student information.
 Critérios INVEST | **Independent:**  The story describes a standalone feature that doesn’t depend on other fetures. **Negotiable:** The details ,such as design, data, and delivery, can be negotiated. **Valuable:** It provides value to the parent by offering a platform to stay involved in their son’s academic life. **Estimable:** The technical work involved is clear enough for estimation. **Small:** The scope of this story is clear and achievable within a short time. **testable** It can be tested by checking if the marketing manager can successfully use the interface to publish school news.
@@ -422,7 +424,7 @@ Critérios INVEST | **Independent:**  The story describes a standalone feature t
 Identification | US05
 --- | ---
 Persona | Daniel Thompson
-User Story | "As a parent, I wish there was a simple place where I could easily follow my daughter’s grades, attendance, and school updates without feeling lost in complicated websites (poor UI/UX)."
+User Story | "As a father, I wish there was a simple place where I could easily follow my daughter’s grades, attendance, and school updates without feeling lost in complicated websites (poor UI/UX)."
 Acceptance Criteria 1 | **Scenario:** The parent navigates through the dashboard. **Acceptance Test:** Information is organized into clearly defined tabs or sections (Grades, Attendance...).
 Acceptance Criteria 2 | **Scenario:** There is an error retrieving student data. **Acceptance Test:** The system displays a friendly error message and offers a retry option.
 Critérios INVEST | **Independent:**  its standalone, focusing only on a parent’s access to their child’s school data. **Negotiable:** layout, types of data, and presentation style can be negotiated. **Valuable:** It delivers significant value by helping parents easily track academic progress and school updates. **Estimable:** The effort required to build the tracking system can be estimated. **Small:** The story is focused on one specific need, making it manageable in size. **testable** it can be tested by ensuring parents can view grades, attendance, and updates.
@@ -430,18 +432,18 @@ Critérios INVEST | **Independent:**  its standalone, focusing only on a parent�
 Identification | US06
 --- | ---
 Persona | Carolina Mendes
-User Story | "As the school’s marketing manager, I want a simple interface to publish school news, so that I can easily share updates with the school community."
-Acceptance Criteria 1 | **Scenario:** The manager accesses the admin panel and fills out the new post form. **Acceptance Test:** When all required fields are filled and "Publish" is clicked, the news should appear on the website under the news section.
+User Story | "As the school’s marketing manager, I want a simple interface to publish school events, so that I can easily share updates with the school community."
+Acceptance Criteria 1 | **Scenario:** The manager accesses the admin panel and fills out the new event form. **Acceptance Test:** When all required fields are filled and "Publish" is clicked, the event should appear on the website under the events section.
 Acceptance Criteria 2 | **Scenario:** The manager leaves a required field blank. **Acceptance Test:** The system should display a message indicating the missing fields and not allow submission until they are filled.
-Critérios INVEST | **Independent:**  This task does not rely on other features or systems to work. **Negotiable:** The details of how the interface looks or functions are not strictly defined. **Valuable:** It makes it easier for the marketing manager to publish updates, which helps improve communication with the community. **Estimable:** can be estimated the effort needed to create a simple interface for publishing news. **Small:** it might need to be broken down into sSmall:er stories **testable** It can be tested by checking if the marketing manager can successfully use the interface to publish school news.
+Critérios INVEST | **Independent:**  This task does not rely on other features or systems to work. **Negotiable:** The details of how the interface looks or functions are not strictly defined. **Valuable:** It makes it easier for the marketing manager to publish updates, which helps improve communication with the community. **Estimable:** can be estimated the effort needed to create a simple interface for publishing news. **Small:** it might need to be broken down into smaller stories **testable** It can be tested by checking if the marketing manager can successfully use the interface to publish school events.
 
 Identification | US07
 --- | ---
 Persona | Carolina Mendes
-User Story | "As the school’s Marketing Manager, I need to be able to delete or edit a publication from the website, so I can remove any outdated or incorrect information."
-Acceptance Criteria 1 | **Scenario:** The marketing manager is logged into the admin panel. **Acceptance Test:** When clicking the "Delete" button on a publication, it should be permanently removed from the website and no longer appear in the list of publications.
-Acceptance Criteria 2 | **Scenario:** The manager tries to delete a publication that doesn’t exist or has already been deleted. **Acceptance Test:** The system should display an error message indicating that the publication was not found.
-Critérios INVEST | **Independent::**  delete a publication doesn’t rely on other features. **Negotiable:**  the process of giving permission can be negotiated. **Valuable:**  it provides value by maintaining the accuracy of the website, ensuring the information is up-to-date. **Estimable:**  its a small task its time to be completed can be determined/estimated. **Small:** its a concise user storie that focus on a single action. **testable** it can be tested, just needs one person to delete a post.
+User Story | "As the school’s Marketing Manager, I need to be able to delete or edit a event from the website, so I can remove any outdated or incorrect information."
+Acceptance Criteria 1 | **Scenario:** The marketing manager is logged into the admin panel. **Acceptance Test:** When clicking the "Delete" button on an event, it should be permanently removed from the website and no longer appear in the list of publications.
+Acceptance Criteria 2 | **Scenario:** The manager tries to delete an event that doesn’t exist or has already been deleted. **Acceptance Test:** The system should display an error message indicating that the publication was not found.
+Critérios INVEST | **Independent::**  delete an event doesn’t rely on other features. **Negotiable:**  the process of giving permission can be negotiated. **Valuable:**  it provides value by maintaining the accuracy of the website, ensuring the information is up-to-date. **Estimable:**  its a small task its time to be completed can be determined/estimated. **Small:** its a concise user storie that focus on a single action. **testable** it can be tested, just needs one person to delete a post.
 
 Identification | US08
 --- | ---
@@ -461,16 +463,16 @@ Identification | US10
 --- | ---
 Persona | Júlio Oliveira
 User Story | "As an IT Analyst, I want to be able to manage the parent platform in such a way as to be able to combat any technological failures and promote quality support for the members of the school community who use the platform."
-Acceptance Criteria 1 | **Scenario:** A technical failure occurs on the parent platform. **Acceptance Test:** The platform logs the incident automatically and notifies the IT Analyst.
-Acceptance Criteria 2 | **Scenario:** A parent reports an issue through the support channel. **Acceptance Test:** The IT Analyst receives the ticket, can view issue details, assign priority, and update the status, ensuring that resolution steps are documented and communicated.
+Acceptance Criteria 1 | **Scenario:** A technical failure occurs on the parent platform. **Acceptance Test:** The parent notices it and accesses the support contact through the communication page.
+Acceptance Criteria 2 | **Scenario:** A parent reports an issue through the support contact. **Acceptance Test:** The IT Analyst receives the message and can view issue details.
 Critérios INVEST | **Independent:** describes a distinct requirement for managing the platform, with no dependency on other user stories. **Negotiable:** methods or tools used for managing failures and providing support can be adjusted, allowing for flexibility in implementation. **Valuable:** ensures that the platform remains functional and efficient, benefiting the entire school community. **Estimable:** can be estimated with clarity. **Small:** it can be broken down into smaller tasks. **Testable:** It can be tested by measuring the IT system’s reliability and responsiveness to issues.
 
 Identification | US11
 --- | ---
 Persona | Júlio Oliveira
 User Story | "As a moderator, I need to be able to manage user’s roles and permissions, so each member can only access what they need."
-Acceptance Criteria 1 | **Scenario:** The moderator accesses the user management panel. **Acceptance Test:** The system allows changing a user's role with just a few clicks.
-Acceptance Criteria 2 | **Scenario:** The moderator tries to assign an invalid role. **Acceptance Test:** The system prevents the action and displays a clear message about the invalid permission.
+Acceptance Criteria 1 | **Scenario:** The moderator accesses the user management panel. **Acceptance Test:** The system displays user's roles with just a few clicks.
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;This section presented 11 user stories aligned with the previously defined personas, ensuring the system addresses real user needs while maintaining security through role-based access control. Each story follows the INVEST criteria, making them actionable for development in Sprints 1 to 5.
 
@@ -542,7 +544,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
   <sub>Figure 10 - Profile </sub>
   <br>
   <br>
- ![home](../assets/wad/Profile%20-%20Homepage_reviewed.png)
+ <img src="../assets/wad\Profile - Homepage (2).png">
   <br>
   <br>
 
@@ -557,7 +559,6 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 &nbsp;&nbsp;&nbsp;Task tracking page with filtering and completion tools.  
 - **[Filter by subject]** displays tasks by selected subject.  
   — **US04 & US05**: Helps parents follow academic progress.  
-- **[Mark as completed]** (check icon) marks a task as finished.  
   — **US05**: Allows parents to verify student task completion.
 
 ---
@@ -568,7 +569,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
   <sub>Figure 11 - Assignments </sub>
   <br>
   <br>
-![Assignments](../assets/wad/Assignments_reviewed.png)
+<img src="../assets/wad/Assignments_reviewed (1).png">
   <br>
   <br>
 
@@ -595,7 +596,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
   <sub>Figure 12 - Reports </sub>
   <br>
   <br>
-![reports](../assets/wad/Reports%20page_reviewed.png)
+<img src="../assets/wad/Reports page_reviewed (1).png">
   <br>
   <br>
 
@@ -619,7 +620,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
   <sub>Figure 13 - Timetable </sub>
   <br>
   <br>
-![timetable](../assets/wad/Timetable%20(class%20schedule)_reviewed.png)
+<img src="../assets/wad/Timetable (class schedule)_reviewed (1).png">
   <br>
   <br>
 
@@ -644,7 +645,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
   <sub>Figure 14 - Events </sub>
   <br>
   <br>
-![events](../assets/wad/School%20events%20for%20parents_reviewed.png)
+<img src="../assets/wad/School events for parents_reviewed (1).png">
   <br>
   <br>
 
@@ -659,9 +660,8 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 **7. Customer Service Channels**
 **Description:**  
 &nbsp;&nbsp;&nbsp;Support area with contact options for technical or administrative help.  
-- **[New Support Request]** opens a live chat with the school office.  
+- **[New Support Request]** opens a chat with the school office (school contact - social media).
   — **US06**: Provides direct and efficient technical support.  
-- **[Check Ticket Status]** shows the progress of submitted requests.  
   — **US06 & US08**: Ensures transparency and follow-up ease.  
 - **[Contact via Email/Phone]** launches email or phone apps with teacher contact details.  
   — **US10**: Allows direct communication between parents and the school.
@@ -674,7 +674,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
   <sub>Figure 15 - Customer Service Channels </sub>
   <br>
   <br>
-![csc](../assets/wad/Customer%20service%20channels_reviewed.png)
+<img src="../assets/wad/Customer service channels_reviewed (1).png">
   <br>
   <br>
 
@@ -698,7 +698,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
   <sub>Figure 16 - Benes and sanctions </sub>
   <br>
   <br>
-![benes](../assets/wad/Benes%20and%20Sanctions_reviewed.png)
+<img src="../assets/wad/Benes and Sanctions_reviewed (1).png">
   <br>
   <br>
 
@@ -808,17 +808,125 @@ The guide uses two main font families: Darker Grotesque for interface texts and 
 
 ## 3.4 High-fidelity prototype (sprint 3)
 
-A high-fidelity prototype is a detailed representation of a product that closely resembles the final design in both appearance and functionality. It includes realistic visuals, accurate layout and typography.
+&nbsp;&nbsp;&nbsp;&nbsp;A high-fidelity prototype is a detailed representation of a product that closely resembles the final design in both appearance and functionality. It includes realistic visuals, accurate layout and typography, serving as a near-final representation of the user interface before development implementation.
 
-**Login and about page**
+&nbsp;&nbsp;&nbsp;&nbsp;High-fidelity prototypes are essential in the design process as they bridge the gap between conceptual wireframes and the final product. Unlike low-fidelity prototypes that focus on structure and basic functionality, high-fidelity prototypes incorporate detailed visual elements including:
+
+- **Visual Design Elements**: Real color schemes, actual typography, authentic imagery, and precise spacing that reflect the final product's aesthetic
+- **Interactive Components**: Functional buttons, form fields, navigation elements, and micro-interactions that simulate the actual user experience
+- **Content Strategy**: Realistic content including actual text, images, and data representations rather than placeholder elements
+- **Responsive Design**: Layouts that demonstrate how the interface adapts across different screen sizes and devices
+
+### 3.4.1 Prototyping Methodology
+
+&nbsp;&nbsp;&nbsp;&nbsp;Our high-fidelity prototype development followed a systematic approach based on design thinking principles and user-centered design methodologies. The process involved:
+
+**1. Design System Integration**: All prototype screens were built using our established style guide (Section 3.3), ensuring consistency in colors (#B82121, #0C354C, #F1F1F1), typography (Darker Grotesque and Archer font families), and iconography throughout the interface.
+
+**2. User Journey Mapping**: Each prototype screen was designed to support specific user stories and acceptance criteria defined in Section 2.3, creating a seamless flow that addresses real user needs and business objectives.
+
+**3. Visual Validation**: The prototype underwent multiple iterations with stakeholders to validate visual hierarchy, information architecture, and overall user experience before finalizing the designs (sprint reviews).
+
+**4. Accessibility Considerations**: Color contrast ratios, font sizes, and interactive element spacing were designed to meet standards, ensuring the platform is accessible to users with diverse abilities.
+
+### 3.4.2 Key Interface Screens
+
+&nbsp;&nbsp;&nbsp;&nbsp;The following screens represent the core functionality of the Diana parent portal system, each designed to address specific user needs identified during the research phase:
+
+
+<br>
+
+<div align="center">
+  
+  <sub>Figure - Login and About Page </sub>
+  <br>
+  <br>
 <img src="../assets/wad/Login and About (1).png">
+  <br>
+  <br>
 
-**Homepage/profile**
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+<br>
+
+<div align="center">
+  
+  <sub>Figure - Student Selection </sub>
+  <br>
+  <br>
+<img src="../assets/wad/Student Selection.png">
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;The login interface serves as the primary entry point to the system, featuring a clean, professional design that reflects St. Paul's School's brand identity. The layout prioritizes security and ease of access, with clear call-to-action buttons for authentication, password recovery, and institutional information access. The design incorporates the school's color palette and maintains visual consistency with the overall platform aesthetic.
+
+<br>
+
+<div align="center">
+  
+  <sub>Figure - Homepage/Profile Management </sub>
+  <br>
+  <br>
 <img src="../assets/wad/Group 14.png">
+  <br>
+  <br>
 
-**Benes and sanctions**
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;The homepage serves as the central dashboard where parents can access all platform features and manage their profile information. The interface features a card-based layout that provides quick access to key functionalities including academic reports, upcoming events, and contact management. The design emphasizes information hierarchy through strategic use of whitespace, typography scaling, and color-coded sections.
+
+<br>
+
+<div align="center">
+  
+  <sub>Figure - Reports </sub>
+  <br>
+  <br>
+<img src="../assets/wad/Reports-prototype.png">
+  <br>
+  <br>
+
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+<br>
+
+<div align="center">
+  
+  <sub>Figure - Behavioral Tracking - Benes and Sanctions </sub>
+  <br>
+  <br>
 <img src="../assets/wad/Benes & Sanctions.png">
+  <br>
+  <br>
 
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;This specialized interface allows parents to monitor their child's behavioral progress through St. Paul's unique merit and sanction system. The design incorporates data visualization elements including charts and progress indicators that make behavioral trends easily interpretable. The interface balances the need for detailed information with emotional sensitivity, using neutral colors and supportive messaging.
+
+<a href="https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diana-Wireframes-and-Prototypes?node-id=0-1&t=3Uex8mdeUkJstifO-1">Click here </a> to access the complete Figma file (with all the platform's pages) and <a href="https://www.figma.com/proto/Qrb4vjSeXfNiWN9iirHvdN/Diana-Wireframes-and-Prototypes?node-id=350-3&t=3Uex8mdeUkJstifO-0&scaling=contain&content-scaling=fixed&page-id=0%3A1">here</a> to check the clickable prototype.
 
 
 ## 3.5. Database modelling (sprints 2 e 4)
@@ -834,7 +942,7 @@ A high-fidelity prototype is a detailed representation of a product that closely
   <sub>Figure 17 - Database Modelling </sub>
   <br>
   <br>
-![supabase-schema-yexhdilbyibjfvrflcsm (6)](https://github.com/user-attachments/assets/ecf6aaa8-61c6-4077-ace9-0d6df521268d)
+![Screenshot 2025-06-10 14 53 34](https://github.com/user-attachments/assets/51102844-d4e5-4ec5-89c6-4d6c02b0a85a)
 
   <br>
   <br>
@@ -873,7 +981,10 @@ A high-fidelity prototype is a detailed representation of a product that closely
 
 - id: Unique ID for the tutor;
 - name_tutor: Full name;
-- email: Contact email.
+- email: Contact email;
+- given_assignment: Written details of the assignment (description and deadlines); 
+- profileimage_url: Tutor image; 
+- speciality: specific role as a teacher 
 
 **Related to:** students and subjects. 
 
@@ -1285,7 +1396,114 @@ RESTful API for academic management with endpoints for:
     -------
 ## 4.2. Second version of the web application (sprint 4)
 
-*Descreva e ilustre aqui o desenvolvimento da sua segunda versão do sistema web, explicando brevemente o que foi entregue em termos de código e sistema. Utilize prints de tela para ilustrar. Indique as eventuais dificuldades e próximos passos.*
+## Implemented Structure:
+
+
+1.  **Database Integration**:
+
+    -   all three pages are connected to a PostgreSQL database and display real data through Node.js controllers.
+
+2. **Routing Structure**:
+      - Routing Structure: each feature has a defined route that maps to the appropriate controller and renders the correct view.
+
+3. **Consistent and user-friendly UI**:
+     - all pages follow the same visual style, ensuring a smooth and coherent user experience.
+ 
+**Main Pages Delivered**:
+
+    - Benes and sanctions
+    - Reports
+    - Events
+    - Profile
+
+**Code Structure:**
+
+- The code is fully organized according to the MVC pattern, with clear separation of controllers, routes, views, and models.
+
+- All routes are properly documented and functional.
+
+- The back-end functionality is fully integrated with the front-end, fulfilling the defined User Stories.
+
+## Screenshots:
+
+
+**Benes and sanctions**:
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/PNG_images/benes_gif.gif" alt="Reports Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Reports**:
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/Reportss.png" alt="Reports Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Events**
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/Eventss.png" alt="Reports Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+**Profile**
+<div align="center">
+
+![Screenshot 2025-06-13 14 09 26](https://github.com/user-attachments/assets/4dc438c3-f75c-4a2f-85bc-4bba43936c20)
+ 
+
+</div>
+
+## Challenges Encountered:
+
+**Database Integration**:
+
+
+- Ensuring stable connection between PostgreSQL and the three main pages.
+- Adjusting queries to efficiently display real and relevant data.
+
+**Routing Structure**:
+
+- Defining clear and functional routes for each feature, ensuring the correct views are rendered.
+- Resolving conflicts and maintaining consistent navigation throughout the system.
+
+**Consistent and User-friendly UI:**
+
+- Maintaining visual coherence across all pages for a unified user experience.
+- Adjusting styles for compatibility across various devices and browsers.
+
+## Next Steps:
+
+**Technical Improvements:**
+
+- Complete usability testing with real users.
+- Review and enhance the overall design and responsiveness of the system.
+- Finalize and refine the WebAPI documentation, ensuring all endpoints include method, headers, body, and response formats.
+- Update the system architecture and database modeling as needed to reflect current features and structure.
+
+**Features**
+
+- Expand the event system with additional functionalities.
+- Develop more detailed and customizable reporting features.
+
+**UX/UI**:
+
+- Improve visual feedback for user actions
+- Implement smooth animations and transitions to enhance the navigation experience.
+- Ensure full mobile responsiveness across all interfaces.
+
+**Security**:
+
+-  Implement a robust authentication system with role-based access control.
+- Add thorough data validation to ensure system reliability and user safety.
 
 ## 4.3. Final version of the web application (sprint 5)
 
@@ -1295,7 +1513,142 @@ RESTful API for academic management with endpoints for:
 
 ## 5.1. Automated endpoint integration test report (sprint 4)
 
-*Liste e descreva os testes unitários dos endpoints criados, automatizados e planejados para sua solução. Posicione aqui também o relatório de cobertura de testes Jest se houver (através de link ou transcrito para estrutura markdown)*
+
+### example test:
+<img src="../assets/PNG_images/test-example.png">
+
+### All our posman tests
+<img src="../assets/PNG_images/test1.png">
+<img src="../assets/PNG_images/test2.png">
+<img src="../assets/PNG_images/test3.png">
+
+<p>These tests are meant to verify if our routes are working properly. Each route has its own requests, but generally they include requests for creating, reading, updating, and deleting.</p>
+
+###  academic_house
+
+- **GET getAll**  
+  Tests whether the API returns all registered academic houses or school units.
+
+
+###  events
+
+- **GET getAll**  
+  Checks if all events are being listed correctly.
+
+- **POST newEvent**  
+  Tests if a new event is being successfully created.
+
+- **DEL deleteEvent**  
+  Verifies whether a specific event is being properly deleted.
+
+
+###  reports
+
+- **GET getAll**  
+  Checks if all reports are being retrieved.
+
+- **POST createReport**  
+  Tests the successful creation of a new report.
+
+- **PUT updateReport**  
+  Checks if a report is being updated correctly.
+
+- **DEL deleteReport**  
+  Verifies the deletion of a report.
+
+
+###  student_subject
+
+- **GET getAll**  
+  Tests whether all student–subject associations are being returned.
+
+- **POST createSt-Sb**  
+  Tests the creation of a new student–subject association.
+
+- **PUT UpdateSt-Sb**  
+  Checks whether the association is being updated correctly.
+
+- **DEL deleteSt-Sb**  
+  Verifies whether the association is being deleted.
+
+
+### students
+
+- **GET getAll**  
+  Verifies whether the list of students is being retrieved.
+
+- **POST createStudent**  
+  Tests the creation of a new student.
+
+- **PUT UpdateStudents**  
+  Checks whether a student's data is being updated.
+
+
+### subjects
+
+- **GET getAll**  
+  Lists all registered subjects.
+
+- **POST createSubject**  
+  Tests the creation of a new subject.
+
+- **DEL deleteSubject**  
+  Verifies whether a subject is being deleted.
+
+- **PUT updateSubject** 
+  Tests the updating of subject data.
+
+###  teachers
+
+- **GET getAll**  
+  Tests the listing of all teachers.
+
+- **POST createTeachers**  
+  Tests the creation of a new teacher.
+
+- **DEL deleteTeacher**  
+  Verifies whether a teacher is being properly removed.
+
+- **PUT updateTeacher**  
+  Tests the updating of teacher data.
+
+
+### tutors
+
+- **GET getAll**  
+  Tests the listing of all tutors.
+
+- **POST createTutor**  
+  Tests the creation of a new tutor.
+
+- **DEL deleteTutor**  
+  Verifies whether the tutor was deleted.
+
+- **PUT updateTutor**  
+  Tests the updating of tutor data.
+
+### users
+
+- **GET getAll**  
+  Verifies whether all system users are being listed.
+
+- **POST createUser**  
+  Tests the creation of a new user.
+
+- **DEL deleteUser**  
+  Verifies whether the user was deleted.
+
+- **PUT updateUser**  
+  Tests the updating of user data.
+
+### year code
+
+- **GET getAll**  
+  Tests whether all academic years are being listed.
+
+- **POST createYear**  
+  Tests the creation of a new academic year.
+
 
 ## 5.2. Usability tests (sprint 5)
 
@@ -1305,58 +1658,202 @@ RESTful API for academic management with endpoints for:
 
 ## 6.1 Executive Summary
 
-*Preencher com até 300 palavras, sem necessidade de fonte*
+Diana is an innovative web portal developed for St. Paul’s School, one of the centenary British educational institutions leading development within Brazil. The platform aims to transform communication between the school and families by providing a centralized, intuitive, and efficient digital environment for monitoring students’ academic life, in contrast with their mobile solution, which left the school's communication sector stagnant with it's limited tools, and several identified pain points by consequence (regarding accessibility and information), which negatively impact families during their schedule organization.
 
-*Apresente de forma clara e objetiva os principais destaques do projeto: oportunidades de mercado, diferenciais competitivos da aplicação web e os objetivos estratégicos pretendidos.*
+The high-end private education market in Brazil, on the other hand, presents opportunities for digital innovations that incentive closer relationships between parents and schools. With the growing demand for international institutions, there is also an increasing need for features that make the educational experience more transparent, guiding families towards the process of adaptation during the change of routines between countries.
+
+St. Paul’s School has clearly defined academic and administrative departments. There is a significant support to the integration of  technologies by enabling collaboration. The involvement of the IT department and the support from school leadership were essential to ensure strategic alignment of Diana with the institution’s goals.
+
+Diana’s key differentiators include its user-friendly interface, simplified navigation, and a comprehensive set of features: grade viewing, attendance tracking, academic calendar, and a communication channel. The goal is to deliver a personalized and practical experience, surpassing the limitations of currently available solutions.
+
+The project’s strategic objectives and values include preservation of tradition (present directly in it's design), resilience, aspiration, increasing family engagement, reducing time spent on tasks, and strengthening the bond between the school and the community. Additionally, Diana was developed to be scalable and flexible, allowing for future integrations according to the institution’s specific needs.
 
 ## 6.2 Market Analysis
 
-*a) Visão Geral do Setor (até 250 palavras)*
-*Contextualize o setor no qual a aplicação está inserida, considerando aspectos econômicos, tecnológicos e regulatórios. Utilize fontes confiáveis.*
+### a) Industry Overview
 
-*b) Tamanho e Crescimento do Mercado (até 250 palavras)*
-*Apresente dados quantitativos sobre o tamanho atual e projeções de crescimento do mercado. Utilize fontes confiáveis.*
+The Brazilian private education sector, especially the segment of international and bilingual schools, has stood out as one of the most dynamic and promising in the country. In 2023, the private education market generated approximately R$ 60 billion, with an annual growth of 8% (ABEPAR, 2024). The international school segment, in particular, has benefited from the increasing demand for high-quality education and global competencies.
 
-*c) Tendências de Mercado (até 300 palavras)*
-*Identifique e analise tendências relevantes (tecnológicas, comportamentais e mercadológicas) que influenciam o setor. Utilize fontes confiáveis.*
+Regulatory aspects are fundamental in this sector, with the need for compliance with the National Common Curricular Base (BNCC) and international guidelines, such as the International Baccalaureate (IB) and the British Curriculum. From a technological perspective, the sector has undergone rapid digital transformation with, significant investments in technological infrastructure and educational platforms.
+
+### b) Market Size and Growth
+
+The international school market in Brazil has shown significant growth in recent years. In 2023, there were around 1,200 international schools in the country, representing a 15% increase compared to 2020 (International Schools Database, 2024). The Southeast region concentrates 45% of these institutions, with São Paulo leading the ranking.
+
+The sector’s revenue grew 12% in 2023, reaching R$ 8.5 billion, with a projected annual growth of 10% until 2026 (ABEPAR, 2024). The average tuition in international schools ranges from R$ 4,000 to R$ 12,000, reflecting the high purchasing power of the target audience.
+
+### c) Market Trends
+
+The education sector is undergoing significant transformations driven by three main trends:
+
+1. **Technological**: The integration of Artificial Intelligence and Machine Learning into educational platforms is revolutionizing personalized learning. The adoption of cloud-based school management systems grew 35% in 2023 (EdTech Report, 2024).
+
+2. **Behavioral**: There is a growing demand for transparency and active parental involvement in the educational process. A recent ABEPAR survey (2024) indicates that 78% of parents consider real-time access to academic information a decisive factor when choosing a school.
+
+3. **Market-driven**: The market is moving towards more integrated and personalized solutions. Schools are investing in platforms that deliver a comprehensive experience, from academic management to effective parent communication. The educational software market is expected to grow 20% annually until 2026 (EdTech Report, 2024).
+
+### d) Business Model Canvas 
+
+![Business Model Canvas  (1)](https://github.com/user-attachments/assets/d8261f85-ce61-4c31-9637-01efe40a92ea)
+
 
 ## 6.3 Competitor Analysis
 
-*a) Principais Concorrentes (até 250 palavras)*
-*Liste os concorrentes diretos e indiretos, destacando suas principais características e posicionamento no mercado.*
+### Main Competitors
 
-*b) Vantagens Competitivas da Aplicação Web (até 250 palavras)*
-*Descreva os diferenciais da sua aplicação em relação aos concorrentes, sem necessidade de citação de fontes.*
+There are numerous tools used by schools to support communication and learning. Some of the most known ones would be Google Classroom, Moodle, and Microsoft Teams for Education. These platforms are mainly used for schoolwork and class activities. Google Classroom is easy to use and integrates well with other Google apps, but it does not prioritize keeping parents informed. Moodle is a strong platform that many schools use, but it can be hard to manage and is not very user friendly. considering it's non practical design, and Microsoft Teams helps with online classes and communication between teachers and students, but it doesn’t offer many features specialized for families.
+ Other tools that schools often use to talk to parents are messaging apps like WhatsApp or email. These are easy and familiar to use, but they are not made for school environments and do not offer features such as calendars or constant updates about student progress.
+ Some schools have their own portals, but these systems are often not updated,  hard to use on phones, and do not support multiple languages well.
+ In general, current tools are useful for teachers and students, but they are not made with the intention of approaching international parents directly. They do not always support different languages, and they can be confusing or hard to use for families who are new to the school or country.
+
+### Competitive Advantages
+
+ Our web application is specially designed to help international schools communicate better with parents from different countries. Unlike most school platforms, our tool is made especially for families, not just for teachers and students.
+ One of the most important features is the language support. Parents can read messages, updates, and school events in english or portuguese. This helps avoid confusion and makes everyone feel welcomed and informed, no matter where they are from.
+Our platform is not focused on managing classroom tasks like Google Classroom or Moodle. Instead, it gives parents an intuitive way to see their child’s progress in real time by checking school events, receiving important updates, and talking directly with the school office by our communications tab, all in a centralized manner.
+ The design is conceptualized to be simple and easy to use. Parents won't need any previous orientation to comprehend it's functionalities. They can access it from a phone or computer and get alerts when needed.
+ The app also helps families to establish a direct dialogue with the school. For parents who are new to the country or culture, this tool encourages active involvement and helps build trust and engagement with the school community, this tool helps them stay involved and build trust with the school and it's culture, or in other words, to build a strong bridge between the school and its international community.
+ In short, our platform helps schools, specially St Paul's share clear and inclusive communication with all families, in a modern and practical way.
 
 ## 6.4 Target audience
 
-*a) Segmentação de Mercado (até 250 palavras)*
-Descreva os principais segmentos de mercado a serem atendidos pela aplicação. Utilize bases de dados e fontes confiáveis.*
+### Market Segment
 
-*b) Perfil do Público-Alvo (até 250 palavras)*
-*Caracterize o público-alvo com dados demográficos, psicográficos e comportamentais, incluindo necessidades específicas. Utilize fontes obrigatórias.*
+We will target the educational and international communication sectors with our website.. St. Paul’s School in São Paulo would be our main customer. which illustrates the necessity our website solves in this context.
+ St. Paul’s School centers its brand around offering international students, mainly from the United Kingdom, the opportunity to continue their British curriculum while residing in Brazil. The school features a diverse curriculum that brings Brazilian and British education systems together, together with several extracurricular activities such as theater and language learning. This  educational approach requires a digital platform that is not only multilingual and accessible but also adaptable to different academic models.
+ In addition, the school has a significant focus on internationalism. According to their own website, the school community is composed of students from over 28 different nationalities, including the UK, USA, Japan, and various Latin American countries. This highlights the demand for communication tools that reach across borders and facilitate global interaction.
+
+ In this sense, our production would be directed to a culturally adaptable, interactive and informative platform for parents, which has it's impact justified by the ISC Research (2023), that shows there are over 13,000 international schools worldwide, serving more than 6 million students, illustrating a high-potential and growing market for our application, considering its personalized approach to families and how the schools could exercise clear and direct communication with them.
+
+### Profile Segment
+
+ The target audience for our project would consist in parents and responsibles of students in international schools, specifically those in St. Paul’s School in São Paulo. Demographically, this group includes adults aged 30 to 50, bilingual or multilingual, with high levels of education and economic status. Many are diplomats, or professionals working for multinational corporations, with families often living far apart or in different countries.
+ Psychographically, these individuals highly value academic performance, cultural diversity, and global citizenship. They are proactive in their children’s education and prioritize communication, transparency, and accessibility when engaging with schools. Behaviorally, they are close with digital devices, familiar to using mobile apps and digital platforms for managing school information, and wish for real-time updates and user-friendly interfaces.
+ A relevant need for this audience is a digital solution that brings culture and languages together, offering intuitive access to school activities, academic updates, and secretary communication. This demand is growing rapidly with the international education sector.
+ According to The PIE News (2023), the number of students enrolled in international schools worldwide has surpassed 6.5 million, and is expected to continue rising, as families will be consistently seeking high-quality education. This research highlights the urgency for schools to adopt platforms that take these constant changes into account, enhancing the parents engagement and experience in a global perspective.
 
 ## 6.5 Positioning
 
-*a) Proposta de Valor Única (até 250 palavras)*
-*Defina de maneira clara o que torna a sua aplicação única e valiosa para o mercado.*
+### a) Unique Value Proposition
 
-*b) Estratégia de Diferenciação (até 250 palavras)*
-*Explique como sua aplicação se destacará da concorrência, evidenciando a lógica por trás do posicionamento.*
+Diana stands out in the market by offering a complete and integrated solution for managing communication between school and family, with a special focus on user experience. Our unique value proposition lies in the combination of three fundamental elements:
+
+- **Centralization of Information:** By bringing together all academic information, events, and communications on a single platform, we eliminate the fragmentation that characterizes current solutions.  
+- **Intuitive Interface:** We developed an interface that prioritizes usability, allowing parents with different levels of technological familiarity to easily navigate the platform.  
+- **Personalization:** The platform adapts to the specific needs of each family, offering a unique experience based on the student’s profile and the parents’ preferences.
+
+This combination makes Diana a valuable tool for institutions seeking to modernize their communication and strengthen their connection with families.
+
+### b) Differentiation Strategy
+
+Our differentiation strategy is built on three main pillars:
+
+- **Focus on the End User:** Unlike other solutions that prioritize administrative management, Diana was developed with the parent experience in mind first, ensuring that all features are accessible within a few clicks.
+
+- **Responsive and Multiplatform Design:** The platform was designed to offer a smooth experience across different devices: computers, tablets, and smartphones, ensuring fast and functional access anywhere, anytime.
+
+- **Foundation Ready for Evolution:** Although the project is not scheduled for ongoing development after this delivery, the platform was architected with a scalable and modular structure, allowing for future enhancements and customizations by the school or developers who may adopt it.
+
+This approach positions us uniquely in the market, especially among high-end international schools like St. Paul’s, which value innovation without compromising excellence in service.
 
 ## 6.6 Marketing Strategy 
 
-*a) Produto/Serviço (até 200 palavras)*
-*Descreva as funcionalidades, benefícios e diferenciais da aplicação*
 
-*6.2 Preço (até 200 palavras)*
-*Explique o modelo de precificação adotado e justifique com base nas análises anteriores.*
+## What are the 4 Ps of Marketing?
+<br>
 
-*6.3 Praça (Distribuição) (até 200 palavras)*
-*Apresente os canais digitais utilizados para distribuir e entregar a aplicação ao público.*
+<div align="center">
+  
+  <sub>Figure 18 - The 4 Ps of Marketing </sub>
+  <br>
+  <br>
+![benes](../assets/wad/4ps.png)
+  <br>
+  <br>
 
-*6.4 Promoção (até 200 palavras)*
-*Descreva as estratégias digitais planejadas, como SEO, redes sociais, marketing de conteúdo e campanhas pagas.*
+  <sup>Source: authors (2025)</sup>
+  
+</div>
+
+<br>
+
+---
+
+## Context of St. Paul’s School and the project
+
+St. Paul’s School, an elite British school in São Paulo, identified communication challenges with parents due to a confusing and inefficient app. To address this, a dedicated web portal was proposed for parents, offering quick and centralized access to school information such as homework, absences, and announcements — improving the overall experience and strengthening the school-family relationship.
+
+The project, in this context, consists of a dedicated web portal for parents, developed to simplify the monitoring of students’ school routines at St. Paul’s School. The platform provides direct access to essential information such as school events, attendance tracking, class schedules, important announcements, and academic performance. All of this is available through a single interface, accessible via any web browser — with no downloads required.
+
+---
+
+## 1. Product / Service
+
+The project developed is a dedicated web portal for the parents of St. Paul’s School students, designed to simplify the monitoring of their children’s school routines. It centralizes all school-related information in a clear and intuitive interface. Key features include:
+
+- School events  
+- Attendance tracking  
+- Class schedules  
+- Important announcements  
+- Academic performance
+- Communication  
+
+Access is available via any web browser, with no need to install additional applications.
+
+**Main benefits:**
+
+- Saves time and improves clarity in the dialogue between school and parents  
+- Concentrates relevant information in one place, reducing confusion and encouraging active involvement  
+- Provides real-time updates to ensure parents always have the latest information  
+
+By offering this experience, the solution reinforces St. Paul’s image as an institution attuned to the needs of its community and committed to educational innovation.
+
+---
+
+## 2. Price
+
+The proposed pricing model is institutional licensing with customized annual plans, adjusted according to the number of active students or guardians. This **B2B (business-to-business)** approach is ideal for institutions like St. Paul’s, which operate in a premium segment and prioritize quality and exclusivity.
+
+**Pricing rationale:**
+
+- Based on the perceived value of the solution  
+- Benefits include simplified communication, greater transparency, and reduced administrative burden  
+- Adds real value to families and the school, justifying the investment  
+
+An analysis of the competitive environment shows St. Paul’s has a high level of exclusivity and significant barriers to new entrants. Pricing reflects this differentiated positioning, aligning with the school’s strategy to maintain its elite British education status in Brazil.
+
+Thus, the pricing model reinforces St. Paul’s brand proposition: delivering excellence, innovation, and closeness without directly burdening end users.
+
+---
+
+## 3. Distribution
+
+The application distribution will be entirely digital, ensuring convenience and easy access for the target audience. The portal will be accessible directly through web browsers with **no need to install additional apps or software**. This enables parents to access the system anytime, on any device (computer, tablet, or smartphone), optimizing the user experience.
+
+**Delivery channels include:**
+
+- Official school website  
+- Emails to guardians  
+- Social media  
+
+This approach ensures broad reach, effectively reaching all parents at a low operational cost, promoting fast and intuitive access.
+
+---
+
+## 4. Promotion
+
+The digital promotion strategy includes a combination of **SEO (Search Engine Optimization)**, social media, and content marketing, aimed at expanding reach and engagement among parents.
+
+- **SEO:** Optimizes the school’s official website and portal to appear easily in searches related to bilingual education, school communication, and student monitoring, facilitating spontaneous access.  
+- **Social media:** Creates relevant, dynamic content such as tutorial videos, testimonials from parents and teachers, and explanatory posts highlighting platform benefits. Active engagement strengthens trust and interest. Key examples would be the use of instagram or linkedin, both accessible from the site itself. 
+- **Content marketing:** Conducted via email and social media, sharing tips for parents to monitor their children’s school routines using the portal as the main tool.
+
+---
+
+Conclusion
+The platform strengthens communication between St. Paul’s School and families by offering an intuitive, efficient solution aligned with the school’s values. By combining a functional product, value-based pricing, digital distribution, and promotional strategies focused on engagement, we deliver a solution that modernizes the parent experience and reinforces the school’s position as a leader in innovation and educational excellence.
+
+---
 
 # <a name="c7"></a>7. Conclusions and future work (sprint 5)
 

@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const AcademicHouseController = require('../controllers/academic_houseController');
 
+
 // Rota para listar todas as casas acadêmicas
 router.get('/academic-house', AcademicHouseController.getAllAcademicHouses);
 
@@ -12,9 +13,9 @@ router.get('/academic-house/:id', AcademicHouseController.getAcademicHouseById);
 router.post('/academic-house', AcademicHouseController.createAcademicHouse);
 
 // Rota para atualizar uma casa acadêmica por ID
-router.put('/academic-house/:id', AcademicHouseController.updateAcademicHouse);
+router.put('/academic-house/:id', AcademicHouseController.updateAcademicHouseById);
 
 // Rota para deletar uma casa acadêmica por ID
-router.delete('/academic-house/:id', AcademicHouseController.deleteAcademicHouse);
+router.delete('/academic-house/:id', AcademicHouseController.deleteAcademicHouseById);
 
 module.exports = router;

@@ -1,0 +1,62 @@
+/* Importa a fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;600&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.container {
+    margin-top: 20%;
+    margin-left: 23%;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: -25%;
+    margin-left: -50%;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 900px;
+}
+
+.main h1 {
+    color: #0B364C;
+    margin-left: 7%;
+}
+
+/* Estilo específico para assignments */
+.assignments-content {
+    margin-left: 7%;
+    width: 90%;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 900px) {
+    .container {
+        margin-left: 0;
+        margin-top: 10%;
+        padding: 0 2vw;
+    }
+    .main {
+        margin-left: 0;
+        margin-top: 0;
+        max-width: 100vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .main h1 {
+        font-size: 1.5rem;
+        margin-left: 0;
+        text-align: center;
+    }
+}

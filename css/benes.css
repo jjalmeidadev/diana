@@ -1,0 +1,147 @@
+/* Importa a fonte no início do arquivo CSS */
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;600&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.container {
+    margin-top: 20%;
+    margin-left: 23%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: -25%;
+    margin-left: -50%;
+    justify-content: flex-start;
+}
+
+.main h1 {
+    color: #0B364C;
+    margin-left: 7%;
+}
+
+.part1 {
+    margin-left: 7%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 7%;
+}
+
+.card-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 213px;
+    background-color: #B82121;
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    padding-top: 20px;
+    position: relative;
+    height: 200px;
+}
+
+.card-1 .card-title {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+    align-items: flex-start;
+    margin: 0;
+}
+
+.card-1 .card-data {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+
+.card-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 213px;
+    background-color: #0B364C;
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    padding-top: 20px;
+    position: relative;
+    height: 200px;
+}
+
+.card-2 .card-title {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+    align-items: flex-start;
+    margin: 0;
+}
+
+.card-2 .card-data {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+
+.part2 {
+    margin-top: 14%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12%;
+}
+
+.table {
+    width: 468px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0B364C;
+    border-radius: 10px;
+    justify-content: flex-start;
+    text-align: left;           /* Justifica o texto à esquerda */
+    padding: 24px;              /* Padding agradável */
+    font-size: 1.25rem;         /* Fonte maior */
+}
+
+.table th,
+.table td {
+    text-align: left;           /* Garante alinhamento à esquerda nas células */
+    padding: 12px 18px;         /* Padding interno nas células */
+    font-size: 1.15rem;         /* Fonte maior nas células */
+}
+

@@ -5,6 +5,7 @@ async function getAllEvents(req, res) {
     const events = await EventsModel.getAllEvents();
     res.json(events);
   } catch (error) {
+    console.error(error)
     res.status(500).json({ error: 'Erro ao buscar eventos' });
   }
 }
@@ -15,6 +16,7 @@ async function getEventById(req, res) {
     if (!event) return res.status(404).json({ error: 'Evento não encontrado' });
     res.json(event);
   } catch (error) {
+    console.error(error)
     res.status(500).json({ error: 'Erro ao buscar evento' });
   }
 }
@@ -24,6 +26,7 @@ async function createEvent(req, res) {
     const newEvent = await EventsModel.createEvent(req.body);
     res.status(201).json(newEvent);
   } catch (error) {
+    console.error(error)
     res.status(500).json({ error: 'Erro ao criar evento' });
   }
 }
@@ -34,6 +37,7 @@ async function updateEventById(req, res) {
     if (!updatedEvent) return res.status(404).json({ error: 'Evento não encontrado' });
     res.json(updatedEvent);
   } catch (error) {
+    console.error(error)
     res.status(500).json({ error: 'Erro ao atualizar evento' });
   }
 }
@@ -44,6 +48,7 @@ async function deleteEventById(req, res) {
     if (!deletedEvent) return res.status(404).json({ error: 'Evento não encontrado' });
     res.json({ message: 'Evento deletado com sucesso' });
   } catch (error) {
+    console.error(error)
     res.status(500).json({ error: 'Erro ao deletar evento' });
   }
 }

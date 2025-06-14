@@ -2,10 +2,12 @@
 const express = require('express');
 const router = express.Router();
 const userController = require('../controllers/userController');
+const app = express();
+app.use(express.json());
 
 // Rota raiz
-router.get('/', (req, res) => {
-  res.send('API funcionando!');
+router.get('/login', (req, res) => {
+  res.send('pages/login');
 });
 
 
@@ -33,6 +35,12 @@ router.get('/profile', (req, res) => {
 router.get('/reports', (req, res) => {
   res.render('pages/reports');
 });
+router.get('/communication', (req, res) => {
+  res.render('pages/communication');
+});
+router.get('/choose', (req, res) => {
+  res.render('pages/choose');
+});
 
 router.get('/users', userController.getAllUsers);       
 router.get('/users/:id', userController.getUserById);    
@@ -41,3 +49,4 @@ router.put('/users/:id', userController.updateUserById);
 router.delete('/users/:id', userController.deleteUserById);
 
 module.exports = router;
+
