@@ -1,15 +1,13 @@
 // routes/index.js
 const express = require('express');
-const db = require('../../config/db'); // <-- Add this line
+const db = require('../config/db');
 const router = express.Router();
 const userController = require('../controllers/userController');
-
 
 // Rota raiz
 router.get('/login', (req, res) => {
   res.send('pages/login');
 });
-
 
 router.get('/assignments', (req, res) => {
   res.render('pages/assignments');
@@ -78,6 +76,7 @@ router.get('/profile', async (req, res) => {
         }
 
         const student = result.rows[0];
+        console.log('Student fetched: ', student); // Debug log
 
         res.render('pages/profile', { student });
     } catch (error) {

@@ -22,8 +22,11 @@ app.use('/css', express.static(path.join(__dirname, '../public/css')));
 app.use(express.static(path.join(__dirname, '../public')));
 
 // Rotas
-const routes = require('./routes/index');
-app.use('/', routes);
+const usersRoutes = require('./routes/usersRoutes');
+const indexRoutes = require('./routes/index');
+
+app.use('/', usersRoutes);   // This route defines /profile with student data.
+app.use('/', indexRoutes);   // Remove or disable the /profile route here.
 
 // Inicializa o servidor
 app.listen(PORT, () => {

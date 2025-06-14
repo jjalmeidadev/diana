@@ -35,10 +35,6 @@ router.get('/login', (req, res) => {
   res.render('pages/login');
 });
 
-router.get('/profile', (req, res) => {
-  res.render('pages/profile');
-});
-
 router.get('/reports', (req, res) => {
   res.render('pages/reports');
 });
