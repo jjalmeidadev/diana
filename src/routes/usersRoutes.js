@@ -37,6 +37,7 @@ router.get('/reports', (req, res) => {
 });
 router.get('/communication', (req, res) => {
   res.render('pages/communication');
+});
 router.get('/choose', (req, res) => {
   res.render('pages/choose');
 });
@@ -49,4 +50,3 @@ router.delete('/users/:id', userController.deleteUserById);
 
 module.exports = router;
 
-});
