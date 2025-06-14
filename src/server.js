@@ -15,6 +15,12 @@ app.use('/assets', express.static(path.join(__dirname, '../assets')));
 // Also serve from the src level for relative paths
 app.use(express.static(path.join(__dirname)));
 
+// Serve static files from the public/css directory
+app.use('/css', express.static(path.join(__dirname, '../public/css')));
+
+// Serve toda a pasta public como estática
+app.use(express.static(path.join(__dirname, '../public')));
+
 // Rotas
 const routes = require('./routes/index');
 app.use('/', routes);

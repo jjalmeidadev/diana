@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const StudentsController = require('../controllers/studentsController');
 
+
 // Rota para listar todos os alunos
 router.get('/students', StudentsController.getAllStudents);
 

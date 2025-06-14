@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const StudentSubjectController = require('../controllers/student_subjectController');
 
+
 // Rota para listar todas as relações aluno-disciplina
 router.get('/student_subject', StudentSubjectController.getAllStudentSubjects);
 

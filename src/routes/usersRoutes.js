@@ -1,11 +1,13 @@
 // routes/index.js
 const express = require('express');
+const db = require('../../config/db'); // <-- Add this line
 const router = express.Router();
 const userController = require('../controllers/userController');
-const db = require('../config/db');
 
-router.get('/', (req, res) => {
-  res.send('API funcionando!');
+
+// Rota raiz
+router.get('/login', (req, res) => {
+  res.send('pages/login');
 });
 
 
@@ -87,6 +89,9 @@ router.get('/profile', async (req, res) => {
 router.get('/reports', (req, res) => {
   res.render('pages/reports');
 });
+router.get('/communication', (req, res) => {
+  res.render('pages/communication');
+});
 router.get('/choose', (req, res) => {
   res.render('pages/choose');
 });
@@ -98,3 +103,4 @@ router.put('/users/:id', userController.updateUserById);
 router.delete('/users/:id', userController.deleteUserById);
 
 module.exports = router;
+
