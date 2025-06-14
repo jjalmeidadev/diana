@@ -10,14 +10,4 @@ router.get('/', (req, res) => {
 const usersRoutes = require('./usersRoutes');
 router.use('/', usersRoutes);
 
-// Exemplo correto de definição de rota
-router.get('/rota-exemplo', (req, res) => {
-  res.send('Esta é uma rota de exemplo');
-});
-
-// Outras rotas...
-router.get('/benes', (req, res) => {
-  res.render('pages/benes');
-});
-
 module.exports = router;
