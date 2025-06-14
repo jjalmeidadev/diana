@@ -48,3 +48,5 @@ router.put('/users/:id', userController.updateUserById);
 router.delete('/users/:id', userController.deleteUserById);
 
 module.exports = router;
+
+});
