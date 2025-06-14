@@ -13,63 +13,61 @@
     <!-- Top bar -->
     <%- include('../components/upperBar.ejs') %>
 
-    <div class="container">
-        <!-- Sidebar -->
-        <%- include('../components/sideBar.ejs') %>
+    <!-- Sidebar -->
+    <%- include('../components/sideBar.ejs') %>
 
-        <!-- Main content -->
-        <div class="main">
-            <h1 class="title">
-                Benes & Sanctions
-            </h1>
-            <div class="part1">
-                <div class="card-1">
-                    <div class="card-title">
-                        Benes
-                    </div>
-                    <div class="card-data">8</div>
+    <!-- Main content -->
+    <div class="main">
+        <h1 class="title">
+            Benes & Sanctions
+        </h1>
+        <div class="part1">
+            <div class="card-1">
+                <div class="card-title">
+                    Benes
                 </div>
-                <div class="card-2">
-                    <div class="card-title">
-                        Sanctions
-                    </div>
-                    <div class="card-data">2</div>
-                </div>
+                <div class="card-data">8</div>
             </div>
-            <div class="part2">
-                <div class="graph">
-                    <canvas id="benesChart" width="400" height="200"></canvas>
+            <div class="card-2">
+                <div class="card-title">
+                    Sanctions
                 </div>
-                <div class="table">
-                    <table>
-                        <tbody>
-                            <tr>
-                                <th>Academic House:</th>
-                                <td>Stuart</td>
-                            </tr>
-                            <tr>
-                                <th>Form:</th>
-                                <td>U6 S (N)</td>
-                            </tr>
-                            <tr>
-                                <th>Year:</th>
-                                <td>13</td>
-                            </tr>
-                            <tr>
-                                <th>Positive[PTS]:</th>
-                                <td>6[3]</td>
-                            </tr>
-                            <tr>
-                                <th>Negative[PTS]:</th>
-                                <td>5[-5]</td>
-                            </tr>
-                            <tr>
-                                <th>Total[PTS]:</th>
-                                <td>11[-2]</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                <div class="card-data">2</div>
+            </div>
+        </div>
+        <div class="part2">
+            <div class="graph">
+                <canvas id="benesChart" width="400" height="200"></canvas>
+            </div>
+            <div class="table">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Academic House:</th>
+                            <td>Stuart</td>
+                        </tr>
+                        <tr>
+                            <th>Form:</th>
+                            <td>U6 S (N)</td>
+                        </tr>
+                        <tr>
+                            <th>Year:</th>
+                            <td>13</td>
+                        </tr>
+                        <tr>
+                            <th>Positive[PTS]:</th>
+                            <td>6[3]</td>
+                        </tr>
+                        <tr>
+                            <th>Negative[PTS]:</th>
+                            <td>5[-5]</td>
+                        </tr>
+                        <tr>
+                            <th>Total[PTS]:</th>
+                            <td>11[-2]</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
@@ -79,8 +77,8 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
         // Dados dos cards
-        const sanctionsValue = Number(document.querySelector('.card-1 .card-data').innerText);
-        const benesValue = Number(document.querySelector('.card-2 .card-data').innerText);
+        const benesValue = Number(document.querySelector('.card-1 .card-data').innerText);
+        const sanctionsValue = Number(document.querySelector('.card-2 .card-data').innerText);
 
         // Gráfico de pizza para Benes e Sanctions
         const ctx = document.getElementById('benesChart').getContext('2d');
@@ -91,8 +89,8 @@
                 datasets: [{
                     data: [sanctionsValue, benesValue],
                     backgroundColor: [
-                        '#B82121', // cor para Benes
-                        '#0B364C'  // cor para Sanctions
+                        '#B82121', // cor para Sanctions
+                        '#0B364C'  // cor para Benes
                     ]
                 }]
             },
