@@ -1411,7 +1411,7 @@ RESTful API for academic management with endpoints for:
  
 **Main Pages Delivered**:
 
-    - Benes
+    - Benes and sanctions
     - Reports
     - Events
     - Profile
@@ -1427,11 +1427,11 @@ RESTful API for academic management with endpoints for:
 ## Screenshots:
 
 
-**Benes**:
+**Benes and sanctions**:
 <div align="center">
   <br>
   <br>
-  <img src="../assets/wad/Beness.png" alt="Reports Screen" width="100%">
+  <img src="../assets/PNG_images/benes_gif.gif" alt="Reports Screen" width="100%">
   <br>
   <br>
 </div>
