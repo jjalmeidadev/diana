@@ -2,12 +2,47 @@
 const express = require('express');
 const router = express.Router();
 
-// Rota raiz
+// Rotas principais
 router.get('/', (req, res) => {
-  res.send('API funcionando!');
+  res.render('pages/login');
 });
 
-const usersRoutes = require('./usersRoutes');
-router.use('/', usersRoutes);
+router.get('/benes', (req, res) => {
+  res.render('pages/benes');
+});
+
+router.get('/assignments', (req, res) => {
+  res.render('pages/assignments');
+});
+
+router.get('/choose', (req, res) => {
+  res.render('pages/choose');
+});
+
+router.get('/communication', (req, res) => {
+  res.render('pages/communication');
+});
+
+router.get('/customerservice', (req, res) => {
+  res.render('pages/customerservice');
+});
+
+router.get('/events', (req, res) => {
+  res.render('pages/events');
+});
+
+router.get('/login', (req, res) => {
+  res.render('pages/login');
+});
+
+router.get('/reports', (req, res) => {
+  res.render('pages/reports');
+});
+
+router.get('/timetable', (req, res) => {
+  res.render('pages/timetable');
+});
+
+// Adicione aqui outras rotas específicas
 
 module.exports = router;

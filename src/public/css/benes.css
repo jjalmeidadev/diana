@@ -1,0 +1,122 @@
+/* Importa a fonte no início do arquivo CSS */
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;600&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Darker Grotesque', sans-serif;
+    overflow-x: hidden; /* Adicionado para evitar rolagem horizontal indesejada */
+    overflow-y: auto; /* Permite rolagem vertical para o corpo, se o conteúdo exceder a altura da tela */
+}
+
+/* Removido o estilo do .container pois ele conflita com a barra lateral e a barra superior fixas */
+
+.main {
+    margin-top: 70px; /* Compensa a altura da barra superior */
+    margin-left: 200px; /* Compensa a largura da barra lateral */
+    padding: 30px; /* Adiciona preenchimento consistente dentro da área de conteúdo principal */
+    box-sizing: border-box; /* Inclui o preenchimento na largura e altura total do elemento */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #fff;
+    min-height: calc(100vh - 70px); /* Garante que ocupe a altura restante da tela menos a barra superior */
+    width: calc(100% - 200px); /* Ocupa a largura restante da tela menos a barra lateral */
+}
+
+.main h1 {
+    color: #0B364C;
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: 0;
+}
+
+.part1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.card-1, .card-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 213px;
+    height: 200px;
+    background-color: #B82121;
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.card-2 {
+    background-color: #0B364C;
+}
+
+.card-1 .card-title, .card-2 .card-title {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+    margin: 0;
+}
+
+.card-1 .card-data, .card-2 .card-data {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+
+.part2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.graph {
+    flex: 1;
+    min-width: 400px;
+    max-width: 500px;
+}
+
+.table {
+    flex: 1;
+    min-width: 450px;
+    max-width: 600px;
+    border-collapse: collapse;
+    border: 1px solid #0B364C;
+    border-radius: 10px;
+    text-align: left;
+    padding: 24px;
+    font-size: 1.25rem;
+    box-sizing: border-box;
+}
+
+.table th,
+.table td {
+    text-align: left;
+    padding: 15px 20px;
+    font-size: 1.1rem;
+}
+
+

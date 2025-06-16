@@ -1,69 +1,52 @@
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    .sidebar-button {
+      margin: 20px 0 10px 0; /* margem superior maior */
+      width: 160px;
+      height: 25px;
+      background: #fff;
+      border-radius: 15px;
+      color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .sidebar-button:hover {
+      background: #ccc;
+      color: #111;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
 <div style="
-        width: 200px; height: 100%; background-color: #333; color: white;
-        text-align: center; position: fixed; top: 70px; left: 0;
-        border: 1px solid white; display: flex; flex-direction: column;
-        align-items: center;
-    ">
-    <a href="/events" style="text-decoration: none; color: inherit;">
-        <div style="
-            margin: 40px 0 20px 0; width: 160px; height: 25px;
-            background: #fff; border-radius: 15px; color: #333;
-            display: flex; align-items: center; justify-content: center; margin-left: auto; margin-right: auto;
-        ">
-            Events
-        </div>
-    </a>
-    <a href="/customerservice" style="text-decoration: none; color: inherit;">
-        <div style="
-            margin: 20px 0; width: 160px; height: 25px; background: #fff;
-            border-radius: 15px; color: #333; display: flex;
-            align-items: center; justify-content: center; margin-left: auto; margin-right: auto;
-        ">
-            Customer service
-        </div>
-    </a>
-    <a href="/benes" style="text-decoration: none; color: inherit;">
-        <div style="
-            margin: 20px 0; width: 160px; height: 25px; background: #fff;
-            border-radius: 15px; color: #333; display: flex;
-            align-items: center; justify-content: center; margin-left: auto; margin-right: auto;
-        ">
-            Benes and Sanctions
-        </div>
-    </a>
-    <a href="/assignments" style="text-decoration: none; color: inherit;">
-        <div style="
-            margin: 20px 0; width: 160px; height: 25px; background: #fff;
-            border-radius: 15px; color: #333; display: flex;
-            align-items: center; justify-content: center; margin-left: auto; margin-right: auto;
-        ">
-            Assignments
-        </div>
-    </a>
-    <a href="/timetable" style="text-decoration: none; color: inherit;">
-        <div style="
-            margin: 20px 0; width: 160px; height: 25px; background: #fff;
-            border-radius: 15px; color: #333; display: flex;
-            align-items: center; justify-content: center; margin-left: auto; margin-right: auto;
-        ">
-            Timetable
-        </div>
-    </a>
-    <a href="/reports" style="text-decoration: none; color: inherit;">
-        <div style="
-            margin: 20px 0; width: 160px; height: 25px; background: #fff;
-            border-radius: 15px; color: #333; display: flex;
-            align-items: center; justify-content: center; margin-left: auto; margin-right: auto;
-        ">
-            Reports
-        </div>
-    </a>
-    <a href="/login" style="text-decoration: none; color: inherit;">
-        <div style="
-            margin: 20px 0; width: 160px; height: 25px; background: #fff;
-            border-radius: 15px; color: #333; display: flex;
-            align-items: center; justify-content: center; margin-left: auto; margin-right: auto;
-        ">
-            Initial Screen
-        </div>
+    width: 200px; height: 100vh; background-color: #0B364C; color: white;
+    text-align: center; position: fixed; top: 70px; left: 0;
+    border-right: 1px solid white; display: flex; flex-direction: column;
+    align-items: center; font-size: 14px; font-family: 'Darker Grotesque', sans-serif;
+">
+  <a href="/events" style="text-decoration: none; color: inherit;">
+    <div class="sidebar-button">Events</div>
+  </a>
+  <a href="/customerservice" style="text-decoration: none; color: inherit;">
+    <div class="sidebar-button">Customer Service</div>
+  </a>
+  <a href="/benes" style="text-decoration: none; color: inherit;">
+    <div class="sidebar-button">Benes and Sanctions</div>
+  </a>
+  <a href="/assignments" style="text-decoration: none; color: inherit;">
+    <div class="sidebar-button">Assignments</div>
+  </a>
+  <a href="/timetable" style="text-decoration: none; color: inherit;">
+    <div class="sidebar-button">Timetable</div>
+  </a>
+  <a href="/reports" style="text-decoration: none; color: inherit;">
+    <div class="sidebar-button">Reports</div>
+  </a>
+  <a href="/communication" style="text-decoration: none; color: inherit;">
+    <div class="sidebar-button">Communication</div>
+  </a>
 </div>

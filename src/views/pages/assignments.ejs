@@ -2,92 +2,71 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignments</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assignments</title>
+  <link rel="stylesheet" href="/css/assignments.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 
-<body style="margin: 0; padding: 0;">
-    <!-- Top bar -->
-    <%- include('../components/upperBar.ejs') %>
-    <!-- Sidebar -->
-    <%- include('../components/sideBar.ejs') %>
+<body>
+  <!-- Top bar -->
+  <%- include('../components/upperBar.ejs') %>
+  <!-- Sidebar -->
+  <%- include('../components/sideBar.ejs') %>
 
-    <!-- Assignment boxes -->
-    <div style="
-        margin-left: 360px; /* aligns with Reports */
-        margin-top: 100px;
-        margin-bottom: 50px;
-        display: flex; flex-direction: column; align-items: flex-start;
-        background: #fff;
-    ">
-        <div style="cursor: pointer; margin-top: 0px; width: 520px; height: 55px; background: #000;
-            border-radius: 22px; color: #fff; display: flex; align-items: center;
-            justify-content: left; padding-left: 24px; font-size: 26px; border: 1px solid #000;">
-            <img src="../../assets/PNG_images/profileplaceholder.png" alt="Assignment"
-                style="height: 40px; margin: 0 18px 0 0;" />
-            <span>Assignment</span>
+  <div class="main">
+    <div class="main-header-row">
+      <h1>Assignments</h1>
+      <div class="dropdown">
+        <button class="dropbtn blue">Filter by subject</button>
+        <div class="dropdown-content">
+          <a href="#">Geography</a>
+          <a href="#">Art</a>
+          <a href="#">Mathematics</a>
         </div>
-        <div style="cursor: pointer; margin-top: 20px; width: 520px; height: 55px; background: #000;
-            border-radius: 22px; color: #fff; display: flex; align-items: center;
-            justify-content: left; padding-left: 24px; font-size: 26px; border: 1px solid #000;">
-            <img src="../../assets/PNG_images/profileplaceholder.png" alt="Assignment"
-                style="height: 40px; margin: 0 18px 0 0;" />
-            <span>Assignment</span>
-        </div>
-        <div style="cursor: pointer; margin-top: 20px; width: 520px; height: 55px; background: #000;
-            border-radius: 22px; color: #fff; display: flex; align-items: center;
-            justify-content: left; padding-left: 24px; font-size: 26px; border: 1px solid #000;">
-            <img src="../../assets/PNG_images/profileplaceholder.png" alt="Assignment"
-                style="height: 40px; margin: 0 18px 0 0;" />
-            <span>Assignment</span>
-        </div>
-        <div style="cursor: pointer; margin-top: 20px; width: 520px; height: 55px; background: #000;
-            border-radius: 22px; color: #fff; display: flex; align-items: center;
-            justify-content: left; padding-left: 24px; font-size: 26px; border: 1px solid #000;">
-            <img src="../../assets/PNG_images/profileplaceholder.png" alt="Assignment"
-                style="height: 40px; margin: 0 18px 0 0;" />
-            <span>Assignment</span>
-        </div>
-        <div style="cursor: pointer; margin-top: 20px; width: 520px; height: 55px; background: #000;
-            border-radius: 22px; color: #fff; display: flex; align-items: center;
-            justify-content: left; padding-left: 24px; font-size: 26px; border: 1px solid #000;">
-            <img src="../../assets/PNG_images/profileplaceholder.png" alt="Assignment"
-                style="height: 40px; margin: 0 18px 0 0;" />
-            <span>Assignment</span>
-        </div>
-        <div style="cursor: pointer; margin-top: 20px; width: 520px; height: 55px; background: #000;
-            border-radius: 22px; color: #fff; display: flex; align-items: center;
-            justify-content: left; padding-left: 24px; font-size: 26px; border: 1px solid #000;">
-            <img src="../../assets/PNG_images/profileplaceholder.png" alt="Assignment"
-                style="height: 40px; margin: 0 18px 0 0;" />
-            <span>Assignment</span>
-        </div>
-        <div style="cursor: pointer; margin-top: 20px; width: 520px; height: 55px; background: #000;
-            border-radius: 22px; color: #fff; display: flex; align-items: center;
-            justify-content: left; padding-left: 24px; font-size: 26px; border: 1px solid #000;">
-            <img src="../../assets/PNG_images/profileplaceholder.png" alt="Assignment"
-                style="height: 40px; margin: 0 18px 0 0;" />
-            <span>Assignment</span>
-        </div>
-        <div style="cursor: pointer; margin-top: 20px; width: 520px; height: 55px; background: #000;
-            border-radius: 22px; color: #fff; display: flex; align-items: center;
-            justify-content: left; padding-left: 24px; font-size: 26px; border: 1px solid #000;">
-            <img src="../../assets/PNG_images/profileplaceholder.png" alt="Assignment"
-                style="height: 40px; margin: 0 18px 0 0;" />
-            <span>Assignment</span>
-        </div>
-        <div style="cursor: pointer; margin-top: 20px; width: 520px; height: 55px; background: #000;
-            border-radius: 22px; color: #fff; display: flex; align-items: center;
-            justify-content: left; padding-left: 24px; font-size: 26px; border: 1px solid #000;">
-            <img src="../../assets/PNG_images/profileplaceholder.png" alt="Assignment"
-                style="height: 40px; margin: 0 18px 0 0;" />
-            <span>Assignment</span>
-        </div>
+      </div>
     </div>
+    <div class="assignments-list">
+      <div class="assignment-card completed">
+        <div class="assignment-info">
+          <div class="assignment-title">Geography - Map Project</div>
+          <div class="assignment-details">Due: 10/06/2025</div>
+        </div>
+        <div class="assignment-status">Completed</div>
+      </div>
+      <div class="assignment-card pending">
+        <div class="assignment-info">
+          <div class="assignment-title">Art - Modern Art Essay</div>
+          <div class="assignment-details">Due: 15/06/2025</div>
+        </div>
+        <div class="assignment-status">Pending</div>
+      </div>
+      <div class="assignment-card late">
+        <div class="assignment-info">
+          <div class="assignment-title">Mathematics - Algebra Worksheet</div>
+          <div class="assignment-details">Due: 05/06/2025</div>
+        </div>
+        <div class="assignment-status">Late</div>
+      </div>
+    </div>
+  </div>
 
-    <!-- Footer -->
-    <%- include('../components/lowerBar.ejs') %>
+  <!-- Footer -->
+  <%- include('../components/lowerBar.ejs') %>
+  <script src="/css/assignments.js"></script>
+
+  <!-- Popup de detalhes da atividade -->
+  <div id="assignment-popup" class="assignment-popup-overlay" style="display:none;">
+    <div class="assignment-popup">
+      <span class="close-popup">&times;</span>
+      <h2 id="popup-title">Assignment Title</h2>
+      <div id="popup-status" class="popup-status">Status</div>
+      <div id="popup-due" class="popup-due">Due: </div>
+      <div id="popup-desc" class="popup-desc">Description of the assignment will appear here.</div>
+      <button class="popup-btn">Mark as Done</button>
+    </div>
+  </div>
 </body>
 
 </html>
