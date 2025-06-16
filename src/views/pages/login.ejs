@@ -1,72 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Login</title>
   <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: sans-serif;
-      background-color: #f0f0f0;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+    @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;600&display=swap');
 
-    .login-container {
-      background-color: white;
-      padding: 40px;
-      border-radius: 10px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-      width: 300px;
-      text-align: center;
-    }
-
-    .login-container h2 {
-      margin-bottom: 20px;
-    }
-
-    .login-container input[type="text"],
-    .login-container input[type="password"] {
-      width: 100%;
-      padding: 10px;
-      margin: 10px 0;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-
-    .login-container button {
-      width: 100%;
-      padding: 10px;
-      background-color: #333;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      margin-top: 10px;
-    }
-
-    .login-container button:hover {
-      background-color: #555;
-    }
-
-    .stay-connected {
-      margin-top: 10px;
-      font-size: 14px;
+    html {
+      font-family: 'Darker Grotesque', sans-serif;
     }
   </style>
 </head>
+
 <body>
 
-  <div class="login-container">
-    <h2>Login</h2>
-    <input type="text" id="email" placeholder="E-mail" />
-    <input type="password" id="password" placeholder="Password" />
-    <button id="login-button">Login</button>
+  <div class="1st-main">
+
+    <div class="photo-main">
+      <img src="/assets/PNG_images/image 20.png" alt="" srcset="">
+    </div>
+
+    <div class="login-main">
+      <div class="logo-login-main">
+        <img src="/assets/PNG_images/image 3.png" alt="Diana-platform-logo">
+        <p>Access - St. Paul’s Parent’s Portal</p>
+      </div>
+
+      <div class="login-box-login-main">
+        <div class="login-box">
+          <p>E-mail</p>
+          <input type="text" id="email" placeholder="E-mail" />
+        </div>
+        <div class="login-box">
+          <p>Password</p>
+          <input type="text" id="email" placeholder="E-mail" />
+        </div>
+        <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
+          <input type="checkbox" id="stay-connected" name="stay-connected" />
+          <label for="stay-connected">Stay connected?</label>
+        </div>
+        <button class="login-button" id="login-button">Login</button>
+      </div>
+    </div>
+
   </div>
+
+  <div class="2nd-main">
+    <img src="/assets/PNG_images/BRAND_ST PAULS_White Outline (2) 1.png">
+    <p>We are the British school of São Paulo. At St. Paul’s we always strive to be the best we can be. We have the
+      courage of our convictions, essential <br> values, and the freedom to imagine and create. This is achieved through
+      our
+      high-quality British and Brazilian holistic education which <br> drives the personal and academic development of
+      pupils, within a caring, inclusive and united community.  </p>
+  </div>
+
+  <div class="footer">
+    <div class="socials">
+      <img src="" alt="stpauls-logo">
+      <img src="" alt="instagram0logo">
+      <img src="" alt="facebook-logo">
+      <img src="" alt="linkedin-logo">
+    </div>
+
+    <p>Copyright © 2025 Saint Pauls. All rights reserved. Privacy Policy. All rights reserved by Saint Paul.</p>
+  </div>
+
 
   <script>
     document.getElementById('login-button').addEventListener('click', async () => {
@@ -92,4 +92,5 @@
   </script>
 
 </body>
+
 </html>
