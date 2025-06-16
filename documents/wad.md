@@ -1,7 +1,5 @@
 # WAD - Web Application Document - 2nd Module - Inteli
 
-<!-- **_Os trechos em itálico servem apenas como guia para o preenchimento da seção. Por esse motivo, não devem fazer parte da documentação final_** -->
-
 ## Group name: CrownMates
 ## Project name: Diana
 
@@ -478,11 +476,19 @@ Acceptance Criteria 1 | **Scenario:** The moderator accesses the user management
 
 &nbsp;&nbsp;&nbsp;&nbsp;We constantly refine these requirements into technical tasks, ensuring a smooth transition from user needs to implemented features. By maintaining this structured approach, we ensure the final product remains user-centric, secure, and efficient.
 
-# <a name="c3"></a>3. Web Application's Technical Project (sprints 1 a 4)
-
 ## 3.1. Architecture (sprints 3 e 4)
 
-<img src="../assets/wad/Diagrama da solução.png">
+<br>
+<div align="center">
+    <sub>Figure 09 - Architecture </sub>
+  <br>
+  <br>
+  <img src="../assets/wad/Diagrama da solução.png" alt="Marketing Manager" width="100%">
+  <br>
+  <br>
+  <sup>Source: authors (2025)</sup>
+</div>
+<br>
 
 Each database table is represented by its own model, which is responsible for handling the data structure and business logic related to that specific entity. For every model, there is a corresponding controller that acts as an intermediary between the model and the user interface. The controller receives input (usually from HTTP requests), processes this input by interacting with the appropriate model, and prepares the data to be sent to the views. The views are responsible for displaying the information to the user in a structured and user-friendly format.
 
@@ -512,7 +518,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 
 <div align="center">
   
-  <sub>Figure 09 - Login screen </sub>
+  <sub>Figure 10 - Login screen </sub>
   <br>
   <br>
   ![login](../assets/wad/Login%20and%20About_reviewed.png)
@@ -541,7 +547,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 
 <div align="center">
   
-  <sub>Figure 10 - Profile </sub>
+  <sub>Figure 11 - Profile </sub>
   <br>
   <br>
  <img src="../assets/wad\Profile - Homepage (2).png">
@@ -565,18 +571,14 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 <br>
 
 <div align="center">
-  
-  <sub>Figure 11 - Assignments </sub>
+    <sub>Figure 12 - Assignments </sub>
   <br>
   <br>
 <img src="../assets/wad/Assignments_reviewed (1).png">
   <br>
   <br>
-
   <sup>Source: authors (2025)</sup>
-  
 </div>
-
 <br>
 
 **4. Reports Page**
@@ -593,7 +595,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 
 <div align="center">
   
-  <sub>Figure 12 - Reports </sub>
+  <sub>Figure 13 - Reports </sub>
   <br>
   <br>
 <img src="../assets/wad/Reports page_reviewed (1).png">
@@ -617,7 +619,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 
 <div align="center">
   
-  <sub>Figure 13 - Timetable </sub>
+  <sub>Figure 14 - Timetable </sub>
   <br>
   <br>
 <img src="../assets/wad/Timetable (class schedule)_reviewed (1).png">
@@ -642,7 +644,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 
 <div align="center">
   
-  <sub>Figure 14 - Events </sub>
+  <sub>Figure 15 - Events </sub>
   <br>
   <br>
 <img src="../assets/wad/School events for parents_reviewed (1).png">
@@ -654,8 +656,6 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 </div>
 
 <br>
-
-
 
 **7. Customer Service Channels**
 **Description:**  
@@ -671,7 +671,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 
 <div align="center">
   
-  <sub>Figure 15 - Customer Service Channels </sub>
+  <sub>Figure 16 - Customer Service Channels </sub>
   <br>
   <br>
 <img src="../assets/wad/Customer service channels_reviewed (1).png">
@@ -695,7 +695,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 
 <div align="center">
   
-  <sub>Figure 16 - Benes and sanctions </sub>
+  <sub>Figure 17 - Benes and sanctions </sub>
   <br>
   <br>
 <img src="../assets/wad/Benes and Sanctions_reviewed (1).png">
@@ -716,27 +716,21 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 
 ## 3.3. Style guide (sprint 3)
 
-<!-- *Descreva aqui orientações gerais para o leitor sobre como utilizar os componentes do guia de estilos de sua solução* -->
-
 This style guide was created to ensure visual and communicative consistency throughout the "Diana" solution. It provides essential visual identity guidelines that should be followed by all team members involved in design, development, and communication. 
 
 <br>
 
 <div align="center">
   
-  <sub>Figure 17 - Style Guide </sub>
+  <sub>Figure 18 - Style Guide </sub>
   <br>
   <br>
 ![benes](../assets/wad/styleguide.jpg)
   <br>
   <br>
-
   <sup>Source: authors (2025)</sup>
-  
 </div>
-
 <br>
-
 
 ### 3.3.1 Colors
 
@@ -744,7 +738,7 @@ This style guide was created to ensure visual and communicative consistency thro
 
 <div align="center">
   
-  <sub>Figure 18 - Colors </sub>
+  <sub>Figure 19 - Colors </sub>
   <br>
   <br>
 ![benes](../assets/wad/colors.jpg)
@@ -772,7 +766,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 
 <div align="center">
   
-  <sub>Figure 18 - Typography </sub>
+  <sub>Figure 20 - Typography </sub>
   <br>
   <br>
 ![benes](../assets/wad/tipography.jpg)
@@ -793,7 +787,7 @@ The guide uses two main font families: Darker Grotesque for interface texts and 
 
 <div align="center">
   
-  <sub>Figure 18 - Iconography and images </sub>
+  <sub>Figure 21 - Iconography and images </sub>
   <br>
   <br>
 ![benes](../assets/wad/icons.jpg)
@@ -833,96 +827,74 @@ The guide uses two main font families: Darker Grotesque for interface texts and 
 
 &nbsp;&nbsp;&nbsp;&nbsp;The following screens represent the core functionality of the Diana parent portal system, each designed to address specific user needs identified during the research phase:
 
-
 <br>
-
 <div align="center">
-  
-  <sub>Figure - Login and About Page </sub>
+    <sub>Figure 22 - Login </sub>
   <br>
   <br>
-<img src="../assets/wad/Login and About (1).png">
+  <img src="../assets/wad/Login and About (1).png" alt="Marketing Manager" width="100%">
   <br>
   <br>
-
   <sup>Source: authors (2025)</sup>
-  
 </div>
-
 <br>
 
-<br>
 
+<br>
 <div align="center">
-  
-  <sub>Figure - Student Selection </sub>
+    <sub>Figure 23 - Student Selection </sub>
   <br>
   <br>
-<img src="../assets/wad/Student Selection.png">
+  <img src="../assets/wad/Student Selection.png" alt="Marketing Manager" width="100%">
   <br>
   <br>
-
   <sup>Source: authors (2025)</sup>
-  
 </div>
-
 <br>
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;The login interface serves as the primary entry point to the system, featuring a clean, professional design that reflects St. Paul's School's brand identity. The layout prioritizes security and ease of access, with clear call-to-action buttons for authentication, password recovery, and institutional information access. The design incorporates the school's color palette and maintains visual consistency with the overall platform aesthetic.
 
+
 <br>
-
 <div align="center">
-  
-  <sub>Figure - Homepage/Profile Management </sub>
+    <sub>Figure 24 - Homepage/Profile Management </sub>
   <br>
   <br>
-<img src="../assets/wad/Group 14.png">
+ <img src="../assets/wad/Group 14.png">
   <br>
   <br>
-
   <sup>Source: authors (2025)</sup>
-  
 </div>
-
 <br>
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;The homepage serves as the central dashboard where parents can access all platform features and manage their profile information. The interface features a card-based layout that provides quick access to key functionalities including academic reports, upcoming events, and contact management. The design emphasizes information hierarchy through strategic use of whitespace, typography scaling, and color-coded sections.
 
 <br>
-
 <div align="center">
-  
-  <sub>Figure - Reports </sub>
+    <sub>Figure 25 - Reports </sub>
   <br>
   <br>
-<img src="../assets/wad/Reports-prototype.png">
+ <img src="../assets/wad/Reports-prototype.png">
   <br>
   <br>
-
   <sup>Source: authors (2025)</sup>
-  
 </div>
-
 <br>
 
 <br>
-
 <div align="center">
-  
-  <sub>Figure - Behavioral Tracking - Benes and Sanctions </sub>
+    <sub>Figure 26 - Behavioral Tracking - Benes and Sanctions </sub>
   <br>
   <br>
 <img src="../assets/wad/Benes & Sanctions.png">
   <br>
   <br>
-
   <sup>Source: authors (2025)</sup>
-  
 </div>
-
 <br>
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;This specialized interface allows parents to monitor their child's behavioral progress through St. Paul's unique merit and sanction system. The design incorporates data visualization elements including charts and progress indicators that make behavioral trends easily interpretable. The interface balances the need for detailed information with emotional sensitivity, using neutral colors and supportive messaging.
 
@@ -934,24 +906,6 @@ The guide uses two main font families: Darker Grotesque for interface texts and 
 ### 3.5.1. Relational model (sprints 2 e 4)
 
 &nbsp;&nbsp;&nbsp;&nbsp;Relational database modeling is the process of designing the structure of a database based on the principles of the relational model. Its purpose is to organize all the information into tables and to clearly represent the relationships among them, ensuring data is structured, consistent, and easy to access.
-
-<br>
-
-<div align="center">
-  
-  <sub>Figure 17 - Database Modelling </sub>
-  <br>
-  <br>
-![Screenshot 2025-06-10 14 53 34](https://github.com/user-attachments/assets/51102844-d4e5-4ec5-89c6-4d6c02b0a85a)
-
-  <br>
-  <br>
-
-  <sup>Source: authors (2025)</sup>
-  
-</div>
-
-<br>
 
 
 #### 3.5.1.1 Tables description:
@@ -1285,83 +1239,119 @@ RESTful API for academic management with endpoints for:
 
 **Login Screen:**
 
+
+<br>
 <div align="center">
+    <sub>Figure 27 - Login </sub>
   <br>
   <br>
-  <img src="../assets/wad/telalogin.jpeg" alt="Login Screen" width="100%">
+ <img src="../assets/wad/telalogin.jpeg"
   <br>
   <br>
+  <sup>Source: authors (2025)</sup>
 </div>
+<br>
 
 **Profile Screen:**
 
+<br>
 <div align="center">
+    <sub>Figure 28 - Profile Screen </sub>
   <br>
   <br>
-  <img src="../assets/wad/telaprofile.jpeg" alt="Profile Screen" width="100%">
+  <img src="../assets/wad/telaprofile.jpeg"
   <br>
   <br>
+  <sup>Source: authors (2025)</sup>
 </div>
+<br>
+
 
 **Assignments Screen:**
 
+
+<br>
 <div align="center">
+    <sub>Figure 29 - Assignments Screen </sub>
   <br>
   <br>
-  <img src="../assets/wad/telaassignments.jpeg" alt="Assignments Screen" width="100%">
+  <img src="../assets/wad/telaassignments.jpeg"
   <br>
   <br>
+  <sup>Source: authors (2025)</sup>
 </div>
+<br>
 
 **Customer Service Screen:**
 
+<br>
 <div align="center">
+    <sub>Figure 30 - Customer Service Screen </sub>
   <br>
   <br>
-  <img src="../assets/wad/telacustomers.jpeg" alt="Customer Service Screen" width="100%">
+<img src="../assets/wad/telacustomers.jpeg"
   <br>
   <br>
+  <sup>Source: authors (2025)</sup>
 </div>
+<br>
 
 **Events Screen:**
 
+<br>
 <div align="center">
+    <sub>Figure 31 - Events Screen </sub>
   <br>
   <br>
-  <img src="../assets/wad/telaevents.jpeg" alt="Events Screen" width="100%">
+ <img src="../assets/wad/telaevents.jpeg"
   <br>
   <br>
+  <sup>Source: authors (2025)</sup>
 </div>
+<br>
 
 **Timetable Screen:**
 
+
+<br>
 <div align="center">
+    <sub>Figure 32 - Timetable Screen </sub>
   <br>
   <br>
-  <img src="../assets/wad/telatimetable.jpeg" alt="Timetable Screen" width="100%">
+  <img src="../assets/wad/telatimetable.jpeg"
   <br>
   <br>
+  <sup>Source: authors (2025)</sup>
 </div>
+<br>
 
 **Benes and Sanctions Screen:**
 
+<br>
 <div align="center">
+    <sub>Figure 33 - Benes and Sanctions Screen </sub>
   <br>
   <br>
-  <img src="../assets/wad/telabenes.jpeg" alt="Benes and Sanctions Screen" width="100%">
+  <img src="../assets/wad/telabenes.jpeg"
   <br>
   <br>
+  <sup>Source: authors (2025)</sup>
 </div>
+<br>
 
 **Reports Screen:**
 
+<br>
 <div align="center">
+    <sub>Figure 34 - Reports Screen </sub>
   <br>
   <br>
-  <img src="../assets/wad/telareports.jpeg" alt="Reports Screen" width="100%">
+  <img src="../assets/wad/telareports.jpeg"
   <br>
   <br>
+  <sup>Source: authors (2025)</sup>
 </div>
+<br>
 
 ### Challenges Encountered:
 
@@ -1429,49 +1419,75 @@ RESTful API for academic management with endpoints for:
 
 
 **Benes and sanctions**:
-<div align="center">
-  <br>
-  <br>
-  <img src="../assets/PNG_images/benes_gif.gif" alt="Reports Screen" width="100%">
-  <br>
-  <br>
-</div>
 
+<br>
+<div align="center">
+    <sub>Figure 35 - Benes and sanctions </sub>
+  <br>
+  <br>
+  <img src="../assets/PNG_images/benes_gif.gif"
+  <br>
+  <br>
+  <sup>Source: authors (2025)</sup>
+</div>
+<br>
 
 **Assignments**:
+
+<br>
 <div align="center">
+    <sub>Figure 36 - Assignments </sub>
   <br>
   <br>
-  <img src="../assets/wad/viviiv.gif" alt="Assignments Screen" width="100%">
+  <img src="../assets/wad/viviiv.gif"
   <br>
   <br>
+  <sup>Source: authors (2025)</sup>
 </div>
+<br>
 
 **Reports**:
+
+<br>
 <div align="center">
+    <sub>Figure 37 - Reports </sub>
   <br>
   <br>
-  <img src="../assets/wad/Reportss.png" alt="Reports Screen" width="100%">
+  <img src="../assets/wad/Reportss.png"
   <br>
   <br>
+  <sup>Source: authors (2025)</sup>
 </div>
+<br>
 
 **Events**
+
+<br>
 <div align="center">
+    <sub>Figure 38 - Events </sub>
   <br>
   <br>
-  <img src="../assets/wad/Eventss.png" alt="Reports Screen" width="100%">
+  <img src="../assets/wad/Eventss.png"
   <br>
   <br>
+  <sup>Source: authors (2025)</sup>
 </div>
+<br>
 
 **Profile**
+
+
+<br>
 <div align="center">
-
-![Screenshot 2025-06-13 14 09 26](https://github.com/user-attachments/assets/4dc438c3-f75c-4a2f-85bc-4bba43936c20)
- 
-
+    <sub>Figure 39 - Profile </sub>
+  <br>
+  <br>
+  <img src="../assets/wad/perfiil.jpeg"
+  <br>
+  <br>
+  <sup>Source: authors (2025)</sup>
 </div>
+<br>
 
 ## Challenges Encountered:
 
@@ -1526,11 +1542,35 @@ RESTful API for academic management with endpoints for:
 
 
 ### example test:
-<img src="../assets/PNG_images/test-example.png">
+
+<br>
+<div align="center">
+    <sub>Figure 40 - test </sub>
+  <br>
+  <br>
+ <img src="../assets/PNG_images/test-example.png">
+  <br>
+  <br>
+  
 
 ### All our posman tests
+
+<br>
+<div align="center">
+    <sub>Figure 41 - test </sub>
+  <br>
 <img src="../assets/PNG_images/test1.png">
+
+<br>
+<div align="center">
+    <sub>Figure 42 - test </sub>
+  <br>
 <img src="../assets/PNG_images/test2.png">
+
+<br>
+<div align="center">
+    <sub>Figure 43 - test </sub>
+  <br>
 <img src="../assets/PNG_images/test3.png">
 
 <p>These tests are meant to verify if our routes are working properly. Each route has its own requests, but generally they include requests for creating, reading, updating, and deleting.</p>
@@ -1771,23 +1811,18 @@ This approach positions us uniquely in the market, especially among high-end int
 
 
 ## What are the 4 Ps of Marketing?
-<br>
 
+<br>
 <div align="center">
-  
-  <sub>Figure 18 - The 4 Ps of Marketing </sub>
+    <sub>Figure 44 - 4 Ps of Marketing</sub>
   <br>
   <br>
-![benes](../assets/wad/4ps.png)
+  <img src="../assets/wad/4ps.png"
   <br>
   <br>
-
   <sup>Source: authors (2025)</sup>
-  
 </div>
-
 <br>
-
 ---
 
 ## Context of St. Paul’s School and the project
