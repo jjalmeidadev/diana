@@ -1,0 +1,9 @@
+/* Importa a fonte no início do arquivo CSS */
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;600&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Darker Grotesque', sans-serif;
+}
