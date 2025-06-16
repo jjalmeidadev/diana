@@ -33,6 +33,92 @@
 
 [8. References](c#8)
 
+Avenues: The World School. About Avenues São Paulo. São Paulo, 2025. Available at: https://www.avenues.org/sp/. Accessed: Jun. 16, 2025.
+
+Brazil. Ministry of Education. Bilingual Education: Guidelines and Possibilities. Brasília: MEC, 2022. Available at: https://www.gov.br/mec/pt-br/assuntos/noticias/educacao-bilingue. Accessed: Jun. 16, 2025.
+
+Chapel School. International Curriculum. São Paulo, 2025. Available at: https://www.chapelschool.org.br/. Accessed: Jun. 16, 2025.
+
+Cohn, M. User Stories Applied: For Agile Software Development. Boston: Addison-Wesley, 2004.
+
+Date, C. J. An Introduction to Database Systems. 8th ed. Rio de Janeiro: Campus, 2003.
+
+Elmasri, R.; Navathe, S. B. Fundamentals of Database Systems. 6th ed. São Paulo: Pearson, 2015.
+
+Gries, D.; Schneider, F. B. A Logical Approach to Discrete Math. New York: Springer, 1993.
+
+Graded – The American School of São Paulo. Graded’s Academic Programs. São Paulo, 2025. Available at: https://www.graded.br/. Accessed: Jun. 16, 2025.
+
+Nielsen, J. 10 Heuristics for User Interface Design. Fremont: Nielsen Norman Group, 1995. Available at: https://www.nngroup.com/articles/ten-usability-heuristics/. Accessed: Jun. 16, 2025.
+
+Osterwalder, A.; Pigneur, Y. Business Model Generation: Innovation in Business Models. Rio de Janeiro: Alta Books, 2011.
+
+Osterwalder, A.; Pigneur, Y. Value Proposition Design: How to Create Products and Services Customers Want. Rio de Janeiro: Alta Books, 2015.
+
+Osterwalder, A.; Pigneur, Y.; Bernarda, G.; Smith, A. Value Proposition Design: How to Create Products and Services Customers Want. Hoboken: Wiley, 2014.
+
+Ramalho, J. C. Logic for Computing. Rio de Janeiro: LTC, 2017.
+
+Rock Content. Wireframes: What They Are, Importance, Types, and Tools. Available at: https://rockcontent.com/br/blog/wireframes/. Accessed: May 28, 2025.
+
+Silberschatz, A.; Korth, H. F.; Sudarshan, S. Database System Concepts. 6th ed. Porto Alegre: AMGH, 2012.
+
+Sommerville, I. Software Engineering. 9th ed. São Paulo: Pearson, 2011.
+
+St. Paul's School. About Us. São Paulo: St. Paul's School, [2024?]. Available at: https://www.stpauls.br/about-us/. Accessed: Jun. 16, 2025.
+
+United Kingdom. Department for Education. British Schools Overseas (BSO): Standards and Inspection Framework. London, 2023. Available at: https://www.gov.uk/government/publications/british-schools-overseas-inspection-framework. Accessed: Jun. 16, 2025.
+
+W3C – World Wide Web Consortium. Web Content Accessibility Guidelines (WCAG) 2.2. 2024. Available at: https://www.w3.org/WAI/standards-guidelines/wcag/. Accessed: Jun. 16, 2025.
+
+SOMMERVILLE, Ian.
+Software Engineering. 10th ed. Boston: Pearson, 2019.
+
+FREEMAN, Eric; ROBSON, Elisabeth.
+Head First Design Patterns. 2nd ed. Sebastopol: O'Reilly Media, 2021.
+
+HOLZNER, Steven.
+Node.js: A Developer's Guide to Building Scalable Web Applications. 1st ed. Birmingham: Wrox, 2013.
+
+OBE, Regina O.; HSU, Leo S.
+PostgreSQL: Up and Running. 3rd ed. Sebastopol: O'Reilly Media, 2017.
+
+POSTMAN.
+Postman Learning Center. Available at: https://learning.postman.com/. Accessed on: 16 June 2025.
+
+FERREIRA, Aline C.
+MVC – Model View Controller: an Architecture for Responsibility Separation in Web Systems. Porto Alegre: UFRGS, 2012.
+
+WAZAWSKI, Filipe; SILVEIRA, Rafael.
+REST APIs with Node.js. 1st ed. São Paulo: Casa do Código, 2020.
+
+NIELSEN, Jakob.
+Designing Web Usability. 1st ed. Indianapolis: New Riders Publishing, 1999.
+
+ABEPAR – Associação Brasileira de Escolas Particulares.
+Private Education Market Report – Brazil 2024. São Paulo: ABEPAR, 2024.
+
+INTERNATIONAL SCHOOLS DATABASE.
+International School Growth and Statistics in Brazil. 2024. Available at: https://www.internationalschooldatabase.com/. Accessed on: 16 June 2025.
+
+ISC Research.
+Global Report on the International Schools Market. Oxfordshire: ISC Research, 2023.
+
+THE PIE NEWS.
+International Schools Sector Growth Report. London: The PIE News, 2023.
+
+EDTECH REPORT.
+Educational Technology Trends and Statistics – 2024 Edition. London: EdTech Magazine, 2024.
+
+KOTLER, Philip; KELLER, Kevin Lane.
+Marketing Management. 16th ed. Boston: Pearson Education, 2016.
+
+OSTERWALDER, Alexander; PIGNEUR, Yves.
+Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers. Hoboken: Wiley, 2010.
+
+CHAFFEY, Dave; ELLIS-CHADWICK, Fiona.
+Digital Marketing: Strategy, Implementation and Practice. 8th ed. Harlow: Pearson Education, 2019.
+
 [Appendices](#c9)
 
 <br>
