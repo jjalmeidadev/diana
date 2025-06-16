@@ -1412,6 +1412,7 @@ RESTful API for academic management with endpoints for:
 **Main Pages Delivered**:
 
     - Benes and sanctions
+    - Assignments 
     - Reports
     - Events
     - Profile
@@ -1432,6 +1433,16 @@ RESTful API for academic management with endpoints for:
   <br>
   <br>
   <img src="../assets/PNG_images/benes_gif.gif" alt="Reports Screen" width="100%">
+  <br>
+  <br>
+</div>
+
+
+**Assignments**:
+<div align="center">
+  <br>
+  <br>
+  <img src="../assets/wad/viviiv.gif" alt="Assignments Screen" width="100%">
   <br>
   <br>
 </div>
