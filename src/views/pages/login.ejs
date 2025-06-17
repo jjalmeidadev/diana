@@ -1,328 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Login</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;600&display=swap');
-
-    * {
-      font-family: 'Darker Grotesque', sans-serif;
-    }
-
     body {
       margin: 0;
       padding: 0;
-      background-color: #B82121;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    .first-main {
-      display: flex;
-      justify-content: center;
+      font-family: sans-serif;
+      background-color: #f0f0f0;
       height: 100vh;
-
-    }
-
-    .first-main .photo-main {
-      flex: 1;
-      display: flex;
-      margin-right: 0;
-    }
-
-    .first-main .login-main {
-      margin-right: 20rem;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .first-main {
       display: flex;
       justify-content: center;
       align-items: center;
     }
 
-    .logo-login-main {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-left: 2rem;
+    .login-container {
+      background-color: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      width: 300px;
+      text-align: center;
     }
 
-    button {
-      margin-left: 2rem;
-
+    .login-container h2 {
+      margin-bottom: 20px;
     }
 
-    .second-main {
-      margin-top: 10rem;
-      margin-bottom: 10rem;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
 
-      justify-content: center;
-      background-color: #B82121;
+    .login-container button {
+      width: 100%;
+      padding: 10px;
+      background-color: #333;
       color: white;
-      text-align: center;
-      padding: 20px;
-    }
-
-    .second-main p {
-      margin-top: 3%;
-      font-weight: bold;
-      border-style: solid;
-      border-width: 5px;
-      border-color: #0B364C;
-      border-radius: 20px;
-      padding: 43px;
-    }
-
-    .footer {
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 100vw;
-      background: #0B364C;
-      color: #fff;
-      z-index: 1000;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.04);
-      padding: 0;
-      height: 64px;
-    }
-
-    .footer .socials {
-      display: flex;
-      gap: 18px;
-      justify-content: center;
-      align-items: center;
-      margin-top: 6px;
-    }
-
-    .footer .socials img {
-      width: 28px;
-      height: 28px;
-      object-fit: contain;
-      filter: brightness(0) invert(1);
-      transition: filter 0.2s;
-    }
-
-    .footer .socials img:hover {
-      filter: brightness(0.8) invert(0.7) sepia(1) saturate(5) hue-rotate(180deg);
-    }
-
-    .footer p {
-      margin: 0;
-      padding: 0;
-      text-align: center;
-      font-size: 15px;
-      font-family: 'Darker Grotesque', sans-serif;
-      font-weight: 400;
-      margin-top: 2px;
-    }
-
-    .login-box-login-main {
-      display: flex;
-      flex-direction: column;
-      gap: 18px;
-      padding: 40px 36px 32px 36px;
-      min-width: 320px;
-      max-width: 350px;
-      width: 100%;
-      align-items: center;
-      margin-top: 32px;
-    }
-
-    .login-box {
-      width: 100%;
-      display: flex;
-      flex-direction:
-        column;
-
-      gap: 6px;
-    }
-
-    .login-box p {
-      display: block;
-      text-align: left;
-      color: #ffffff;
-      font-size: 1.1rem;
-      font-weight: 600;
-      margin: 0 0 2px 2px;
-
-    }
-
-    .login-box input[type="text"],
-    .login-box input[type="password"] {
-      width: 100%;
-      padding: 10px 14px;
-      border: 1.5px solid #0B364C;
-      border-radius: 8px;
-      font-size: 1.1rem;
-      background: #F5F6FA;
-      color: #ffffff;
-      outline: none;
-      transition: border 0.2s;
-    }
-
-    .login-box input[type="text"]:focus,
-    .login-box input[type="password"]:focus {
-      border: 2px solid #ffffff;
-      background: #fff;
-    }
-
-    .login-button {
-      width: 100%;
-      background: #0B364C;
-      color: #fff;
       border: none;
-      border-radius: 8px;
-      padding: 12px 0;
-      font-size: 1.2rem;
-      font-weight: 700;
-      margin-top: 10px;
+      border-radius: 5px;
       cursor: pointer;
-      box-shadow: 0 2px 8px rgba(11, 54, 76, 0.08);
-      transition: background 0.2s;
+      margin-top: 10px;
     }
 
-    .login-button:hover {
-      background: #08263a;
+    .login-container button:hover {
+      background-color: #555;
     }
 
-    .login-box-login-main label {
-      color: #ffffff;
-      font-size: 1rem;
-      font-weight: bold;
-    }
-
-    .login-box-login-main input[type="checkbox"] {
-      color: #fff;
-      accent-color: #0B364C;
-      width: 16px;
-      height: 16px;
-    }
-
-    .logo-login-main {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 8px;
-      margin-bottom: 24px;
-    }
-
-    .logo-login-main img {
-      width: 321px;
-      height: auto;
-    }
-
-    .logo-login-main p {
-      color: #ffffff;
-      font-size: 1.2rem;
-      font-weight: bold;
-      text-align: center;
-      margin: 0;
-    }
-
-    .login-main {
-      margin-top: 10rem;
+    .stay-connected {
+      margin-top: 10px;
+      font-size: 14px;
     }
   </style>
 </head>
-
 <body>
 
-  <div class="first-main">
-
-    <div class="photo-main">
-      <img src="/assets/PNG_images/image 20.png" alt="" srcset="">
-    </div>
-
-    <div class="login-main">
-      <div class="logo-login-main">
-        <img src="/assets/PNG_images/Frame 6.png" alt="Diana-platform-logo">
-        <p>Access - St. Paul’s Parent’s Portal</p>
-      </div>
-
-      <div class="login-box-login-main">
-        <div class="login-box">
-          <p>E-mail</p>
-          <input type="text" id="email" placeholder="E-mail" />
-        </div>
-        <div class="login-box">
-          <p>Password</p>
-          <input type="password" id="password" placeholder="Password" />
-        </div>
-        <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
-          <input type="checkbox" id="stay-connected" name="stay-connected" />
-          <label for="stay-connected">Stay connected?</label>
-        </div>
-        <button class="login-button" id="login-button">Login</button>
-      </div>
-    </div>
-
+  <div class="login-container">
+    <h2>Login</h2>
+    
+    <input type="text" id="email" placeholder="E-mail" >
+    <input type="password" id="password" placeholder="Password" />
+    <button id="login-button">Login</button>
   </div>
 
-  <div class="second-main">
-    <img src="/assets/PNG_images/BRAND_ST PAULS_White Outline (2) 1.png">
-    <p>We are the British school of São Paulo. At St. Paul’s we always strive to be the best we can be. We have the
-      courage of our convictions, essential <br> values, and the freedom to imagine and create. This is achieved through
-      our
-      high-quality British and Brazilian holistic education which <br> drives the personal and academic development of
-      pupils, within a caring, inclusive and united community.  </p>
-  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-  <div class="footer">
-    <div class="socials">
-      <a target="_blank" href="http://"><img src="/assets/PNG_images/St._Paul's_School_new_logo_2016 1.png"
-          alt="st-pauls-loog"></a>
-
-      <a target="_blank" href="https://www.instagram.com/stpaulsschoolsp/?hl=pt"><img
-          src="/assets/PNG_images/Instagram Old.png" alt="instagram"></a>
-
-      <a target="_blank" href="https://www.facebook.com/StPaulsschoolSP/?locale=pt_BR"><img
-          src="/assets/PNG_images/Facebook.png" alt="facebook"></a>
-
-      <a target="_blank" href="https://www.linkedin.com/school/stpaulsschool/people/?originalSubdomain=br"><img
-          src="/assets/PNG_images/linkedin.png" alt="linkedin"></a>
-    </div>
-
-    <p>Copyright © 2025 Saint Pauls. All rights reserved. Privacy Policy. All rights reserved by Saint Paul.</p>
-  </div>
-
-
-  <script>
-    document.getElementById('login-button').addEventListener('click', async () => {
-      const email = document.getElementById('email').value;
-      const name = document.getElementById('password').value;
-
-      try {
-        const response = await fetch('http://localhost:3000/users', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ name, email })
-        });
-
-        if (!response.ok) throw new Error('Erro ao criar usuário');
-
-        const data = await response.json();
-        alert(`Usuário criado com sucesso! ID: ${data.id}`);
-        window.location.href = '/choose';
-      } catch (err) {
-        alert(`Erro: ${err.message}`);
-      }
-    });
-  </script>
 
 </body>
-
 </html>
