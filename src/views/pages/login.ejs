@@ -63,33 +63,14 @@
 
   <div class="login-container">
     <h2>Login</h2>
-    <input type="text" id="email" placeholder="E-mail" />
+    
+    <input type="text" id="email" placeholder="E-mail" >
     <input type="password" id="password" placeholder="Password" />
     <button id="login-button">Login</button>
   </div>
 
-  <script>
-    document.getElementById('login-button').addEventListener('click', async () => {
-      const email = document.getElementById('email').value;
-      const name = document.getElementById('password').value;
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-      try {
-        const response = await fetch('http://localhost:3000/users', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ name, email })
-        });
-
-        if (!response.ok) throw new Error('Erro ao criar usuário');
-
-        const data = await response.json();
-        alert(`Usuário criado com sucesso! ID: ${data.id}`);
-        window.location.href = '/choose';
-      } catch (err) {
-        alert(`Erro: ${err.message}`);
-      }
-    });
-  </script>
 
 </body>
 </html>
