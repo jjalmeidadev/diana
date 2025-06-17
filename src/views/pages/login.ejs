@@ -16,17 +16,23 @@
       margin: 0;
       padding: 0;
       background-color: #B82121;
+      min-height: 100vh;
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      overflow-x: hidden;
+    }
+
+    .content-wrapper {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
     }
 
     .first-main {
+      flex: 1;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      padding: 20px;
     }
 
     .first-main .photo-main {
@@ -39,8 +45,6 @@
       margin-right: 10rem;
       justify-content: center;
       align-items: center;
-      display: flex;
-      flex-direction: column;
     }
 
     .logo-login-main {
@@ -52,7 +56,6 @@
 
     button {
       margin-left: 2rem;
-
     }
 
     .second-main {
@@ -61,7 +64,6 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-
       justify-content: center;
       background-color: #B82121;
       color: white;
@@ -139,9 +141,7 @@
     .login-box {
       width: 100%;
       display: flex;
-      flex-direction:
-        column;
-
+      flex-direction: column;
       gap: 6px;
     }
 
@@ -152,7 +152,6 @@
       font-size: 1.1rem;
       font-weight: 600;
       margin: 0 0 2px 2px;
-
     }
 
     .login-box input[type="text"],
@@ -235,65 +234,48 @@
 </head>
 
 <body>
-
-  <div class="first-main">
-
-    <div class="photo-main">
-      <img src="/assets/PNG_images/image 20.png" alt="" srcset="">
-    </div>
-
-    <div class="login-main">
-      <div class="logo-login-main">
-        <img src="/assets/PNG_images/Frame 6.png" alt="Diana-platform-logo">
-        <p>Access - St. Paul’s Parent’s Portal</p>
+  <div class="content-wrapper">
+    <div class="first-main">
+      <div class="photo-main">
+        <img src="/assets/PNG_images/image 20.png" alt="" srcset="">
       </div>
 
-      <div class="login-box-login-main">
-        <div class="login-box">
-          <p>E-mail</p>
-          <input type="text" id="email" placeholder="E-mail" />
+      <div class="login-main">
+        <div class="logo-login-main">
+          <img src="/assets/PNG_images/Frame 6.png" alt="Diana-platform-logo">
+          <p>Access - St. Paul's Parent's Portal</p>
         </div>
-        <div class="login-box">
-          <p>Password</p>
-          <input type="password" id="password" placeholder="Password" />
+
+        <div class="login-box-login-main">
+          <div class="login-box">
+            <p>E-mail</p>
+            <input type="text" id="email" placeholder="E-mail" />
+          </div>
+          <div class="login-box">
+            <p>Password</p>
+            <input type="password" id="password" placeholder="Password" />
+          </div>
+          <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
+            <input type="checkbox" id="stay-connected" name="stay-connected" />
+            <label for="stay-connected">Stay connected?</label>
+          </div>
+          <button class="login-button" id="login-button">Login</button>
         </div>
-        <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
-          <input type="checkbox" id="stay-connected" name="stay-connected" />
-          <label for="stay-connected">Stay connected?</label>
-        </div>
-        <button class="login-button" id="login-button">Login</button>
       </div>
     </div>
 
-  </div>
-
-  <div class="second-main">
-    <img src="/assets/PNG_images/BRAND_ST PAULS_White Outline (2) 1.png">
-    <p>We are the British school of São Paulo. At St. Paul’s we always strive to be the best we can be. We have the
-      courage of our convictions, essential <br> values, and the freedom to imagine and create. This is achieved through
-      our
-      high-quality British and Brazilian holistic education which <br> drives the personal and academic development of
-      pupils, within a caring, inclusive and united community.  </p>
-  </div>
-
-  <div class="footer">
-    <div class="socials">
-      <a target="_blank" href="http://"><img src="/assets/PNG_images/St._Paul's_School_new_logo_2016 1.png"
-          alt="st-pauls-loog"></a>
-
-      <a target="_blank" href="https://www.instagram.com/stpaulsschoolsp/?hl=pt"><img
-          src="/assets/PNG_images/Instagram Old.png" alt="instagram"></a>
-
-      <a target="_blank" href="https://www.facebook.com/StPaulsschoolSP/?locale=pt_BR"><img
-          src="/assets/PNG_images/Facebook.png" alt="facebook"></a>
-
-      <a target="_blank" href="https://www.linkedin.com/school/stpaulsschool/people/?originalSubdomain=br"><img
-          src="/assets/PNG_images/linkedin.png" alt="linkedin"></a>
+    <div class="second-main">
+      <img src="/assets/PNG_images/BRAND_ST PAULS_White Outline (2) 1.png">
+      <p>We are the British school of São Paulo. At St. Paul's we always strive to be the best we can be. We have the
+        courage of our convictions, essential <br> values, and the freedom to imagine and create. This is achieved through
+        our
+        high-quality British and Brazilian holistic education which <br> drives the personal and academic development of
+        pupils, within a caring, inclusive and united community. </p>
     </div>
-
-    <p>Copyright © 2025 Saint Pauls. All rights reserved. Privacy Policy. All rights reserved by Saint Paul.</p>
   </div>
 
+  <!-- Footer -->
+  <%- include('../components/lowerBar.ejs') %>
 
   <script>
     document.getElementById('login-button').addEventListener('click', async () => {
@@ -317,7 +299,6 @@
       }
     });
   </script>
-
 </body>
 
 </html>
