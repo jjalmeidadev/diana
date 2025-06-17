@@ -1,14 +1,63 @@
-<head>
-  <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;600&display=swap" rel="stylesheet">
-</head>
+<style>
+    .footer {
+        width: 100%;
+        background: #0B364C;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.04);
+        padding: 0;
+        height: 64px;
+        margin-top: auto;
+    }
 
-<div style="
-    width: 100vw; height: 50px; background-color: #B82121; color: white;
-    text-align: center; line-height: 50px; position: fixed;
-    bottom: 0; left: 0; font-family: 'Darker Grotesque', sans-serif;
-    font-size: 14px; z-index: 1000;
-">
-    Copyright © 2025 Saint Pauls.
-    All rights reserved. Privacy Policy.
-    All rights reserved by Saint Paul.
+    .footer .socials {
+        display: flex;
+        gap: 18px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6px;
+    }
+
+    .footer .socials img {
+        width: 28px;
+        height: 28px;
+        object-fit: contain;
+        filter: brightness(0) invert(1);
+        transition: filter 0.2s;
+    }
+
+    .footer .socials img:hover {
+        filter: brightness(0.8) invert(0.7) sepia(1) saturate(5) hue-rotate(180deg);
+    }
+
+    .footer p {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Darker Grotesque', sans-serif;
+        font-weight: 400;
+        margin-top: 2px;
+    }
+</style>
+
+<div class="footer">
+    <div class="socials">
+        <a target="_blank" href="http://"><img src="/assets/PNG_images/St._Paul's_School_new_logo_2016 1.png"
+            alt="st-pauls-loog"></a>
+
+        <a target="_blank" href="https://www.instagram.com/stpaulsschoolsp/?hl=pt"><img
+            src="/assets/PNG_images/Instagram Old.png" alt="instagram"></a>
+
+        <a target="_blank" href="https://www.facebook.com/StPaulsschoolSP/?locale=pt_BR"><img
+            src="/assets/PNG_images/Facebook.png" alt="facebook"></a>
+
+        <a target="_blank" href="https://www.linkedin.com/school/stpaulsschool/people/?originalSubdomain=br"><img
+            src="/assets/PNG_images/linkedin.png" alt="linkedin"></a>
+    </div>
+
+    <p>Copyright © 2025 Saint Pauls. All rights reserved. Privacy Policy. All rights reserved by Saint Paul.</p>
 </div>

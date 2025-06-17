@@ -1,7 +1,5 @@
 # WAD - Web Application Document - 2nd Module - Inteli
 
-<!-- **_Os trechos em itálico servem apenas como guia para o preenchimento da seção. Por esse motivo, não devem fazer parte da documentação final_** -->
-
 ## Group name: CrownMates
 ## Project name: Diana
 
@@ -33,6 +31,92 @@
 
 [8. References](c#8)
 
+Avenues: The World School. About Avenues São Paulo. São Paulo, 2025. Available at: https://www.avenues.org/sp/. Accessed: Jun. 16, 2025.
+
+Brazil. Ministry of Education. Bilingual Education: Guidelines and Possibilities. Brasília: MEC, 2022. Available at: https://www.gov.br/mec/pt-br/assuntos/noticias/educacao-bilingue. Accessed: Jun. 16, 2025.
+
+Chapel School. International Curriculum. São Paulo, 2025. Available at: https://www.chapelschool.org.br/. Accessed: Jun. 16, 2025.
+
+Cohn, M. User Stories Applied: For Agile Software Development. Boston: Addison-Wesley, 2004.
+
+Date, C. J. An Introduction to Database Systems. 8th ed. Rio de Janeiro: Campus, 2003.
+
+Elmasri, R.; Navathe, S. B. Fundamentals of Database Systems. 6th ed. São Paulo: Pearson, 2015.
+
+Gries, D.; Schneider, F. B. A Logical Approach to Discrete Math. New York: Springer, 1993.
+
+Graded – The American School of São Paulo. Graded’s Academic Programs. São Paulo, 2025. Available at: https://www.graded.br/. Accessed: Jun. 16, 2025.
+
+Nielsen, J. 10 Heuristics for User Interface Design. Fremont: Nielsen Norman Group, 1995. Available at: https://www.nngroup.com/articles/ten-usability-heuristics/. Accessed: Jun. 16, 2025.
+
+Osterwalder, A.; Pigneur, Y. Business Model Generation: Innovation in Business Models. Rio de Janeiro: Alta Books, 2011.
+
+Osterwalder, A.; Pigneur, Y. Value Proposition Design: How to Create Products and Services Customers Want. Rio de Janeiro: Alta Books, 2015.
+
+Osterwalder, A.; Pigneur, Y.; Bernarda, G.; Smith, A. Value Proposition Design: How to Create Products and Services Customers Want. Hoboken: Wiley, 2014.
+
+Ramalho, J. C. Logic for Computing. Rio de Janeiro: LTC, 2017.
+
+Rock Content. Wireframes: What They Are, Importance, Types, and Tools. Available at: https://rockcontent.com/br/blog/wireframes/. Accessed: May 28, 2025.
+
+Silberschatz, A.; Korth, H. F.; Sudarshan, S. Database System Concepts. 6th ed. Porto Alegre: AMGH, 2012.
+
+Sommerville, I. Software Engineering. 9th ed. São Paulo: Pearson, 2011.
+
+St. Paul's School. About Us. São Paulo: St. Paul's School, [2024?]. Available at: https://www.stpauls.br/about-us/. Accessed: Jun. 16, 2025.
+
+United Kingdom. Department for Education. British Schools Overseas (BSO): Standards and Inspection Framework. London, 2023. Available at: https://www.gov.uk/government/publications/british-schools-overseas-inspection-framework. Accessed: Jun. 16, 2025.
+
+W3C – World Wide Web Consortium. Web Content Accessibility Guidelines (WCAG) 2.2. 2024. Available at: https://www.w3.org/WAI/standards-guidelines/wcag/. Accessed: Jun. 16, 2025.
+
+SOMMERVILLE, Ian.
+Software Engineering. 10th ed. Boston: Pearson, 2019.
+
+FREEMAN, Eric; ROBSON, Elisabeth.
+Head First Design Patterns. 2nd ed. Sebastopol: O'Reilly Media, 2021.
+
+HOLZNER, Steven.
+Node.js: A Developer's Guide to Building Scalable Web Applications. 1st ed. Birmingham: Wrox, 2013.
+
+OBE, Regina O.; HSU, Leo S.
+PostgreSQL: Up and Running. 3rd ed. Sebastopol: O'Reilly Media, 2017.
+
+POSTMAN.
+Postman Learning Center. Available at: https://learning.postman.com/. Accessed on: 16 June 2025.
+
+FERREIRA, Aline C.
+MVC – Model View Controller: an Architecture for Responsibility Separation in Web Systems. Porto Alegre: UFRGS, 2012.
+
+WAZAWSKI, Filipe; SILVEIRA, Rafael.
+REST APIs with Node.js. 1st ed. São Paulo: Casa do Código, 2020.
+
+NIELSEN, Jakob.
+Designing Web Usability. 1st ed. Indianapolis: New Riders Publishing, 1999.
+
+ABEPAR – Associação Brasileira de Escolas Particulares.
+Private Education Market Report – Brazil 2024. São Paulo: ABEPAR, 2024.
+
+INTERNATIONAL SCHOOLS DATABASE.
+International School Growth and Statistics in Brazil. 2024. Available at: https://www.internationalschooldatabase.com/. Accessed on: 16 June 2025.
+
+ISC Research.
+Global Report on the International Schools Market. Oxfordshire: ISC Research, 2023.
+
+THE PIE NEWS.
+International Schools Sector Growth Report. London: The PIE News, 2023.
+
+EDTECH REPORT.
+Educational Technology Trends and Statistics – 2024 Edition. London: EdTech Magazine, 2024.
+
+KOTLER, Philip; KELLER, Kevin Lane.
+Marketing Management. 16th ed. Boston: Pearson Education, 2016.
+
+OSTERWALDER, Alexander; PIGNEUR, Yves.
+Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers. Hoboken: Wiley, 2010.
+
+CHAFFEY, Dave; ELLIS-CHADWICK, Fiona.
+Digital Marketing: Strategy, Implementation and Practice. 8th ed. Harlow: Pearson Education, 2019.
+
 [Appendices](#c9)
 
 <br>
@@ -53,16 +137,12 @@
 
 <div align="center">
   
-  <sub>Figure 01 - St. Paul's Student</sub>
-
-  
+  <sub>Figure 01 - St. Paul's Student</sub>  
   <br>
   <br>
   <img src="../assets/wad/stpaulspaulean.png" alt="Imagem da Forças de Porter" width="100%">
   <br>
   <br>
-
-  
   <sup>Source: partner's website (2025)</sup>
   
 </div>
@@ -79,9 +159,7 @@
 
 <div align="center">
   
-  <sub>Figure 02 - Porter's 5 forces</sub>
-
-  
+  <sub>Figure 02 - Porter's 5 forces</sub>  
   <br>
   <br>
   <img src="../assets/wad/forças.png" alt="Imagem da Forças de Porter" width="100%">
@@ -96,25 +174,25 @@
 <br>
 
 **1. Threat of New Entrants → LOW**
-Very high entry barriers: Paul’s has held official recognition from the British Crown since 2012, being the first school in South America to receive this endorsement. This grants the school a high level of exclusivity and institutional authority, along with a legacy since 1926, robust infrastructure, and prestige. 
+&nbsp;&nbsp;&nbsp;&nbsp;Very high entry barriers: Paul’s has held official recognition from the British Crown since 2012, being the first school in South America to receive this endorsement. This grants the school a high level of exclusivity and institutional authority, along with a legacy since 1926, robust infrastructure, and prestige. 
 
-The bilingual curriculum, IB programs, and internationally qualified staff require significant expertise and investment. 
+&nbsp;&nbsp;&nbsp;&nbsp;The bilingual curriculum, IB programs, and internationally qualified staff require significant expertise and investment. 
 
-High parent loyalty further discourages switching.
+&nbsp;&nbsp;&nbsp;&nbsp;High parent loyalty further discourages switching.
 
 
 
 **2. Threat of Substitutes → MODERATE**
-Indirect competition: Other bilingual/international schools (e.g., Avenues, Chapel, Graded) lack Crown recognition, weakening their legitimacy. 
+&nbsp;&nbsp;&nbsp;&nbsp;Indirect competition: Other bilingual/international schools (e.g., Avenues, Chapel, Graded) lack Crown recognition, weakening their legitimacy. 
 
-Online education has limited appeal in this premium segment, and the symbolic value of a British diploma for top universities is hard to replace.
+&nbsp;&nbsp;&nbsp;&nbsp;Online education has limited appeal in this premium segment, and the symbolic value of a British diploma for top universities is hard to replace.
 
 
 
 
 
 **3.  Bargaining Power of Suppliers → MODERATE**
-Key suppliers: bilingual and internationally trained teachers, educational technology companies, and outsourced services.
+&nbsp;&nbsp;&nbsp;&nbsp;Key suppliers: bilingual and internationally trained teachers, educational technology companies, and outsourced services.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;The school attracts talent through its strong brand name and offers good contractual conditions, reducing dependence on specific suppliers. However, top-tier teachers retain bargaining power as they can move to other elite institutions.
@@ -155,7 +233,7 @@ Key suppliers: bilingual and internationally trained teachers, educational techn
 
 
 **5. Rivalry Among Existing Competitors → HIGH  (but mitigated by advantage)**
-Competitors (Graded, Chapel, Avenues) target similar students but lack British recognition. St. Paul’s unique status reduces direct comparability, solidifying its leadership in the elite education market.
+&nbsp;&nbsp;&nbsp;&nbsp;Competitors (Graded, Chapel, Avenues) target similar students but lack British recognition. St. Paul’s unique status reduces direct comparability, solidifying its leadership in the elite education market.
 
 
 ### 2.1.2. SWOT Analysis of the Partner Institution (sprint 1)
@@ -335,7 +413,6 @@ Competitors (Graded, Chapel, Avenues) target similar students but lack British r
   <br>
   <br>
 
-  
   <sup>Source: authors (2025)</sup>
   
 </div>
@@ -478,13 +555,21 @@ Acceptance Criteria 1 | **Scenario:** The moderator accesses the user management
 
 &nbsp;&nbsp;&nbsp;&nbsp;We constantly refine these requirements into technical tasks, ensuring a smooth transition from user needs to implemented features. By maintaining this structured approach, we ensure the final product remains user-centric, secure, and efficient.
 
-# <a name="c3"></a>3. Web Application's Technical Project (sprints 1 a 4)
-
 ## 3.1. Architecture (sprints 3 e 4)
 
-<img src="../assets/wad/Diagrama da solução.png">
+<br>
+<div align="center">
+    <sub>Figure 09 - Architecture </sub>
+  <br>
+  <br>
+  <img src="../assets/wad/Diagrama da solução.png" alt="Marketing Manager" width="100%">
+  <br>
+  <br>
+  <sup>Source: authors (2025)</sup>
+</div>
+<br>
 
-Each database table is represented by its own model, which is responsible for handling the data structure and business logic related to that specific entity. For every model, there is a corresponding controller that acts as an intermediary between the model and the user interface. The controller receives input (usually from HTTP requests), processes this input by interacting with the appropriate model, and prepares the data to be sent to the views. The views are responsible for displaying the information to the user in a structured and user-friendly format.
+&nbsp;&nbsp;&nbsp;&nbsp;Each database table is represented by its own model, which is responsible for handling the data structure and business logic related to that specific entity. For every model, there is a corresponding controller that acts as an intermediary between the model and the user interface. The controller receives input (usually from HTTP requests), processes this input by interacting with the appropriate model, and prepares the data to be sent to the views. The views are responsible for displaying the information to the user in a structured and user-friendly format.
 
 Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diana?node-id=0-1&p=f&t=LUQpx1ce9GdskM4m-0
 
@@ -512,7 +597,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 
 <div align="center">
   
-  <sub>Figure 09 - Login screen </sub>
+  <sub>Figure 10 - Login screen </sub>
   <br>
   <br>
   ![login](../assets/wad/Login%20and%20About_reviewed.png)
@@ -541,7 +626,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 
 <div align="center">
   
-  <sub>Figure 10 - Profile </sub>
+  <sub>Figure 11 - Profile </sub>
   <br>
   <br>
  <img src="../assets/wad\Profile - Homepage (2).png">
@@ -565,18 +650,14 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 <br>
 
 <div align="center">
-  
-  <sub>Figure 11 - Assignments </sub>
+    <sub>Figure 12 - Assignments </sub>
   <br>
   <br>
 <img src="../assets/wad/Assignments_reviewed (1).png">
   <br>
   <br>
-
   <sup>Source: authors (2025)</sup>
-  
 </div>
-
 <br>
 
 **4. Reports Page**
@@ -593,7 +674,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 
 <div align="center">
   
-  <sub>Figure 12 - Reports </sub>
+  <sub>Figure 13 - Reports </sub>
   <br>
   <br>
 <img src="../assets/wad/Reports page_reviewed (1).png">
@@ -617,7 +698,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 
 <div align="center">
   
-  <sub>Figure 13 - Timetable </sub>
+  <sub>Figure 14 - Timetable </sub>
   <br>
   <br>
 <img src="../assets/wad/Timetable (class schedule)_reviewed (1).png">
@@ -642,7 +723,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 
 <div align="center">
   
-  <sub>Figure 14 - Events </sub>
+  <sub>Figure 15 - Events </sub>
   <br>
   <br>
 <img src="../assets/wad/School events for parents_reviewed (1).png">
@@ -654,8 +735,6 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 </div>
 
 <br>
-
-
 
 **7. Customer Service Channels**
 **Description:**  
@@ -671,7 +750,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 
 <div align="center">
   
-  <sub>Figure 15 - Customer Service Channels </sub>
+  <sub>Figure 16 - Customer Service Channels </sub>
   <br>
   <br>
 <img src="../assets/wad/Customer service channels_reviewed (1).png">
@@ -695,7 +774,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 
 <div align="center">
   
-  <sub>Figure 16 - Benes and sanctions </sub>
+  <sub>Figure 17 - Benes and sanctions </sub>
   <br>
   <br>
 <img src="../assets/wad/Benes and Sanctions_reviewed (1).png">
@@ -716,27 +795,21 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 
 ## 3.3. Style guide (sprint 3)
 
-<!-- *Descreva aqui orientações gerais para o leitor sobre como utilizar os componentes do guia de estilos de sua solução* -->
-
-This style guide was created to ensure visual and communicative consistency throughout the "Diana" solution. It provides essential visual identity guidelines that should be followed by all team members involved in design, development, and communication. 
+&nbsp;&nbsp;&nbsp;&nbsp;This style guide was created to ensure visual and communicative consistency throughout the "Diana" solution. It provides essential visual identity guidelines that should be followed by all team members involved in design, development, and communication. 
 
 <br>
 
 <div align="center">
   
-  <sub>Figure 17 - Style Guide </sub>
+  <sub>Figure 18 - Style Guide </sub>
   <br>
   <br>
 ![benes](../assets/wad/styleguide.jpg)
   <br>
   <br>
-
   <sup>Source: authors (2025)</sup>
-  
 </div>
-
 <br>
-
 
 ### 3.3.1 Colors
 
@@ -744,7 +817,7 @@ This style guide was created to ensure visual and communicative consistency thro
 
 <div align="center">
   
-  <sub>Figure 18 - Colors </sub>
+  <sub>Figure 19 - Colors </sub>
   <br>
   <br>
 ![benes](../assets/wad/colors.jpg)
@@ -772,7 +845,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 
 <div align="center">
   
-  <sub>Figure 18 - Typography </sub>
+  <sub>Figure 20 - Typography </sub>
   <br>
   <br>
 ![benes](../assets/wad/tipography.jpg)
@@ -784,7 +857,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 </div>
 
 <br>
-The guide uses two main font families: Darker Grotesque for interface texts and Archer for titles and highlighted texts. Use the specified weights and sizes according to the type of content (e.g., H1 for main titles, H2 for subtitles).
+&nbsp;&nbsp;&nbsp;&nbsp;The guide uses two main font families: Darker Grotesque for interface texts and Archer for titles and highlighted texts. Use the specified weights and sizes according to the type of content (e.g., H1 for main titles, H2 for subtitles).
 
 ### 3.3.3 Iconography and images
 
@@ -793,7 +866,7 @@ The guide uses two main font families: Darker Grotesque for interface texts and 
 
 <div align="center">
   
-  <sub>Figure 18 - Iconography and images </sub>
+  <sub>Figure 21 - Iconography and images </sub>
   <br>
   <br>
 ![benes](../assets/wad/icons.jpg)
@@ -833,96 +906,74 @@ The guide uses two main font families: Darker Grotesque for interface texts and 
 
 &nbsp;&nbsp;&nbsp;&nbsp;The following screens represent the core functionality of the Diana parent portal system, each designed to address specific user needs identified during the research phase:
 
-
 <br>
-
 <div align="center">
-  
-  <sub>Figure - Login and About Page </sub>
+    <sub>Figure 22 - Login </sub>
   <br>
   <br>
-<img src="../assets/wad/Login and About (1).png">
+  <img src="../assets/wad/Login and About (1).png" alt="Marketing Manager" width="100%">
   <br>
   <br>
-
   <sup>Source: authors (2025)</sup>
-  
 </div>
-
 <br>
 
-<br>
 
+<br>
 <div align="center">
-  
-  <sub>Figure - Student Selection </sub>
+    <sub>Figure 23 - Student Selection </sub>
   <br>
   <br>
-<img src="../assets/wad/Student Selection.png">
+  <img src="../assets/wad/Student Selection.png" alt="Marketing Manager" width="100%">
   <br>
   <br>
-
   <sup>Source: authors (2025)</sup>
-  
 </div>
-
 <br>
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;The login interface serves as the primary entry point to the system, featuring a clean, professional design that reflects St. Paul's School's brand identity. The layout prioritizes security and ease of access, with clear call-to-action buttons for authentication, password recovery, and institutional information access. The design incorporates the school's color palette and maintains visual consistency with the overall platform aesthetic.
 
+
 <br>
-
 <div align="center">
-  
-  <sub>Figure - Homepage/Profile Management </sub>
+    <sub>Figure 24 - Homepage/Profile Management </sub>
   <br>
   <br>
-<img src="../assets/wad/Group 14.png">
+ <img src="../assets/wad/Group 14.png">
   <br>
   <br>
-
   <sup>Source: authors (2025)</sup>
-  
 </div>
-
 <br>
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;The homepage serves as the central dashboard where parents can access all platform features and manage their profile information. The interface features a card-based layout that provides quick access to key functionalities including academic reports, upcoming events, and contact management. The design emphasizes information hierarchy through strategic use of whitespace, typography scaling, and color-coded sections.
 
 <br>
-
 <div align="center">
-  
-  <sub>Figure - Reports </sub>
+    <sub>Figure 25 - Reports </sub>
   <br>
   <br>
-<img src="../assets/wad/Reports-prototype.png">
+ <img src="../assets/wad/Reports-prototype.png">
   <br>
   <br>
-
   <sup>Source: authors (2025)</sup>
-  
 </div>
-
 <br>
 
 <br>
-
 <div align="center">
-  
-  <sub>Figure - Behavioral Tracking - Benes and Sanctions </sub>
+    <sub>Figure 26 - Behavioral Tracking - Benes and Sanctions </sub>
   <br>
   <br>
 <img src="../assets/wad/Benes & Sanctions.png">
   <br>
   <br>
-
   <sup>Source: authors (2025)</sup>
-  
 </div>
-
 <br>
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;This specialized interface allows parents to monitor their child's behavioral progress through St. Paul's unique merit and sanction system. The design incorporates data visualization elements including charts and progress indicators that make behavioral trends easily interpretable. The interface balances the need for detailed information with emotional sensitivity, using neutral colors and supportive messaging.
 
@@ -934,24 +985,6 @@ The guide uses two main font families: Darker Grotesque for interface texts and 
 ### 3.5.1. Relational model (sprints 2 e 4)
 
 &nbsp;&nbsp;&nbsp;&nbsp;Relational database modeling is the process of designing the structure of a database based on the principles of the relational model. Its purpose is to organize all the information into tables and to clearly represent the relationships among them, ensuring data is structured, consistent, and easy to access.
-
-<br>
-
-<div align="center">
-  
-  <sub>Figure 17 - Database Modelling </sub>
-  <br>
-  <br>
-![Screenshot 2025-06-10 14 53 34](https://github.com/user-attachments/assets/51102844-d4e5-4ec5-89c6-4d6c02b0a85a)
-
-  <br>
-  <br>
-
-  <sup>Source: authors (2025)</sup>
-  
-</div>
-
-<br>
 
 
 #### 3.5.1.1 Tables description:
@@ -1285,83 +1318,119 @@ RESTful API for academic management with endpoints for:
 
 **Login Screen:**
 
+
+<br>
 <div align="center">
+    <sub>Figure 27 - Login </sub>
   <br>
   <br>
-  <img src="../assets/wad/telalogin.jpeg" alt="Login Screen" width="100%">
+ <img src="../assets/wad/telalogin.jpeg"
   <br>
   <br>
+  <sup>Source: authors (2025)</sup>
 </div>
+<br>
 
 **Profile Screen:**
 
+<br>
 <div align="center">
+    <sub>Figure 28 - Profile Screen </sub>
   <br>
   <br>
-  <img src="../assets/wad/telaprofile.jpeg" alt="Profile Screen" width="100%">
+  <img src="../assets/wad/telaprofile.jpeg"
   <br>
   <br>
+  <sup>Source: authors (2025)</sup>
 </div>
+<br>
+
 
 **Assignments Screen:**
 
+
+<br>
 <div align="center">
+    <sub>Figure 29 - Assignments Screen </sub>
   <br>
   <br>
-  <img src="../assets/wad/telaassignments.jpeg" alt="Assignments Screen" width="100%">
+  <img src="../assets/wad/telaassignments.jpeg"
   <br>
   <br>
+  <sup>Source: authors (2025)</sup>
 </div>
+<br>
 
 **Customer Service Screen:**
 
+<br>
 <div align="center">
+    <sub>Figure 30 - Customer Service Screen </sub>
   <br>
   <br>
-  <img src="../assets/wad/telacustomers.jpeg" alt="Customer Service Screen" width="100%">
+<img src="../assets/wad/telacustomers.jpeg"
   <br>
   <br>
+  <sup>Source: authors (2025)</sup>
 </div>
+<br>
 
 **Events Screen:**
 
+<br>
 <div align="center">
+    <sub>Figure 31 - Events Screen </sub>
   <br>
   <br>
-  <img src="../assets/wad/telaevents.jpeg" alt="Events Screen" width="100%">
+ <img src="../assets/wad/telaevents.jpeg"
   <br>
   <br>
+  <sup>Source: authors (2025)</sup>
 </div>
+<br>
 
 **Timetable Screen:**
 
+
+<br>
 <div align="center">
+    <sub>Figure 32 - Timetable Screen </sub>
   <br>
   <br>
-  <img src="../assets/wad/telatimetable.jpeg" alt="Timetable Screen" width="100%">
+  <img src="../assets/wad/telatimetable.jpeg"
   <br>
   <br>
+  <sup>Source: authors (2025)</sup>
 </div>
+<br>
 
 **Benes and Sanctions Screen:**
 
+<br>
 <div align="center">
+    <sub>Figure 33 - Benes and Sanctions Screen </sub>
   <br>
   <br>
-  <img src="../assets/wad/telabenes.jpeg" alt="Benes and Sanctions Screen" width="100%">
+  <img src="../assets/wad/telabenes.jpeg"
   <br>
   <br>
+  <sup>Source: authors (2025)</sup>
 </div>
+<br>
 
 **Reports Screen:**
 
+<br>
 <div align="center">
+    <sub>Figure 34 - Reports Screen </sub>
   <br>
   <br>
-  <img src="../assets/wad/telareports.jpeg" alt="Reports Screen" width="100%">
+  <img src="../assets/wad/telareports.jpeg"
   <br>
   <br>
+  <sup>Source: authors (2025)</sup>
 </div>
+<br>
 
 ### Challenges Encountered:
 
@@ -1429,49 +1498,75 @@ RESTful API for academic management with endpoints for:
 
 
 **Benes and sanctions**:
-<div align="center">
-  <br>
-  <br>
-  <img src="../assets/PNG_images/benes_gif.gif" alt="Reports Screen" width="100%">
-  <br>
-  <br>
-</div>
 
+<br>
+<div align="center">
+    <sub>Figure 35 - Benes and sanctions </sub>
+  <br>
+  <br>
+  <img src="../assets/PNG_images/benes_gif.gif"
+  <br>
+  <br>
+  <sup>Source: authors (2025)</sup>
+</div>
+<br>
 
 **Assignments**:
+
+<br>
 <div align="center">
+    <sub>Figure 36 - Assignments </sub>
   <br>
   <br>
-  <img src="../assets/wad/viviiv.gif" alt="Assignments Screen" width="100%">
+  <img src="../assets/wad/viviiv.gif"
   <br>
   <br>
+  <sup>Source: authors (2025)</sup>
 </div>
+<br>
 
 **Reports**:
+
+<br>
 <div align="center">
+    <sub>Figure 37 - Reports </sub>
   <br>
   <br>
-  <img src="../assets/wad/Reportss.png" alt="Reports Screen" width="100%">
+  <img src="../assets/wad/Reportss.png"
   <br>
   <br>
+  <sup>Source: authors (2025)</sup>
 </div>
+<br>
 
 **Events**
+
+<br>
 <div align="center">
+    <sub>Figure 38 - Events </sub>
   <br>
   <br>
-  <img src="../assets/wad/Eventss.png" alt="Reports Screen" width="100%">
+  <img src="../assets/wad/Eventss.png"
   <br>
   <br>
+  <sup>Source: authors (2025)</sup>
 </div>
+<br>
 
 **Profile**
+
+
+<br>
 <div align="center">
-
-![Screenshot 2025-06-13 14 09 26](https://github.com/user-attachments/assets/4dc438c3-f75c-4a2f-85bc-4bba43936c20)
- 
-
+    <sub>Figure 39 - Profile </sub>
+  <br>
+  <br>
+  <img src="../assets/wad/perfiil.jpeg"
+  <br>
+  <br>
+  <sup>Source: authors (2025)</sup>
 </div>
+<br>
 
 ## Challenges Encountered:
 
@@ -1526,11 +1621,35 @@ RESTful API for academic management with endpoints for:
 
 
 ### example test:
-<img src="../assets/PNG_images/test-example.png">
+
+<br>
+<div align="center">
+    <sub>Figure 40 - test </sub>
+  <br>
+  <br>
+ <img src="../assets/PNG_images/test-example.png">
+  <br>
+  <br>
+  
 
 ### All our posman tests
+
+<br>
+<div align="center">
+    <sub>Figure 41 - test </sub>
+  <br>
 <img src="../assets/PNG_images/test1.png">
+
+<br>
+<div align="center">
+    <sub>Figure 42 - test </sub>
+  <br>
 <img src="../assets/PNG_images/test2.png">
+
+<br>
+<div align="center">
+    <sub>Figure 43 - test </sub>
+  <br>
 <img src="../assets/PNG_images/test3.png">
 
 <p>These tests are meant to verify if our routes are working properly. Each route has its own requests, but generally they include requests for creating, reading, updating, and deleting.</p>
@@ -1669,33 +1788,33 @@ RESTful API for academic management with endpoints for:
 
 ## 6.1 Executive Summary
 
-Diana is an innovative web portal developed for St. Paul’s School, one of the centenary British educational institutions leading development within Brazil. The platform aims to transform communication between the school and families by providing a centralized, intuitive, and efficient digital environment for monitoring students’ academic life, in contrast with their mobile solution, which left the school's communication sector stagnant with it's limited tools, and several identified pain points by consequence (regarding accessibility and information), which negatively impact families during their schedule organization.
+&nbsp;&nbsp;&nbsp;&nbsp;Diana is an innovative web portal developed for St. Paul’s School, one of the centenary British educational institutions leading development within Brazil. The platform aims to transform communication between the school and families by providing a centralized, intuitive, and efficient digital environment for monitoring students’ academic life, in contrast with their mobile solution, which left the school's communication sector stagnant with it's limited tools, and several identified pain points by consequence (regarding accessibility and information), which negatively impact families during their schedule organization.
 
-The high-end private education market in Brazil, on the other hand, presents opportunities for digital innovations that incentive closer relationships between parents and schools. With the growing demand for international institutions, there is also an increasing need for features that make the educational experience more transparent, guiding families towards the process of adaptation during the change of routines between countries.
+&nbsp;&nbsp;&nbsp;&nbsp;The high-end private education market in Brazil, on the other hand, presents opportunities for digital innovations that incentive closer relationships between parents and schools. With the growing demand for international institutions, there is also an increasing need for features that make the educational experience more transparent, guiding families towards the process of adaptation during the change of routines between countries.
 
-St. Paul’s School has clearly defined academic and administrative departments. There is a significant support to the integration of  technologies by enabling collaboration. The involvement of the IT department and the support from school leadership were essential to ensure strategic alignment of Diana with the institution’s goals.
+&nbsp;&nbsp;&nbsp;&nbsp;St. Paul’s School has clearly defined academic and administrative departments. There is a significant support to the integration of  technologies by enabling collaboration. The involvement of the IT department and the support from school leadership were essential to ensure strategic alignment of Diana with the institution’s goals.
 
-Diana’s key differentiators include its user-friendly interface, simplified navigation, and a comprehensive set of features: grade viewing, attendance tracking, academic calendar, and a communication channel. The goal is to deliver a personalized and practical experience, surpassing the limitations of currently available solutions.
+&nbsp;&nbsp;&nbsp;&nbsp;Diana’s key differentiators include its user-friendly interface, simplified navigation, and a comprehensive set of features: grade viewing, attendance tracking, academic calendar, and a communication channel. The goal is to deliver a personalized and practical experience, surpassing the limitations of currently available solutions.
 
-The project’s strategic objectives and values include preservation of tradition (present directly in it's design), resilience, aspiration, increasing family engagement, reducing time spent on tasks, and strengthening the bond between the school and the community. Additionally, Diana was developed to be scalable and flexible, allowing for future integrations according to the institution’s specific needs.
+&nbsp;&nbsp;&nbsp;&nbsp;The project’s strategic objectives and values include preservation of tradition (present directly in it's design), resilience, aspiration, increasing family engagement, reducing time spent on tasks, and strengthening the bond between the school and the community. Additionally, Diana was developed to be scalable and flexible, allowing for future integrations according to the institution’s specific needs.
 
 ## 6.2 Market Analysis
 
 ### a) Industry Overview
 
-The Brazilian private education sector, especially the segment of international and bilingual schools, has stood out as one of the most dynamic and promising in the country. In 2023, the private education market generated approximately R$ 60 billion, with an annual growth of 8% (ABEPAR, 2024). The international school segment, in particular, has benefited from the increasing demand for high-quality education and global competencies.
+&nbsp;&nbsp;&nbsp;&nbsp;The Brazilian private education sector, especially the segment of international and bilingual schools, has stood out as one of the most dynamic and promising in the country. In 2023, the private education market generated approximately R$ 60 billion, with an annual growth of 8% (ABEPAR, 2024). The international school segment, in particular, has benefited from the increasing demand for high-quality education and global competencies.
 
-Regulatory aspects are fundamental in this sector, with the need for compliance with the National Common Curricular Base (BNCC) and international guidelines, such as the International Baccalaureate (IB) and the British Curriculum. From a technological perspective, the sector has undergone rapid digital transformation with, significant investments in technological infrastructure and educational platforms.
+&nbsp;&nbsp;&nbsp;&nbsp;Regulatory aspects are fundamental in this sector, with the need for compliance with the National Common Curricular Base (BNCC) and international guidelines, such as the International Baccalaureate (IB) and the British Curriculum. From a technological perspective, the sector has undergone rapid digital transformation with, significant investments in technological infrastructure and educational platforms.
 
 ### b) Market Size and Growth
 
-The international school market in Brazil has shown significant growth in recent years. In 2023, there were around 1,200 international schools in the country, representing a 15% increase compared to 2020 (International Schools Database, 2024). The Southeast region concentrates 45% of these institutions, with São Paulo leading the ranking.
+&nbsp;&nbsp;&nbsp;&nbsp;The international school market in Brazil has shown significant growth in recent years. In 2023, there were around 1,200 international schools in the country, representing a 15% increase compared to 2020 (International Schools Database, 2024). The Southeast region concentrates 45% of these institutions, with São Paulo leading the ranking.
 
-The sector’s revenue grew 12% in 2023, reaching R$ 8.5 billion, with a projected annual growth of 10% until 2026 (ABEPAR, 2024). The average tuition in international schools ranges from R$ 4,000 to R$ 12,000, reflecting the high purchasing power of the target audience.
+&nbsp;&nbsp;&nbsp;&nbsp;The sector’s revenue grew 12% in 2023, reaching R$ 8.5 billion, with a projected annual growth of 10% until 2026 (ABEPAR, 2024). The average tuition in international schools ranges from R$ 4,000 to R$ 12,000, reflecting the high purchasing power of the target audience.
 
 ### c) Market Trends
 
-The education sector is undergoing significant transformations driven by three main trends:
+&nbsp;&nbsp;&nbsp;&nbsp;The education sector is undergoing significant transformations driven by three main trends:
 
 1. **Technological**: The integration of Artificial Intelligence and Machine Learning into educational platforms is revolutionizing personalized learning. The adoption of cloud-based school management systems grew 35% in 2023 (EdTech Report, 2024).
 
@@ -1712,14 +1831,14 @@ The education sector is undergoing significant transformations driven by three m
 
 ### Main Competitors
 
-There are numerous tools used by schools to support communication and learning. Some of the most known ones would be Google Classroom, Moodle, and Microsoft Teams for Education. These platforms are mainly used for schoolwork and class activities. Google Classroom is easy to use and integrates well with other Google apps, but it does not prioritize keeping parents informed. Moodle is a strong platform that many schools use, but it can be hard to manage and is not very user friendly. considering it's non practical design, and Microsoft Teams helps with online classes and communication between teachers and students, but it doesn’t offer many features specialized for families.
+&nbsp;&nbsp;&nbsp;&nbsp;There are numerous tools used by schools to support communication and learning. Some of the most known ones would be Google Classroom, Moodle, and Microsoft Teams for Education. These platforms are mainly used for schoolwork and class activities. Google Classroom is easy to use and integrates well with other Google apps, but it does not prioritize keeping parents informed. Moodle is a strong platform that many schools use, but it can be hard to manage and is not very user friendly. considering it's non practical design, and Microsoft Teams helps with online classes and communication between teachers and students, but it doesn’t offer many features specialized for families.
  Other tools that schools often use to talk to parents are messaging apps like WhatsApp or email. These are easy and familiar to use, but they are not made for school environments and do not offer features such as calendars or constant updates about student progress.
  Some schools have their own portals, but these systems are often not updated,  hard to use on phones, and do not support multiple languages well.
  In general, current tools are useful for teachers and students, but they are not made with the intention of approaching international parents directly. They do not always support different languages, and they can be confusing or hard to use for families who are new to the school or country.
 
 ### Competitive Advantages
 
- Our web application is specially designed to help international schools communicate better with parents from different countries. Unlike most school platforms, our tool is made especially for families, not just for teachers and students.
+ &nbsp;&nbsp;&nbsp;&nbsp;Our web application is specially designed to help international schools communicate better with parents from different countries. Unlike most school platforms, our tool is made especially for families, not just for teachers and students.
  One of the most important features is the language support. Parents can read messages, updates, and school events in english or portuguese. This helps avoid confusion and makes everyone feel welcomed and informed, no matter where they are from.
 Our platform is not focused on managing classroom tasks like Google Classroom or Moodle. Instead, it gives parents an intuitive way to see their child’s progress in real time by checking school events, receiving important updates, and talking directly with the school office by our communications tab, all in a centralized manner.
  The design is conceptualized to be simple and easy to use. Parents won't need any previous orientation to comprehend it's functionalities. They can access it from a phone or computer and get alerts when needed.
@@ -1730,24 +1849,24 @@ Our platform is not focused on managing classroom tasks like Google Classroom or
 
 ### Market Segment
 
-We will target the educational and international communication sectors with our website.. St. Paul’s School in São Paulo would be our main customer. which illustrates the necessity our website solves in this context.
+&nbsp;&nbsp;&nbsp;&nbsp;We will target the educational and international communication sectors with our website.. St. Paul’s School in São Paulo would be our main customer. which illustrates the necessity our website solves in this context.
  St. Paul’s School centers its brand around offering international students, mainly from the United Kingdom, the opportunity to continue their British curriculum while residing in Brazil. The school features a diverse curriculum that brings Brazilian and British education systems together, together with several extracurricular activities such as theater and language learning. This  educational approach requires a digital platform that is not only multilingual and accessible but also adaptable to different academic models.
  In addition, the school has a significant focus on internationalism. According to their own website, the school community is composed of students from over 28 different nationalities, including the UK, USA, Japan, and various Latin American countries. This highlights the demand for communication tools that reach across borders and facilitate global interaction.
 
- In this sense, our production would be directed to a culturally adaptable, interactive and informative platform for parents, which has it's impact justified by the ISC Research (2023), that shows there are over 13,000 international schools worldwide, serving more than 6 million students, illustrating a high-potential and growing market for our application, considering its personalized approach to families and how the schools could exercise clear and direct communication with them.
+ &nbsp;&nbsp;&nbsp;&nbsp;In this sense, our production would be directed to a culturally adaptable, interactive and informative platform for parents, which has it's impact justified by the ISC Research (2023), that shows there are over 13,000 international schools worldwide, serving more than 6 million students, illustrating a high-potential and growing market for our application, considering its personalized approach to families and how the schools could exercise clear and direct communication with them.
 
 ### Profile Segment
 
- The target audience for our project would consist in parents and responsibles of students in international schools, specifically those in St. Paul’s School in São Paulo. Demographically, this group includes adults aged 30 to 50, bilingual or multilingual, with high levels of education and economic status. Many are diplomats, or professionals working for multinational corporations, with families often living far apart or in different countries.
+ &nbsp;&nbsp;&nbsp;&nbsp;The target audience for our project would consist in parents and responsibles of students in international schools, specifically those in St. Paul’s School in São Paulo. Demographically, this group includes adults aged 30 to 50, bilingual or multilingual, with high levels of education and economic status. Many are diplomats, or professionals working for multinational corporations, with families often living far apart or in different countries.
  Psychographically, these individuals highly value academic performance, cultural diversity, and global citizenship. They are proactive in their children’s education and prioritize communication, transparency, and accessibility when engaging with schools. Behaviorally, they are close with digital devices, familiar to using mobile apps and digital platforms for managing school information, and wish for real-time updates and user-friendly interfaces.
- A relevant need for this audience is a digital solution that brings culture and languages together, offering intuitive access to school activities, academic updates, and secretary communication. This demand is growing rapidly with the international education sector.
+ &nbsp;&nbsp;&nbsp;&nbsp;A relevant need for this audience is a digital solution that brings culture and languages together, offering intuitive access to school activities, academic updates, and secretary communication. This demand is growing rapidly with the international education sector.
  According to The PIE News (2023), the number of students enrolled in international schools worldwide has surpassed 6.5 million, and is expected to continue rising, as families will be consistently seeking high-quality education. This research highlights the urgency for schools to adopt platforms that take these constant changes into account, enhancing the parents engagement and experience in a global perspective.
 
 ## 6.5 Positioning
 
 ### a) Unique Value Proposition
 
-Diana stands out in the market by offering a complete and integrated solution for managing communication between school and family, with a special focus on user experience. Our unique value proposition lies in the combination of three fundamental elements:
+&nbsp;&nbsp;&nbsp;&nbsp;Diana stands out in the market by offering a complete and integrated solution for managing communication between school and family, with a special focus on user experience. Our unique value proposition lies in the combination of three fundamental elements:
 
 - **Centralization of Information:** By bringing together all academic information, events, and communications on a single platform, we eliminate the fragmentation that characterizes current solutions.  
 - **Intuitive Interface:** We developed an interface that prioritizes usability, allowing parents with different levels of technological familiarity to easily navigate the platform.  
@@ -1771,36 +1890,31 @@ This approach positions us uniquely in the market, especially among high-end int
 
 
 ## What are the 4 Ps of Marketing?
-<br>
 
+<br>
 <div align="center">
-  
-  <sub>Figure 18 - The 4 Ps of Marketing </sub>
+    <sub>Figure 44 - 4 Ps of Marketing</sub>
   <br>
   <br>
-![benes](../assets/wad/4ps.png)
+  <img src="../assets/wad/4ps.png"
   <br>
   <br>
-
   <sup>Source: authors (2025)</sup>
-  
 </div>
-
 <br>
-
 ---
 
 ## Context of St. Paul’s School and the project
 
-St. Paul’s School, an elite British school in São Paulo, identified communication challenges with parents due to a confusing and inefficient app. To address this, a dedicated web portal was proposed for parents, offering quick and centralized access to school information such as homework, absences, and announcements — improving the overall experience and strengthening the school-family relationship.
+&nbsp;&nbsp;&nbsp;&nbsp;St. Paul’s School, an elite British school in São Paulo, identified communication challenges with parents due to a confusing and inefficient app. To address this, a dedicated web portal was proposed for parents, offering quick and centralized access to school information such as homework, absences, and announcements — improving the overall experience and strengthening the school-family relationship.
 
-The project, in this context, consists of a dedicated web portal for parents, developed to simplify the monitoring of students’ school routines at St. Paul’s School. The platform provides direct access to essential information such as school events, attendance tracking, class schedules, important announcements, and academic performance. All of this is available through a single interface, accessible via any web browser — with no downloads required.
+&nbsp;&nbsp;&nbsp;&nbsp;The project, in this context, consists of a dedicated web portal for parents, developed to simplify the monitoring of students’ school routines at St. Paul’s School. The platform provides direct access to essential information such as school events, attendance tracking, class schedules, important announcements, and academic performance. All of this is available through a single interface, accessible via any web browser — with no downloads required.
 
 ---
 
 ## 1. Product / Service
 
-The project developed is a dedicated web portal for the parents of St. Paul’s School students, designed to simplify the monitoring of their children’s school routines. It centralizes all school-related information in a clear and intuitive interface. Key features include:
+&nbsp;&nbsp;&nbsp;&nbsp;The project developed is a dedicated web portal for the parents of St. Paul’s School students, designed to simplify the monitoring of their children’s school routines. It centralizes all school-related information in a clear and intuitive interface. Key features include:
 
 - School events  
 - Attendance tracking  
@@ -1823,7 +1937,7 @@ By offering this experience, the solution reinforces St. Paul’s image as an in
 
 ## 2. Price
 
-The proposed pricing model is institutional licensing with customized annual plans, adjusted according to the number of active students or guardians. This **B2B (business-to-business)** approach is ideal for institutions like St. Paul’s, which operate in a premium segment and prioritize quality and exclusivity.
+&nbsp;&nbsp;&nbsp;&nbsp;The proposed pricing model is institutional licensing with customized annual plans, adjusted according to the number of active students or guardians. This **B2B (business-to-business)** approach is ideal for institutions like St. Paul’s, which operate in a premium segment and prioritize quality and exclusivity.
 
 **Pricing rationale:**
 
@@ -1839,7 +1953,7 @@ Thus, the pricing model reinforces St. Paul’s brand proposition: delivering ex
 
 ## 3. Distribution
 
-The application distribution will be entirely digital, ensuring convenience and easy access for the target audience. The portal will be accessible directly through web browsers with **no need to install additional apps or software**. This enables parents to access the system anytime, on any device (computer, tablet, or smartphone), optimizing the user experience.
+&nbsp;&nbsp;&nbsp;&nbsp;The application distribution will be entirely digital, ensuring convenience and easy access for the target audience. The portal will be accessible directly through web browsers with **no need to install additional apps or software**. This enables parents to access the system anytime, on any device (computer, tablet, or smartphone), optimizing the user experience.
 
 **Delivery channels include:**
 
@@ -1853,7 +1967,7 @@ This approach ensures broad reach, effectively reaching all parents at a low ope
 
 ## 4. Promotion
 
-The digital promotion strategy includes a combination of **SEO (Search Engine Optimization)**, social media, and content marketing, aimed at expanding reach and engagement among parents.
+&nbsp;&nbsp;&nbsp;&nbsp;The digital promotion strategy includes a combination of **SEO (Search Engine Optimization)**, social media, and content marketing, aimed at expanding reach and engagement among parents.
 
 - **SEO:** Optimizes the school’s official website and portal to appear easily in searches related to bilingual education, school communication, and student monitoring, facilitating spontaneous access.  
 - **Social media:** Creates relevant, dynamic content such as tutorial videos, testimonials from parents and teachers, and explanatory posts highlighting platform benefits. Active engagement strengthens trust and interest. Key examples would be the use of instagram or linkedin, both accessible from the site itself. 
@@ -1861,8 +1975,8 @@ The digital promotion strategy includes a combination of **SEO (Search Engine Op
 
 ---
 
-Conclusion
-The platform strengthens communication between St. Paul’s School and families by offering an intuitive, efficient solution aligned with the school’s values. By combining a functional product, value-based pricing, digital distribution, and promotional strategies focused on engagement, we deliver a solution that modernizes the parent experience and reinforces the school’s position as a leader in innovation and educational excellence.
+**Conclusion**
+&nbsp;&nbsp;&nbsp;&nbsp;The platform strengthens communication between St. Paul’s School and families by offering an intuitive, efficient solution aligned with the school’s values. By combining a functional product, value-based pricing, digital distribution, and promotional strategies focused on engagement, we deliver a solution that modernizes the parent experience and reinforces the school’s position as a leader in innovation and educational excellence.
 
 ---
 
