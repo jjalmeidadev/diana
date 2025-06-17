@@ -19,12 +19,11 @@
         }
 
         .main-content {
+            flex: 1;
             margin-left: 200px;
             padding: 90px 20px 80px 20px;
-            min-height: calc(100vh - 150px);
             background-color: #f5f5f5;
             box-sizing: border-box;
-            flex: 1;
         }
 
         .page-title {
@@ -155,7 +154,6 @@
     <!-- Sidebar -->
     <%- include('../components/sideBar.ejs') %>
 
-    <!-- Event boxes area -->
     <div class="main-content">
         <!-- Customer Service Channels Title -->
         <h1 class="page-title">Customer Service Channels</h1>
@@ -215,7 +213,8 @@
         </div>
     </div>
 
-
+    <!-- Footer -->
+    <%- include('../components/lowerBar.ejs') %>
     
     <script>
         $(document).ready(function() {
