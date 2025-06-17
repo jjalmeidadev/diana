@@ -1,135 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Timetable</title>
-  <style>
-    .carousel-container {
-      width: 100%;
-      max-width: 1000px;
-      margin: 120px auto 60px auto;
-    }
-
-    .carousel-controls {
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-      margin-bottom: 8px;
-    }
-
-    .arrow-button {
-      background-color: rgba(255, 255, 255, 0.85);
-      border: none;
-      color: #333;
-      font-size: 0.9em;
-      padding: 4px 10px;
-      border-radius: 6px;
-      cursor: pointer;
-      transition: background-color 0.3s ease, transform 0.2s ease;
-      box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
-      text-decoration: none;
-    }
-
-    .arrow-button:hover {
-      background-color: rgba(240, 240, 240, 1);
-      transform: scale(1.05);
-    }
-
-    .arrow-button:active {
-      transform: scale(0.95);
-    }
-
-    .carousel img {
-      width: 100%;
-      opacity: 0;
-      transition: opacity 0.5s ease-in-out;
-      position: absolute;
-      top: 0;
-      left: 0;
-      border-radius: 12px;
-    }
-
-    .carousel img.active {
-      opacity: 1;
-      position: relative;
-      z-index: 1;
-    }
-
-    .carousel {
-      position: relative;
-      width: 100%;
-      overflow: hidden;
-      height: auto;
-      border-radius: 12px;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timetable</title>
 </head>
 
 <body style="margin: 0; padding: 0;">
-  <!-- Top bar -->
-  <%- include('../components/upperBar.ejs') %>
+    <!-- Top bar -->
+    <%- include('../components/upperBar.ejs') %>
+    <!-- Sidebar -->
+    <%- include('../components/sideBar.ejs') %>
 
-  <!-- Sidebar -->
-  <%- include('../components/sideBar.ejs') %>
+    
 
-  <!-- Timetable content -->
-  <div style="margin-left: 220px; padding: 0 30px;">
-    <div class="carousel-container">
-      <!-- Setas acima da imagem -->
-      <div class="carousel-controls">
-        <button class="arrow-button" onclick="prevImage()">←</button>
-        <button class="arrow-button" onclick="nextImage()">→</button>
-      </div>
-
-      <!-- Botão de download -->
-      <div style="text-align: center; margin-bottom: 10px;">
-        <a id="downloadLink" class="arrow-button" download="timetable.jpg">Baixar imagem</a>
-      </div>
-
-      <!-- Imagens -->
-      <div class="carousel">
-        <img src="assets/PNG_images/timetable.jpg" class="active" />
-        <img src="assets/PNG_images/timetable2.jpg" />
-      </div>
+    <!-- Timetable content -->
+    <div style="margin: 100px 170px 0 220px;">
+        <!-- Curriculum -->
+        <div style="
+            width: 200px; height: 50px; background-color: #f4f4f4; color: black;
+            text-align: center; line-height: 50px; border: 1px solid black;
+            margin-bottom: 40px; margin-left: 450px;
+        ">
+            Curriculum
+        </div>
+        <!-- Timetable table -->
+        <table border="1" align="center" width="80%" height="70%"
+            style="margin-right: 30px; margin-bottom: 40px">
+            <caption style="text-align: center; margin-bottom: 5px; margin-top: -25px;">
+                <strong>Weekly Timetable</strong>
+            </caption>
+            <thead>
+                <!-- Table headers -->
+                <tr>
+                    <th rowspan="2">Time</th>
+                    <th colspan="7">Days</th>
+                </tr>
+                <tr>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Table rows -->
+                <tr>
+                    <th>08:10 AM</th>
+                    <td>IB English</td>
+                    <td>IB Portuguese</td>
+                    <td>IB Maths</td>
+                    <td>IB English</td>
+                    <td>IB Maths</td>
+                </tr>
+                <tr>
+                    <th>09:05 AM</th>
+                    <td>IB Maths</td>
+                    <td>IB Portuguese</td>
+                    <td>IB Maths</td>
+                    <td>IB English</td>
+                    <td>IB Maths</td>
+                </tr>
+                <tr>
+                    <th>10:00 AM</th>
+                    <td>Tutorial</td>
+                    <td>Tutorial</td>
+                    <td>Tutorial</td>
+                    <td>Tutorial</td>
+                    <td>Tutorial</td>
+                </tr>
+                <tr>
+                    <th>10:20 AM</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>10:45 AM</th>
+                    <td>IB Film</td>
+                    <td>IB Film</td>
+                    <td>IB Biology</td>
+                    <td>IB Global Politics</td>
+                    <td>IB English</td>
+                </tr>
+                <tr>
+                    <th>11:40 AM</th>
+                    <td>University Prep</td>
+                    <td>IB ToK</td>
+                    <td>IB Portuguese</td>
+                    <td>IB Private Study</td>
+                    <td>IB Film</td>
+                </tr>
+                <tr>
+                    <th>12:30 AM</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>13:30 AM</th>
+                    <td>IB Global Politics</td>
+                    <td>IB Private Study</td>
+                    <td>IB Global Politics</td>
+                    <td>IB Film</td>
+                    <td>IB ToK</td>
+                </tr>
+                <tr>
+                    <th>14:25 AM</th>
+                    <td>IB Biology</td>
+                    <td>IB Maths</td>
+                    <td>IB English</td>
+                    <td>Physical Education</td>
+                    <td>IB Portuguese</td>
+                </tr>
+                <tr>
+                    <th>15:15 AM</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
     </div>
-  </div>
 
-  <!-- Footer -->
-  <%- include('../components/lowerBar.ejs') %>
-
-  <script>
-    const images = document.querySelectorAll(".carousel img");
-    let current = 0;
-
-    function showImage(index) {
-      images.forEach((img) => img.classList.remove("active"));
-      images[index].classList.add("active");
-      updateDownloadLink();
-    }
-
-    function nextImage() {
-      current = (current + 1) % images.length;
-      showImage(current);
-    }
-
-    function prevImage() {
-      current = (current - 1 + images.length) % images.length;
-      showImage(current);
-    }
-
-    function updateDownloadLink() {
-      const activeImage = document.querySelector(".carousel img.active");
-      const downloadLink = document.getElementById("downloadLink");
-      if (activeImage) {
-        downloadLink.href = activeImage.src;
-        const filename = activeImage.src.split("/").pop();
-        downloadLink.download = filename;
-      }
-    }
-
-    // Atualiza o link no carregamento inicial
-    updateDownloadLink();
-  </script>
+    <!-- Footer -->
+    <%- include('../components/lowerBar.ejs') %>
 </body>
+
 </html>
