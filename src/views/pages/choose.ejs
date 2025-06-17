@@ -16,15 +16,23 @@
       margin: 0;
       padding: 0;
       background-color: #B82121;
+      min-height: 100vh;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+    }
+
+    .content-wrapper {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
     }
 
     .first-main {
+      flex: 1;
       display: flex;
       justify-content: center;
-      height: 100vh;
+      align-items: center;
+      padding: 20px;
     }
 
     .first-main .photo-main {
@@ -35,12 +43,6 @@
 
     .first-main .choose-main {
       margin-right: 20rem;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .first-main {
-      display: flex;
       justify-content: center;
       align-items: center;
     }
@@ -70,6 +72,9 @@
 
     .choose-main {
       margin-top: 10rem;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
     }
 
     .choose-student-box-main {
@@ -89,6 +94,7 @@
       gap: 1.2rem;
       justify-content: center;
       margin-bottom: 10px;
+      margin-left: 3rem;
     }
 
     .student-card {
@@ -101,7 +107,6 @@
       width: 100px;
       cursor: pointer;
     }
-
 
     .student-card img {
       width: 70px;
@@ -124,6 +129,8 @@
       font-size: 0.98rem;
       margin-top: 0.5rem;
       text-align: center;
+      margin-left: 3rem;
+      font-size: 1rem;
     }
 
     .missing-student a {
@@ -231,63 +238,49 @@
 </head>
 
 <body>
-  <div class="first-main">
-    <div class="photo-main">
-      <img src="/assets/PNG_images/image 20.png" alt="" srcset="">
-    </div>
-    <div class="choose-main">
-      <div class="logo-choose-main">
-        <img src="/assets/PNG_images/Frame 6.png" alt="Diana-platform-logo">
-        <p>Welcome to Diana: the St. Paul’s School Parent’s Portal!</p>
-        <p>Please, select the student access below:</p>
+  <div class="content-wrapper">
+    <div class="first-main">
+      <div class="photo-main">
+        <img src="/assets/PNG_images/image 20.png" alt="" srcset="">
       </div>
-      <div class="choose-student-box-main">
-        <div class="student-cards-row">
-          <div class="student-card" onclick="selecionarFilho('Julio')">
-            <img src="/assets/PNG_images/avatar.png" alt="Julio" />
-            <h3>Zachary</h3>
-          </div>
-          <div class="student-card" onclick="selecionarFilho('Henry')">
-            <img src="/assets/PNG_images/avatar.png" alt="Henry" />
-            <h3>Henry</h3>
-          </div>
-          <div class="student-card" onclick="selecionarFilho('Olivia')">
-            <img src="/assets/PNG_images/avatar.png" alt="Olivia" />
-            <h3>Olivia</h3>
-          </div>
-          <div class="student-card" onclick="selecionarFilho('Amelia')">
-            <img src="/assets/PNG_images/avatar.png" alt="Amelia" />
-            <h3>Amelia</h3>
-          </div>
+      <div class="choose-main">
+        <div class="logo-choose-main">
+          <img src="/assets/PNG_images/Frame 6.png" alt="Diana-platform-logo">
+          <p>Welcome to Diana: the St. Paul's School Parent's Portal!</p>
+          <p>Please, select the student access below:</p>
         </div>
-        <div class="missing-student">
-          Missing student?<br>
-          <a href="#">Click to talk with the support team</a>
+        <div class="choose-student-box-main">
+          <div class="student-cards-row">
+            <div class="student-card" onclick="selecionarFilho('Julio')">
+              <img src="/assets/PNG_images/avatar.png" alt="Julio" />
+              <h3>Zachary</h3>
+            </div>
+            <div class="student-card" onclick="selecionarFilho('Henry')">
+              <img src="/assets/PNG_images/avatar.png" alt="Henry" />
+              <h3>Henry</h3>
+            </div>
+            <div class="student-card" onclick="selecionarFilho('Julio')">
+              <img src="/assets/PNG_images/avatar.png" alt="Julio" />
+              <h3>Julio</h3>
+            </div>
+          </div>
+          <p class="missing-student">Is your student missing? <a href="#">Add a new student</a></p>
         </div>
       </div>
     </div>
-  </div>
-  <div class="second-main">
-    <img src="/assets/PNG_images/BRAND_ST PAULS_White Outline (2) 1.png">
-    <p>We are the British school of São Paulo. At St. Paul’s we always strive to be the best we can be. We have the
-      courage of our convictions, essential <br> values, and the freedom to imagine and create. This is achieved through
-      our
-      high-quality British and Brazilian holistic education which <br> drives the personal and academic development of
-      pupils, within a caring, inclusive and united community.  </p>
-  </div>
-  <div class="footer">
-    <div class="socials">
-      <a target="_blank" href="http://"><img src="/assets/PNG_images/St._Paul's_School_new_logo_2016 1.png"
-          alt="st-pauls-loog"></a>
-      <a target="_blank" href="https://www.instagram.com/stpaulsschoolsp/?hl=pt"><img
-          src="/assets/PNG_images/Instagram Old.png" alt="instagram"></a>
-      <a target="_blank" href="https://www.facebook.com/StPaulsschoolSP/?locale=pt_BR"><img
-          src="/assets/PNG_images/Facebook.png" alt="facebook"></a>
-      <a target="_blank" href="https://www.linkedin.com/school/stpaulsschool/people/?originalSubdomain=br"><img
-          src="/assets/PNG_images/linkedin.png" alt="linkedin"></a>
+
+    <div class="second-main">
+      <img src="/assets/PNG_images/BRAND_ST PAULS_White Outline (2) 1.png">
+      <p>We are the British school of São Paulo. At St. Paul's we always strive to be the best we can be. We have the
+        courage of our convictions, essential <br> values, and the freedom to imagine and create. This is achieved through
+        our
+        high-quality British and Brazilian holistic education which <br> drives the personal and academic development of
+        pupils, within a caring, inclusive and united community. </p>
     </div>
-    <p>Copyright © 2025 Saint Pauls. All rights reserved. Privacy Policy. All rights reserved by Saint Paul.</p>
   </div>
+
+  <!-- Footer -->
+  <%- include('../components/lowerBar.ejs') %>
   <script>
     function selecionarFilho(nome) {
       window.location.href = `/assignments`;
