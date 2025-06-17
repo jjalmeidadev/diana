@@ -28,6 +28,7 @@
       cursor: pointer;
       transition: background-color 0.3s ease, transform 0.2s ease;
       box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+      text-decoration: none;
     }
 
     .arrow-button:hover {
@@ -81,6 +82,11 @@
         <button class="arrow-button" onclick="nextImage()">→</button>
       </div>
 
+      <!-- Botão de download -->
+      <div style="text-align: center; margin-bottom: 10px;">
+        <a id="downloadLink" class="arrow-button" download="timetable.jpg">Baixar imagem</a>
+      </div>
+
       <!-- Imagens -->
       <div class="carousel">
         <img src="assets/PNG_images/timetable.jpg" class="active" />
@@ -97,10 +103,9 @@
     let current = 0;
 
     function showImage(index) {
-      images.forEach((img, i) => {
-        img.classList.remove("active");
-      });
+      images.forEach((img) => img.classList.remove("active"));
       images[index].classList.add("active");
+      updateDownloadLink();
     }
 
     function nextImage() {
@@ -112,6 +117,19 @@
       current = (current - 1 + images.length) % images.length;
       showImage(current);
     }
+
+    function updateDownloadLink() {
+      const activeImage = document.querySelector(".carousel img.active");
+      const downloadLink = document.getElementById("downloadLink");
+      if (activeImage) {
+        downloadLink.href = activeImage.src;
+        const filename = activeImage.src.split("/").pop();
+        downloadLink.download = filename;
+      }
+    }
+
+    // Atualiza o link no carregamento inicial
+    updateDownloadLink();
   </script>
 </body>
 </html>
