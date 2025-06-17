@@ -18,6 +18,8 @@
       font-family: 'Darker Grotesque', sans-serif;
       padding: 25px 0;
       box-shadow: 1px 0 2px rgba(1, 1, 1, 5);
+      z-index: 1000;
+      overflow-y: auto;
     }
 
     .sidebar-button {
@@ -86,6 +88,7 @@
       width: 100%;
       margin: 15px 0;
       padding: 0 10px;
+      flex-shrink: 0;
     }
 
     .sidebar-section-title {
@@ -111,6 +114,26 @@
       font-size: 12px;
       color: rgba(255, 255, 255, 0.4);
       text-align: center;
+      flex-shrink: 0;
+    }
+
+    /* Ajuste para o conteúdo principal */
+    .main-content {
+      margin-left: 200px;
+      padding: 90px 20px 20px 20px;
+      min-height: calc(100vh - 70px);
+      box-sizing: border-box;
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        width: 60px;
+        padding-top: 60px;
+      }
+
+      .main-content {
+        margin-left: 60px;
+      }
     }
   </style>
 </head>
@@ -136,18 +159,24 @@
         Timetable
       </div>
     </a>
+    <a href="/benes" style="text-decoration: none; color: inherit;">
+      <div class="sidebar-button">
+        <i class="fas fa-award"></i>
+        Benes
+      </div>
+    </a>
+    <a href="/reports" style="text-decoration: none; color: inherit;">
+      <div class="sidebar-button">
+        <i class="fas fa-chart-bar"></i>
+        Reports
+      </div>
+    </a>
   </div>
 
   <div class="sidebar-divider"></div>
 
   <div class="sidebar-section">
     <div class="sidebar-section-title">Support</div>
-    <a href="/customerservice" style="text-decoration: none; color: inherit;">
-      <div class="sidebar-button">
-        <i class="fas fa-headset"></i>
-        Customer Service
-      </div>
-    </a>
     <a href="/communication" style="text-decoration: none; color: inherit;">
       <div class="sidebar-button">
         <i class="fas fa-comments"></i>
@@ -158,21 +187,6 @@
 
   <div class="sidebar-divider"></div>
 
-  <div class="sidebar-section">
-    <div class="sidebar-section-title">Administrative</div>
-    <a href="/benes" style="text-decoration: none; color: inherit;">
-      <div class="sidebar-button">
-        <i class="fas fa-gavel"></i>
-        Benes and Sanctions
-      </div>
-    </a>
-    <a href="/reports" style="text-decoration: none; color: inherit;">
-      <div class="sidebar-button">
-        <i class="fas fa-chart-bar"></i>
-        Reports
-      </div>
-    </a>
-  </div>
 
   <div class="sidebar-footer">
     St. Paul's School © 2024
