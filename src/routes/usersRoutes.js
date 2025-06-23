@@ -3,31 +3,32 @@ const express = require('express');
 const db = require('../config/db');
 const router = express.Router();
 const userController = require('../controllers/userController');
+const isVerified = require('../middleware/verify')
 
 // Rota raiz
 router.get('/login', (req, res) => {
   res.send('pages/login');
 });
 
-router.get('/assignments', (req, res) => {
+router.get('/assignments', isVerified, (req, res) => {
   res.render('pages/assignments');
 });
-router.get('/customerservice', (req, res) => {
+router.get('/customerservice',isVerified, (req, res) => {
   res.render('pages/customerservice');
 });
-router.get('/events', (req, res) => {
+router.get('/events', isVerified, (req, res) => {
   res.render('pages/events');
 });
-router.get('/timetable', (req, res) => {
+router.get('/timetable', isVerified, (req, res) => {
   res.render('pages/timetable');
 });
-router.get('/benes', (req, res) => {
+router.get('/benes', isVerified, (req, res) => {
   res.render('pages/benes');
 });
 router.get('/login', (req, res) => {
   res.render('pages/login');
 });
-router.get('/profile', async (req, res) => {
+router.get('/profile', isVerified, async (req, res) => {
     try {
         const userId = 49000000;
 
