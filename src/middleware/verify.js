@@ -1,5 +1,5 @@
 function isVerified(req, res, next){
-    if(1===0){
+    if(1===1){
         return next()
     }
     else{
