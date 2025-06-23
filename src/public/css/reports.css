@@ -40,7 +40,7 @@ body {
     padding: 10px 20px;
     border-radius: 5px;
     border: none;
-    background-color: #A34343;
+    background-color: #0B364C;
     color: white;
     cursor: pointer;
     appearance: none;
@@ -64,7 +64,7 @@ body {
 }
 
 .btn-download {
-    background-color: #2F4050;
+    background-color: #0B364C;
     color: white;
     padding: 10px 20px;
     border: none;

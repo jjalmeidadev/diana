@@ -4,66 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Timetable</title>
-  <style>
-    .carousel-container {
-      width: 100%;
-      max-width: 1000px;
-      margin: 120px auto 60px auto;
-    }
-
-    .carousel-controls {
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-      margin-bottom: 8px;
-    }
-
-    .arrow-button {
-      background-color: rgba(255, 255, 255, 0.85);
-      border: none;
-      color: #333;
-      font-size: 0.9em;
-      padding: 4px 10px;
-      border-radius: 6px;
-      cursor: pointer;
-      transition: background-color 0.3s ease, transform 0.2s ease;
-      box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
-      text-decoration: none;
-    }
-
-    .arrow-button:hover {
-      background-color: rgba(240, 240, 240, 1);
-      transform: scale(1.05);
-    }
-
-    .arrow-button:active {
-      transform: scale(0.95);
-    }
-
-    .carousel img {
-      width: 100%;
-      opacity: 0;
-      transition: opacity 0.5s ease-in-out;
-      position: absolute;
-      top: 0;
-      left: 0;
-      border-radius: 12px;
-    }
-
-    .carousel img.active {
-      opacity: 1;
-      position: relative;
-      z-index: 1;
-    }
-
-    .carousel {
-      position: relative;
-      width: 100%;
-      overflow: hidden;
-      height: auto;
-      border-radius: 12px;
-    }
-  </style>
+  <link rel="stylesheet" href="../../public/css/timetable.css">
 </head>
 
 <body style="margin: 0; padding: 0;">
