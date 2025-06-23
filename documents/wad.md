@@ -62,15 +62,15 @@
 
 <br>
 
-# <a name="c2"></a>2. Overview of the Web Application (sprint 1)
+# <a name="c2"></a>2. Overview of the Web Application 
 
-## 2.1. Project Scope (sprints 1 & 4)
+## 2.1. Project Scope 
 
-### 2.1.1. 5 forces of Porter's model (sprint 1)
+### 2.1.1. 5 forces of Porter's model 
 
 <br>
 
-<div  >
+<div align="center" >
   
   <sub>Figure 02 - Porter's 5 forces</sub>  
   <br>
@@ -155,7 +155,7 @@
 
 <br>
 
-<div  >
+<div align="center" >
   
   <sub>Figure 03 - SWOT Analysis Chart</sub>
   <br>
@@ -203,7 +203,7 @@
 - Greater attendance at school events;
 - Students getting closer to their guardians.
 
-### 2.1.4. Value Proposition Canvas (sprint 1): 
+### 2.1.4. Value Proposition Canvas: 
 
 &nbsp;&nbsp;&nbsp;&nbsp;The Value Proposition Canvas is a tool that helps to better understand what customers really need and how a solution can efficiently meet those needs. It is part of the broader model called the Business Model Canvas, used to structure ideas and businesses in a clear way. In the Value Proposition Canvas, the focus is on connecting what is offered (product or service) with the expectations, desires, and difficulties of the people who will use it. This allows for the development of solutions that are more aligned with what the audience truly values, increasing the chances of success in the market.
 
@@ -231,7 +231,7 @@
 
 <br>
 
-<div  >
+<div  align="center">
   
   <sub>Figure 04 - Value Proposition Canvas</sub>
   <br>
@@ -317,7 +317,7 @@
 
 <br>
 
-<div  >
+<div align="center" >
   
   <sub>Figure 06 - The Father (persona)</sub>
   <br>
@@ -334,7 +334,7 @@
 
 <br>
 
-<div  >
+<div  align="center">
   
   <sub>Figure 07 - The IT Analyst (persona)</sub>
   <br>
@@ -352,7 +352,7 @@
 
 <br>
 
-<div  >
+<div align="center" >
   
   <sub>Figure 08 - The Marketing Manager (persona)</sub>
   <br>
@@ -375,7 +375,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;Future iterations may refine these personas and their access levels based on real user feedback and evolving security requirements, maintaining both usability and compliance.
 
 
-## 2.3. User Stories (sprints 1 a 5)
+## 2.3. User Stories 
 
 &nbsp;&nbsp;&nbsp;&nbsp;User stories are short, simple descriptions of a feature or functionality that a software system should have, written from the perspective of the end user. By focusing on their POV, user stories ensure that the software being developed addresses real-world problems.
 
@@ -390,7 +390,6 @@ Critérios INVEST | **Independent::** Can be implemented without dependency on o
 Identification | US02
 --- | ---
 Persona | Carolina Mendes
-
 User Story | "As the school’s marketing manager, I want to offer an access to clear information about the enrollment process, so that the family can organize themselves from the very beginning."
 Acceptance Criteria 1 | **Scenario:** A new family accesses the platform for the first time. **Acceptance Test:** The platform presents a page with basic school information, contacts, and calendar.
 Acceptance Criteria 2 | **Scenario:** The family wants to review the enrollment information later. **Acceptance Test:** There should be a button/menu to access the enrollment information page again.
@@ -504,11 +503,10 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
   — **US04**: Ensures continuous access for busy parents.  
 - **[About the school]** displays school mission, values, and contact details.  
   — **US07**: Supports onboarding for new families.
----
 
 <br>
 
-<div  >
+<div  align="center">
   
   <sub>Figure 10 - Login screen </sub>
   <br>
@@ -534,10 +532,9 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 - **[Cancel]** discards any modifications made.  
   — Supports usability by preventing unwanted edits.
 
----
 <br>
 
-<div  >
+<div align="center" >
   
   <sub>Figure 11 - Profile </sub>
   <br>
@@ -559,10 +556,10 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
   — **US04 & US05**: Helps parents follow academic progress.  
   — **US05**: Allows parents to verify student task completion.
 
----
+
 <br>
 
-<div  >
+<div align="center" >
     <sub>Figure 12 - Assignments </sub>
   <br>
   <br>
@@ -582,10 +579,10 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
   — **US04 & US05**: Useful for sharing and personal records.  
 - Additional components: average grade chart per subject, table with subjects, semester, and grades; notification icon, profile button, and search bar.
 
----
+
 <br>
 
-<div  >
+<div align="center" >
   
   <sub>Figure 13 - Reports </sub>
   <br>
@@ -606,10 +603,10 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 - **[Day / Week]** toggles between daily and weekly views.  
   — **US04 & US05**: Provides a clear view of the student’s routine.
 
----
+
 <br>
 
-<div  >
+<div align="center" >
   
   <sub>Figure 14 - Timetable </sub>
   <br>
@@ -631,10 +628,9 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 - Each event opens a detailed description and lets parents confirm attendance.  
   — **US05 & US07**: Keeps parents informed and engaged in school activities.
 
----
 <br>
 
-<div  >
+<div align="center"  >
   
   <sub>Figure 15 - Events </sub>
   <br>
@@ -658,10 +654,10 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 - **[Contact via Email/Phone]** launches email or phone apps with teacher contact details.  
   — **US10**: Allows direct communication between parents and the school.
 
----
+
 <br>
 
-<div  >
+<div align="center" >
   
   <sub>Figure 16 - Customer Service Channels </sub>
   <br>
@@ -685,7 +681,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 
 <br>
 
-<div  >
+<div  align="center">
   
   <sub>Figure 17 - Benes and sanctions </sub>
   <br>
@@ -712,7 +708,7 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 
 <br>
 
-<div  >
+<div  align="center">
   
   <sub>Figure 18 - Style Guide </sub>
   <br>
@@ -728,7 +724,7 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 
 <br>
 
-<div  >
+<div align="center" >
   
   <sub>Figure 19 - Colors </sub>
   <br>
@@ -756,7 +752,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 
 <br>
 
-<div  >
+<div  align="center">
   
   <sub>Figure 20 - Typography </sub>
   <br>
@@ -777,7 +773,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 
 <br>
 
-<div  >
+<div  align="center">
   
   <sub>Figure 21 - Iconography and images </sub>
   <br>
@@ -820,7 +816,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 &nbsp;&nbsp;&nbsp;&nbsp;The following screens represent the core functionality of the Diana parent portal system, each designed to address specific user needs identified during the research phase:
 
 <br>
-<div  >
+<div align="center" >
     <sub>Figure 22 - Login </sub>
   <br>
   <br>
@@ -833,7 +829,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 
 
 <br>
-<div  >
+<div  align="center">
     <sub>Figure 23 - Student Selection </sub>
   <br>
   <br>
@@ -849,7 +845,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 
 
 <br>
-<div  >
+<div  align="center">
     <sub>Figure 24 - Homepage/Profile Management </sub>
   <br>
   <br>
@@ -864,7 +860,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 &nbsp;&nbsp;&nbsp;&nbsp;The homepage serves as the central dashboard where parents can access all platform features and manage their profile information. The interface features a card-based layout that provides quick access to key functionalities including academic reports, upcoming events, and contact management. The design emphasizes information hierarchy through strategic use of whitespace, typography scaling, and color-coded sections.
 
 <br>
-<div  >
+<div  align="center">
     <sub>Figure 25 - Reports </sub>
   <br>
   <br>
@@ -876,7 +872,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 <br>
 
 <br>
-<div  >
+<div  align="center">
     <sub>Figure 26 - Behavioral Tracking - Benes and Sanctions </sub>
   <br>
   <br>
@@ -987,8 +983,6 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 - Related to: students;
 
 
-  #### g) Academic house table
-=======
 **9. Academic house table:**
 
 **Purpose:** Storage all the academic houses from st Pauls(a sistem like Harry Potter)
@@ -998,8 +992,6 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 - id: Unique identifier for the academic house;
 - house: Name of the house.
 - Related to: students (via academic_house_id).
-
-  #### h) year code
   
 **10. Year code:**
 
@@ -1059,14 +1051,11 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 
 ## 3.6. WebAPI and endpoints:
 
-# Visão Geral
 RESTful API for academic management with endpoints for:
 
 - **Main entities:** Users, Students, Teachers, Tutors
 - **Academic resources:** Subjects, Student-Subject Relations, Academic Houses
 - **Operational entities:** Events, Reports, Year Codes
-
----
 
 ## **USERS** `/users`
 | method | Endpoint          | description               |
@@ -1088,7 +1077,6 @@ RESTful API for academic management with endpoints for:
 | PUT    | `/students/:id`     | uptade student         |
 | DELETE | `/students/:id`     | delete student           |
 
----
 
 ## **TEACHERS** `/teachers`
 | method | Endpoint            | description                |
@@ -1099,8 +1087,6 @@ RESTful API for academic management with endpoints for:
 | PUT    | `/teachers/:id`     | update teacher       |
 | DELETE | `/teachers/:id`     | delete teacher         |
 
----
-
 ## **DICIPLINES** `/subjects`
 | method | Endpoint            | description                |
 |--------|---------------------|--------------------------|
@@ -1109,8 +1095,6 @@ RESTful API for academic management with endpoints for:
 | POST   | `/subjects`         | create dicipline     |
 | PUT    | `/subjects/:id`     | update dicipline      |
 | DELETE | `/subjects/:id`     | delete dicipline        |
-
----
 
 ## **RELATION STUDENT_SUBJECT** `/student_subject`
 | method | Endpoint                  | description                          |
@@ -1121,8 +1105,6 @@ RESTful API for academic management with endpoints for:
 | PUT    | `/student_subject/:id`    | update relation                   |
 | DELETE | `/student_subject/:id`    | delete relation                    |
 
----
-
 ## **ACADEMIC HOUSE** `/academic-house`
 | method | Endpoint                | description                     |
 |--------|-------------------------|-------------------------------|
@@ -1131,8 +1113,6 @@ RESTful API for academic management with endpoints for:
 | POST   | `/academic-house`       | create new house               |
 | PUT    | `/academic-house/:id`   | update house                |
 | DELETE | `/academic-house/:id`   | delete house                  |
-
----
 
 ## **EVENTS** `/events`
 | method | Endpoint          | description             |
@@ -1143,8 +1123,6 @@ RESTful API for academic management with endpoints for:
 | PUT    | `/events/:id`     | Atualiza evento      |
 | DELETE | `/events/:id`     | Remove evento        |
 
----
-
 ## **REPORTS** `/reports`
 | method | Endpoint          | description               |
 |--------|-------------------|-------------------------|
@@ -1153,8 +1131,6 @@ RESTful API for academic management with endpoints for:
 | POST   | `/reports`        | create new report     |
 | PUT    | `/reports/:id`    | update report      |
 | DELETE | `/reports/:id`    | delete report        |
-
----
 
 ## **YEAR CODES** `/year_Code`
 | method | Endpoint          | description               |
@@ -1175,16 +1151,14 @@ RESTful API for academic management with endpoints for:
 | PUT    | `/tutors/:id`     | update tutor      |
 | DELETE | `/tutors/:id`     | delete tutor                  |
 
----
-
-[Documentação de Endpoints](./others/routersDocumentation.pdf)
+[Link to endpoints documentation.](./others/routersDocumentation.pdf)
 
 
 # <a name="c4"></a>4. Web Application Development
 
 ## 4.1. First version of the web application 
 
-### Implemented Structure:
+**- Implemented Structure:**
 
 1.  **MVC Architecture**:
     -   Use of Express.js as a framework
@@ -1216,7 +1190,7 @@ RESTful API for academic management with endpoints for:
     -   UpperBar
     -   LowerBar
 
-### Implemented Features:
+**- Implemented Features:**
 
 1.  **Routing System**:
     -   Routes defined for all main pages
@@ -1227,13 +1201,13 @@ RESTful API for academic management with endpoints for:
     -   Area for user information
     -   Quick access buttons for Reports, Assignments, and Timetable
 
-#### Illustrations of the First Version:
+**- Illustrations of the First Version:**
 
-**Login Screen:**
+**1. Login Screen:**
 
 
 <br>
-<div  >
+<div align="center" >
     <sub>Figure 27 - Login </sub>
   <br>
   <br>
@@ -1244,10 +1218,10 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
-**Profile Screen:**
+**2. Profile Screen:**
 
 <br>
-<div  >
+<div  align="center">
     <sub>Figure 28 - Profile Screen </sub>
   <br>
   <br>
@@ -1259,11 +1233,11 @@ RESTful API for academic management with endpoints for:
 <br>
 
 
-**Assignments Screen:**
+**3. Assignments Screen:**
 
 
 <br>
-<div  >
+<div  align="center">
     <sub>Figure 29 - Assignments Screen </sub>
   <br>
   <br>
@@ -1274,10 +1248,10 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
-**Customer Service Screen:**
+**4. Customer Service Screen:**
 
 <br>
-<div  >
+<div  align="center">
     <sub>Figure 30 - Customer Service Screen </sub>
   <br>
   <br>
@@ -1288,10 +1262,10 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
-**Events Screen:**
+**5. Events Screen:**
 
 <br>
-<div  >
+<div  align="center">
     <sub>Figure 31 - Events Screen </sub>
   <br>
   <br>
@@ -1302,11 +1276,11 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
-**Timetable Screen:**
+**6. Timetable Screen:**
 
 
 <br>
-<div  >
+<div align="center"  >
     <sub>Figure 32 - Timetable Screen </sub>
   <br>
   <br>
@@ -1317,10 +1291,10 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
-**Benes and Sanctions Screen:**
+**7. Benes and Sanctions Screen:**
 
 <br>
-<div  >
+<div align="center" >
     <sub>Figure 33 - Benes and Sanctions Screen </sub>
   <br>
   <br>
@@ -1331,10 +1305,10 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
-**Reports Screen:**
+**8. Reports Screen:**
 
 <br>
-<div  >
+<div  align="center">
     <sub>Figure 34 - Reports Screen </sub>
   <br>
   <br>
@@ -1345,7 +1319,7 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
-### Challenges Encountered:
+**- Challenges Encountered:**
 
 1.  **Styling**:
     -   Need for refactoring to a more organized CSS system
@@ -1354,7 +1328,7 @@ RESTful API for academic management with endpoints for:
     -   Initial implementation of the user system
     -   Need to develop services and data models
 
-### Next Steps:
+**- Next Steps:**
 
 1.  **Technical Improvements**:
     -   Implement a more robust CSS system
@@ -1375,10 +1349,9 @@ RESTful API for academic management with endpoints for:
     -   Add data validation
     -   Implement role-based access control
 
-    -------
 ## 4.2. Second version of the web application 
 
-## Implemented Structure:
+**- Implemented Structure:**
 
 
 1.  **Database Integration**:
@@ -1407,13 +1380,13 @@ RESTful API for academic management with endpoints for:
 
 - The back-end functionality is fully integrated with the front-end, fulfilling the defined User Stories.
 
-## Screenshots:
+**- Screenshots:**
 
 
-**Benes and sanctions**:
+**1. Benes and sanctions**:
 
 <br>
-<div  >
+<div  align="center">
     <sub>Figure 35 - Benes and sanctions </sub>
   <br>
   <br>
@@ -1424,10 +1397,10 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
-**Assignments**:
+**2. Assignments**:
 
 <br>
-<div  >
+<div align="center" >
     <sub>Figure 36 - Assignments </sub>
   <br>
   <br>
@@ -1438,10 +1411,10 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
-**Reports**:
+**3. Reports**:
 
 <br>
-<div  >
+<div  align="center">
     <sub>Figure 37 - Reports </sub>
   <br>
   <br>
@@ -1452,10 +1425,10 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
-**Events**
+**4. Events**
 
 <br>
-<div  >
+<div align="center" >
     <sub>Figure 38 - Events </sub>
   <br>
   <br>
@@ -1466,11 +1439,11 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
-**Profile**
+**5. Profile**
 
 
 <br>
-<div  >
+<div  align="center">
     <sub>Figure 39 - Profile </sub>
   <br>
   <br>
@@ -1481,45 +1454,45 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
-## Challenges Encountered:
+**- Challenges Encountered:**
 
-**Database Integration**:
+**1. Database Integration**:
 
 
 - Ensuring stable connection between PostgreSQL and the three main pages.
 - Adjusting queries to efficiently display real and relevant data.
 
-**Routing Structure**:
+**2. Routing Structure**:
 
 - Defining clear and functional routes for each feature, ensuring the correct views are rendered.
 - Resolving conflicts and maintaining consistent navigation throughout the system.
 
-**Consistent and User-friendly UI:**
+**3. Consistent and User-friendly UI:**
 
 - Maintaining visual coherence across all pages for a unified user experience.
 - Adjusting styles for compatibility across various devices and browsers.
 
-## Next Steps:
+**- Next Steps:**
 
-**Technical Improvements:**
+**1. Technical Improvements:**
 
 - Complete usability testing with real users.
 - Review and enhance the overall design and responsiveness of the system.
 - Finalize and refine the WebAPI documentation, ensuring all endpoints include method, headers, body, and response formats.
 - Update the system architecture and database modeling as needed to reflect current features and structure.
 
-**Features**
+**2. Features**
 
 - Expand the event system with additional functionalities.
 - Develop more detailed and customizable reporting features.
 
-**UX/UI**:
+**3. UX/UI**:
 
 - Improve visual feedback for user actions
 - Implement smooth animations and transitions to enhance the navigation experience.
 - Ensure full mobile responsiveness across all interfaces.
 
-**Security**:
+**4. Security**:
 
 -  Implement a robust authentication system with role-based access control.
 - Add thorough data validation to ensure system reliability and user safety.
@@ -1533,47 +1506,53 @@ RESTful API for academic management with endpoints for:
 ## 5.1. Automated endpoint integration test report 
 
 
-### example test:
+**- Example test:**
 
 <br>
-<div  >
+<div  align="center">
     <sub>Figure 40 - test </sub>
   <br>
   <br>
  <img src="../assets/PNG_images/test-example.png">
   <br>
   <br>
+</div>
   
 
-### All our posman tests
+**- All our posman tests**
 
 <br>
-<div  >
+<div align="center" >
     <sub>Figure 41 - test </sub>
   <br>
 <img src="../assets/PNG_images/test1.png">
 
 <br>
-<div  >
+</div>
+<div  align="center">
     <sub>Figure 42 - test </sub>
   <br>
 <img src="../assets/PNG_images/test2.png">
 
 <br>
-<div>
+
+</div>
+<div align="center">
     <sub>Figure 43 - test </sub>
   <br>
 <img src="../assets/PNG_images/test3.png">
 
+</div>
+
 <p>These tests are meant to verify if our routes are working properly. Each route has its own requests, but generally they include requests for creating, reading, updating, and deleting.</p>
 
-###  academic_house
+**1. Academic_house**
 
 - **GET getAll**  
   Tests whether the API returns all registered academic houses or school units.
 
 
-###  events
+**2. events**
 
 - **GET getAll**  
   Checks if all events are being listed correctly.
@@ -1585,7 +1564,7 @@ RESTful API for academic management with endpoints for:
   Verifies whether a specific event is being properly deleted.
 
 
-###  reports
+**3. reports**
 
 - **GET getAll**  
   Checks if all reports are being retrieved.
@@ -1600,7 +1579,7 @@ RESTful API for academic management with endpoints for:
   Verifies the deletion of a report.
 
 
-###  student_subject
+**4. student_subject**
 
 - **GET getAll**  
   Tests whether all student–subject associations are being returned.
@@ -1615,7 +1594,7 @@ RESTful API for academic management with endpoints for:
   Verifies whether the association is being deleted.
 
 
-### students
+**5. students**
 
 - **GET getAll**  
   Verifies whether the list of students is being retrieved.
@@ -1627,7 +1606,7 @@ RESTful API for academic management with endpoints for:
   Checks whether a student's data is being updated.
 
 
-### subjects
+**6. subjects**
 
 - **GET getAll**  
   Lists all registered subjects.
@@ -1641,7 +1620,7 @@ RESTful API for academic management with endpoints for:
 - **PUT updateSubject** 
   Tests the updating of subject data.
 
-###  teachers
+**7. teachers**
 
 - **GET getAll**  
   Tests the listing of all teachers.
@@ -1656,7 +1635,7 @@ RESTful API for academic management with endpoints for:
   Tests the updating of teacher data.
 
 
-### tutors
+**8. tutors**
 
 - **GET getAll**  
   Tests the listing of all tutors.
@@ -1670,7 +1649,7 @@ RESTful API for academic management with endpoints for:
 - **PUT updateTutor**  
   Tests the updating of tutor data.
 
-### users
+**9. users**
 
 - **GET getAll**  
   Verifies whether all system users are being listed.
@@ -1684,7 +1663,7 @@ RESTful API for academic management with endpoints for:
 - **PUT updateUser**  
   Tests the updating of user data.
 
-### year code
+**10. year code**
 
 - **GET getAll**  
   Tests whether all academic years are being listed.
@@ -1737,19 +1716,29 @@ RESTful API for academic management with endpoints for:
 
 ### d) Business Model Canvas 
 
+<div  align="center">
+    <sub> Business Model Canvas </sub>
+  <br>
+  <br>
+
 ![Business Model Canvas  (1)](https://github.com/user-attachments/assets/d8261f85-ce61-4c31-9637-01efe40a92ea)
+
+  <br>
+  <br>
+  <sup>Source: authors (2025)</sup>
+</div>
 
 
 ## 6.3 Competitor Analysis
 
-### Main Competitors
+**6.3.1 Main Competitors**
 
 &nbsp;&nbsp;&nbsp;&nbsp;There are numerous tools used by schools to support communication and learning. Some of the most known ones would be Google Classroom, Moodle, and Microsoft Teams for Education. These platforms are mainly used for schoolwork and class activities. Google Classroom is easy to use and integrates well with other Google apps, but it does not prioritize keeping parents informed. Moodle is a strong platform that many schools use, but it can be hard to manage and is not very user friendly. considering it's non practical design, and Microsoft Teams helps with online classes and communication between teachers and students, but it doesn’t offer many features specialized for families.
  Other tools that schools often use to talk to parents are messaging apps like WhatsApp or email. These are easy and familiar to use, but they are not made for school environments and do not offer features such as calendars or constant updates about student progress.
  Some schools have their own portals, but these systems are often not updated,  hard to use on phones, and do not support multiple languages well.
  In general, current tools are useful for teachers and students, but they are not made with the intention of approaching international parents directly. They do not always support different languages, and they can be confusing or hard to use for families who are new to the school or country.
 
-### Competitive Advantages
+**6.3.1 Competitive Advantages**
 
  &nbsp;&nbsp;&nbsp;&nbsp;Our web application is specially designed to help international schools communicate better with parents from different countries. Unlike most school platforms, our tool is made especially for families, not just for teachers and students.
  One of the most important features is the language support. Parents can read messages, updates, and school events in english or portuguese. This helps avoid confusion and makes everyone feel welcomed and informed, no matter where they are from.
@@ -1760,7 +1749,7 @@ Our platform is not focused on managing classroom tasks like Google Classroom or
 
 ## 6.4 Target audience
 
-### Market Segment
+**1. Market Segment**
 
 &nbsp;&nbsp;&nbsp;&nbsp;We will target the educational and international communication sectors with our website.. St. Paul’s School in São Paulo would be our main customer. which illustrates the necessity our website solves in this context.
  St. Paul’s School centers its brand around offering international students, mainly from the United Kingdom, the opportunity to continue their British curriculum while residing in Brazil. The school features a diverse curriculum that brings Brazilian and British education systems together, together with several extracurricular activities such as theater and language learning. This  educational approach requires a digital platform that is not only multilingual and accessible but also adaptable to different academic models.
@@ -1768,7 +1757,7 @@ Our platform is not focused on managing classroom tasks like Google Classroom or
 
  &nbsp;&nbsp;&nbsp;&nbsp;In this sense, our production would be directed to a culturally adaptable, interactive and informative platform for parents, which has it's impact justified by the ISC Research (2023), that shows there are over 13,000 international schools worldwide, serving more than 6 million students, illustrating a high-potential and growing market for our application, considering its personalized approach to families and how the schools could exercise clear and direct communication with them.
 
-### Profile Segment
+**2. Profile Segment**
 
  &nbsp;&nbsp;&nbsp;&nbsp;The target audience for our project would consist in parents and responsibles of students in international schools, specifically those in St. Paul’s School in São Paulo. Demographically, this group includes adults aged 30 to 50, bilingual or multilingual, with high levels of education and economic status. Many are diplomats, or professionals working for multinational corporations, with families often living far apart or in different countries.
  Psychographically, these individuals highly value academic performance, cultural diversity, and global citizenship. They are proactive in their children’s education and prioritize communication, transparency, and accessibility when engaging with schools. Behaviorally, they are close with digital devices, familiar to using mobile apps and digital platforms for managing school information, and wish for real-time updates and user-friendly interfaces.
@@ -1802,10 +1791,10 @@ This approach positions us uniquely in the market, especially among high-end int
 ## 6.6 Marketing Strategy 
 
 
-## What are the 4 Ps of Marketing?
+**1. What are the 4 Ps of Marketing?**
 
 <br>
-<div  >
+<div align="center" >
     <sub>Figure 44 - 4 Ps of Marketing</sub>
   <br>
   <br>
@@ -1815,17 +1804,14 @@ This approach positions us uniquely in the market, especially among high-end int
   <sup>Source: authors (2025)</sup>
 </div>
 <br>
----
 
-## Context of St. Paul’s School and the project
+**2. Context of St. Paul’s School and the project**
 
 &nbsp;&nbsp;&nbsp;&nbsp;St. Paul’s School, an elite British school in São Paulo, identified communication challenges with parents due to a confusing and inefficient app. To address this, a dedicated web portal was proposed for parents, offering quick and centralized access to school information such as homework, absences, and announcements — improving the overall experience and strengthening the school-family relationship.
 
 &nbsp;&nbsp;&nbsp;&nbsp;The project, in this context, consists of a dedicated web portal for parents, developed to simplify the monitoring of students’ school routines at St. Paul’s School. The platform provides direct access to essential information such as school events, attendance tracking, class schedules, important announcements, and academic performance. All of this is available through a single interface, accessible via any web browser — with no downloads required.
 
----
-
-## 1. Product / Service
+**3. Product / Service**
 
 &nbsp;&nbsp;&nbsp;&nbsp;The project developed is a dedicated web portal for the parents of St. Paul’s School students, designed to simplify the monitoring of their children’s school routines. It centralizes all school-related information in a clear and intuitive interface. Key features include:
 
@@ -1838,7 +1824,7 @@ This approach positions us uniquely in the market, especially among high-end int
 
 Access is available via any web browser, with no need to install additional applications.
 
-**Main benefits:**
+**4. Main benefits:**
 
 - Saves time and improves clarity in the dialogue between school and parents  
 - Concentrates relevant information in one place, reducing confusion and encouraging active involvement  
@@ -1846,13 +1832,11 @@ Access is available via any web browser, with no need to install additional appl
 
 By offering this experience, the solution reinforces St. Paul’s image as an institution attuned to the needs of its community and committed to educational innovation.
 
----
-
-## 2. Price
+**a) Price**
 
 &nbsp;&nbsp;&nbsp;&nbsp;The proposed pricing model is institutional licensing with customized annual plans, adjusted according to the number of active students or guardians. This **B2B (business-to-business)** approach is ideal for institutions like St. Paul’s, which operate in a premium segment and prioritize quality and exclusivity.
 
-**Pricing rationale:**
+**1. Pricing rationale:**
 
 - Based on the perceived value of the solution  
 - Benefits include simplified communication, greater transparency, and reduced administrative burden  
@@ -1862,13 +1846,11 @@ An analysis of the competitive environment shows St. Paul’s has a high level o
 
 Thus, the pricing model reinforces St. Paul’s brand proposition: delivering excellence, innovation, and closeness without directly burdening end users.
 
----
-
-## 3. Distribution
+**b) Distribution**
 
 &nbsp;&nbsp;&nbsp;&nbsp;The application distribution will be entirely digital, ensuring convenience and easy access for the target audience. The portal will be accessible directly through web browsers with **no need to install additional apps or software**. This enables parents to access the system anytime, on any device (computer, tablet, or smartphone), optimizing the user experience.
 
-**Delivery channels include:**
+**1. Delivery channels include:**
 
 - Official school website  
 - Emails to guardians  
@@ -1876,9 +1858,7 @@ Thus, the pricing model reinforces St. Paul’s brand proposition: delivering ex
 
 This approach ensures broad reach, effectively reaching all parents at a low operational cost, promoting fast and intuitive access.
 
----
-
-## 4. Promotion
+**c) Promotion**
 
 &nbsp;&nbsp;&nbsp;&nbsp;The digital promotion strategy includes a combination of **SEO (Search Engine Optimization)**, social media, and content marketing, aimed at expanding reach and engagement among parents.
 
@@ -1886,12 +1866,7 @@ This approach ensures broad reach, effectively reaching all parents at a low ope
 - **Social media:** Creates relevant, dynamic content such as tutorial videos, testimonials from parents and teachers, and explanatory posts highlighting platform benefits. Active engagement strengthens trust and interest. Key examples would be the use of instagram or linkedin, both accessible from the site itself. 
 - **Content marketing:** Conducted via email and social media, sharing tips for parents to monitor their children’s school routines using the portal as the main tool.
 
----
-
-**Conclusion**
 &nbsp;&nbsp;&nbsp;&nbsp;The platform strengthens communication between St. Paul’s School and families by offering an intuitive, efficient solution aligned with the school’s values. By combining a functional product, value-based pricing, digital distribution, and promotional strategies focused on engagement, we deliver a solution that modernizes the parent experience and reinforces the school’s position as a leader in innovation and educational excellence.
-
----
 
 # <a name="c7"></a>7. Conclusions and future work (sprint 5)
 
