@@ -76,19 +76,26 @@
 
       try {
         const response = await fetch('http://localhost:3000/users', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ name, email })
-        });
+        method: 'GET'
+      });
 
-        if (!response.ok) throw new Error('Erro ao criar usuário');
+      const users = await response.json();
 
-        const data = await response.json();
-        alert(`Usuário criado com sucesso! ID: ${data.id}`);
-        window.location.href = '/choose';
+        for (let i = 0; i < users.length; i++) {
+          if (users[i].email === email && users[i].password === name) {
+            window.localStorage.setItem(`user #${users[i].id}`, JSON.stringify(users[i]));
+            window.location.href = '/choose';
+            return;
+          }
+        }
+
+        alert('Credenciais inválidas.');
+
       } catch (err) {
-        alert(`Erro: ${err.message}`);
-      }
+        console.error('Erro ao buscar usuários:', err);
+      alert(`Erro: ${err.message}`);
+    }
+
     });
   </script>
 
