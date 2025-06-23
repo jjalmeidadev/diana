@@ -12,14 +12,13 @@ app.set('views', __dirname + '/views');
 
 // Serve static files from the assets directory
 app.use('/assets', express.static(path.join(__dirname, '../assets')));
+
 // Also serve from the src level for relative paths
 app.use(express.static(path.join(__dirname)));
 
 // Serve static files from the public/css directory
-app.use('/css', express.static(path.join(__dirname, '../public/css')));
+app.use('/public', express.static(path.join(__dirname, '/public')));
 
-// Serve toda a pasta public como estática
-app.use(express.static(path.join(__dirname, '../public')));
 
 // Rotas
 const usersRoutes = require('./routes/usersRoutes');
