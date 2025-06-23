@@ -138,7 +138,7 @@
   </style>
 </head>
 
-<div class="sidebar">
+<div id="sidebar" class="sidebar">
   <div class="sidebar-section">
     <div class="sidebar-section-title">Academic</div>
     <a href="/events" style="text-decoration: none; color: inherit;">
@@ -194,10 +194,10 @@
 </div>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('DOMContentLoaded', function () {
     const currentPath = window.location.pathname;
     const buttons = document.querySelectorAll('.sidebar-button');
-    
+
     buttons.forEach(button => {
       const link = button.parentElement.getAttribute('href');
       if (currentPath === link) {

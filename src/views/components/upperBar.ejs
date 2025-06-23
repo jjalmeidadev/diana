@@ -60,15 +60,37 @@
     }
 
     .upperbar-right a img {
-      width: 32px; /* ajuste para tamanho fixo */
+      width: 32px;
+      /* ajuste para tamanho fixo */
       height: 32px;
       object-fit: cover;
     }
+
+    /* Global override when sidebar is hidden */
+    body.no-sidebar .main-content,
+    body.no-sidebar .content-wrapper {
+      margin-left: 0 !important;
+      width: 100% !important;
+    }
   </style>
-  
+
   <script>
-    function goToLogin(){
+    function goToLogin() {
       location.href = '/'
+    }
+
+    function toggleSideBar() {
+      const sidebar = document.getElementById('sidebar');
+      const mainContent = document.querySelector('.main-content') || document.querySelector('.content-wrapper');
+      if (sidebar.style.display === "none" || sidebar.style.display === "") {
+        sidebar.style.display = "flex";
+        if (mainContent) mainContent.style.marginLeft = "200px";
+        document.body.classList.remove('no-sidebar');
+      } else {
+        sidebar.style.display = "none";
+        if (mainContent) mainContent.style.marginLeft = "0";
+        document.body.classList.add('no-sidebar');
+      }
     }
   </script>
 </head>
@@ -76,8 +98,8 @@
 <div class="upperbar">
   <!-- Left section: Logo and Menu -->
   <div class="upperbar-left">
-    <img src="../../../assets/PNG_images/dianaplaceholder.png" alt="Diana" style="height: 42px;"  onclick="goToLogin()">
-    <img src="../../../assets/PNG_images/menuhamb.png" alt="Menu" style="height: 28px;" />
+    <img src="../../../assets/PNG_images/dianaplaceholder.png" alt="Diana" style="height: 42px;" onclick="goToLogin()">
+    <img src="../../../assets/PNG_images/menuhamb.png" alt="Menu" style="height: 28px;" onclick="toggleSideBar()" />
   </div>
 
   <!-- Center: Search -->
