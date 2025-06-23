@@ -21,25 +21,25 @@
         <h1 class="title">
             Benes & Sanctions
         </h1>
-        <div class="part1">
-            <div class="card-1">
-                <div class="card-title">
-                    Benes
+        <div class="content-area">
+            <div class="cards-container">
+                <div class="card-1">
+                    <div class="card-title">
+                        Benes
+                    </div>
+                    <div class="card-data">8</div>
                 </div>
-                <div class="card-data">8</div>
-            </div>
-            <div class="card-2">
-                <div class="card-title">
-                    Sanctions
+                <div class="card-2">
+                    <div class="card-title">
+                        Sanctions
+                    </div>
+                    <div class="card-data">2</div>
                 </div>
-                <div class="card-data">2</div>
             </div>
-        </div>
-        <div class="part2">
             <div class="graph">
-                <canvas id="benesChart" width="400" height="200"></canvas>
+                <canvas id="benesChart"></canvas>
             </div>
-            <div class="table">
+            <div class="table-container">
                 <table>
                     <tbody>
                         <tr>
@@ -85,17 +85,18 @@
         new Chart(ctx, {
             type: 'pie',
             data: {
-                labels: ['Sanctions', 'Benes'],
+                labels: ['Benes', 'Sanctions'],
                 datasets: [{
-                    data: [sanctionsValue, benesValue],
+                    data: [benesValue, sanctionsValue],
                     backgroundColor: [
-                        '#B82121', // cor para Sanctions
-                        '#0B364C'  // cor para Benes
+                        '#B82121', // Cor para Benes
+                        '#0B364C'  // Cor para Sanctions
                     ]
                 }]
             },
             options: {
-                responsive: true
+                responsive: true,
+                maintainAspectRatio: false
             }
         });
     </script>

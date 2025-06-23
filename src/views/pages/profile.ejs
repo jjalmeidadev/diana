@@ -3,7 +3,7 @@
 
 <head>
     <title>Profile</title>
-    <link rel="stylesheet" href="/views/css/profile.css">
+    <link rel="stylesheet" href="/public/css/profile.css">
 </head>
 
 <body class="body">
@@ -14,99 +14,54 @@
 
             <!-- Main content area -->
             <div class="main-content">
-                <!-- Profile section -->
-                    <div class="profile-section">
-                        <img class="profile-pic" src="<%= student.profimage_url %>" alt="Profile Picture">
-                        <div class="profile-info">
-                            <p class="profile-name">
-                                <%= student.student_fullname %> <span class="edit-icon">
-                                        <img class="edit-icon" src="/assets/PNG_images/edit.png" alt="Edit Icon"></span>
-                            </p>
-                            <p class="profile-details">
-                                <%= student.school_age %> School Age | Prep School
-                            </p>
-                        </div>
+                <!-- Profile header -->
+                <div class="profile-header">
+                    <img class="profile-pic" src="<%= student.profimage_url %>" alt="Profile Picture">
+                    <div class="profile-main-info">
+                        <p class="profile-name">
+                            <%= student.student_fullname %>
+                            <span class="edit-icon">
+                                <img class="edit-icon" src="/assets/PNG_images/edit.png" alt="Edit Icon">
+                            </span>
+                        </p>
+                        <p class="profile-details">
+                            <%= student.school_age %> School Age | Prep School
+                        </p>
                     </div>
-
-                    <div class="middle-section">
-                        <div class="line-division"></div>
-
-                        <div class="section section-data">
-                            <p class="section-textleft1">Date of Birth: <span class="sub-text">
-                                    <%= student.date_birth %>
-                                </span></p>
-                            <p class="section-textleft2">Gender: <span class="sub-text">
-                                    <%= student.gender %>
-                                </span></p>
-                            <p class="section-textleft3">Form: <span class="sub-text">
-                                    <%= student.registration %>
-                                </span></p>
-                            <p class="section-textleft4">Academic House: <span class="sub-text">
-                                    <%= student.academic_house_id %>
-                                </span></p>
-                            <p class="section-textleft5">Year Code: <span class="sub-text">
-                                    <%= student.year_code_id %>
-                                </span></p>
-                            <p class="section-textleft6">Form Tutor: <span class="sub-text">
-                                    <%= student.tutor_id %>
-                                </span></p>
-                            <p class="section-textleft7">School ID: <span class="sub-text">
-                                    <%= student.school_id %>
-                                </span></p>
-                            <p class="section-textleft8">Address: <span class="sub-text">
-                                    <%= student.address %>
-                                </span></p>
-                            <p class="section-textleft9">Post Code: <span class="sub-text">
-                                    <%= student.post_code %>
-                                </span></p>
-                            <p class="section-textleft10">Primary Contact Email: <span class="sub-text">
-                                    <%= student.primary_contact %>
-                                </span></p>
-                            <p class="section-textleft11">Person ID: <span class="sub-text">
-                                    <%= student.parent_id %>
-                                </span></p>
-                            <p class="section-textleft12">Primary Contact Forename: <span class="sub-text">
-                                    <%= student.primary_contact_forename %>
-                                </span></p>
-                            <p class="section-textleft13">Primary Contact Mobile: <span class="sub-text">
-                                    <%= student.primary_contact_mobile %>
-                                </span></p>
-
-                            <p class="section-textright1">Pupil Email Address: <span class="sub-text">
-                                    <%= student.pupil_email %>
-                                </span></p>
-                            <p class="section-textright2">Secondary Contact Email: <span class="sub-text">
-                                    <%= student.secondary_contact_email %>
-                                </span></p>
-                            <p class="section-textright3">Secondary Contact Forename: <span class="sub-text">
-                                    <%= student.secondary_contact_forename %>
-                                </span></p>
-                            <p class="section-textright4">Secondary Contact Mobile: <span class="sub-text">
-                                    <%= student.secondary_contact_mobile %>
-                                </span></p>
-                            <p class="section-textright5">Secondary Contact Surname: <span class="sub-text">
-                                    <%= student.secondary_contact_surname %>
-                                </span></p>
-                            <p class="section-textright6">Primary Contact Surname: <span class="sub-text">
-                                    <%= student.primary_contact_surname %>
-                                </span></p>
-                            <p class="section-textright7">Relation Type: <span class="sub-text">
-                                    <%= student.relation_type %>
-                                </span></p>
-                            <p class="section-textright8">Doctor Telephone Number: <span class="sub-text">
-                                    <%= student.doctor_phone %>
-                                </span></p>
-                            <p class="section-textright9">Medical Flag: <span class="sub-text">
-                                    <%= student.medical_flags %>
-                                </span></p>
-                            <p class="section-textright10">Medical Flag Notes: <span class="sub-text">
-                                    <%= student.medical_flag_notes %>
-                                </span></p>
-                            <p class="section-textright11">Number of Absences: <span class="sub-text">
-                                    <%= student.num_absences %>
-                                </span></p>
-                        </div>
+                </div>
+                <!-- Profile details grid -->
+                <div class="profile-details-grid">
+                    <div class="profile-details-col">
+                        <div class="profile-details-col-title">Informações Pessoais & Contato Primário</div>
+                        <p>Date of Birth: <span class="sub-text"><%= student.date_birth %></span></p>
+                        <p>Gender: <span class="sub-text"><%= student.gender %></span></p>
+                        <p>Form: <span class="sub-text"><%= student.registration %></span></p>
+                        <p>Academic House: <span class="sub-text"><%= student.academic_house_id %></span></p>
+                        <p>Year Code: <span class="sub-text"><%= student.year_code_id %></span></p>
+                        <p>Form Tutor: <span class="sub-text"><%= student.tutor_id %></span></p>
+                        <p>School ID: <span class="sub-text"><%= student.school_id %></span></p>
+                        <p>Address: <span class="sub-text"><%= student.address %></span></p>
+                        <p>Post Code: <span class="sub-text"><%= student.post_code %></span></p>
+                        <p>Primary Contact Email: <span class="sub-text"><%= student.primary_contact %></span></p>
+                        <p>Person ID: <span class="sub-text"><%= student.parent_id %></span></p>
+                        <p>Primary Contact Forename: <span class="sub-text"><%= student.primary_contact_forename %></span></p>
+                        <p>Primary Contact Mobile: <span class="sub-text"><%= student.primary_contact_mobile %></span></p>
                     </div>
+                    <div class="profile-details-col">
+                        <div class="profile-details-col-title">Contato Secundário & Saúde</div>
+                        <p>Pupil Email Address: <span class="sub-text"><%= student.pupil_email %></span></p>
+                        <p>Secondary Contact Email: <span class="sub-text"><%= student.secondary_contact_email %></span></p>
+                        <p>Secondary Contact Forename: <span class="sub-text"><%= student.secondary_contact_forename %></span></p>
+                        <p>Secondary Contact Mobile: <span class="sub-text"><%= student.secondary_contact_mobile %></span></p>
+                        <p>Secondary Contact Surname: <span class="sub-text"><%= student.secondary_contact_surname %></span></p>
+                        <p>Primary Contact Surname: <span class="sub-text"><%= student.primary_contact_surname %></span></p>
+                        <p>Relation Type: <span class="sub-text"><%= student.relation_type %></span></p>
+                        <p>Doctor Telephone Number: <span class="sub-text"><%= student.doctor_phone %></span></p>
+                        <p>Medical Flag: <span class="sub-text"><%= student.medical_flags %></span></p>
+                        <p>Medical Flag Notes: <span class="sub-text"><%= student.medical_flag_notes %></span></p>
+                        <p>Number of Absences: <span class="sub-text"><%= student.num_absences %></span></p>
+                    </div>
+                </div>
             </div>
             <!-- Footer -->
                             <%- include('../components/lowerBar.ejs') %>

@@ -32,15 +32,21 @@ body, html {
     margin-left: 0;
 }
 
-.part1 {
+.content-area {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 30px;
-    margin-bottom: 30px;
-    width: 100%;
     flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 0 1 220px;
 }
 
 .card-1, .card-2 {
@@ -48,14 +54,13 @@ body, html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 213px;
-    height: 200px;
+    height: 150px;
     background-color: #B82121;
     color: #FFFFFF;
     padding: 20px;
     border-radius: 10px;
-    position: relative;
     box-sizing: border-box;
+    position: relative;
 }
 
 .card-2 {
@@ -73,50 +78,49 @@ body, html {
 }
 
 .card-1 .card-data, .card-2 .card-data {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-size: 2.5rem;
     font-weight: 600;
     text-align: center;
     margin: 0;
-}
-
-.part2 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 50px;
-    width: 100%;
-    flex-wrap: wrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .graph {
-    flex: 1;
-    min-width: 400px;
-    max-width: 500px;
+    flex: 1 1 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 320px;
 }
 
-.table {
-    flex: 1;
-    min-width: 450px;
-    max-width: 600px;
+.table-container {
+    flex: 1 1 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-container table {
+    width: 100%;
     border-collapse: collapse;
     border: 1px solid #0B364C;
     border-radius: 10px;
-    text-align: left;
-    padding: 24px;
-    font-size: 1.25rem;
-    box-sizing: border-box;
+    overflow: hidden;
 }
 
-.table th,
-.table td {
+.table-container th,
+.table-container td {
     text-align: left;
     padding: 15px 20px;
     font-size: 1.1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-container tr:last-child td {
+    border-bottom: none;
 }
 
 
