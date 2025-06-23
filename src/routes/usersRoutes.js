@@ -15,9 +15,6 @@ router.get('/assignments', (req, res) => {
 router.get('/customerservice', (req, res) => {
   res.render('pages/customerservice');
 });
-router.get('/events', (req, res) => {
-  res.render('pages/events');
-});
 router.get('/timetable', (req, res) => {
   res.render('pages/timetable');
 });
