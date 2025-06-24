@@ -60,32 +60,41 @@
     }
 
     .upperbar-right a img {
-      width: 32px; /* ajuste para tamanho fixo */
+      width: 32px;
       height: 32px;
       object-fit: cover;
     }
   </style>
-  
+
   <script>
-    function goToLogin(){
-      location.href = '/'
+    function goToLogin() {
+      location.href = '/';
     }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      const searchInput = document.getElementById('searchInput');
+      searchInput.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') {
+          const query = searchInput.value.trim();
+          if (query) {
+            window.location.href = '/search?q=' + encodeURIComponent(query);
+          }
+        }
+      });
+    });
   </script>
 </head>
 
 <div class="upperbar">
-  <!-- Left section: Logo and Menu -->
   <div class="upperbar-left">
-    <img src="../../../assets/PNG_images/dianaplaceholder.png" alt="Diana" style="height: 42px;"  onclick="goToLogin()">
+    <img src="../../../assets/PNG_images/dianaplaceholder.png" alt="Diana" style="height: 42px;" onclick="goToLogin()">
     <img src="../../../assets/PNG_images/menuhamb.png" alt="Menu" style="height: 28px;" />
   </div>
 
-  <!-- Center: Search -->
   <div class="search-input">
-    <input type="text" placeholder="Search..." />
+    <input type="text" placeholder="Search..." id="searchInput" />
   </div>
 
-  <!-- Right section: Notifications and Profile -->
   <div class="upperbar-right">
     <img src="../../../assets/PNG_images/notifications.png" alt="Notifications" style="height: 28px;" />
     <a href="/profile">
