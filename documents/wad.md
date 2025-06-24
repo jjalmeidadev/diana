@@ -1982,11 +1982,23 @@ This approach ensures broad reach, effectively reaching all parents at a low ope
 
 # <a name="c7"></a>7. Conclusions and future work (sprint 5)
 
-*Escreva de que formas a solução da aplicação web atingiu os objetivos descritos na seção 2 deste documento. Indique pontos fortes e pontos a melhorar de maneira geral.*
+The solution developed for the school monitoring web portal significantly achieved the objectives outlined in Section 2 of this document. The system centralized academic information, events, reports, contacts, and communication into a single platform, making it easier for parents and guardians to access their children's school routines. Intuitive navigation, responsive design, and database integration ensured a smooth and consistent experience aligned with user needs identified in the personas and user stories.
 
-*Relacione os pontos de melhorias evidenciados nos testes com planos de ações para serem implementadas. O grupo não precisa implementá-las, pode deixar registrado aqui o plano para ações futuras*
+## **Strengths**
 
-*Relacione também quaisquer outras ideias que o grupo tenha para melhorias futuras*
+- **Centralized information**: All essential features (grades, attendance, events, reports, contacts) are accessible within a few clicks, reducing fragmentation and the time spent by parents.
+- **Intuitive and responsive interface**: The layout was designed to be easily understood by users with varying levels of technical proficiency, offering clear navigation and a pleasant visual experience across multiple devices.
+- **Real database integration**: The main pages display real-time data, enabling up-to-date and reliable monitoring.
+- **Adoption of the MVC pattern**: The code is well-organized, facilitating maintenance, scalability, and future development.
+- **Documentation and testing**: The API was documented and tested, ensuring the reliability of routes and endpoints.
+
+## **Areas for Improvement**
+
+- **Authentication system**: Although a basic structure is in place, it is necessary to implement robust authentication, including access control by user profile and protection against unauthorized access.
+- **Data validation**: Improve form validation to prevent the entry of inconsistent or invalid data.
+- **Visual feedback**: Include success, error, and loading messages to enhance the user experience during critical interactions.
+- **Responsiveness improvement**: Ensure that all pages and components work flawlessly on mobile devices and across different browsers.
+- **Accessibility**: Conduct tests with users with special needs and adjust the system to meet accessibility standards (WCAG).
 
 # <a name="c8"></a>8. References (sprints 1 a 5)
 
