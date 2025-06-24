@@ -1670,6 +1670,74 @@ RESTful API for academic management with endpoints for:
 
 ## 5.2. Usability tests (sprint 5)
 
+# Usability Test – Report
+
+##  Objective  
+Evaluate the overall usability of the website, identifying strengths and areas for improvement based on real user interaction with key functionalities.
+
+---
+
+## Date and Time  
+**Tuesday, 06/17/2025** at **10:00 AM**
+
+##  Location  
+**Inteli – Institute of Leadership and Technology**
+
+##  Participants  
+**18 users** (17 students and 1 professor)
+
+##  Tools Used  
+Web browser and the functional prototype of the website
+
+---
+
+## Tasks Tested
+
+1. Logging in and accessing the user profile  
+2. Viewing pending tasks  
+3. Checking the school report card  
+4. Viewing school events  
+5. Accessing contact information for the school and teachers  
+6. Checking class schedules
+
+---
+
+## Overall Results
+
+### Ease of Use  
+Most participants were able to complete the tasks easily without external help.
+
+### Ratings Given  
+Most evaluations scored **above 8** (on a scale from 0 to 10).
+
+### Strengths Identified  
+- Clear and intuitive interface  
+- Coherent organization of information  
+- Good responsiveness across pages
+
+---
+
+## Areas for Improvement
+
+- Some users suggested increasing the site’s interactivity with more dynamic elements, such as animations, visual effects, and real-time feedback during actions.  
+- A few users had minor difficulties locating secondary functions, such as school events and contact information.
+
+---
+
+## Link to the Test Case Table  
+
+Here is the link to the full table, where you can find all test cases documented in more detail, including participants, tasks, observations, and scores:
+
+👉 [Access the full test case table](https://docs.google.com/spreadsheets/d/1lSQEIc4cAeMCKclen0M4jqHrqGBPDkRNvS1MCHZjYDc/edit?gid=0#gid=0)
+
+---
+
+## ✅ Conclusion
+
+The usability test was successful and demonstrated that the website effectively meets its intended goals, with solid usability and few friction points.  
+The feedback collected will serve as a foundation for future improvements, especially in **visual aspects** and **interactivity**.
+
+
 *Posicione aqui as tabelas com enunciados de tarefas, etapas e resultados de testes de usabilidade. Ou utilize um link para seu relatório de testes (mantenha o link sempre público para visualização)*
 
 # <a name="c6"></a>6. Market Research and Marketing Plan (sprint 4)
