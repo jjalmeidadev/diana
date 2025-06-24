@@ -1670,59 +1670,85 @@ RESTful API for academic management with endpoints for:
 
 ## 5.2. Usability tests (sprint 5)
 
-# Usability Test – Report
+# Usability Test – Full Report
 
-##  Objective  
-Evaluate the overall usability of the website, identifying strengths and areas for improvement based on real user interaction with key functionalities.
+##  Task Statements
 
----
+The following tasks were defined to evaluate the most relevant features of the system, focusing on the user experience. Each task was written clearly, objectively, and included a clear success criterion.
 
-## Date and Time  
-**Tuesday, 06/17/2025** at **10:00 AM**
 
-##  Location  
-**Inteli – Institute of Leadership and Technology**
+  Log into your account and access the student profile.  
+   **Success Criterion**: Successfully view personal name and profile information.
 
-##  Participants  
-**18 users** (17 students and 1 professor)
 
-##  Tools Used  
-Web browser and the functional prototype of the website
+ Check for pending assignments.  
+   **Success Criterion**: View a list of tasks with their pending/completed status.
 
----
 
-## Tasks Tested
+ View the school report card.  
+   **Success Criterion**: Access and view all subject grades.
 
-1. Logging in and accessing the user profile  
-2. Viewing pending tasks  
-3. Checking the school report card  
-4. Viewing school events  
-5. Accessing contact information for the school and teachers  
-6. Checking class schedules
+ Check the latest school events.  
+   **Success Criterion**: Locate the events section and read at least one event.
+
+ Find the school's and teachers’ contact information.  
+   **Success Criterion**: Locate the contact section and identify an email or phone number.
+
+ Check the class schedule.  
+   **Success Criterion**: Successfully access and view the weekly class timetable.
 
 ---
 
-## Overall Results
+## Navigation Steps per Task
 
-### Ease of Use  
-Most participants were able to complete the tasks easily without external help.
+**Task 1 – Access student profile:**
+- Go to the homepage  
+- Click "Login"  
+- Enter login and password  
+- Submit and wait for redirection to profile page  
 
-### Ratings Given  
-Most evaluations scored **above 8** (on a scale from 0 to 10).
+**Task 2 – Check pending assignments:**
+- In the main menu, click "Tasks"  
+- View the list and identify pending items  
 
-### Strengths Identified  
-- Clear and intuitive interface  
-- Coherent organization of information  
-- Good responsiveness across pages
+**Task 3 – View report card:**
+- Click "Report Card" in the menu  
+- Check if grades appear, sorted by subject  
+
+**Task 4 – Check school events:**
+- Navigate to the "Events" section in the sidebar  
+- View the list of posted events  
+
+**Task 5 – View contact information:**
+- Go to the "Contact" section in the footer or sidebar  
+- Find email or phone numbers listed  
+
+**Task 6 – View class schedule:**
+- Access the "Schedule" section  
+- View the weekly timetable organized by days and hours
 
 ---
 
-## Areas for Improvement
+## Test Records
 
-- Some users suggested increasing the site’s interactivity with more dynamic elements, such as animations, visual effects, and real-time feedback during actions.  
-- A few users had minor difficulties locating secondary functions, such as school events and contact information.
+The usability tests were conducted on **06/17/2025 at 10:00 AM** with **18 participants** (17 students and 1 professor) from **Inteli – Institute of Leadership and Technology**.
 
----
+The environment was controlled, and participants interacted with a functional prototype using a web browser. The audience was diverse and representative, enabling broad and relevant insights.
+
+Each task included:
+- Navigation steps taken by users  
+- Difficulties encountered  
+- Success or failure per participant  
+- Satisfaction ratings (scale from 0 to 10)
+
+**Access the full test case table here**:  
+
+ _**File included in the repository:**_ 
+
+**`Usability Test Data - Crownmates`**
+
+#
+
 
 ## Link to the Test Case Table  
 
@@ -1730,15 +1756,26 @@ Here is the link to the full table, where you can find all test cases documented
 
 👉 [Access the full test case table](https://docs.google.com/spreadsheets/d/1lSQEIc4cAeMCKclen0M4jqHrqGBPDkRNvS1MCHZjYDc/edit?gid=0#gid=0)
 
+## Prioritized Improvement List
+
+Below is a prioritized list of improvements identified during the tests, organized by severity:
+
+| Severity Level       | Improvement Suggestion |
+|----------------------|------------------------|
+| **Critical**         | Add more interactivity to static pages (e.g., animations, visual feedback) |
+| **Moderate**         | Improve the visibility of secondary sections like "Events" and "Contacts" |
+| **Minor**   | Adjust spacing and improve responsiveness on mobile devices |
+
 ---
 
 ## ✅ Conclusion
 
-The usability test was successful and demonstrated that the website effectively meets its intended goals, with solid usability and few friction points.  
-The feedback collected will serve as a foundation for future improvements, especially in **visual aspects** and **interactivity**.
+The usability test was **successful** and demonstrated that the system has a solid navigation structure and intuitive interface. Most users completed the tasks with ease and gave ratings **above 8**.
 
-
-*Posicione aqui as tabelas com enunciados de tarefas, etapas e resultados de testes de usabilidade. Ou utilize um link para seu relatório de testes (mantenha o link sempre público para visualização)*
+The feedback collected will guide future improvements, focusing on:
+- Enhancing visual interactivity  
+- Optimizing access to secondary pages  
+- Improving mobile experience
 
 # <a name="c6"></a>6. Market Research and Marketing Plan (sprint 4)
 
