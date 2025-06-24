@@ -16,27 +16,12 @@
     <div class="choose-main">
       <div class="logo-choose-main">
         <img src="/assets/PNG_images/Frame 6.png" alt="Diana-platform-logo">
-        <p>Welcome to Diana: the St. Paul’s School Parent’s Portal!</p>
+        <p>Welcome to Diana: the St. Paul's School Parent's Portal!</p>
         <p>Please, select the student access below:</p>
       </div>
       <div class="choose-student-box-main">
-        <div class="student-cards-row">
-          <div class="student-card" onclick="selecionarFilho('Julio')">
-            <img src="/assets/PNG_images/avatar.png" alt="Julio" />
-            <h3>Zachary</h3>
-          </div>
-          <div class="student-card" onclick="selecionarFilho('Henry')">
-            <img src="/assets/PNG_images/avatar.png" alt="Henry" />
-            <h3>Henry</h3>
-          </div>
-          <div class="student-card" onclick="selecionarFilho('Olivia')">
-            <img src="/assets/PNG_images/avatar.png" alt="Olivia" />
-            <h3>Olivia</h3>
-          </div>
-          <div class="student-card" onclick="selecionarFilho('Amelia')">
-            <img src="/assets/PNG_images/avatar.png" alt="Amelia" />
-            <h3>Amelia</h3>
-          </div>
+        <div class="student-cards-row" id="student-cards">
+          <!-- Student cards will be dynamically inserted here -->
         </div>
         <div class="missing-student">
           Missing student?<br>
@@ -47,7 +32,7 @@
   </div>
   <div class="second-main">
     <img src="/assets/PNG_images/BRAND_ST PAULS_White Outline (2) 1.png">
-    <p>We are the British school of São Paulo. At St. Paul’s we always strive to be the best we can be. We have the
+    <p>We are the British school of São Paulo. At St. Paul's we always strive to be the best we can be. We have the
       courage of our convictions, essential <br> values, and the freedom to imagine and create. This is achieved through
       our
       high-quality British and Brazilian holistic education which <br> drives the personal and academic development of
@@ -67,8 +52,59 @@
     <p>Copyright © 2025 Saint Pauls. All rights reserved. Privacy Policy. All rights reserved by Saint Paul.</p>
   </div>
   <script>
-    function selecionarFilho(nome) {
-      window.location.href = `/assignments`;
+    document.addEventListener('DOMContentLoaded', async () => {
+      const user = JSON.parse(window.localStorage.getItem('user'));
+
+      if (!user) {
+        window.location.href = '/login';
+        return;
+      }
+
+      const parentId = user.id;
+
+      try {
+        const response = await fetch(`/users/${parentId}/students`);
+        if (!response.ok) {
+          throw new Error('Failed to fetch students');
+        }
+        const students = await response.json();
+
+        const studentCardsContainer = document.getElementById('student-cards');
+        studentCardsContainer.innerHTML = ''; // Clear existing cards
+
+        if (students.length > 0) {
+          students.forEach(student => {
+            const card = document.createElement('div');
+            card.className = 'student-card';
+            card.onclick = () => selecionarFilho(student.id, student.student_fullname, student.profimage_url);
+
+            const img = document.createElement('img');
+            img.src = student.profimage_url || '/assets/PNG_images/avatar.png';
+            img.alt = student.student_fullname;
+
+            const name = document.createElement('h3');
+            name.textContent = student.student_fullname;
+
+            card.appendChild(img);
+            card.appendChild(name);
+            studentCardsContainer.appendChild(card);
+          });
+        } else {
+            studentCardsContainer.innerHTML = '<p>No students found for this user.</p>';
+        }
+
+      } catch (error) {
+        console.error('Error fetching students:', error);
+        const studentCardsContainer = document.getElementById('student-cards');
+        studentCardsContainer.innerHTML = '<p>Error loading students. Please try again later.</p>';
+      }
+    });
+
+    function selecionarFilho(studentId, studentName, studentImg) {
+      window.localStorage.setItem('selectedStudentId', studentId);
+      window.localStorage.setItem('selectedStudentName', studentName);
+      window.localStorage.setItem('selectedStudentImg', studentImg || '/assets/PNG_images/avatar.png');
+      window.location.href = `/profile/${studentId}`;
     }
   </script>
 </body>

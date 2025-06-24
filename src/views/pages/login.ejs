@@ -83,7 +83,7 @@
 
         for (let i = 0; i < users.length; i++) {
           if (users[i].email === email && users[i].password === name) {
-            window.localStorage.setItem(`user #${users[i].id}`, JSON.stringify(users[i]));
+            window.localStorage.setItem(`user`, JSON.stringify(users[i]));
             window.location.href = '/choose';
             return;
           }
@@ -97,7 +97,10 @@
     }
 
     });
-  </script>
+
+    module.exports = user
+
+  </script>;
 
 </body>
 
