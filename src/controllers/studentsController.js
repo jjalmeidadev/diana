@@ -13,11 +13,25 @@ async function getAllStudents(req, res) {
 async function getStudentById(req, res) {
   try {
     const student = await StudentsModel.getStudentById(req.params.id);
-    if (!student) return res.status(404).send('Estudante não encontrado');
-    res.render('student', { student }); // Renders student.ejs
+    if (!student) {
+      return res.status(404).send('Estudante não encontrado');
+    }
+
+    return res.render('choose', { student }); // Renders student.ejs
   } catch (error) {
     console.error(error);
     res.status(500).send('Erro ao buscar estudante');
+  }
+}
+
+async function getStudentsByParentId(req, res) {
+  try {
+    const parentId = req.params.id;
+    const students = await StudentsModel.getStudentsByParentId(parentId);
+    res.status(200).json(students);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Erro ao buscar estudantes por ID do pai' });
   }
 }
 
@@ -56,6 +70,7 @@ async function deleteStudentById(req, res) {
 module.exports = {
   getAllStudents,
   getStudentById,
+  getStudentsByParentId,
   createStudent,
   updateStudentById,
   deleteStudentById
