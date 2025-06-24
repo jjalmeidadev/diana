@@ -31,97 +31,10 @@
 
 [8. References](c#8)
 
-Avenues: The World School. About Avenues São Paulo. São Paulo, 2025. Available at: https://www.avenues.org/sp/. Accessed: Jun. 16, 2025.
-
-Brazil. Ministry of Education. Bilingual Education: Guidelines and Possibilities. Brasília: MEC, 2022. Available at: https://www.gov.br/mec/pt-br/assuntos/noticias/educacao-bilingue. Accessed: Jun. 16, 2025.
-
-Chapel School. International Curriculum. São Paulo, 2025. Available at: https://www.chapelschool.org.br/. Accessed: Jun. 16, 2025.
-
-Cohn, M. User Stories Applied: For Agile Software Development. Boston: Addison-Wesley, 2004.
-
-Date, C. J. An Introduction to Database Systems. 8th ed. Rio de Janeiro: Campus, 2003.
-
-Elmasri, R.; Navathe, S. B. Fundamentals of Database Systems. 6th ed. São Paulo: Pearson, 2015.
-
-Gries, D.; Schneider, F. B. A Logical Approach to Discrete Math. New York: Springer, 1993.
-
-Graded – The American School of São Paulo. Graded’s Academic Programs. São Paulo, 2025. Available at: https://www.graded.br/. Accessed: Jun. 16, 2025.
-
-Nielsen, J. 10 Heuristics for User Interface Design. Fremont: Nielsen Norman Group, 1995. Available at: https://www.nngroup.com/articles/ten-usability-heuristics/. Accessed: Jun. 16, 2025.
-
-Osterwalder, A.; Pigneur, Y. Business Model Generation: Innovation in Business Models. Rio de Janeiro: Alta Books, 2011.
-
-Osterwalder, A.; Pigneur, Y. Value Proposition Design: How to Create Products and Services Customers Want. Rio de Janeiro: Alta Books, 2015.
-
-Osterwalder, A.; Pigneur, Y.; Bernarda, G.; Smith, A. Value Proposition Design: How to Create Products and Services Customers Want. Hoboken: Wiley, 2014.
-
-Ramalho, J. C. Logic for Computing. Rio de Janeiro: LTC, 2017.
-
-Rock Content. Wireframes: What They Are, Importance, Types, and Tools. Available at: https://rockcontent.com/br/blog/wireframes/. Accessed: May 28, 2025.
-
-Silberschatz, A.; Korth, H. F.; Sudarshan, S. Database System Concepts. 6th ed. Porto Alegre: AMGH, 2012.
-
-Sommerville, I. Software Engineering. 9th ed. São Paulo: Pearson, 2011.
-
-St. Paul's School. About Us. São Paulo: St. Paul's School, [2024?]. Available at: https://www.stpauls.br/about-us/. Accessed: Jun. 16, 2025.
-
-United Kingdom. Department for Education. British Schools Overseas (BSO): Standards and Inspection Framework. London, 2023. Available at: https://www.gov.uk/government/publications/british-schools-overseas-inspection-framework. Accessed: Jun. 16, 2025.
-
-W3C – World Wide Web Consortium. Web Content Accessibility Guidelines (WCAG) 2.2. 2024. Available at: https://www.w3.org/WAI/standards-guidelines/wcag/. Accessed: Jun. 16, 2025.
-
-SOMMERVILLE, Ian.
-Software Engineering. 10th ed. Boston: Pearson, 2019.
-
-FREEMAN, Eric; ROBSON, Elisabeth.
-Head First Design Patterns. 2nd ed. Sebastopol: O'Reilly Media, 2021.
-
-HOLZNER, Steven.
-Node.js: A Developer's Guide to Building Scalable Web Applications. 1st ed. Birmingham: Wrox, 2013.
-
-OBE, Regina O.; HSU, Leo S.
-PostgreSQL: Up and Running. 3rd ed. Sebastopol: O'Reilly Media, 2017.
-
-POSTMAN.
-Postman Learning Center. Available at: https://learning.postman.com/. Accessed on: 16 June 2025.
-
-FERREIRA, Aline C.
-MVC – Model View Controller: an Architecture for Responsibility Separation in Web Systems. Porto Alegre: UFRGS, 2012.
-
-WAZAWSKI, Filipe; SILVEIRA, Rafael.
-REST APIs with Node.js. 1st ed. São Paulo: Casa do Código, 2020.
-
-NIELSEN, Jakob.
-Designing Web Usability. 1st ed. Indianapolis: New Riders Publishing, 1999.
-
-ABEPAR – Associação Brasileira de Escolas Particulares.
-Private Education Market Report – Brazil 2024. São Paulo: ABEPAR, 2024.
-
-INTERNATIONAL SCHOOLS DATABASE.
-International School Growth and Statistics in Brazil. 2024. Available at: https://www.internationalschooldatabase.com/. Accessed on: 16 June 2025.
-
-ISC Research.
-Global Report on the International Schools Market. Oxfordshire: ISC Research, 2023.
-
-THE PIE NEWS.
-International Schools Sector Growth Report. London: The PIE News, 2023.
-
-EDTECH REPORT.
-Educational Technology Trends and Statistics – 2024 Edition. London: EdTech Magazine, 2024.
-
-KOTLER, Philip; KELLER, Kevin Lane.
-Marketing Management. 16th ed. Boston: Pearson Education, 2016.
-
-OSTERWALDER, Alexander; PIGNEUR, Yves.
-Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers. Hoboken: Wiley, 2010.
-
-CHAFFEY, Dave; ELLIS-CHADWICK, Fiona.
-Digital Marketing: Strategy, Implementation and Practice. 8th ed. Harlow: Pearson Education, 2019.
-
-[Appendices](#c9)
 
 <br>
 
-# <a name="c1"></a>1. Introduction (sprints 1 to 5)
+# <a name="c1"></a>1. Introduction 
 
 &nbsp;&nbsp;&nbsp;&nbsp;St. Paul’s is a reference in British education in Brazil, and it is the first school to receive the British School Overseas certification in Latin America. Located in São Paulo since 1926, the institution offers an Anglo-Brazilian curriculum for students from 3 to 18 years old, combining academic excellence with a multicultural and bilingual education. The school aims to innovate and maintain its quality education, and recently identified an opportunity to improve communication with the parents of its students.
 
@@ -135,7 +48,7 @@ Digital Marketing: Strategy, Implementation and Practice. 8th ed. Harlow: Pearso
 
 <br>
 
-<div align="center">
+<div  >
   
   <sub>Figure 01 - St. Paul's Student</sub>  
   <br>
@@ -149,15 +62,15 @@ Digital Marketing: Strategy, Implementation and Practice. 8th ed. Harlow: Pearso
 
 <br>
 
-# <a name="c2"></a>2. Overview of the Web Application (sprint 1)
+# <a name="c2"></a>2. Overview of the Web Application 
 
-## 2.1. Project Scope (sprints 1 & 4)
+## 2.1. Project Scope 
 
-### 2.1.1. 5 forces of Porter's model (sprint 1)
+### 2.1.1. 5 forces of Porter's model 
 
 <br>
 
-<div align="center">
+<div align="center" >
   
   <sub>Figure 02 - Porter's 5 forces</sub>  
   <br>
@@ -173,7 +86,7 @@ Digital Marketing: Strategy, Implementation and Practice. 8th ed. Harlow: Pearso
 
 <br>
 
-**1. Threat of New Entrants → LOW**
+**2.1.1.1. Threat of New Entrants → LOW**
 &nbsp;&nbsp;&nbsp;&nbsp;Very high entry barriers: Paul’s has held official recognition from the British Crown since 2012, being the first school in South America to receive this endorsement. This grants the school a high level of exclusivity and institutional authority, along with a legacy since 1926, robust infrastructure, and prestige. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;The bilingual curriculum, IB programs, and internationally qualified staff require significant expertise and investment. 
@@ -182,7 +95,7 @@ Digital Marketing: Strategy, Implementation and Practice. 8th ed. Harlow: Pearso
 
 
 
-**2. Threat of Substitutes → MODERATE**
+**2.1.1.2. Threat of Substitutes → MODERATE**
 &nbsp;&nbsp;&nbsp;&nbsp;Indirect competition: Other bilingual/international schools (e.g., Avenues, Chapel, Graded) lack Crown recognition, weakening their legitimacy. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;Online education has limited appeal in this premium segment, and the symbolic value of a British diploma for top universities is hard to replace.
@@ -191,7 +104,7 @@ Digital Marketing: Strategy, Implementation and Practice. 8th ed. Harlow: Pearso
 
 
 
-**3.  Bargaining Power of Suppliers → MODERATE**
+**2.1.1.3.  Bargaining Power of Suppliers → MODERATE**
 &nbsp;&nbsp;&nbsp;&nbsp;Key suppliers: bilingual and internationally trained teachers, educational technology companies, and outsourced services.
 
 
@@ -205,7 +118,7 @@ Digital Marketing: Strategy, Implementation and Practice. 8th ed. Harlow: Pearso
 
 
 
-**4. Bargaining Power of Customers (Parents and Students) → MODERATE**
+**2.1.1.4. Bargaining Power of Customers (Parents and Students) → MODERATE**
 
 &nbsp;&nbsp;&nbsp;&nbsp;Demanding and selective clientele: High-income families focused on international education are vocal about their expectations and standards.
 
@@ -232,17 +145,17 @@ Digital Marketing: Strategy, Implementation and Practice. 8th ed. Harlow: Pearso
 
 
 
-**5. Rivalry Among Existing Competitors → HIGH  (but mitigated by advantage)**
+**2.1.1.5. Rivalry Among Existing Competitors → HIGH  (but mitigated by advantage)**
 &nbsp;&nbsp;&nbsp;&nbsp;Competitors (Graded, Chapel, Avenues) target similar students but lack British recognition. St. Paul’s unique status reduces direct comparability, solidifying its leadership in the elite education market.
 
 
-### 2.1.2. SWOT Analysis of the Partner Institution (sprint 1)
+### 2.1.2. SWOT Analysis of the Partner Institution 
 
 &nbsp;&nbsp;&nbsp;&nbsp;St Paul's School boasts a strong academic reputation and a comprehensive international curriculum, propelling its students to prestigious universities globally. Its holistic education and diverse community are strengths. However, the high cost of tuition limits accessibility and can generate perceptions of elitism. The school also faces challenges with its current infrastructure, which prevents significant expansion. Despite this, there are opportunities to strengthen partnerships, adopt innovative educational trends and increase engagement with the local community. Competition from other international schools and economic instability pose constant threats. This concludes the definition of the institution's SWOT analysis.
 
 <br>
 
-<div align="center">
+<div align="center" >
   
   <sub>Figure 03 - SWOT Analysis Chart</sub>
   <br>
@@ -260,27 +173,27 @@ Digital Marketing: Strategy, Implementation and Practice. 8th ed. Harlow: Pearso
 
 ### 2.1.3. Solution (sprints 1 to 5)
 
-**1. Problem to be solved**
+**2.1.3.1. Problem to be solved**
 
 &nbsp;&nbsp;&nbsp;&nbsp;The software currently used to access student records at the school is not effectively addressing the problems, especially for parents, who need a well-structured system to better visualize and closely follow their children's daily lives — including grades, assignments, homework, field trips, and more.
 
-**2. Available data**
+**2.1.3.2. Available data**
 
 &nbsp;&nbsp;&nbsp;&nbsp;Alongside the TAPI (project deliverables document), we received the school’s brandbook for visual identity. For initial development, the partner provided mock data, including: "Pupils Contacts" (spreadsheet with fake details), profile photos, and 3 sample grade reports (PDF). We also obtained real data on student age range and total enrollment (Source: St Paul’s). This ensured privacy while allowing functional testing. 
 
-**3. Proposed solution**
+**2.1.3.3. Proposed solution**
 
 &nbsp;&nbsp;&nbsp;&nbsp;A new software solution that serves as a student history consultant, but in a simpler, more communicative, and direct way — truly making life easier for the parents who will use it. It will work as s manageable Parent Portal, with the academic information so that parents can access their children's reports, absences, communications, calendars and assigned tasks in a centralised way.
 
-**4. How the solution will be used**
+**2.1.3.4. How the solution will be used**
 
 &nbsp;&nbsp;&nbsp;&nbsp;Log in via browser using your registered email and default password (schoolID — change it after first login). View your child’s profile, photo, and academic year, or switch between siblings. Check reports (PDF), attendance, and timetables. Assignments sync from Microsoft Teams. Update personal/medical details securely. Teachers’ contacts are listed for quick communication. A desktop-friendly alternative to the app, designed for clarity and convenience. 
 
-**5. Expected benefits**
+**2.1.3.5. Expected benefits**
 
 &nbsp;&nbsp;&nbsp;&nbsp;The portal enhances parental engagement by providing organized academic tracking, improving the school's reputation and reducing service congestion. Ahead of St. Paul’s 2026 centennial, this infrastructure renewal allows parents to monitor grades, attendance, and assignments efficiently while syncing academic calendars with family schedules. Centralized access empowers informed support for students’ progress. 
 
-**6. Success criteria and how it will be evaluated**
+**2.1.3.6. Success criteria and how it will be evaluated**
 
 &nbsp;&nbsp;&nbsp;&nbsp;The criterion for success is the full functionality of the software, which will be assessed by the approval of the general public of testers in this first restricted version of the software. The more specific indicators would be:
 
@@ -290,27 +203,27 @@ Digital Marketing: Strategy, Implementation and Practice. 8th ed. Harlow: Pearso
 - Greater attendance at school events;
 - Students getting closer to their guardians.
 
-### 2.1.4. Value Proposition Canvas (sprint 1): 
+### 2.1.4. Value Proposition Canvas: 
 
 &nbsp;&nbsp;&nbsp;&nbsp;The Value Proposition Canvas is a tool that helps to better understand what customers really need and how a solution can efficiently meet those needs. It is part of the broader model called the Business Model Canvas, used to structure ideas and businesses in a clear way. In the Value Proposition Canvas, the focus is on connecting what is offered (product or service) with the expectations, desires, and difficulties of the people who will use it. This allows for the development of solutions that are more aligned with what the audience truly values, increasing the chances of success in the market.
 
 &nbsp;&nbsp;&nbsp;&nbsp;The structure of the Value Proposition Canvas is made up of two fundamental and complementary areas, which help us deeply understand the target audience and create more effective solutions:
 
-**1. Customer Profile:** investigates the characteristics, needs, and expectations of the people who will use the product or service. This part is subdivided into three key elements:
+- **Customer Profile:** investigates the characteristics, needs, and expectations of the people who will use the product or service. This part is subdivided into three key elements:
 
-**2. Customer Jobs:** describes what the customer needs to accomplish — their roles, goals, and activities that directly influence their routine and outcomes.
+- **Customer Jobs:** describes what the customer needs to accomplish — their roles, goals, and activities that directly influence their routine and outcomes.
 
-**3. Pains:** points out the obstacles, frustrations, or difficulties that hinder the efficient achievement of those tasks.
+- **Pains:** points out the obstacles, frustrations, or difficulties that hinder the efficient achievement of those tasks.
 
-**4. Gains:** identifies the expected benefits, desired improvements, and the factors that truly create value for the customer.
+- **Gains:** identifies the expected benefits, desired improvements, and the factors that truly create value for the customer.
 
-**5. Value Proposition:** defines how the developed solution meets the demands of the audience, relieving pains and providing gains. This section is also divided into three components:
+- **Value Proposition:** defines how the developed solution meets the demands of the audience, relieving pains and providing gains. This section is also divided into three components:
 
-**6. Products and Services:** describes the offer created to meet the identified needs.
+- **Products and Services:** describes the offer created to meet the identified needs.
 
-**7. Pain Relievers:** explains how the proposal helps solve or ease the challenges faced by the customer.
+- **Pain Relievers:** explains how the proposal helps solve or ease the challenges faced by the customer.
 
-**8. Gain Creators:** presents the differentials and additional advantages offered, making the experience more positive and valuable.
+- **Gain Creators:** presents the differentials and additional advantages offered, making the experience more positive and valuable.
 
 &nbsp;&nbsp;&nbsp;&nbsp;By applying the Value Proposition Canvas in the context of St. Paul's, we ensure that our group's proposal is centered on the real needs of the user, promoting more relevant, engaging, and transformative solutions. This methodology allows us to align innovation and purpose, as well as to stimulate strategic thinking and the development of projects that generate a positive impact in line with the school's values.
 
@@ -318,7 +231,7 @@ Digital Marketing: Strategy, Implementation and Practice. 8th ed. Harlow: Pearso
 
 <br>
 
-<div align="center">
+<div  align="center">
   
   <sub>Figure 04 - Value Proposition Canvas</sub>
   <br>
@@ -336,7 +249,7 @@ Digital Marketing: Strategy, Implementation and Practice. 8th ed. Harlow: Pearso
 
 &nbsp;&nbsp;&nbsp;&nbsp;Through the use of the Value Proposition Canvas, it was possible to clearly identify the users’ needs, relieve their pains, and generate concrete benefits. The solution presented stands out for its user-centered approach, promoting more meaningful, engaging experiences that are aligned with the values of the school. In this way, the project contributes not only to individual well-being, but also to strengthening the culture of innovation and collaboration at St. Paul’s.
 
-### 2.1.5. Project Risk Matrix (Sprint 1)
+### 2.1.5. Project Risk Matrix 
 
 &nbsp;&nbsp;&nbsp;&nbsp;According to Tomaz, Gagliasso, and Malavota (2020), the risk matrix is a management tool that assists a project team in identifying the risks and threats that may negatively affect its execution. It is constructed by combining the likelihood of each event occurring with the impact it would have if it materializes. Furthermore, these authors emphasize that developing a risk matrix is an iterative process: it is revisited at each work cycle to ensure that the mapping remains aligned with project changes. In this work, we have chosen to review and update our matrix at the beginning of each sprint.
 
@@ -350,7 +263,7 @@ Digital Marketing: Strategy, Implementation and Practice. 8th ed. Harlow: Pearso
 
 <br>
 
-<div align="center">
+<div align='center' >
   
   <sub>Figure 05 - Risk Matrix</sub>
   <br>
@@ -404,7 +317,7 @@ Digital Marketing: Strategy, Implementation and Practice. 8th ed. Harlow: Pearso
 
 <br>
 
-<div align="center">
+<div align="center" >
   
   <sub>Figure 06 - The Father (persona)</sub>
   <br>
@@ -421,7 +334,7 @@ Digital Marketing: Strategy, Implementation and Practice. 8th ed. Harlow: Pearso
 
 <br>
 
-<div align="center">
+<div  align="center">
   
   <sub>Figure 07 - The IT Analyst (persona)</sub>
   <br>
@@ -439,7 +352,7 @@ Digital Marketing: Strategy, Implementation and Practice. 8th ed. Harlow: Pearso
 
 <br>
 
-<div align="center">
+<div align="center" >
   
   <sub>Figure 08 - The Marketing Manager (persona)</sub>
   <br>
@@ -462,7 +375,7 @@ Digital Marketing: Strategy, Implementation and Practice. 8th ed. Harlow: Pearso
 &nbsp;&nbsp;&nbsp;&nbsp;Future iterations may refine these personas and their access levels based on real user feedback and evolving security requirements, maintaining both usability and compliance.
 
 
-## 2.3. User Stories (sprints 1 a 5)
+## 2.3. User Stories 
 
 &nbsp;&nbsp;&nbsp;&nbsp;User stories are short, simple descriptions of a feature or functionality that a software system should have, written from the perspective of the end user. By focusing on their POV, user stories ensure that the software being developed addresses real-world problems.
 
@@ -477,7 +390,6 @@ Critérios INVEST | **Independent::** Can be implemented without dependency on o
 Identification | US02
 --- | ---
 Persona | Carolina Mendes
-
 User Story | "As the school’s marketing manager, I want to offer an access to clear information about the enrollment process, so that the family can organize themselves from the very beginning."
 Acceptance Criteria 1 | **Scenario:** A new family accesses the platform for the first time. **Acceptance Test:** The platform presents a page with basic school information, contacts, and calendar.
 Acceptance Criteria 2 | **Scenario:** The family wants to review the enrollment information later. **Acceptance Test:** There should be a button/menu to access the enrollment information page again.
@@ -555,10 +467,10 @@ Acceptance Criteria 1 | **Scenario:** The moderator accesses the user management
 
 &nbsp;&nbsp;&nbsp;&nbsp;We constantly refine these requirements into technical tasks, ensuring a smooth transition from user needs to implemented features. By maintaining this structured approach, we ensure the final product remains user-centric, secure, and efficient.
 
-## 3.1. Architecture (sprints 3 e 4)
+## 3.1. Architecture 
 
 <br>
-<div align="center">
+<div  >
     <sub>Figure 09 - Architecture </sub>
   <br>
   <br>
@@ -573,7 +485,7 @@ Acceptance Criteria 1 | **Scenario:** The moderator accesses the user management
 
 Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diana?node-id=0-1&p=f&t=LUQpx1ce9GdskM4m-0
 
-## 3.2. Wireframes (sprint 2)
+## 3.2. Wireframes 
 
 &nbsp;&nbsp;&nbsp;&nbsp;Now we will present the wireframes of our website. A wireframe [1] is a simplified, two-dimensional visual representation of a web page’s layout and structure, focusing on the arrangement of elements such as navigation, content areas, headers, and footers, without involving colors, images, or detailed design. Wireframes serve as the foundational blueprint or skeleton of a website, outlining its structure and functionality early in the design process.
 
@@ -581,7 +493,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 
 &nbsp;&nbsp;&nbsp;&nbsp;In summary, these wireframe sketches guide us in organizing all elements coherently, testing the user journey, and ensuring the platform meets both user needs and business goals before moving on to the final design phase.
 
-**1. Login and About**
+**3.2.1. Login and About**
 **Description:**  
 &nbsp;&nbsp;&nbsp;Login screen with buttons for authentication, password recovery, and access to institutional information.  
 - **[Login]** sends credentials for secure authentication.  
@@ -591,7 +503,6 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
   — **US04**: Ensures continuous access for busy parents.  
 - **[About the school]** displays school mission, values, and contact details.  
   — **US07**: Supports onboarding for new families.
----
 
 <br>
 
@@ -611,7 +522,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 <br>
 
 
-**2. Profile - Homepage**
+**3.2.2. Profile - Homepage**
 **Description:**  
 &nbsp;&nbsp;&nbsp;User profile page with options to edit, save, or cancel updates to personal information.  
 - **[Edit Profile]** enables editing of phone number, address, and other details.  
@@ -621,10 +532,9 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 - **[Cancel]** discards any modifications made.  
   — Supports usability by preventing unwanted edits.
 
----
 <br>
 
-<div align="center">
+<div align="center" >
   
   <sub>Figure 11 - Profile </sub>
   <br>
@@ -639,17 +549,17 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 
 <br>
 
-**3. Assignments**
+**3.2.3. Assignments**
 **Description:**  
 &nbsp;&nbsp;&nbsp;Task tracking page with filtering and completion tools.  
 - **[Filter by subject]** displays tasks by selected subject.  
   — **US04 & US05**: Helps parents follow academic progress.  
   — **US05**: Allows parents to verify student task completion.
 
----
+
 <br>
 
-<div align="center">
+<div align="center" >
     <sub>Figure 12 - Assignments </sub>
   <br>
   <br>
@@ -660,7 +570,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 </div>
 <br>
 
-**4. Reports Page**
+**3.2.4. Reports Page**
 **Description:**  
 &nbsp;&nbsp;&nbsp;Academic performance page with options to view and export report cards.  
 - **[Select Term]** (dropdown) filters academic reports by trimester or semester.  
@@ -669,10 +579,10 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
   — **US04 & US05**: Useful for sharing and personal records.  
 - Additional components: average grade chart per subject, table with subjects, semester, and grades; notification icon, profile button, and search bar.
 
----
+
 <br>
 
-<div align="center">
+<div align="center" >
   
   <sub>Figure 13 - Reports </sub>
   <br>
@@ -687,16 +597,16 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 
 <br>
 
-**5. Timetable (Class Schedule)**
+**3.2.5. Timetable (Class Schedule)**
 **Description:**  
 &nbsp;&nbsp;&nbsp;Timetable screen showing the student’s schedule.  
 - **[Day / Week]** toggles between daily and weekly views.  
   — **US04 & US05**: Provides a clear view of the student’s routine.
 
----
+
 <br>
 
-<div align="center">
+<div align="center" >
   
   <sub>Figure 14 - Timetable </sub>
   <br>
@@ -712,16 +622,15 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 <br>
 
 
-**6. School Events for Parents**
+**3.2.6. School Events for Parents**
 **Description:**  
 &nbsp;&nbsp;&nbsp;Event feed for parents with RSVP functionality.  
 - Each event opens a detailed description and lets parents confirm attendance.  
   — **US05 & US07**: Keeps parents informed and engaged in school activities.
 
----
 <br>
 
-<div align="center">
+<div align="center"  >
   
   <sub>Figure 15 - Events </sub>
   <br>
@@ -736,7 +645,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 
 <br>
 
-**7. Customer Service Channels**
+**3.2.7. Customer Service Channels**
 **Description:**  
 &nbsp;&nbsp;&nbsp;Support area with contact options for technical or administrative help.  
 - **[New Support Request]** opens a chat with the school office (school contact - social media).
@@ -745,10 +654,10 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 - **[Contact via Email/Phone]** launches email or phone apps with teacher contact details.  
   — **US10**: Allows direct communication between parents and the school.
 
----
+
 <br>
 
-<div align="center">
+<div align="center" >
   
   <sub>Figure 16 - Customer Service Channels </sub>
   <br>
@@ -763,7 +672,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 
 <br>
 
-**8. Benes and Sanctions**
+**3.2.8. Benes and Sanctions**
 **Description:**  
 &nbsp;&nbsp;&nbsp;Behavioral tracking screen displaying merits and warnings.  
 - **[View Full History]** reveals all recorded events for a student.  
@@ -772,7 +681,7 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 
 <br>
 
-<div align="center">
+<div  align="center">
   
   <sub>Figure 17 - Benes and sanctions </sub>
   <br>
@@ -793,13 +702,13 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 &nbsp;&nbsp;&nbsp;&nbsp;These wireframes helped us visualize and validate the website structure, ensuring that the navigation and layout align with the project goals. With this foundation in place, we can confidently move on to the next stage of the design process.
 
 
-## 3.3. Style guide (sprint 3)
+## 3.3. Style guide 
 
 &nbsp;&nbsp;&nbsp;&nbsp;This style guide was created to ensure visual and communicative consistency throughout the "Diana" solution. It provides essential visual identity guidelines that should be followed by all team members involved in design, development, and communication. 
 
 <br>
 
-<div align="center">
+<div  align="center">
   
   <sub>Figure 18 - Style Guide </sub>
   <br>
@@ -815,7 +724,7 @@ https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diagrama-de-fios-Diana-?node
 
 <br>
 
-<div align="center">
+<div align="center" >
   
   <sub>Figure 19 - Colors </sub>
   <br>
@@ -843,7 +752,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 
 <br>
 
-<div align="center">
+<div  align="center">
   
   <sub>Figure 20 - Typography </sub>
   <br>
@@ -864,7 +773,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 
 <br>
 
-<div align="center">
+<div  align="center">
   
   <sub>Figure 21 - Iconography and images </sub>
   <br>
@@ -879,7 +788,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 
 <br>
 
-## 3.4 High-fidelity prototype (sprint 3)
+## 3.4 High-fidelity prototype 
 
 &nbsp;&nbsp;&nbsp;&nbsp;A high-fidelity prototype is a detailed representation of a product that closely resembles the final design in both appearance and functionality. It includes realistic visuals, accurate layout and typography, serving as a near-final representation of the user interface before development implementation.
 
@@ -890,24 +799,24 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 - **Content Strategy**: Realistic content including actual text, images, and data representations rather than placeholder elements
 - **Responsive Design**: Layouts that demonstrate how the interface adapts across different screen sizes and devices
 
-### 3.4.1 Prototyping Methodology
+### 3.4.1. Prototyping Methodology
 
 &nbsp;&nbsp;&nbsp;&nbsp;Our high-fidelity prototype development followed a systematic approach based on design thinking principles and user-centered design methodologies. The process involved:
 
-**1. Design System Integration**: All prototype screens were built using our established style guide (Section 3.3), ensuring consistency in colors (#B82121, #0C354C, #F1F1F1), typography (Darker Grotesque and Archer font families), and iconography throughout the interface.
+**3.4.1.1. Design System Integration**: All prototype screens were built using our established style guide (Section 3.3), ensuring consistency in colors (#B82121, #0C354C, #F1F1F1), typography (Darker Grotesque and Archer font families), and iconography throughout the interface.
 
-**2. User Journey Mapping**: Each prototype screen was designed to support specific user stories and acceptance criteria defined in Section 2.3, creating a seamless flow that addresses real user needs and business objectives.
+**3.4.1.2. User Journey Mapping**: Each prototype screen was designed to support specific user stories and acceptance criteria defined in Section 2.3, creating a seamless flow that addresses real user needs and business objectives.
 
-**3. Visual Validation**: The prototype underwent multiple iterations with stakeholders to validate visual hierarchy, information architecture, and overall user experience before finalizing the designs (sprint reviews).
+**3.4.1.3. Visual Validation**: The prototype underwent multiple iterations with stakeholders to validate visual hierarchy, information architecture, and overall user experience before finalizing the designs (sprint reviews).
 
-**4. Accessibility Considerations**: Color contrast ratios, font sizes, and interactive element spacing were designed to meet standards, ensuring the platform is accessible to users with diverse abilities.
+**3.4.1.4. Accessibility Considerations**: Color contrast ratios, font sizes, and interactive element spacing were designed to meet standards, ensuring the platform is accessible to users with diverse abilities.
 
 ### 3.4.2 Key Interface Screens
 
 &nbsp;&nbsp;&nbsp;&nbsp;The following screens represent the core functionality of the Diana parent portal system, each designed to address specific user needs identified during the research phase:
 
 <br>
-<div align="center">
+<div align="center" >
     <sub>Figure 22 - Login </sub>
   <br>
   <br>
@@ -920,7 +829,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 
 
 <br>
-<div align="center">
+<div  align="center">
     <sub>Figure 23 - Student Selection </sub>
   <br>
   <br>
@@ -936,7 +845,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 
 
 <br>
-<div align="center">
+<div  align="center">
     <sub>Figure 24 - Homepage/Profile Management </sub>
   <br>
   <br>
@@ -951,7 +860,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 &nbsp;&nbsp;&nbsp;&nbsp;The homepage serves as the central dashboard where parents can access all platform features and manage their profile information. The interface features a card-based layout that provides quick access to key functionalities including academic reports, upcoming events, and contact management. The design emphasizes information hierarchy through strategic use of whitespace, typography scaling, and color-coded sections.
 
 <br>
-<div align="center">
+<div  align="center">
     <sub>Figure 25 - Reports </sub>
   <br>
   <br>
@@ -963,7 +872,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 <br>
 
 <br>
-<div align="center">
+<div  align="center">
     <sub>Figure 26 - Behavioral Tracking - Benes and Sanctions </sub>
   <br>
   <br>
@@ -980,15 +889,15 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 <a href="https://www.figma.com/design/Qrb4vjSeXfNiWN9iirHvdN/Diana-Wireframes-and-Prototypes?node-id=0-1&t=3Uex8mdeUkJstifO-1">Click here </a> to access the complete Figma file (with all the platform's pages) and <a href="https://www.figma.com/proto/Qrb4vjSeXfNiWN9iirHvdN/Diana-Wireframes-and-Prototypes?node-id=350-3&t=3Uex8mdeUkJstifO-0&scaling=contain&content-scaling=fixed&page-id=0%3A1">here</a> to check the clickable prototype.
 
 
-## 3.5. Database modelling (sprints 2 e 4)
+## 3.5. Database modelling 
 
-### 3.5.1. Relational model (sprints 2 e 4)
+### 3.5.1. Relational model 
 
 &nbsp;&nbsp;&nbsp;&nbsp;Relational database modeling is the process of designing the structure of a database based on the principles of the relational model. Its purpose is to organize all the information into tables and to clearly represent the relationships among them, ensuring data is structured, consistent, and easy to access.
 
 
 #### 3.5.1.1 Tables description:
-**1.  Users table:**
+**3.5.1.1.1.  Users table:**
 **Purpose:** Stores login details for the parent who use the system.
 
 **Main fields:**
@@ -998,7 +907,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 - password: Password (securely stored);
 - type_of_user: Defines the user's role (e.g. teacher, tutor, admin).
 
-**2. Teachers table:**
+**3.5.1.1.2. Teachers table:**
 **Purpose:** Keeps information about school teachers.
 
 **Main fields:**
@@ -1007,7 +916,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 - teacher_name: Full name of the teacher;
 - teacher_email: Contact email.
 
-**3. Tutors table:**
+**3.5.1.1.3. Tutors table:**
 **Purpose:** Stores information about tutors.
 
 **Main fields:**
@@ -1021,8 +930,8 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 
 **Related to:** students and subjects. 
 
-**4. Students table:**
-**purpose:** Stores informaton about the students like grades, name, and gender.
+**3.5.1.1.4. Students table:**
+**Purpose:** Stores informaton about the students like grades, name, and gender.
 
 - id: Unique student ID;
 - student_name, student_surname: Student’s full name;
@@ -1033,7 +942,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 
 **Related to:** tutors (via tutor_id), student_subject (shows what they study), events and reports.
 
-**5. Subjects table:**
+**3.5.1.1.5. Subjects table:**
 **Purpose:** Lists all subjects offered at the school.
 
 **Main fields:**
@@ -1042,7 +951,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 - subject_name: Name of the subject (e.g. Math, Science);
 - teacher_id: Who teaches it.
 
-**6. Student_subject table:**
+**3.5.1.1.6. Student_subject table:**
 **Purpose:** Connects students and subjects they are enrolled in.
 
 **Main fields:**
@@ -1052,7 +961,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 - subject_id: Subject enrolled in;
 - grade: Grade received in that subject.
 
-**7. Reports table:**
+**3.5.1.1.7. Reports table:**
 **Purpose:** Stores written reports about a student.
 
 **Main fields:**
@@ -1062,8 +971,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 - date_report: When the report was created;
 - Related to: students.
 
-**8. Events table:**
-
+**3.5.1.1.8. Events table:**
 **Purpose:** Logs any special events related to a student.
 
 **Main fields:**
@@ -1074,10 +982,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 - Related to: students;
 
 
-  #### g) Academic house table
-=======
-**9. Academic house table:**
-
+**3.5.1.1.9. Academic house table:**
 **Purpose:** Storage all the academic houses from st Pauls(a sistem like Harry Potter)
 
 **Main fields:**
@@ -1085,11 +990,8 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 - id: Unique identifier for the academic house;
 - house: Name of the house.
 - Related to: students (via academic_house_id).
-
-  #### h) year code
   
-**10. Year code:**
-
+**3.5.1.1.10. Year code:**
 **Purpose:** Defines the academic year or grade level a student is currently in.
 
 **Main fields:**
@@ -1102,7 +1004,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 
 &nbsp;&nbsp;&nbsp;&nbsp;The events table supports US07's onboarding requirements by storing school activities and announcements that help new families integrate into the community. Medical information in the students table and contact details in both students and tutors tables fulfill US11's need for parents to update critical contact information. This intentional database design ensures each user story's functional requirements are properly supported through appropriate data relationships and access patterns while maintaining security and performance. The model's flexibility allows for future expansion to accommodate additional features while preserving its alignment with core user needs as defined in the project requirements.
   
-### 3.5.2. SQL queries and propositional logic (sprint 2)
+### 3.5.2. SQL queries and propositional logic 
 
 &nbsp;&nbsp;&nbsp;&nbsp;In the development of our web application for St. Paul's School, database interactions are critical to ensure efficient and accurate data retrieval, updates, and management. This section bridges SQL (Structured Query Language)—the standard language for relational database operations—with propositional logic, a foundational framework for expressing and evaluating logical conditions.
 
@@ -1144,16 +1046,13 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 
 &nbsp;&nbsp;&nbsp;&nbsp;Moving forward, this methodology will guide future database enhancements, ensuring scalability and reliability as the platform evolves. 
 
-## 3.6. WebAPI and endpoints (sprints 3 e 4):
+## 3.6. WebAPI and endpoints:
 
-# Visão Geral
 RESTful API for academic management with endpoints for:
 
 - **Main entities:** Users, Students, Teachers, Tutors
 - **Academic resources:** Subjects, Student-Subject Relations, Academic Houses
 - **Operational entities:** Events, Reports, Year Codes
-
----
 
 ## **USERS** `/users`
 | method | Endpoint          | description               |
@@ -1164,7 +1063,6 @@ RESTful API for academic management with endpoints for:
 | PUT    | `/users/:id`      | Atualiza usuário        |
 | DELETE | `/users/:id`      | Remove usuário          |
 
----
 
 ## **STUDENTS** `/students`
 | method | Endpoint            | description              |
@@ -1175,7 +1073,6 @@ RESTful API for academic management with endpoints for:
 | PUT    | `/students/:id`     | uptade student         |
 | DELETE | `/students/:id`     | delete student           |
 
----
 
 ## **TEACHERS** `/teachers`
 | method | Endpoint            | description                |
@@ -1186,8 +1083,6 @@ RESTful API for academic management with endpoints for:
 | PUT    | `/teachers/:id`     | update teacher       |
 | DELETE | `/teachers/:id`     | delete teacher         |
 
----
-
 ## **DICIPLINES** `/subjects`
 | method | Endpoint            | description                |
 |--------|---------------------|--------------------------|
@@ -1196,8 +1091,6 @@ RESTful API for academic management with endpoints for:
 | POST   | `/subjects`         | create dicipline     |
 | PUT    | `/subjects/:id`     | update dicipline      |
 | DELETE | `/subjects/:id`     | delete dicipline        |
-
----
 
 ## **RELATION STUDENT_SUBJECT** `/student_subject`
 | method | Endpoint                  | description                          |
@@ -1208,8 +1101,6 @@ RESTful API for academic management with endpoints for:
 | PUT    | `/student_subject/:id`    | update relation                   |
 | DELETE | `/student_subject/:id`    | delete relation                    |
 
----
-
 ## **ACADEMIC HOUSE** `/academic-house`
 | method | Endpoint                | description                     |
 |--------|-------------------------|-------------------------------|
@@ -1218,8 +1109,6 @@ RESTful API for academic management with endpoints for:
 | POST   | `/academic-house`       | create new house               |
 | PUT    | `/academic-house/:id`   | update house                |
 | DELETE | `/academic-house/:id`   | delete house                  |
-
----
 
 ## **EVENTS** `/events`
 | method | Endpoint          | description             |
@@ -1230,8 +1119,6 @@ RESTful API for academic management with endpoints for:
 | PUT    | `/events/:id`     | Atualiza evento      |
 | DELETE | `/events/:id`     | Remove evento        |
 
----
-
 ## **REPORTS** `/reports`
 | method | Endpoint          | description               |
 |--------|-------------------|-------------------------|
@@ -1240,8 +1127,6 @@ RESTful API for academic management with endpoints for:
 | POST   | `/reports`        | create new report     |
 | PUT    | `/reports/:id`    | update report      |
 | DELETE | `/reports/:id`    | delete report        |
-
----
 
 ## **YEAR CODES** `/year_Code`
 | method | Endpoint          | description               |
@@ -1262,16 +1147,14 @@ RESTful API for academic management with endpoints for:
 | PUT    | `/tutors/:id`     | update tutor      |
 | DELETE | `/tutors/:id`     | delete tutor                  |
 
----
-
-[Documentação de Endpoints](./others/routersDocumentation.pdf)
+[Link to endpoints documentation.](./others/routersDocumentation.pdf)
 
 
 # <a name="c4"></a>4. Web Application Development
 
-## 4.1. First version of the web application (sprint 3)
+## 4.1. First version of the web application 
 
-### Implemented Structure:
+**4.1.1. Implemented Structure:**
 
 1.  **MVC Architecture**:
     -   Use of Express.js as a framework
@@ -1303,7 +1186,7 @@ RESTful API for academic management with endpoints for:
     -   UpperBar
     -   LowerBar
 
-### Implemented Features:
+**4.1.2. Implemented Features:**
 
 1.  **Routing System**:
     -   Routes defined for all main pages
@@ -1314,13 +1197,13 @@ RESTful API for academic management with endpoints for:
     -   Area for user information
     -   Quick access buttons for Reports, Assignments, and Timetable
 
-#### Illustrations of the First Version:
+**4.1.3. Illustrations of the First Version:**
 
-**Login Screen:**
+**1. Login Screen:**
 
 
 <br>
-<div align="center">
+<div align="center" >
     <sub>Figure 27 - Login </sub>
   <br>
   <br>
@@ -1331,10 +1214,10 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
-**Profile Screen:**
+**2. Profile Screen:**
 
 <br>
-<div align="center">
+<div  align="center">
     <sub>Figure 28 - Profile Screen </sub>
   <br>
   <br>
@@ -1346,11 +1229,11 @@ RESTful API for academic management with endpoints for:
 <br>
 
 
-**Assignments Screen:**
+**3. Assignments Screen:**
 
 
 <br>
-<div align="center">
+<div  align="center">
     <sub>Figure 29 - Assignments Screen </sub>
   <br>
   <br>
@@ -1361,10 +1244,10 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
-**Customer Service Screen:**
+**4. Customer Service Screen:**
 
 <br>
-<div align="center">
+<div  align="center">
     <sub>Figure 30 - Customer Service Screen </sub>
   <br>
   <br>
@@ -1375,10 +1258,10 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
-**Events Screen:**
+**5. Events Screen:**
 
 <br>
-<div align="center">
+<div  align="center">
     <sub>Figure 31 - Events Screen </sub>
   <br>
   <br>
@@ -1389,11 +1272,11 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
-**Timetable Screen:**
+**6. Timetable Screen:**
 
 
 <br>
-<div align="center">
+<div align="center"  >
     <sub>Figure 32 - Timetable Screen </sub>
   <br>
   <br>
@@ -1404,10 +1287,10 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
-**Benes and Sanctions Screen:**
+**7. Benes and Sanctions Screen:**
 
 <br>
-<div align="center">
+<div align="center" >
     <sub>Figure 33 - Benes and Sanctions Screen </sub>
   <br>
   <br>
@@ -1418,10 +1301,10 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
-**Reports Screen:**
+**8. Reports Screen:**
 
 <br>
-<div align="center">
+<div  align="center">
     <sub>Figure 34 - Reports Screen </sub>
   <br>
   <br>
@@ -1432,7 +1315,7 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
-### Challenges Encountered:
+**4.1.4. Challenges Encountered:**
 
 1.  **Styling**:
     -   Need for refactoring to a more organized CSS system
@@ -1441,7 +1324,7 @@ RESTful API for academic management with endpoints for:
     -   Initial implementation of the user system
     -   Need to develop services and data models
 
-### Next Steps:
+**4.1.5. Next Steps:**
 
 1.  **Technical Improvements**:
     -   Implement a more robust CSS system
@@ -1462,10 +1345,9 @@ RESTful API for academic management with endpoints for:
     -   Add data validation
     -   Implement role-based access control
 
-    -------
-## 4.2. Second version of the web application (sprint 4)
+## 4.2. Second version of the web application 
 
-## Implemented Structure:
+**4.2.1. Implemented Structure:**
 
 
 1.  **Database Integration**:
@@ -1478,7 +1360,7 @@ RESTful API for academic management with endpoints for:
 3. **Consistent and user-friendly UI**:
      - all pages follow the same visual style, ensuring a smooth and coherent user experience.
  
-**Main Pages Delivered**:
+**4.2.2. Main Pages Delivered**:
 
     - Benes and sanctions
     - Assignments 
@@ -1486,7 +1368,7 @@ RESTful API for academic management with endpoints for:
     - Events
     - Profile
 
-**Code Structure:**
+**4.2.3. Code Structure:**
 
 - The code is fully organized according to the MVC pattern, with clear separation of controllers, routes, views, and models.
 
@@ -1494,13 +1376,13 @@ RESTful API for academic management with endpoints for:
 
 - The back-end functionality is fully integrated with the front-end, fulfilling the defined User Stories.
 
-## Screenshots:
+**4.2.4. Screenshots:**
 
 
-**Benes and sanctions**:
+**1. Benes and sanctions**:
 
 <br>
-<div align="center">
+<div  align="center">
     <sub>Figure 35 - Benes and sanctions </sub>
   <br>
   <br>
@@ -1511,10 +1393,10 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
-**Assignments**:
+**2. Assignments**:
 
 <br>
-<div align="center">
+<div align="center" >
     <sub>Figure 36 - Assignments </sub>
   <br>
   <br>
@@ -1525,10 +1407,10 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
-**Reports**:
+**3. Reports**:
 
 <br>
-<div align="center">
+<div  align="center">
     <sub>Figure 37 - Reports </sub>
   <br>
   <br>
@@ -1539,10 +1421,10 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
-**Events**
+**4. Events**
 
 <br>
-<div align="center">
+<div align="center" >
     <sub>Figure 38 - Events </sub>
   <br>
   <br>
@@ -1553,11 +1435,11 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
-**Profile**
+**5. Profile**
 
 
 <br>
-<div align="center">
+<div  align="center">
     <sub>Figure 39 - Profile </sub>
   <br>
   <br>
@@ -1568,45 +1450,45 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
-## Challenges Encountered:
+**4.2.5. Challenges Encountered:**
 
-**Database Integration**:
+**1. Database Integration**:
 
 
 - Ensuring stable connection between PostgreSQL and the three main pages.
 - Adjusting queries to efficiently display real and relevant data.
 
-**Routing Structure**:
+**2. Routing Structure**:
 
 - Defining clear and functional routes for each feature, ensuring the correct views are rendered.
 - Resolving conflicts and maintaining consistent navigation throughout the system.
 
-**Consistent and User-friendly UI:**
+**3. Consistent and User-friendly UI:**
 
 - Maintaining visual coherence across all pages for a unified user experience.
 - Adjusting styles for compatibility across various devices and browsers.
 
-## Next Steps:
+**4.2.6. Next Steps:**
 
-**Technical Improvements:**
+**1. Technical Improvements:**
 
 - Complete usability testing with real users.
 - Review and enhance the overall design and responsiveness of the system.
 - Finalize and refine the WebAPI documentation, ensuring all endpoints include method, headers, body, and response formats.
 - Update the system architecture and database modeling as needed to reflect current features and structure.
 
-**Features**
+**2. Features**
 
 - Expand the event system with additional functionalities.
 - Develop more detailed and customizable reporting features.
 
-**UX/UI**:
+**3. UX/UI**:
 
 - Improve visual feedback for user actions
 - Implement smooth animations and transitions to enhance the navigation experience.
 - Ensure full mobile responsiveness across all interfaces.
 
-**Security**:
+**4. Security**:
 
 -  Implement a robust authentication system with role-based access control.
 - Add thorough data validation to ensure system reliability and user safety.
@@ -1617,50 +1499,56 @@ RESTful API for academic management with endpoints for:
 
 # <a name="c5"></a>5. Tests
 
-## 5.1. Automated endpoint integration test report (sprint 4)
+## 5.1. Automated endpoint integration test report 
 
 
-### example test:
+**5.1.1. Example test:**
 
 <br>
-<div align="center">
+<div  align="center">
     <sub>Figure 40 - test </sub>
   <br>
   <br>
  <img src="../assets/PNG_images/test-example.png">
   <br>
   <br>
+</div>
   
 
-### All our posman tests
+**5.1.2. All our posman tests**
 
 <br>
-<div align="center">
+<div align="center" >
     <sub>Figure 41 - test </sub>
   <br>
 <img src="../assets/PNG_images/test1.png">
 
 <br>
-<div align="center">
+</div>
+<div  align="center">
     <sub>Figure 42 - test </sub>
   <br>
 <img src="../assets/PNG_images/test2.png">
 
 <br>
+
+</div>
 <div align="center">
     <sub>Figure 43 - test </sub>
   <br>
 <img src="../assets/PNG_images/test3.png">
 
+</div>
+
 <p>These tests are meant to verify if our routes are working properly. Each route has its own requests, but generally they include requests for creating, reading, updating, and deleting.</p>
 
-###  academic_house
+**1. Academic_house**
 
 - **GET getAll**  
   Tests whether the API returns all registered academic houses or school units.
 
 
-###  events
+**2. events**
 
 - **GET getAll**  
   Checks if all events are being listed correctly.
@@ -1672,7 +1560,7 @@ RESTful API for academic management with endpoints for:
   Verifies whether a specific event is being properly deleted.
 
 
-###  reports
+**3. reports**
 
 - **GET getAll**  
   Checks if all reports are being retrieved.
@@ -1687,7 +1575,7 @@ RESTful API for academic management with endpoints for:
   Verifies the deletion of a report.
 
 
-###  student_subject
+**4. student_subject**
 
 - **GET getAll**  
   Tests whether all student–subject associations are being returned.
@@ -1702,7 +1590,7 @@ RESTful API for academic management with endpoints for:
   Verifies whether the association is being deleted.
 
 
-### students
+**5. students**
 
 - **GET getAll**  
   Verifies whether the list of students is being retrieved.
@@ -1714,7 +1602,7 @@ RESTful API for academic management with endpoints for:
   Checks whether a student's data is being updated.
 
 
-### subjects
+**6. subjects**
 
 - **GET getAll**  
   Lists all registered subjects.
@@ -1728,7 +1616,7 @@ RESTful API for academic management with endpoints for:
 - **PUT updateSubject** 
   Tests the updating of subject data.
 
-###  teachers
+**7. teachers**
 
 - **GET getAll**  
   Tests the listing of all teachers.
@@ -1743,7 +1631,7 @@ RESTful API for academic management with endpoints for:
   Tests the updating of teacher data.
 
 
-### tutors
+**8. tutors**
 
 - **GET getAll**  
   Tests the listing of all tutors.
@@ -1757,7 +1645,7 @@ RESTful API for academic management with endpoints for:
 - **PUT updateTutor**  
   Tests the updating of tutor data.
 
-### users
+**9. users**
 
 - **GET getAll**  
   Verifies whether all system users are being listed.
@@ -1771,7 +1659,7 @@ RESTful API for academic management with endpoints for:
 - **PUT updateUser**  
   Tests the updating of user data.
 
-### year code
+**10. year code**
 
 - **GET getAll**  
   Tests whether all academic years are being listed.
@@ -1868,19 +1756,19 @@ The feedback collected will serve as a foundation for future improvements, espec
 
 ## 6.2 Market Analysis
 
-### a) Industry Overview
+### 6.2.1. Industry Overview
 
 &nbsp;&nbsp;&nbsp;&nbsp;The Brazilian private education sector, especially the segment of international and bilingual schools, has stood out as one of the most dynamic and promising in the country. In 2023, the private education market generated approximately R$ 60 billion, with an annual growth of 8% (ABEPAR, 2024). The international school segment, in particular, has benefited from the increasing demand for high-quality education and global competencies.
 
 &nbsp;&nbsp;&nbsp;&nbsp;Regulatory aspects are fundamental in this sector, with the need for compliance with the National Common Curricular Base (BNCC) and international guidelines, such as the International Baccalaureate (IB) and the British Curriculum. From a technological perspective, the sector has undergone rapid digital transformation with, significant investments in technological infrastructure and educational platforms.
 
-### b) Market Size and Growth
+### 6.2.2. Market Size and Growth
 
 &nbsp;&nbsp;&nbsp;&nbsp;The international school market in Brazil has shown significant growth in recent years. In 2023, there were around 1,200 international schools in the country, representing a 15% increase compared to 2020 (International Schools Database, 2024). The Southeast region concentrates 45% of these institutions, with São Paulo leading the ranking.
 
 &nbsp;&nbsp;&nbsp;&nbsp;The sector’s revenue grew 12% in 2023, reaching R$ 8.5 billion, with a projected annual growth of 10% until 2026 (ABEPAR, 2024). The average tuition in international schools ranges from R$ 4,000 to R$ 12,000, reflecting the high purchasing power of the target audience.
 
-### c) Market Trends
+### 6.2.3. Market Trends
 
 &nbsp;&nbsp;&nbsp;&nbsp;The education sector is undergoing significant transformations driven by three main trends:
 
@@ -1890,21 +1778,31 @@ The feedback collected will serve as a foundation for future improvements, espec
 
 3. **Market-driven**: The market is moving towards more integrated and personalized solutions. Schools are investing in platforms that deliver a comprehensive experience, from academic management to effective parent communication. The educational software market is expected to grow 20% annually until 2026 (EdTech Report, 2024).
 
-### d) Business Model Canvas 
+### 6.2.4. Business Model Canvas 
+
+<div  align="center">
+    <sub> Business Model Canvas </sub>
+  <br>
+  <br>
 
 ![Business Model Canvas  (1)](https://github.com/user-attachments/assets/d8261f85-ce61-4c31-9637-01efe40a92ea)
+
+  <br>
+  <br>
+  <sup>Source: authors (2025)</sup>
+</div>
 
 
 ## 6.3 Competitor Analysis
 
-### Main Competitors
+**6.3.1 Main Competitors**
 
 &nbsp;&nbsp;&nbsp;&nbsp;There are numerous tools used by schools to support communication and learning. Some of the most known ones would be Google Classroom, Moodle, and Microsoft Teams for Education. These platforms are mainly used for schoolwork and class activities. Google Classroom is easy to use and integrates well with other Google apps, but it does not prioritize keeping parents informed. Moodle is a strong platform that many schools use, but it can be hard to manage and is not very user friendly. considering it's non practical design, and Microsoft Teams helps with online classes and communication between teachers and students, but it doesn’t offer many features specialized for families.
  Other tools that schools often use to talk to parents are messaging apps like WhatsApp or email. These are easy and familiar to use, but they are not made for school environments and do not offer features such as calendars or constant updates about student progress.
  Some schools have their own portals, but these systems are often not updated,  hard to use on phones, and do not support multiple languages well.
  In general, current tools are useful for teachers and students, but they are not made with the intention of approaching international parents directly. They do not always support different languages, and they can be confusing or hard to use for families who are new to the school or country.
 
-### Competitive Advantages
+**6.3.1 Competitive Advantages**
 
  &nbsp;&nbsp;&nbsp;&nbsp;Our web application is specially designed to help international schools communicate better with parents from different countries. Unlike most school platforms, our tool is made especially for families, not just for teachers and students.
  One of the most important features is the language support. Parents can read messages, updates, and school events in english or portuguese. This helps avoid confusion and makes everyone feel welcomed and informed, no matter where they are from.
@@ -1915,7 +1813,7 @@ Our platform is not focused on managing classroom tasks like Google Classroom or
 
 ## 6.4 Target audience
 
-### Market Segment
+**6.4.1. Market Segment**
 
 &nbsp;&nbsp;&nbsp;&nbsp;We will target the educational and international communication sectors with our website.. St. Paul’s School in São Paulo would be our main customer. which illustrates the necessity our website solves in this context.
  St. Paul’s School centers its brand around offering international students, mainly from the United Kingdom, the opportunity to continue their British curriculum while residing in Brazil. The school features a diverse curriculum that brings Brazilian and British education systems together, together with several extracurricular activities such as theater and language learning. This  educational approach requires a digital platform that is not only multilingual and accessible but also adaptable to different academic models.
@@ -1923,7 +1821,7 @@ Our platform is not focused on managing classroom tasks like Google Classroom or
 
  &nbsp;&nbsp;&nbsp;&nbsp;In this sense, our production would be directed to a culturally adaptable, interactive and informative platform for parents, which has it's impact justified by the ISC Research (2023), that shows there are over 13,000 international schools worldwide, serving more than 6 million students, illustrating a high-potential and growing market for our application, considering its personalized approach to families and how the schools could exercise clear and direct communication with them.
 
-### Profile Segment
+**6.4.2. Profile Segment**
 
  &nbsp;&nbsp;&nbsp;&nbsp;The target audience for our project would consist in parents and responsibles of students in international schools, specifically those in St. Paul’s School in São Paulo. Demographically, this group includes adults aged 30 to 50, bilingual or multilingual, with high levels of education and economic status. Many are diplomats, or professionals working for multinational corporations, with families often living far apart or in different countries.
  Psychographically, these individuals highly value academic performance, cultural diversity, and global citizenship. They are proactive in their children’s education and prioritize communication, transparency, and accessibility when engaging with schools. Behaviorally, they are close with digital devices, familiar to using mobile apps and digital platforms for managing school information, and wish for real-time updates and user-friendly interfaces.
@@ -1932,7 +1830,7 @@ Our platform is not focused on managing classroom tasks like Google Classroom or
 
 ## 6.5 Positioning
 
-### a) Unique Value Proposition
+### 6.5.1. Unique Value Proposition
 
 &nbsp;&nbsp;&nbsp;&nbsp;Diana stands out in the market by offering a complete and integrated solution for managing communication between school and family, with a special focus on user experience. Our unique value proposition lies in the combination of three fundamental elements:
 
@@ -1942,7 +1840,7 @@ Our platform is not focused on managing classroom tasks like Google Classroom or
 
 This combination makes Diana a valuable tool for institutions seeking to modernize their communication and strengthen their connection with families.
 
-### b) Differentiation Strategy
+### 6.5.2. Differentiation Strategy
 
 Our differentiation strategy is built on three main pillars:
 
@@ -1957,10 +1855,10 @@ This approach positions us uniquely in the market, especially among high-end int
 ## 6.6 Marketing Strategy 
 
 
-## What are the 4 Ps of Marketing?
+**6.6.1. What are the 4 Ps of Marketing?**
 
 <br>
-<div align="center">
+<div align="center" >
     <sub>Figure 44 - 4 Ps of Marketing</sub>
   <br>
   <br>
@@ -1970,17 +1868,14 @@ This approach positions us uniquely in the market, especially among high-end int
   <sup>Source: authors (2025)</sup>
 </div>
 <br>
----
 
-## Context of St. Paul’s School and the project
+**6.6.2. Context of St. Paul’s School and the project**
 
 &nbsp;&nbsp;&nbsp;&nbsp;St. Paul’s School, an elite British school in São Paulo, identified communication challenges with parents due to a confusing and inefficient app. To address this, a dedicated web portal was proposed for parents, offering quick and centralized access to school information such as homework, absences, and announcements — improving the overall experience and strengthening the school-family relationship.
 
 &nbsp;&nbsp;&nbsp;&nbsp;The project, in this context, consists of a dedicated web portal for parents, developed to simplify the monitoring of students’ school routines at St. Paul’s School. The platform provides direct access to essential information such as school events, attendance tracking, class schedules, important announcements, and academic performance. All of this is available through a single interface, accessible via any web browser — with no downloads required.
 
----
-
-## 1. Product / Service
+**6.6.3. Product / Service**
 
 &nbsp;&nbsp;&nbsp;&nbsp;The project developed is a dedicated web portal for the parents of St. Paul’s School students, designed to simplify the monitoring of their children’s school routines. It centralizes all school-related information in a clear and intuitive interface. Key features include:
 
@@ -1993,7 +1888,7 @@ This approach positions us uniquely in the market, especially among high-end int
 
 Access is available via any web browser, with no need to install additional applications.
 
-**Main benefits:**
+**6.6.4. Main benefits:**
 
 - Saves time and improves clarity in the dialogue between school and parents  
 - Concentrates relevant information in one place, reducing confusion and encouraging active involvement  
@@ -2001,13 +1896,11 @@ Access is available via any web browser, with no need to install additional appl
 
 By offering this experience, the solution reinforces St. Paul’s image as an institution attuned to the needs of its community and committed to educational innovation.
 
----
-
-## 2. Price
+**6.6.5. Price**
 
 &nbsp;&nbsp;&nbsp;&nbsp;The proposed pricing model is institutional licensing with customized annual plans, adjusted according to the number of active students or guardians. This **B2B (business-to-business)** approach is ideal for institutions like St. Paul’s, which operate in a premium segment and prioritize quality and exclusivity.
 
-**Pricing rationale:**
+**6.6.6. Pricing rationale:**
 
 - Based on the perceived value of the solution  
 - Benefits include simplified communication, greater transparency, and reduced administrative burden  
@@ -2017,13 +1910,11 @@ An analysis of the competitive environment shows St. Paul’s has a high level o
 
 Thus, the pricing model reinforces St. Paul’s brand proposition: delivering excellence, innovation, and closeness without directly burdening end users.
 
----
-
-## 3. Distribution
+**6.6.7. Distribution**
 
 &nbsp;&nbsp;&nbsp;&nbsp;The application distribution will be entirely digital, ensuring convenience and easy access for the target audience. The portal will be accessible directly through web browsers with **no need to install additional apps or software**. This enables parents to access the system anytime, on any device (computer, tablet, or smartphone), optimizing the user experience.
 
-**Delivery channels include:**
+**6.6.8. Delivery channels include:**
 
 - Official school website  
 - Emails to guardians  
@@ -2031,9 +1922,7 @@ Thus, the pricing model reinforces St. Paul’s brand proposition: delivering ex
 
 This approach ensures broad reach, effectively reaching all parents at a low operational cost, promoting fast and intuitive access.
 
----
-
-## 4. Promotion
+**6.6.9. Promotion**
 
 &nbsp;&nbsp;&nbsp;&nbsp;The digital promotion strategy includes a combination of **SEO (Search Engine Optimization)**, social media, and content marketing, aimed at expanding reach and engagement among parents.
 
@@ -2041,12 +1930,7 @@ This approach ensures broad reach, effectively reaching all parents at a low ope
 - **Social media:** Creates relevant, dynamic content such as tutorial videos, testimonials from parents and teachers, and explanatory posts highlighting platform benefits. Active engagement strengthens trust and interest. Key examples would be the use of instagram or linkedin, both accessible from the site itself. 
 - **Content marketing:** Conducted via email and social media, sharing tips for parents to monitor their children’s school routines using the portal as the main tool.
 
----
-
-**Conclusion**
 &nbsp;&nbsp;&nbsp;&nbsp;The platform strengthens communication between St. Paul’s School and families by offering an intuitive, efficient solution aligned with the school’s values. By combining a functional product, value-based pricing, digital distribution, and promotional strategies focused on engagement, we deliver a solution that modernizes the parent experience and reinforces the school’s position as a leader in innovation and educational excellence.
-
----
 
 # <a name="c7"></a>7. Conclusions and future work (sprint 5)
 
@@ -2056,15 +1940,98 @@ This approach ensures broad reach, effectively reaching all parents at a low ope
 
 *Relacione também quaisquer outras ideias que o grupo tenha para melhorias futuras*
 
-# <a name="c8"></a>8. References (sprints 1 a 5)
+# <a name="c8"></a>8. References 
 
 <!-- _Incluir as principais referências de seu projeto, para que seu parceiro possa consultar caso ele se interessar em aprofundar. Um exemplo de referência de livro e de site:_<br> -->
 
-[1] Wireframes: o que é, qual a importância, tipos e ferramentas. Disponível em: https://rockcontent.com/br/blog/wireframes/. Acesso em: 28 mai. 2025.
+Avenues: The World School. About Avenues São Paulo. São Paulo, 2025. Available at: https://www.avenues.org/sp/. Accessed: Jun. 16, 2025.
 
-. <br>
+Brazil. Ministry of Education. Bilingual Education: Guidelines and Possibilities. Brasília: MEC, 2022. Available at: https://www.gov.br/mec/pt-br/assuntos/noticias/educacao-bilingue. Accessed: Jun. 16, 2025.
 
+Chapel School. International Curriculum. São Paulo, 2025. Available at: https://www.chapelschool.org.br/. Accessed: Jun. 16, 2025.
+
+Cohn, M. User Stories Applied: For Agile Software Development. Boston: Addison-Wesley, 2004.
+
+Date, C. J. An Introduction to Database Systems. 8th ed. Rio de Janeiro: Campus, 2003.
+
+Elmasri, R.; Navathe, S. B. Fundamentals of Database Systems. 6th ed. São Paulo: Pearson, 2015.
+
+Gries, D.; Schneider, F. B. A Logical Approach to Discrete Math. New York: Springer, 1993.
+
+Graded – The American School of São Paulo. Graded’s Academic Programs. São Paulo, 2025. Available at: https://www.graded.br/. Accessed: Jun. 16, 2025.
+
+Nielsen, J. 10 Heuristics for User Interface Design. Fremont: Nielsen Norman Group, 1995. Available at: https://www.nngroup.com/articles/ten-usability-heuristics/. Accessed: Jun. 16, 2025.
+
+Osterwalder, A.; Pigneur, Y. Business Model Generation: Innovation in Business Models. Rio de Janeiro: Alta Books, 2011.
+
+Osterwalder, A.; Pigneur, Y. Value Proposition Design: How to Create Products and Services Customers Want. Rio de Janeiro: Alta Books, 2015.
+
+Osterwalder, A.; Pigneur, Y.; Bernarda, G.; Smith, A. Value Proposition Design: How to Create Products and Services Customers Want. Hoboken: Wiley, 2014.
+
+Ramalho, J. C. Logic for Computing. Rio de Janeiro: LTC, 2017.
+
+Rock Content. Wireframes: What They Are, Importance, Types, and Tools. Available at: https://rockcontent.com/br/blog/wireframes/. Accessed: May 28, 2025.
+
+Silberschatz, A.; Korth, H. F.; Sudarshan, S. Database System Concepts. 6th ed. Porto Alegre: AMGH, 2012.
+
+Sommerville, I. Software Engineering. 9th ed. São Paulo: Pearson, 2011.
+
+St. Paul's School. About Us. São Paulo: St. Paul's School, [2024?]. Available at: https://www.stpauls.br/about-us/. Accessed: Jun. 16, 2025.
+
+United Kingdom. Department for Education. British Schools Overseas (BSO): Standards and Inspection Framework. London, 2023. Available at: https://www.gov.uk/government/publications/british-schools-overseas-inspection-framework. Accessed: Jun. 16, 2025.
+
+W3C – World Wide Web Consortium. Web Content Accessibility Guidelines (WCAG) 2.2. 2024. Available at: https://www.w3.org/WAI/standards-guidelines/wcag/. Accessed: Jun. 16, 2025.
+
+SOMMERVILLE, Ian.
+Software Engineering. 10th ed. Boston: Pearson, 2019.
+
+FREEMAN, Eric; ROBSON, Elisabeth.
+Head First Design Patterns. 2nd ed. Sebastopol: O'Reilly Media, 2021.
+
+HOLZNER, Steven.
+Node.js: A Developer's Guide to Building Scalable Web Applications. 1st ed. Birmingham: Wrox, 2013.
+
+OBE, Regina O.; HSU, Leo S.
+PostgreSQL: Up and Running. 3rd ed. Sebastopol: O'Reilly Media, 2017.
+
+POSTMAN.
+Postman Learning Center. Available at: https://learning.postman.com/. Accessed on: 16 June 2025.
+
+FERREIRA, Aline C.
+MVC – Model View Controller: an Architecture for Responsibility Separation in Web Systems. Porto Alegre: UFRGS, 2012.
+
+WAZAWSKI, Filipe; SILVEIRA, Rafael.
+REST APIs with Node.js. 1st ed. São Paulo: Casa do Código, 2020.
+
+NIELSEN, Jakob.
+Designing Web Usability. 1st ed. Indianapolis: New Riders Publishing, 1999.
+
+ABEPAR – Associação Brasileira de Escolas Particulares.
+Private Education Market Report – Brazil 2024. São Paulo: ABEPAR, 2024.
+
+INTERNATIONAL SCHOOLS DATABASE.
+International School Growth and Statistics in Brazil. 2024. Available at: https://www.internationalschooldatabase.com/. Accessed on: 16 June 2025.
+
+ISC Research.
+Global Report on the International Schools Market. Oxfordshire: ISC Research, 2023.
+
+THE PIE NEWS.
+International Schools Sector Growth Report. London: The PIE News, 2023.
+
+EDTECH REPORT.
+Educational Technology Trends and Statistics – 2024 Edition. London: EdTech Magazine, 2024.
+
+KOTLER, Philip; KELLER, Kevin Lane.
+Marketing Management. 16th ed. Boston: Pearson Education, 2016.
+
+OSTERWALDER, Alexander; PIGNEUR, Yves.
+Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers. Hoboken: Wiley, 2010.
+
+CHAFFEY, Dave; ELLIS-CHADWICK, Fiona.
+Digital Marketing: Strategy, Implementation and Practice. 8th ed. Harlow: Pearson Education, 2019.
 
 # <a name="c9"></a>Appendices
 
-*Inclua aqui quaisquer complementos para seu projeto, como diagramas, imagens, tabelas etc. Organize em sub-tópicos utilizando headings menores (use ## ou ### para isso)*
+Does not apply.
+
+<!-- *Inclua aqui quaisquer complementos para seu projeto, como diagramas, imagens, tabelas etc. Organize em sub-tópicos utilizando headings menores (use ## ou ### para isso)* -->
