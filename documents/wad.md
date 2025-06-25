@@ -117,7 +117,6 @@
 &nbsp;&nbsp;&nbsp;&nbsp;Imported educational materials (like British textbooks and IB-specific resources) may be subject to currency fluctuations and logistical issues, increasing dependency.
 
 
-
 **2.1.1.4. Bargaining Power of Customers (Parents and Students) → MODERATE**
 
 &nbsp;&nbsp;&nbsp;&nbsp;Demanding and selective clientele: High-income families focused on international education are vocal about their expectations and standards.
@@ -144,12 +143,11 @@
 
 
 
-
 **2.1.1.5. Rivalry Among Existing Competitors → HIGH  (but mitigated by advantage)**
 &nbsp;&nbsp;&nbsp;&nbsp;Competitors (Graded, Chapel, Avenues) target similar students but lack British recognition. St. Paul’s unique status reduces direct comparability, solidifying its leadership in the elite education market.
 
 
-### 2.1.2. SWOT Analysis of the Partner Institution 
+## 2.1.2. SWOT Analysis of the Partner Institution 
 
 &nbsp;&nbsp;&nbsp;&nbsp;St Paul's School boasts a strong academic reputation and a comprehensive international curriculum, propelling its students to prestigious universities globally. Its holistic education and diverse community are strengths. However, the high cost of tuition limits accessibility and can generate perceptions of elitism. The school also faces challenges with its current infrastructure, which prevents significant expansion. Despite this, there are opportunities to strengthen partnerships, adopt innovative educational trends and increase engagement with the local community. Competition from other international schools and economic instability pose constant threats. This concludes the definition of the institution's SWOT analysis.
 
@@ -171,7 +169,7 @@
 
 <br>
 
-### 2.1.3. Solution (sprints 1 to 5)
+## 2.1.3. Solution (sprints 1 to 5)
 
 **2.1.3.1. Problem to be solved**
 
@@ -203,7 +201,7 @@
 - Greater attendance at school events;
 - Students getting closer to their guardians.
 
-### 2.1.4. Value Proposition Canvas: 
+## 2.1.4. Value Proposition Canvas: 
 
 &nbsp;&nbsp;&nbsp;&nbsp;The Value Proposition Canvas is a tool that helps to better understand what customers really need and how a solution can efficiently meet those needs. It is part of the broader model called the Business Model Canvas, used to structure ideas and businesses in a clear way. In the Value Proposition Canvas, the focus is on connecting what is offered (product or service) with the expectations, desires, and difficulties of the people who will use it. This allows for the development of solutions that are more aligned with what the audience truly values, increasing the chances of success in the market.
 
@@ -521,7 +519,6 @@ Link that contains the image above: https://www.figma.com/design/Qrb4vjSeXfNiWN9
 
 <br>
 
-
 **3.2.2. Profile - Homepage**
 **Description:**  
 &nbsp;&nbsp;&nbsp;User profile page with options to edit, save, or cancel updates to personal information.  
@@ -746,8 +743,7 @@ Primary ( #B82121 and #0C354C): Use for prominent elements such as buttons, head
 Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contrast with content.
 
 
-
-### 3.3.2 Typography
+## 3.3.2 Typography
 
 
 <br>
@@ -799,7 +795,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 - **Content Strategy**: Realistic content including actual text, images, and data representations rather than placeholder elements
 - **Responsive Design**: Layouts that demonstrate how the interface adapts across different screen sizes and devices
 
-### 3.4.1. Prototyping Methodology
+**3.4.1. Prototyping Methodology**
 
 &nbsp;&nbsp;&nbsp;&nbsp;Our high-fidelity prototype development followed a systematic approach based on design thinking principles and user-centered design methodologies. The process involved:
 
@@ -811,7 +807,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 
 **3.4.1.4. Accessibility Considerations**: Color contrast ratios, font sizes, and interactive element spacing were designed to meet standards, ensuring the platform is accessible to users with diverse abilities.
 
-### 3.4.2 Key Interface Screens
+**3.4.2 Key Interface Screens**
 
 &nbsp;&nbsp;&nbsp;&nbsp;The following screens represent the core functionality of the Diana parent portal system, each designed to address specific user needs identified during the research phase:
 
@@ -891,12 +887,10 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 
 ## 3.5. Database modelling 
 
-### 3.5.1. Relational model 
+**3.5.1. Relational model 
 
 &nbsp;&nbsp;&nbsp;&nbsp;Relational database modeling is the process of designing the structure of a database based on the principles of the relational model. Its purpose is to organize all the information into tables and to clearly represent the relationships among them, ensuring data is structured, consistent, and easy to access.
 
-
-#### 3.5.1.1 Tables description:
 **3.5.1.1.1.  Users table:**
 **Purpose:** Stores login details for the parent who use the system.
 
@@ -1004,11 +998,11 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 
 &nbsp;&nbsp;&nbsp;&nbsp;The events table supports US07's onboarding requirements by storing school activities and announcements that help new families integrate into the community. Medical information in the students table and contact details in both students and tutors tables fulfill US11's need for parents to update critical contact information. This intentional database design ensures each user story's functional requirements are properly supported through appropriate data relationships and access patterns while maintaining security and performance. The model's flexibility allows for future expansion to accommodate additional features while preserving its alignment with core user needs as defined in the project requirements.
   
-### 3.5.2. SQL queries and propositional logic 
+**3.5.2. SQL queries and propositional logic**
 
 &nbsp;&nbsp;&nbsp;&nbsp;In the development of our web application for St. Paul's School, database interactions are critical to ensure efficient and accurate data retrieval, updates, and management. This section bridges SQL (Structured Query Language)—the standard language for relational database operations—with propositional logic, a foundational framework for expressing and evaluating logical conditions.
 
-#1 | ---
+1 | ---
 --- | ---
 **SQL Expression** | UPDATE student SET address = 'Rua Galeno de Almeida, 1200' WHERE (student_name = 'John' AND surname_student != 'Smith') AND (id = 24); 
 **Logical propositions** | $A$: The address is 'Rua Galeno de Almeida, 1200' (address = 'Rua Galeno de Almeida, 1200') <br> $B$: The students name is John (student_name = 'John') <br> $C$: The id must be 24 (id = 24)
@@ -1017,7 +1011,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 
 &nbsp;&nbsp;&nbsp;&nbsp;This expression (#1) would be used when the necessity of updating an specific student's adress would appear, being exemplified by the use of "John", who wouldn't have the "Smith" surname (considering there is another student with this full name) and would have the ID 24 allocated for himself.
 
-#2 | ---
+2 | ---
 --- | ---
 **SQL Expression** | DELETE FROM subject WHERE (id LIKE '_1' OR name_subject IN ('Business & Management', 'Physics', 'Computer Science')) AND student_grade = 'Pre Prep' ; 
 **Logical propositions** | $A$: The id must contain as its second algarism "1" <br> $B$: The subject name must be "Business & Management', 'Physics' or 'Computer Science' <br> $C$: The student's grade must be "Pre Prep"
@@ -1026,7 +1020,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 
 &nbsp;&nbsp;&nbsp;&nbsp;This expression (#2) would be used in a context in which a subject (Business & Management, Physics and Computer Science for example) is inappropriately assigned for a pre prep student, considering that his grade doesn't approach such a level of complexity yet.
 
-#3 | —
+3 | —
 --- | ---
 **SQL Expression** | SELECT id, student_name, num_absences, grade, medical_flags FROM students  JOIN student_subject  ON student_id = .id WHERE (num_absences > 5 AND grade < 60) OR medical_flags = 'TRUE';
 **Logical propositions** | $A$: num\_absences > 5 <br> $B$: grade < 60 <br> $C$: medical\_flags = TRUE
@@ -1035,7 +1029,7 @@ Neutral ( #F1F1F1): Best used for backgrounds, fills, and to provide soft contra
 
 &nbsp;&nbsp;&nbsp;&nbsp;This SQL statement (#3) highlights students who may need immediate academic attention by returning every learner with either more than five absences and an overall grade below 60, or active medical flag—helping teachers and advisors quickly locate those who require extra monitoring or support.
 
-#4 | —
+4 | —
 --- | ---
 **SQL Expression**| SELECT id, grade, student_id FROM student_subject  JOIN students  ON student_id = id JOIN users u ON parent_id = id WHERE id = :parent_id AND grade IS NULL AND ((grade BETWEEN 0 AND 59) OR academic_house = 'alta');
 **Logical propositions** | $D$: grade IS NULL <br> $E$: grade between 0 and 59 <br> $F$: academic\_house = ‘alta’
@@ -1054,7 +1048,7 @@ RESTful API for academic management with endpoints for:
 - **Academic resources:** Subjects, Student-Subject Relations, Academic Houses
 - **Operational entities:** Events, Reports, Year Codes
 
-## **USERS** `/users`
+**USERS**
 | method | Endpoint          | description               |
 |--------|-------------------|-------------------------|
 | GET    | `/users`          | List all users          |
@@ -1064,7 +1058,7 @@ RESTful API for academic management with endpoints for:
 | DELETE | `/users/:id`      | Remove usuário          |
 
 
-## **STUDENTS** `/students`
+**STUDENTS**
 | method | Endpoint            | description              |
 |--------|---------------------|------------------------|
 | GET    | `/students`         | List all students  |
@@ -1074,7 +1068,7 @@ RESTful API for academic management with endpoints for:
 | DELETE | `/students/:id`     | delete student           |
 
 
-## **TEACHERS** `/teachers`
+**TEACHERS**
 | method | Endpoint            | description                |
 |--------|---------------------|--------------------------|
 | GET    | `/teachers`         | list all teachers  |
@@ -1083,7 +1077,7 @@ RESTful API for academic management with endpoints for:
 | PUT    | `/teachers/:id`     | update teacher       |
 | DELETE | `/teachers/:id`     | delete teacher         |
 
-## **DICIPLINES** `/subjects`
+**DICIPLINES**
 | method | Endpoint            | description                |
 |--------|---------------------|--------------------------|
 | GET    | `/subjects`         | list all diciplines  |
@@ -1092,7 +1086,7 @@ RESTful API for academic management with endpoints for:
 | PUT    | `/subjects/:id`     | update dicipline      |
 | DELETE | `/subjects/:id`     | delete dicipline        |
 
-## **RELATION STUDENT_SUBJECT** `/student_subject`
+**RELATION STUDENT_SUBJECT**
 | method | Endpoint                  | description                          |
 |--------|---------------------------|------------------------------------|
 | GET    | `/student_subject`        | list all relations              |
@@ -1101,7 +1095,7 @@ RESTful API for academic management with endpoints for:
 | PUT    | `/student_subject/:id`    | update relation                   |
 | DELETE | `/student_subject/:id`    | delete relation                    |
 
-## **ACADEMIC HOUSE** `/academic-house`
+**ACADEMIC HOUSE**
 | method | Endpoint                | description                     |
 |--------|-------------------------|-------------------------------|
 | GET    | `/academic-house`       list all academic houses           |
@@ -1110,7 +1104,7 @@ RESTful API for academic management with endpoints for:
 | PUT    | `/academic-house/:id`   | update house                |
 | DELETE | `/academic-house/:id`   | delete house                  |
 
-## **EVENTS** `/events`
+**EVENTS**
 | method | Endpoint          | description             |
 |--------|-------------------|-----------------------|
 | GET    | `/events`         | Lista todos eventos  |
@@ -1119,7 +1113,7 @@ RESTful API for academic management with endpoints for:
 | PUT    | `/events/:id`     | Atualiza evento      |
 | DELETE | `/events/:id`     | Remove evento        |
 
-## **REPORTS** `/reports`
+**REPORTS**
 | method | Endpoint          | description               |
 |--------|-------------------|-------------------------|
 | GET    | `/reports`        | Lists all reports  |
@@ -1128,7 +1122,7 @@ RESTful API for academic management with endpoints for:
 | PUT    | `/reports/:id`    | update report      |
 | DELETE | `/reports/:id`    | delete report        |
 
-## **YEAR CODES** `/year_Code`
+**YEAR CODES**
 | method | Endpoint          | description               |
 |--------|-------------------|-------------------------|
 | GET    | `/year_Code`      | list all year codes  |
@@ -1137,7 +1131,7 @@ RESTful API for academic management with endpoints for:
 | PUT    | `/year_Code/:id`  | update year      |
 | DELETE | `/year_Code/:id`  | delete year         |
 
-## **TUTORS** `/tutors`
+**TUTORS**
 
 | method | Endpoint          | description                     |
 |--------|-------------------|-------------------------------|
@@ -1157,51 +1151,49 @@ RESTful API for academic management with endpoints for:
 **4.1.1. Implemented Structure:**
 
 1.  **MVC Architecture**:
-    -   Use of Express.js as a framework
-    -   Structure organized in controllers, views, and routes
-    -   EJS template system for page rendering
+ -   Use of Express.js as a framework
+ -   Structure organized in controllers, views, and routes
+ -   EJS template system for page rendering
 
 2.  **User Interface**:
-    -   Sidebar with navigation to the main features:
-        -   Events
-        -   Customer Service
-        -   Benes and Sanctions
-        -   Assignments
-        -   Timetable
-        -   Reports
-        -   Initial Screen (Login)
+  -   Sidebar with navigation to the main features:
+  -   Events
+  -   Customer Service
+  -    Benes and Sanctions
+ -   Assignments
+  -   Timetable
+  -   Reports
+   -   Initial Screen (Login)
 
 3.  **Main Pages**:
-    -   Login
-    -   Profile
-    -   Assignments
-    -   Customer Service
-    -   Events
-    -   Timetable
-    -   Benes
-    -   Reports
+  -   Login
+ -   Profile
+  -   Assignments
+  -   Customer Service
+  -   Events
+  -   Timetable
+  -   Benes
+  -   Reports
 
 4.  **Reusable Components**:
-    -   Sidebar
-    -   UpperBar
-    -   LowerBar
+ -   Sidebar
+  -   UpperBar
+   -   LowerBar
 
 **4.1.2. Implemented Features:**
 
 1.  **Routing System**:
-    -   Routes defined for all main pages
-    -   Basic navigation structure between pages
+ -   Routes defined for all main pages
+ -   Basic navigation structure between pages
 
 2.  **Profile Interface**:
-    -   Layout with a profile photo section
-    -   Area for user information
-    -   Quick access buttons for Reports, Assignments, and Timetable
+  -   Layout with a profile photo section
+  -   Area for user information
+  -   Quick access buttons for Reports, Assignments, and Timetable
 
 **4.1.3. Illustrations of the First Version:**
 
 **1. Login Screen:**
-
-
 <br>
 <div align="center" >
     <sub>Figure 27 - Login </sub>
@@ -1228,9 +1220,7 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
-
 **3. Assignments Screen:**
-
 
 <br>
 <div  align="center">
@@ -1318,47 +1308,46 @@ RESTful API for academic management with endpoints for:
 **4.1.4. Challenges Encountered:**
 
 1.  **Styling**:
-    -   Need for refactoring to a more organized CSS system
+  -   Need for refactoring to a more organized CSS system
 
 2.  **Data Structure**:
-    -   Initial implementation of the user system
-    -   Need to develop services and data models
+  -   Initial implementation of the user system
+  -   Need to develop services and data models
 
 **4.1.5. Next Steps:**
 
 1.  **Technical Improvements**:
-    -   Implement a more robust CSS system
-    -   Create a complete authentication system
-    -   Implement form validation
+  -   Implement a more robust CSS system
+  -   Create a complete authentication system
+  -   Implement form validation
 
 2.  **Features**:
-    -   Implement the event system
-    -   Create the reports system
+  -   Implement the event system
+  -   Create the reports system
 
 3.  **UX/UI**:
-    -   Improve system responsiveness
-    -   Implement visual feedback for user actions
-    -   Add smooth animations and transitions
+  -   Improve system responsiveness
+  -   Implement visual feedback for user actions
+  -   Add smooth animations and transitions
 
 4.  **Security**:
-    -   Implement a robust authentication system
-    -   Add data validation
-    -   Implement role-based access control
+  -   Implement a robust authentication system
+  -   Add data validation
+  -   Implement role-based access control
 
 ## 4.2. Second version of the web application 
 
 **4.2.1. Implemented Structure:**
 
-
 1.  **Database Integration**:
 
-    -   all three pages are connected to a PostgreSQL database and display real data through Node.js controllers.
+  -   all three pages are connected to a PostgreSQL database and display real data through Node.js controllers.
 
 2. **Routing Structure**:
-      - Routing Structure: each feature has a defined route that maps to the appropriate controller and renders the correct view.
+    - Routing Structure: each feature has a defined route that maps to the appropriate controller and renders the correct view.
 
 3. **Consistent and user-friendly UI**:
-     - all pages follow the same visual style, ensuring a smooth and coherent user experience.
+   - all pages follow the same visual style, ensuring a smooth and coherent user experience.
  
 **4.2.2. Main Pages Delivered**:
 
@@ -1450,10 +1439,9 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
-**4.2.5. Challenges Encountered:**
+## 4.2.5. Challenges Encountered:
 
 **1. Database Integration**:
-
 
 - Ensuring stable connection between PostgreSQL and the three main pages.
 - Adjusting queries to efficiently display real and relevant data.
@@ -1468,7 +1456,7 @@ RESTful API for academic management with endpoints for:
 - Maintaining visual coherence across all pages for a unified user experience.
 - Adjusting styles for compatibility across various devices and browsers.
 
-**4.2.6. Next Steps:**
+## 4.2.6. Next Steps:
 
 **1. Technical Improvements:**
 
@@ -1500,7 +1488,6 @@ RESTful API for academic management with endpoints for:
 # <a name="c5"></a>5. Tests
 
 ## 5.1. Automated endpoint integration test report 
-
 
 **5.1.1. Example test:**
 
@@ -1542,129 +1529,129 @@ RESTful API for academic management with endpoints for:
 
 <p>These tests are meant to verify if our routes are working properly. Each route has its own requests, but generally they include requests for creating, reading, updating, and deleting.</p>
 
-**1. Academic_house**
+## 1. Academic_house
 
-- **GET getAll**  
+**GET getAll**  
   Tests whether the API returns all registered academic houses or school units.
 
 
-**2. events**
+## 2. events
 
-- **GET getAll**  
+ **GET getAll**  
   Checks if all events are being listed correctly.
 
-- **POST newEvent**  
+**POST newEvent**  
   Tests if a new event is being successfully created.
 
-- **DEL deleteEvent**  
+**DEL deleteEvent**  
   Verifies whether a specific event is being properly deleted.
 
 
-**3. reports**
+## 3. reports
 
-- **GET getAll**  
+**GET getAll**  
   Checks if all reports are being retrieved.
 
-- **POST createReport**  
+ **POST createReport**  
   Tests the successful creation of a new report.
 
-- **PUT updateReport**  
+ **PUT updateReport**  
   Checks if a report is being updated correctly.
 
-- **DEL deleteReport**  
+ **DEL deleteReport**  
   Verifies the deletion of a report.
 
 
-**4. student_subject**
+## 4. student_subject
 
-- **GET getAll**  
+ **GET getAll**  
   Tests whether all student–subject associations are being returned.
 
-- **POST createSt-Sb**  
+**POST createSt-Sb**  
   Tests the creation of a new student–subject association.
 
-- **PUT UpdateSt-Sb**  
+**PUT UpdateSt-Sb**  
   Checks whether the association is being updated correctly.
 
-- **DEL deleteSt-Sb**  
+ **DEL deleteSt-Sb**  
   Verifies whether the association is being deleted.
 
 
-**5. students**
+## 5. students
 
-- **GET getAll**  
+ **GET getAll**  
   Verifies whether the list of students is being retrieved.
 
-- **POST createStudent**  
+**POST createStudent**  
   Tests the creation of a new student.
 
-- **PUT UpdateStudents**  
+ **PUT UpdateStudents**  
   Checks whether a student's data is being updated.
 
 
-**6. subjects**
+## 6. subjects
 
-- **GET getAll**  
+ **GET getAll**  
   Lists all registered subjects.
 
-- **POST createSubject**  
+**POST createSubject**  
   Tests the creation of a new subject.
 
-- **DEL deleteSubject**  
+ **DEL deleteSubject**  
   Verifies whether a subject is being deleted.
 
-- **PUT updateSubject** 
+ **PUT updateSubject** 
   Tests the updating of subject data.
 
-**7. teachers**
+## 7. teachers
 
-- **GET getAll**  
+**GET getAll**  
   Tests the listing of all teachers.
 
-- **POST createTeachers**  
+**POST createTeachers**  
   Tests the creation of a new teacher.
 
-- **DEL deleteTeacher**  
+**DEL deleteTeacher**  
   Verifies whether a teacher is being properly removed.
 
-- **PUT updateTeacher**  
+**PUT updateTeacher**  
   Tests the updating of teacher data.
 
 
-**8. tutors**
+## 8. tutors
 
-- **GET getAll**  
+ **GET getAll**  
   Tests the listing of all tutors.
 
-- **POST createTutor**  
+ **POST createTutor**  
   Tests the creation of a new tutor.
 
-- **DEL deleteTutor**  
+ **DEL deleteTutor**  
   Verifies whether the tutor was deleted.
 
-- **PUT updateTutor**  
+**PUT updateTutor**  
   Tests the updating of tutor data.
 
-**9. users**
+## 9. users
 
-- **GET getAll**  
+ **GET getAll**  
   Verifies whether all system users are being listed.
 
-- **POST createUser**  
+ **POST createUser**  
   Tests the creation of a new user.
 
-- **DEL deleteUser**  
+**DEL deleteUser**  
   Verifies whether the user was deleted.
 
-- **PUT updateUser**  
+ **PUT updateUser**  
   Tests the updating of user data.
 
-**10. year code**
+## 10. year code
 
-- **GET getAll**  
+**GET getAll**  
   Tests whether all academic years are being listed.
 
-- **POST createYear**  
+**POST createYear**  
   Tests the creation of a new academic year.
 
 
@@ -1743,13 +1730,6 @@ Each task included:
 
 **Access the full test case table here**:  
 
- _**File included in the repository:**_ 
-
-**`Usability Test Data - Crownmates`**
-
-#
-
-
 ## Link to the Test Case Table  
 
 Here is the link to the full table, where you can find all test cases documented in more detail, including participants, tasks, observations, and scores:
@@ -1793,19 +1773,19 @@ The feedback collected will guide future improvements, focusing on:
 
 ## 6.2 Market Analysis
 
-### 6.2.1. Industry Overview
+**6.2.1. Industry Overview**
 
 &nbsp;&nbsp;&nbsp;&nbsp;The Brazilian private education sector, especially the segment of international and bilingual schools, has stood out as one of the most dynamic and promising in the country. In 2023, the private education market generated approximately R$ 60 billion, with an annual growth of 8% (ABEPAR, 2024). The international school segment, in particular, has benefited from the increasing demand for high-quality education and global competencies.
 
 &nbsp;&nbsp;&nbsp;&nbsp;Regulatory aspects are fundamental in this sector, with the need for compliance with the National Common Curricular Base (BNCC) and international guidelines, such as the International Baccalaureate (IB) and the British Curriculum. From a technological perspective, the sector has undergone rapid digital transformation with, significant investments in technological infrastructure and educational platforms.
 
-### 6.2.2. Market Size and Growth
+**6.2.2. Market Size and Growth**
 
 &nbsp;&nbsp;&nbsp;&nbsp;The international school market in Brazil has shown significant growth in recent years. In 2023, there were around 1,200 international schools in the country, representing a 15% increase compared to 2020 (International Schools Database, 2024). The Southeast region concentrates 45% of these institutions, with São Paulo leading the ranking.
 
 &nbsp;&nbsp;&nbsp;&nbsp;The sector’s revenue grew 12% in 2023, reaching R$ 8.5 billion, with a projected annual growth of 10% until 2026 (ABEPAR, 2024). The average tuition in international schools ranges from R$ 4,000 to R$ 12,000, reflecting the high purchasing power of the target audience.
 
-### 6.2.3. Market Trends
+**6.2.3. Market Trends**
 
 &nbsp;&nbsp;&nbsp;&nbsp;The education sector is undergoing significant transformations driven by three main trends:
 
@@ -1890,7 +1870,6 @@ Our differentiation strategy is built on three main pillars:
 This approach positions us uniquely in the market, especially among high-end international schools like St. Paul’s, which value innovation without compromising excellence in service.
 
 ## 6.6 Marketing Strategy 
-
 
 **6.6.1. What are the 4 Ps of Marketing?**
 
