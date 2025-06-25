@@ -68,6 +68,35 @@
             <button class="popup-btn">Mark as Done</button>
           </div>
         </div>
+
+        <script>
+          let selectedAssignmentCard = null;
+
+          document.addEventListener('DOMContentLoaded', function() {
+            // Ao clicar em um assignment-card, abre o popup e guarda o card clicado
+            document.querySelectorAll('.assignment-card').forEach(function(card) {
+              card.addEventListener('click', function() {
+                selectedAssignmentCard = card;
+                document.getElementById('assignment-popup').style.display = 'flex';
+              });
+            });
+
+            // Ao clicar em Mark as Done, remove apenas o card selecionado
+            document.querySelector('.popup-btn').addEventListener('click', function() {
+              if (selectedAssignmentCard) {
+                selectedAssignmentCard.remove();
+                selectedAssignmentCard = null;
+              }
+              document.getElementById('assignment-popup').style.display = 'none';
+            });
+
+            // Fecha o popup ao clicar no X
+            document.querySelector('.close-popup').addEventListener('click', function() {
+              document.getElementById('assignment-popup').style.display = 'none';
+              selectedAssignmentCard = null;
+            });
+          });
+        </script>
 </body>
 
 </html>
