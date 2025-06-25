@@ -105,8 +105,8 @@
                     updateCardsPerView();
                     updateCarousel();
 
-                    // Remove o evento ao clicar em Yes
-                    document.querySelectorAll('.btn-yes').forEach(function(btn) {
+                    // Remove o evento ao clicar em Yes ou No
+                    document.querySelectorAll('.btn-yes, .btn-no').forEach(function(btn) {
                         btn.addEventListener('click', function() {
                             const card = btn.closest('.event-card');
                             if (card) card.remove();
