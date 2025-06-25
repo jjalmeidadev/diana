@@ -3,46 +3,40 @@ const express = require('express');
 const db = require('../config/db');
 const router = express.Router();
 const userController = require('../controllers/userController');
+const studentsController = require('../controllers/studentsController');
+const userModel = require('../models/userModel');
+const isVerified = require('../middleware/verify');
 
-// Rota raiz
-router.get('/login', (req, res) => {
-  res.send('pages/login');
-});
-
-router.get('/assignments', (req, res) => {
+router.get('/assignments', isVerified, (req, res) => {
   res.render('pages/assignments');
 });
-router.get('/customerservice', (req, res) => {
+router.get('/customerservice',isVerified, (req, res) => {
   res.render('pages/customerservice');
 });
-router.get('/events', (req, res) => {
-  res.render('pages/events');
-});
-router.get('/timetable', (req, res) => {
+
+router.get('/timetable', isVerified, (req, res) => {
   res.render('pages/timetable');
 });
-router.get('/benes', (req, res) => {
+router.get('/benes', isVerified, (req, res) => {
   res.render('pages/benes');
 });
-router.get('/login', (req, res) => {
-  res.render('pages/login');
-});
-router.get('/profile', async (req, res) => {
+router.get('/profile/:id', isVerified, async (req, res) => {
     try {
-        const userId = 49000000;
+        const studentId = req.params.id;
 
         // Query to fetch student data from the database
         const query = `
             SELECT 
+                s.id,
                 s.student_fullname,
                 s.profimage_url,
                 s.school_age,
                 ${process.env.DB_DATE_FORMAT === 'true' ? "TO_CHAR(s.date_birth, 'YYYY-MM-DD')" : "s.date_birth"} AS date_birth,
                 s.gender,
                 s.registration,
-                ah.house AS academic_house_id,
-                yc.year_code AS year_code_id,
-                t.name_tutor AS tutor_id,
+                ah.house AS academic_house,
+                yc.year_code AS year_code,
+                t.name_tutor AS tutor,
                 s.school_id,
                 s.address,
                 s.post_code,
@@ -65,14 +59,14 @@ router.get('/profile', async (req, res) => {
             LEFT JOIN academic_house ah ON s.academic_house_id = ah.id
             LEFT JOIN year_code yc ON s.year_code_id = yc.id
             LEFT JOIN tutors t ON s.tutor_id = t.id
-            WHERE s.parent_id = $1
+            WHERE s.id = $1
         `;
 
-        const result = await db.query(query, [userId]);
+        const result = await db.query(query, [studentId]);
 
         if (result.rows.length === 0) {
-            console.error('No student data found for user ID:', userId);
-            throw new Error('Student data not found');
+            console.error('No student data found for user ID:', studentId);
+            return res.status(404).send('Student data not found');
         }
 
         const student = result.rows[0];
@@ -85,13 +79,14 @@ router.get('/profile', async (req, res) => {
         res.status(500).send('Internal Server Error');
     }
 });
-router.get('/reports', (req, res) => {
+router.get('/reports',isVerified, (req, res) => {
   res.render('pages/reports');
 });
-router.get('/communication', (req, res) => {
+router.get('/communication',isVerified, (req, res) => {
   res.render('pages/communication');
 });
-router.get('/choose', (req, res) => {
+
+router.get('/choose',isVerified, (req, res) => {
   res.render('pages/choose');
 });
 
@@ -100,6 +95,8 @@ router.get('/users/:id', userController.getUserById);
 router.post('/users', userController.createUser);      
 router.put('/users/:id', userController.updateUserById);     
 router.delete('/users/:id', userController.deleteUserById);
+
+router.get('/users/:id/students', studentsController.getStudentsByParentId);
 
 module.exports = router;
 

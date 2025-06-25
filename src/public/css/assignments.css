@@ -6,7 +6,7 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Darker Grotesque', sans-serif;
-    background: #F5F6FA;
+    background: #fff;
 }
 
 .container {
@@ -31,12 +31,27 @@ body, html {
     box-sizing: border-box;
 }
 
-.main h1 {
-    color: #0B364C;
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin-bottom: 32px;
-    margin-left: 0;
+.main-content {
+  margin-top: 35px;
+  margin-left: 200px;
+  padding: 30px;
+  box-sizing: border-box;
+  width: calc(100% - 200px);
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: calc(100vh - 70px);
+  border-radius: 12px;
+}
+
+.main h1, .main-content h1 {
+  color: #0B364C;
+  margin-top: 0;
+  margin-bottom: 30px;
+  margin-left: 0;
+  font-size: 2.2rem;
+  font-weight: 600;
 }
 
 .main-header-row {
@@ -44,6 +59,7 @@ body, html {
     align-items: center;
     gap: 24px;
     margin-bottom: 32px;
+    
 }
 
 /* Estilo específico para assignments */
@@ -333,4 +349,25 @@ body, html {
         margin-top: 12px;
         min-width: 80px;
     }
+}
+
+@media (max-width: 1100px) {
+  .main-content, .main {
+    margin-left: 0;
+    width: 100%;
+    padding: 20px 4vw;
+    align-items: stretch;
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .main-content, .main {
+    margin-top: 24px;
+    padding: 10px 2vw;
+  }
+  .main-content h1, .main h1 {
+    font-size: 1.5rem;
+    margin-bottom: 18px;
+  }
 }

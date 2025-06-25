@@ -60,36 +60,85 @@
     }
 
     .upperbar-right a img {
-      width: 32px; /* ajuste para tamanho fixo */
+      width: 32px;
       height: 32px;
       object-fit: cover;
     }
-  </style>
-  
-  <script>
-    function goToLogin(){
-      location.href = '/'
+
+    /* Global override when sidebar is hidden */
+    body.no-sidebar .main-content,
+    body.no-sidebar .content-wrapper {
+      margin-left: 0 !important;
+      width: 100% !important;
     }
+  </style>
+
+  <script>
+    function goToLogin() {
+      location.href = '/'
+      localStorage.clear()
+    }
+
+    function toggleSideBar() {
+      const sidebar = document.getElementById('sidebar');
+      const mainContent = document.querySelector('.main-content') || document.querySelector('.content-wrapper');
+      if (sidebar.style.display === "none" || sidebar.style.display === "") {
+        sidebar.style.display = "flex";
+        if (mainContent) mainContent.style.marginLeft = "200px";
+        document.body.classList.remove('no-sidebar');
+      } else {
+        sidebar.style.display = "none";
+        if (mainContent) mainContent.style.marginLeft = "0";
+        document.body.classList.add('no-sidebar');
+      }
+    }
+    document.addEventListener('DOMContentLoaded', function () {
+      const searchInput = document.getElementById('searchInput');
+      searchInput.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') {
+          const query = searchInput.value.trim();
+          if (query) {
+            window.location.href = '/search?q=' + encodeURIComponent(query);
+          }
+        }
+      });
+    });
   </script>
 </head>
 
 <div class="upperbar">
-  <!-- Left section: Logo and Menu -->
   <div class="upperbar-left">
-    <img src="../../../assets/PNG_images/dianaplaceholder.png" alt="Diana" style="height: 42px;"  onclick="goToLogin()">
-    <img src="../../../assets/PNG_images/menuhamb.png" alt="Menu" style="height: 28px;" />
+    <img src="../../../assets/PNG_images/dianaplaceholder.png" alt="Diana" style="height: 42px;" onclick="goToLogin()">
+    <img src="../../../assets/PNG_images/menuhamb.png" alt="Menu" style="height: 28px;" onclick="toggleSideBar()" />
   </div>
 
-  <!-- Center: Search -->
   <div class="search-input">
-    <input type="text" placeholder="Search..." />
+    <input type="text" placeholder="Search..." id="searchInput" />
   </div>
-
-  <!-- Right section: Notifications and Profile -->
   <div class="upperbar-right">
-    <img src="../../../assets/PNG_images/notifications.png" alt="Notifications" style="height: 28px;" />
-    <a href="/profile">
-      <img src="../../assets/PNG_images/zachary.png" alt="Profile" />
+    <div></div>
+    <a id="profile-link" href="/profile">
+      <img id="profile-img" src="../../assets/PNG_images/zachary.png" alt="Profile" style="width: 38px; height: 38px; border-radius: 50%; object-fit: cover;"/>
     </a>
   </div>
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const studentId = window.localStorage.getItem('selectedStudentId');
+    const studentImg = window.localStorage.getItem('selectedStudentImg');
+
+    const profileLink = document.getElementById('profile-link');
+    const profileImg = document.getElementById('profile-img');
+
+    if (studentId) {
+      profileLink.href = `/profile/${studentId}`;
+    }
+
+    if (studentImg && studentImg !== 'undefined' && studentImg !== 'null') {
+      profileImg.src = studentImg;
+    } else {
+      profileImg.src = '/assets/PNG_images/avatar.png'; // Default avatar
+    }
+  });
+</script>

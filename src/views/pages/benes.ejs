@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Benes and Sanctions</title>
+    <link rel="icon" href="../../../assets/PNG_images/Union.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="public/css/benes.css">
 </head>
@@ -13,93 +14,102 @@
     <!-- Top bar -->
     <%- include('../components/upperBar.ejs') %>
 
-    <!-- Sidebar -->
-    <%- include('../components/sideBar.ejs') %>
+        <!-- Sidebar -->
+        <%- include('../components/sideBar.ejs') %>
 
-    <!-- Main content -->
-    <div class="main">
-        <h1 class="title">
-            Benes & Sanctions
-        </h1>
-        <div class="content-area">
-            <div class="cards-container">
-                <div class="card-1">
-                    <div class="card-title">
-                        Benes
+            <!-- Main content -->
+            <div class="main main-content">
+                <h1 class="title">
+                    Benes & Sanctions
+                </h1>
+                <div class="content-area">
+                    <div class="cards-container">
+                        <div class="card-1">
+                            <div class="card-title">
+                                Benes
+                            </div>
+                            <div class="card-data">8</div>
+                        </div>
+                        <div class="card-2">
+                            <div class="card-title">
+                                Sanctions
+                            </div>
+                            <div class="card-data">2</div>
+                        </div>
                     </div>
-                    <div class="card-data">8</div>
-                </div>
-                <div class="card-2">
-                    <div class="card-title">
-                        Sanctions
-                    </div>
-                    <div class="card-data">2</div>
-                </div>
-            </div>
-            <div class="graph">
-                <canvas id="benesChart"></canvas>
-            </div>
-            <div class="table-container">
-                <table>
-                    <tbody>
-                        <tr>
-                            <th>Academic House:</th>
-                            <td>Stuart</td>
-                        </tr>
-                        <tr>
-                            <th>Form:</th>
-                            <td>U6 S (N)</td>
-                        </tr>
-                        <tr>
-                            <th>Year:</th>
-                            <td>13</td>
-                        </tr>
-                        <tr>
-                            <th>Positive[PTS]:</th>
-                            <td>6[3]</td>
-                        </tr>
-                        <tr>
-                            <th>Negative[PTS]:</th>
-                            <td>5[-5]</td>
-                        </tr>
-                        <tr>
-                            <th>Total[PTS]:</th>
-                            <td>11[-2]</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
+<div class="graph">
+    <canvas id="benesChart"></canvas>
+</div>
+<div class="table-container">
+    <table>
+        <tbody>
+            <tr>
+                <th>Academic House:</th>
+                <td id="academicHouse">Loading...</td>
+            </tr>
+            <tr>
+                <th>Form:</th>
+                <td id="form">Loading...</td>
+            </tr>
+            <tr>
+                <th>Year:</th>
+                <td id="year">Loading...</td>
+            </tr>
+            <tr>
+                <th>Positive[PTS]:</th>
+                <td id="benesPts">Loading...</td>
+            </tr>
+            <tr>
+                <th>Negative[PTS]:</th>
+                <td id="sanctionsPts">Loading...</td>
+            </tr>
+            <tr>
+                <th>Total[PTS]:</th>
+                <td id="totalPts">Loading...</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+</div>
 
-    <!-- Footer -->
-    <%- include('../components/lowerBar.ejs') %>
+<!-- Footer -->
+<%- include('../components/lowerBar.ejs') %>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
-        // Dados dos cards
-        const benesValue = Number(document.querySelector('.card-1 .card-data').innerText);
-        const sanctionsValue = Number(document.querySelector('.card-2 .card-data').innerText);
+        fetch('/benes-data')
+            .then(response => response.json())
+            .then(data => {
+                // Atualiza a tabela
+                document.getElementById('academicHouse').innerText = data.academicHouse;
+                document.getElementById('form').innerText = data.form;
+                document.getElementById('year').innerText = data.year;
+                document.getElementById('benesPts').innerText = `${data.benes}[${data.benesPoints}]`;
+                document.getElementById('sanctionsPts').innerText = `${data.sanctions}[${data.sanctionsPoints}]`;
+                document.getElementById('totalPts').innerText = `${data.total}[${data.totalPoints}]`;
 
-        // Gráfico de pizza para Benes e Sanctions
-        const ctx = document.getElementById('benesChart').getContext('2d');
-        new Chart(ctx, {
-            type: 'pie',
-            data: {
-                labels: ['Benes', 'Sanctions'],
-                datasets: [{
-                    data: [benesValue, sanctionsValue],
-                    backgroundColor: [
-                        '#B82121', // Cor para Benes
-                        '#0B364C'  // Cor para Sanctions
-                    ]
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false
-            }
-        });
+                // Updates the graphic
+                const ctx = document.getElementById('benesChart').getContext('2d');
+                new Chart(ctx, {
+                    type: 'pie',
+                    data: {
+                        labels: ['Benes', 'Sanctions'],
+                        datasets: [{
+                            data: [data.benes, data.sanctions],
+                            backgroundColor: ['#B82121', '#0B364C']
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false
+                    }
+                });
+            })
+            .catch(error => {
+                console.error('Error in loading data:', error);
+            });
     </script>
+
 </body>
 
 </html>

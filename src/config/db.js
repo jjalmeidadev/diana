@@ -8,7 +8,6 @@ console.log('DB_SSL:', process.env.DB_SSL);
 
 const { Pool } = require('pg');
 
-// Criando a pool de conexões
 const pool = new Pool({
   user: process.env.DB_USER,
   host: process.env.DB_HOST,

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reports</title>
     <link rel="stylesheet" href="public/css/reports.css">
+    <link rel="icon" href="../../../assets/PNG_images/Union.png" type="image/png">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
@@ -20,13 +21,7 @@
         <h1>Reports</h1>
     
         <div class="controls">
-            <div class="select-wrapper">
-                <select id="report-select">
-                    <option value="">--Select a report--</option>
-                    <!-- Add report options here -->
-                </select>
-            </div>
-            <button class="btn-download">Download</button>
+            <button class="btn-download" id="downloadReportBtn">Download report</button>
         </div>
     
         <div class="content-grid">
@@ -115,6 +110,16 @@
                 responsive: true,
                 maintainAspectRatio: false
             }
+        });
+
+        // Download report logic
+        document.getElementById('downloadReportBtn').addEventListener('click', function() {
+            const link = document.createElement('a');
+            link.href = '/assets/PDF_images/U6report.pdf';
+            link.download = 'U6report.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
         });
     </script>
 </body>

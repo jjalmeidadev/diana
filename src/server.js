@@ -19,13 +19,18 @@ app.use(express.static(path.join(__dirname)));
 // Serve static files from the public/css directory
 app.use('/public', express.static(path.join(__dirname, '/public')));
 
-
 // Rotas
 const usersRoutes = require('./routes/usersRoutes');
 const indexRoutes = require('./routes/index');
+const searchRoute = require('./routes/search'); // Ensure the search route is imported and mounted
+const eventsRoutes = require('./routes/eventsRoutes');
+
+
 
 app.use('/', usersRoutes);   // This route defines /profile with student data.
 app.use('/', indexRoutes);   // Remove or disable the /profile route here.
+app.use('/search', searchRoute); // Route to handle search requests
+app.use('/', eventsRoutes);
 
 // Inicializa o servidor
 app.listen(PORT, () => {

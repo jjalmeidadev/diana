@@ -5,113 +5,115 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Events</title>
-<link rel="stylesheet" href="/public/css/events.css">
+    <link rel="icon" href="../../../assets/PNG_images/Union.png" type="image/png">
+    <link rel="stylesheet" href="/public/css/events.css">
 </head>
 
 <body>
     <!-- Top bar -->
     <%- include('../components/upperBar.ejs') %>
-    <!-- Sidebar -->
-    <%- include('../components/sideBar.ejs') %>
+        <!-- Sidebar -->
+        <%- include('../components/sideBar.ejs') %>
 
-    <div class="content-wrapper">
-        <div class="events-container">
-            <!-- School Events Title -->
-            <h1 class="events-title">School Events</h1>
+            <div class="content-wrapper">
+                <div class="events-container">
+                    <h1 class="events-title">School Events</h1>
 
-            <!-- Carousel -->
-            <div class="carousel-wrapper">
-                <button class="carousel-btn prev" aria-label="Previous event">&#10094;</button>
-                <div class="carousel-track">
-                    <!-- Event Card 1 -->
-                    <div class="event-card">
-                        <img src="../../assets/PNG_images/event1.png" alt="Prep School Showcase" class="event-img">
-                        <div class="event-info">
-                            <h3 class="event-title">Prep School Showcase</h3>
-                            <p class="event-desc">Students present projects and performances. Parents join to celebrate their achievements.</p>
-                            <p class="event-date">04/06/2025 - 3 PM</p>
-                            <p class="event-question">Are you going?</p>
-                            <div class="event-btns">
-                                <button class="btn-yes">Yes</button>
-                                <button class="btn-no">No</button>
-                            </div>
+                    <!-- Carousel -->
+                    <div class="carousel-wrapper">
+                        <button class="carousel-btn prev" aria-label="Previous event">&#10094;</button>
+
+                        <div class="carousel-track">
+                            <% if (events.length> 0) { %>
+                                <% events.forEach(event=> { %>
+                                    <div class="event-card">
+                                        <img src="<%= event.image_url || '/assets/PNG_images/event_placeholder.png' %>"
+                                            alt="<%= event.concept %>" class="event-img">
+                                        <div class="event-info">
+                                            <h3 class="event-title">
+                                                <%= event.concept %>
+                                            </h3>
+                                            <p class="event-desc">
+                                                <%= event.description %>
+                                            </p>
+                                            <p class="event-date">
+                                                <%= new Date(event.event_datetime).toLocaleDateString('en-GB') %> -
+                                                    <%= new Date(event.event_datetime).toLocaleTimeString([], {
+                                                        hour: '2-digit' , minute: '2-digit' }) %>
+                                            </p>
+                                            <p class="event-question">Are you going?</p>
+                                            <div class="event-btns">
+                                                <button class="btn-yes">Yes</button>
+                                                <button class="btn-no">No</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <% }) %>
+                                        <% } else { %>
+                                            <p class="no-events">No events available at the moment.</p>
+                                            <% } %>
                         </div>
-                    </div>
-                    <!-- Event Card 2 -->
-                    <div class="event-card">
-                        <img src="../../assets/PNG_images/events2.png" alt="International Day Family Celebration" class="event-img">
-                        <div class="event-info">
-                            <h3 class="event-title">International Day Family Celebration</h3>
-                            <p class="event-desc">A cultural festival with food, music, and activities. Families share and enjoy diverse traditions.</p>
-                            <p class="event-date">24/06/2025 - 6 PM</p>
-                            <p class="event-question">Are you going?</p>
-                            <div class="event-btns">
-                                <button class="btn-yes">Yes</button>
-                                <button class="btn-no">No</button>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Event Card 3 -->
-                    <div class="event-card">
-                        <img src="../../assets/PNG_images/events3.png" alt="Prep School Showcase" class="event-img">
-                        <div class="event-info">
-                            <h3 class="event-title">Prep School Showcase</h3>
-                            <p class="event-desc">Students present projects and performances. Parents join to celebrate their achievements.</p>
-                            <p class="event-date">04/06/2025 - 3 PM</p>
-                            <p class="event-question">Are you going?</p>
-                            <div class="event-btns">
-                                <button class="btn-yes">Yes</button>
-                                <button class="btn-no">No</button>
-                            </div>
-                        </div>
+
+                        <button class="carousel-btn next" aria-label="Next event">&#10095;</button>
                     </div>
                 </div>
-                <button class="carousel-btn next" aria-label="Next event">&#10095;</button>
             </div>
-        </div>
-    </div>
 
-    <!-- Footer -->
-    <%- include('../components/lowerBar.ejs') %>
-    <script>
-    // Carousel logic
-    const track = document.querySelector('.carousel-track');
-    const cards = Array.from(document.querySelectorAll('.event-card'));
-    const btnPrev = document.querySelector('.carousel-btn.prev');
-    const btnNext = document.querySelector('.carousel-btn.next');
-    let currentIndex = 0;
-    let cardsPerView = 3;
+            <!-- Footer -->
+            <%- include('../components/lowerBar.ejs') %>
 
-    function updateCardsPerView() {
-        if (window.innerWidth <= 600) cardsPerView = 1;
-        else if (window.innerWidth <= 900) cardsPerView = 2;
-        else cardsPerView = 3;
-    }
-    function updateCarousel() {
-        const cardWidth = cards[0].offsetWidth + parseInt(getComputedStyle(track).gap || 0);
-        track.scrollTo({ left: currentIndex * cardWidth, behavior: 'smooth' });
-    }
-    btnPrev.addEventListener('click', () => {
-        updateCardsPerView();
-        currentIndex = Math.max(0, currentIndex - cardsPerView);
-        updateCarousel();
-    });
-    btnNext.addEventListener('click', () => {
-        updateCardsPerView();
-        currentIndex = Math.min(cards.length - cardsPerView, currentIndex + cardsPerView);
-        updateCarousel();
-    });
-    window.addEventListener('resize', () => {
-        updateCardsPerView();
-        if (currentIndex > cards.length - cardsPerView) {
-            currentIndex = Math.max(0, cards.length - cardsPerView);
-        }
-        updateCarousel();
-    });
-    // Init
-    updateCardsPerView();
-    updateCarousel();
-    </script>
+                <!-- Carousel Script -->
+                <script>
+                    const track = document.querySelector('.carousel-track');
+                    const cards = Array.from(document.querySelectorAll('.event-card'));
+                    const btnPrev = document.querySelector('.carousel-btn.prev');
+                    const btnNext = document.querySelector('.carousel-btn.next');
+                    let currentIndex = 0;
+                    let cardsPerView = 3;
+
+                    function updateCardsPerView() {
+                        if (window.innerWidth <= 600) cardsPerView = 1;
+                        else if (window.innerWidth <= 900) cardsPerView = 2;
+                        else cardsPerView = 3;
+                    }
+
+                    function updateCarousel() {
+                        const cardWidth = cards[0]?.offsetWidth + parseInt(getComputedStyle(track).gap || 0);
+                        track.scrollTo({ left: currentIndex * cardWidth, behavior: 'smooth' });
+                    }
+
+                    btnPrev.addEventListener('click', () => {
+                        updateCardsPerView();
+                        currentIndex = Math.max(0, currentIndex - cardsPerView);
+                        updateCarousel();
+                    });
+
+                    btnNext.addEventListener('click', () => {
+                        updateCardsPerView();
+                        currentIndex = Math.min(cards.length - cardsPerView, currentIndex + cardsPerView);
+                        updateCarousel();
+                    });
+
+                    window.addEventListener('resize', () => {
+                        updateCardsPerView();
+                        if (currentIndex > cards.length - cardsPerView) {
+                            currentIndex = Math.max(0, cards.length - cardsPerView);
+                        }
+                        updateCarousel();
+                    });
+
+                    // Init
+                    updateCardsPerView();
+                    updateCarousel();
+
+                    // Remove o evento ao clicar em Yes ou No
+                    document.querySelectorAll('.btn-yes, .btn-no').forEach(function(btn) {
+                        btn.addEventListener('click', function() {
+                            const card = btn.closest('.event-card');
+                            if (card) card.remove();
+                        });
+                    });
+                </script>
 </body>
 
 </html>
