@@ -13,9 +13,7 @@ router.get('/assignments', isVerified, (req, res) => {
 router.get('/customerservice',isVerified, (req, res) => {
   res.render('pages/customerservice');
 });
-router.get('/events', isVerified, (req, res) => {
-  res.render('pages/events');
-});
+
 router.get('/timetable', isVerified, (req, res) => {
   res.render('pages/timetable');
 });

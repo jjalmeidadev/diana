@@ -63,10 +63,6 @@ router.get('/customerservice', (req, res) => {
   res.render('pages/customerservice');
 });
 
-router.get('/events', (req, res) => {
-  res.render('pages/events');
-});
-
 router.get('/login', (req, res) => {
   res.render('pages/login');
 });
@@ -79,6 +75,5 @@ router.get('/timetable', (req, res) => {
   res.render('pages/timetable');
 });
 
-// Adicione aqui outras rotas específicas
 
 module.exports = router;
