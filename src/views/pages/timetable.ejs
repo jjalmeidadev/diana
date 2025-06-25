@@ -1,76 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Timetable</title>
   <link rel="stylesheet" href="/public/css/timetable.css">
+  <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    h1 {
+      color: #0B364C;
+      margin-top: 90px;
+      /* Compensa a altura da barra superior */
+      margin-left: 20px;
+      /* Compensa a largura da barra lateral */
+
+    }
+
+    .arrow-button {
+      background: #0B364C;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 22px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 0;
+      cursor: pointer;
+      transition: background 0.2s;
+      box-shadow: 0 2px 8px rgba(11, 54, 76, 0.08);
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .arrow-button:hover {
+      background: #08263a;
+    }
+
+    #downloadLink {
+      background: #0B364C;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 22px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 0 6px;
+      cursor: pointer;
+      transition: background 0.2s;
+      box-shadow: 0 2px 8px rgba(11, 54, 76, 0.08);
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    #downloadLink:hover {
+      background: #08263a;
+    }
+  </style>
 </head>
 
 <body style="margin: 0; padding: 0;">
   <!-- Top bar -->
   <%- include('../components/upperBar.ejs') %>
 
-  <!-- Sidebar -->
-  <%- include('../components/sideBar.ejs') %>
+    <!-- Sidebar -->
+    <%- include('../components/sideBar.ejs') %>
 
-  <!-- Timetable content -->
-  <div class="main-content" style="padding: 0 30px;">
-    <div class="carousel-container">
-      <!-- Setas acima da imagem -->
-      <div class="carousel-controls">
-        <button class="arrow-button" onclick="prevImage()">←</button>
-        <button class="arrow-button" onclick="nextImage()">→</button>
+      <!-- Timetable content -->
+
+      <div class="main-content" style="padding: 0 30px;">
+        <h1 class="title">
+          Timetable
+        </h1>
+        <div class="carousel-container">
+          <!-- Setas acima da imagem -->
+          <div class="carousel-controls">
+            <button class="arrow-button" onclick="prevImage()">←</button>
+            <button class="arrow-button" onclick="nextImage()">→</button>
+          </div>
+
+          <!-- Botão de download -->
+          <div style="text-align: center; margin-bottom: 10px;">
+            <a id="downloadLink" class="arrow-button" download="timetable.jpg">Download Timetable</a>
+          </div>
+
+          <!-- Imagens -->
+          <div class="carousel">
+            <img src="assets/PNG_images/timetable.jpg" class="active" />
+            <img src="assets/PNG_images/timetable2.jpg" />
+          </div>
+        </div>
       </div>
 
-      <!-- Botão de download -->
-      <div style="text-align: center; margin-bottom: 10px;">
-        <a id="downloadLink" class="arrow-button" download="timetable.jpg">Baixar imagem</a>
-      </div>
+      <!-- Footer -->
+      <%- include('../components/lowerBar.ejs') %>
 
-      <!-- Imagens -->
-      <div class="carousel">
-        <img src="assets/PNG_images/timetable.jpg" class="active" />
-        <img src="assets/PNG_images/timetable2.jpg" />
-      </div>
-    </div>
-  </div>
+        <script>
+          const images = document.querySelectorAll(".carousel img");
+          let current = 0;
 
-  <!-- Footer -->
-  <%- include('../components/lowerBar.ejs') %>
+          function showImage(index) {
+            images.forEach((img) => img.classList.remove("active"));
+            images[index].classList.add("active");
+            updateDownloadLink();
+          }
 
-  <script>
-    const images = document.querySelectorAll(".carousel img");
-    let current = 0;
+          function nextImage() {
+            current = (current + 1) % images.length;
+            showImage(current);
+          }
 
-    function showImage(index) {
-      images.forEach((img) => img.classList.remove("active"));
-      images[index].classList.add("active");
-      updateDownloadLink();
-    }
+          function prevImage() {
+            current = (current - 1 + images.length) % images.length;
+            showImage(current);
+          }
 
-    function nextImage() {
-      current = (current + 1) % images.length;
-      showImage(current);
-    }
+          function updateDownloadLink() {
+            const activeImage = document.querySelector(".carousel img.active");
+            const downloadLink = document.getElementById("downloadLink");
+            if (activeImage) {
+              downloadLink.href = activeImage.src;
+              const filename = activeImage.src.split("/").pop();
+              downloadLink.download = filename;
+            }
+          }
 
-    function prevImage() {
-      current = (current - 1 + images.length) % images.length;
-      showImage(current);
-    }
-
-    function updateDownloadLink() {
-      const activeImage = document.querySelector(".carousel img.active");
-      const downloadLink = document.getElementById("downloadLink");
-      if (activeImage) {
-        downloadLink.href = activeImage.src;
-        const filename = activeImage.src.split("/").pop();
-        downloadLink.download = filename;
-      }
-    }
-
-    // Atualiza o link no carregamento inicial
-    updateDownloadLink();
-  </script>
+          // Atualiza o link no carregamento inicial
+          updateDownloadLink();
+        </script>
 </body>
+
 </html>
