@@ -36,6 +36,9 @@ app.use('/', tutorsRoutes);
 app.use('/', userRoutes);
 app.use('/', yearCodeRoutes);
 
+const benesRoute = require('./routes/index.js');
+app.use('/api', benesRoute);
+
 app.listen(3000, () => {
     console.log("The server is now running on Port 3000");
 });

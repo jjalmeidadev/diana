@@ -29,8 +29,13 @@
 
 ## 📝 Description:
 
+**Diana** is a manageable Parent Portal, with the academic information so that parents can access their children's reports, absences, communications, calendars and assigned tasks in a centralised way. The parents will be able to keep track of their children's academic life and support them in their studies, as they will have a broader and more organised view of the information. Parents will also be able to better organise their family diaries, as they will know what their children's academic events are (TAPI, 2025).
 
-## 📝 Demo link:
+**Diana** (St Paul's Parents Portal) offers the parents a complete overview of their academic life.
+
+
+
+## 📝 Demo link: 
 
 
 ## 📁 Folder structure:
@@ -75,18 +80,18 @@ npm server.js
 
 ## 🗃 Platform release history:
 
-* 0.5.0 - XX/XX/2024
-    * 
-* 0.4.0 - XX/XX/2024
-    * 
-* 0.3.0 - XX/XX/2024
-    * 
-* 0.2.0 - XX/XX/2024
-    * 
-* 0.1.0 - XX/XX/2024
-    *
-
-## 📋 Licença/License
+* **0.5.0 - 26/06/2025**
+    * Functional Code on Git:
+Organized following the MVC pattern, commented, and functional. Aligned with the planned User Stories. 
+* **0.4.0 - 13/06/2025**
+    * Marketing Plan, Automating Tests and Integration.
+* **0.3.0 - 30/05/2025**
+    * MVC architecture, High fidelity Prototype, Endpoints and Style guide.
+* **0.2.0 - 16/05/2025**
+    * Wireframes, Data Modelling and SQL Queries.
+* **0.1.0 - 30/04/2025**
+    * Partner’s Context, Swot Analysis,  Value Proposition, Porter Forces, Risks, Solution and Personas/User stories.
+## 📋 License
 <!-- ```
 Alunos inteli (remover essa observação do readme.md após leitura e execução, junto com o link para o tutorial):
 
