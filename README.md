@@ -36,8 +36,7 @@
 
 
 ## 📝 Demo link: 
- 
-- <a href=" https://www.youtube.com/watch?v=ybPZP4Quukg">Demonstration video</a> 
+
 
 ## 📁 Folder structure:
 
