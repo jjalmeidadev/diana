@@ -1533,7 +1533,7 @@ During Sprint 5, we delivered the complete and fully functional version of the w
 
 To illustrate the full functionality of the system, we produced a demonstration video available at the link below:
 
-👉 [Click here to watch the final version of the system](https://www.youtube.com/watch?v=ybPZP4Quukg)
+👉 [Click here to watch the final version of the system](https://drive.google.com/file/d/1y3sCuSwNIlBneUvYk9lMeSPaf0CQMawe/view?usp=drivesdk)
 
 ---
 
