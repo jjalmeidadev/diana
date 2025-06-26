@@ -169,7 +169,7 @@
 
 <br>
 
-## 2.1.3. Solution (sprints 1 to 5)
+## 2.1.3. Solution 
 
 **2.1.3.1. Problem to be solved**
 
@@ -307,7 +307,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;This matrix will be reviewed at the beginning of each sprint, with probabilities, impacts, and action plans adjusted according to project progress.
 
-## 2.2. Personas (sprint 1)
+## 2.2. Personas 
 
 <!-- *Posicione aqui suas Personas em forma de texto markdown com imagens, ou como imagem de template preenchido. Atualize esta seção ao longo do módulo se necessário.* -->
 
@@ -1335,13 +1335,15 @@ RESTful API for academic management with endpoints for:
   -   Add data validation
   -   Implement role-based access control
 
+  The first version of the web application was structured using the MVC architecture with Express.js, organizing the codebase into controllers, views, and routes, and leveraging EJS for dynamic page rendering. The user interface featured a sidebar for navigation across all main functionalities—Events, Customer Service, Benes and Sanctions, Assignments, Timetable, Reports, and Login—while reusable components like the Sidebar, UpperBar, and LowerBar ensured consistency. Key features included a robust routing system for seamless navigation and a profile interface with quick access to essential student information. Throughout development, the main challenges involved maintaining organized and scalable CSS for styling, designing an effective data structure, and coordinating tasks using Scrum. Managing the backlog, prioritizing user stories, and synchronizing team efforts to deliver each screen on time required careful planning and frequent communication, especially as new requirements emerged and the need for refactoring became apparent.
+
 ## 4.2. Second version of the web application 
 
 **4.2.1. Implemented Structure:**
 
 1.  **Database Integration**:
 
-  -   all three pages are connected to a PostgreSQL database and display real data through Node.js controllers.
+  -   all pages are connected to a PostgreSQL database and display real data through Node.js controllers.
 
 2. **Routing Structure**:
     - Routing Structure: each feature has a defined route that maps to the appropriate controller and renders the correct view.
@@ -1368,6 +1370,7 @@ RESTful API for academic management with endpoints for:
 **4.2.4. Screenshots:**
 
 
+
 **1. Benes and sanctions**:
 
 <br>
@@ -1381,6 +1384,12 @@ RESTful API for academic management with endpoints for:
   <sup>Source: authors (2025)</sup>
 </div>
 <br>
+
+The development of benes.ejs focused on delivering a clear and interactive view for students' merits ("Benes") and sanctions. The page uses EJS templating to integrate with the Node.js backend and fetches dynamic data via a /benes-data API endpoint.
+
+The page includes a top navigation bar and a sidebar for consistent navigation, using EJS includes.
+The main content area features a prominent title ("Benes & Sanctions"), summary cards for quick statistics, a pie chart for visual representation, and a table with detailed student information.
+The layout is responsive and uses CSS classes to ensure proper spacing, alignment, and visual hierarchy.
 
 **2. Assignments**:
 
@@ -1396,6 +1405,14 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
+The development of benes.ejs focused on delivering a clear and interactive view for students' merits ("Benes") and sanctions. The page uses EJS templating to integrate with the Node.js backend and fetches dynamic data via a /benes-data API endpoint.
+
+The page includes a top navigation bar and a sidebar for consistent navigation, using EJS includes.
+The main content area features a prominent title ("Benes & Sanctions"), summary cards for quick statistics, a pie chart for visual representation, and a table with detailed student information.
+The layout is responsive and uses CSS classes to ensure proper spacing, alignment, and visual hierarchy.
+
+Ultimately, seeing the finished page—polished, functional, and user-friendly—brought a strong sense of achievement and motivation to continue improving the platform.
+
 **3. Reports**:
 
 <br>
@@ -1409,6 +1426,8 @@ RESTful API for academic management with endpoints for:
   <sup>Source: authors (2025)</sup>
 </div>
 <br>
+
+The development of reports.ejs aimed to create a straightforward and accessible page for parents to view their child’s academic performance. The interface was designed with EJS templating to dynamically display report cards, grades, and downloadable PDFs. The layout uses a clean structure with a term selector, summary charts, and a detailed table of subjects and grades.
 
 **4. Events**
 
@@ -1424,6 +1443,10 @@ RESTful API for academic management with endpoints for:
 </div>
 <br>
 
+The development of events.ejs focused on providing parents with an engaging and interactive way to stay informed about school events. The page was built using EJS templating to dynamically render event data from the backend, ensuring that updates and new events appear in real time.
+
+The layout features a clear title, a visually appealing carousel that displays multiple event cards, and intuitive navigation arrows for browsing through events. Each card presents essential event details, such as the title, date, description, and an image. Parents can easily confirm attendance or decline invitations directly from the interface, with immediate feedback (the card disappear).
+
 **5. Profile**
 
 
@@ -1438,6 +1461,8 @@ RESTful API for academic management with endpoints for:
   <sup>Source: authors (2025)</sup>
 </div>
 <br>
+
+The development of profile.ejs centered on creating a user-friendly and informative dashboard for parents. The page was structured using EJS templating to dynamically display each student's personal information, academic year, and profile photo. The design emphasizes ease of navigation and consistency with the platform’s visual identity, ensuring that parents can efficiently manage their information.
 
 ## 4.2.5. Challenges Encountered:
 
@@ -1481,7 +1506,9 @@ RESTful API for academic management with endpoints for:
 -  Implement a robust authentication system with role-based access control.
 - Add thorough data validation to ensure system reliability and user safety.
 
-## 4.3. Final version of the web application (sprint 5)
+Overcoming these challenges required close collaboration between frontend and backend development, frequent testing, and iterative improvements to both code and design. The result is a set of robust and visually consistent pages that meet the needs of the platform’s users.
+
+## 4.3. Final version of the web application 
 
 *Descreva e ilustre aqui o desenvolvimento da última versão do sistema web, explicando brevemente o que foi entregue em termos de código e sistema. Utilize prints de tela para ilustrar. Indique as eventuais dificuldades e próximos passos.*
 
@@ -1655,7 +1682,7 @@ RESTful API for academic management with endpoints for:
   Tests the creation of a new academic year.
 
 
-## 5.2. Usability tests (sprint 5)
+## 5.2. Usability tests 
 
 # Usability Test – Full Report
 
@@ -1757,7 +1784,7 @@ The feedback collected will guide future improvements, focusing on:
 - Optimizing access to secondary pages  
 - Improving mobile experience
 
-# <a name="c6"></a>6. Market Research and Marketing Plan (sprint 4)
+# <a name="c6"></a>6. Market Research and Marketing Plan 
 
 ## 6.1 Executive Summary
 
@@ -1948,7 +1975,7 @@ This approach ensures broad reach, effectively reaching all parents at a low ope
 
 &nbsp;&nbsp;&nbsp;&nbsp;The platform strengthens communication between St. Paul’s School and families by offering an intuitive, efficient solution aligned with the school’s values. By combining a functional product, value-based pricing, digital distribution, and promotional strategies focused on engagement, we deliver a solution that modernizes the parent experience and reinforces the school’s position as a leader in innovation and educational excellence.
 
-# <a name="c7"></a>7. Conclusions and future work (sprint 5)
+# <a name="c7"></a>7. Conclusions and future work 
 
 *Escreva de que formas a solução da aplicação web atingiu os objetivos descritos na seção 2 deste documento. Indique pontos fortes e pontos a melhorar de maneira geral.*
 
