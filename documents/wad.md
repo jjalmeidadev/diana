@@ -1510,7 +1510,69 @@ Overcoming these challenges required close collaboration between frontend and ba
 
 ## 4.3. Final version of the web application 
 
-*Descreva e ilustre aqui o desenvolvimento da última versão do sistema web, explicando brevemente o que foi entregue em termos de código e sistema. Utilize prints de tela para ilustrar. Indique as eventuais dificuldades e próximos passos.*
+## 4.3. Final Version of the Web Application (Sprint 5)
+
+During Sprint 5, we delivered the complete and fully functional version of the web portal for the parents of St. Paul’s School students. This version consolidates all previous functionalities and includes final visual, technical, and structural adjustments to ensure a smooth, responsive, and intuitive experience for end users.
+
+### 1. Full Database Integration
+
+- Ensured stable connection between PostgreSQL and all main pages of the system.
+- Optimized queries to display real, organized, and up-to-date information such as class schedules, tasks, attendance records, and school events.
+
+### 2. Routing Structure
+
+- Refactored and organized all routes to properly render the corresponding views.
+- Resolved navigation conflicts and inconsistencies, ensuring smooth transitions between pages.
+
+### 3. Consistent and User-Friendly UI
+
+- Finalized layout and styling across all pages to maintain a coherent visual identity.
+- Adapted the interface for compatibility with various screen sizes and browsers.
+
+### 4. System Demonstration
+
+To illustrate the full functionality of the system, we produced a demonstration video available at the link below:
+
+👉 [Click here to watch the final version of the system](https://www.youtube.com/watch?v=ybPZP4Quukg)
+
+---
+
+## 4.3.1. Challenges Faced
+
+Some of the main challenges during this sprint included:
+
+- Final responsive adjustments for certain components on smaller screens.
+- Integration of dynamic data without compromising page performance.
+- Ensuring visual consistency across all modules while maintaining modular structure.
+
+These challenges were overcome through constant testing, collaboration between frontend and backend, and iterative improvements in both code and design.
+
+---
+
+## 4.3.2. Next Steps
+
+### 1. Technical Improvements
+
+- Conduct usability testing with real users.
+- Optimize SQL queries and system performance.
+- Finalize the WebAPI documentation with method, headers, body, and response details.
+
+### 2. Feature Expansion
+
+- Add more functionalities to the events section (e.g., filters, confirmations).
+- Enable generation of customizable academic performance reports.
+
+### 3. UX/UI Enhancements
+
+- Improve user interaction feedback (e.g., success/error messages).
+- Implement smooth transitions between pages.
+- Ensure full mobile responsiveness across all interfaces.
+
+### 4. Security
+
+- Strengthen role-based authentication and access control.
+- Add comprehensive input validation and error handling for data safety.
+
 
 # <a name="c5"></a>5. Tests
 
